@@ -18,11 +18,16 @@ and open the template in the editor.
 
 
 }
+ 
+h1,h2,h3,h4,h5,h6 
+{
+    font-family: IranSans , Tahoma;
+}
 
 .bodyclass
 {
     direction: rtl;
-    text-align: right;
+    text-align: justify;
     font-family: IranSans , Tahoma;
     margin-top: 1%;
     margin-left: 20%;
