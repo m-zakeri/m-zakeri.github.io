@@ -13,9 +13,28 @@ h1,h2,h3,h4,h5,h6
     font-family: IranSans , Tahoma;
 }
 
-a:hover {
-    color: blue;
+ /* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
 }
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+} 
 
 @font-face {
     font-family: IranSans;
