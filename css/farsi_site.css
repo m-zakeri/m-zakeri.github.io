@@ -8,6 +8,15 @@ and open the template in the editor.
     Author     : Morteza
 */
 
+h1,h2,h3,h4,h5,h6 
+{
+    font-family: IranSans , Tahoma;
+}
+
+a:hover {
+    foreground-color: blue;
+}
+
 @font-face {
     font-family: IranSans;
     src: url(../FONT/IranSansWeb_Light.ttf);
@@ -19,14 +28,7 @@ and open the template in the editor.
 
 }
  
-h1,h2,h3,h4,h5,h6 
-{
-    font-family: IranSans , Tahoma;
-}
 
-a:hover {
-    foreground-color: blue;
-}
 
 .bodyclass
 {
