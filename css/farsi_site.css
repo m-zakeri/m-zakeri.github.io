@@ -13,11 +13,6 @@ and open the template in the editor.
     src: url(../FONT/IranSansWeb_Light.ttf);
 }
 
-h1
-{
-    font-family: IranSans;
-}
-
  /* unvisited link */
 a:link {
     color: red;
@@ -89,3 +84,10 @@ a:active {
     width:25%;
     overflow:hidden;
 } 
+
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5
+{
+    font-family: IranSans;
+}
+
