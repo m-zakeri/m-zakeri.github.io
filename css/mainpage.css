@@ -58,14 +58,18 @@ text-decoration:none;
 /*background-color: yellow*/
 color: DarkBlue;
 }
+
 /* mouse over link */
 a:hover {
-    color: Blue;
+/*text-decoration:Underline;*/
+background-color: PowderBlue;
+color: White;
 }
 /* visited link */
-a:visited {
-    /* color: DarkViolet;*/
-    color: DarkBlue;
+a:visited
+{
+/* color: DarkViolet;*/
+color: DarkBlue;
 }
 
 
@@ -147,7 +151,7 @@ color:#BDCDEC;
 }
 #footer a
 {
-font-size:11px;
+font-size:15px;
 color:#BDCDEC;
 }
 
@@ -157,7 +161,12 @@ margin-top:25px;
 }
 
 
-html, body {
+html, body
+{
 text-align: center;
 }
-p {text-align: justify;}
+
+p
+{
+text-align: justify;
+}
