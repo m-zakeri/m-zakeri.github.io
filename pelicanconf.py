@@ -5,10 +5,10 @@ from datetime import datetime
 
 AUTHOR = 'Morteza'
 SITENAME = 'Morteza ZAKERI'
-SITEURL = 'http://localhost:8000'
-SITETITLE = 'Morteza ZAKERI'
+SITEURL = ''
+SITETITLE = SITENAME
 SITESUBTITLE = 'Ph.D. Student, Computer Engineering,\nIran University of Science and Technology'
-SITEDESCRIPTION = 'Iran University of Science and Technology'
+#SITEDESCRIPTION = 'Iran University of Science and Technology'
 
 SITELOGO = '_img/profile2.jpg'
 
@@ -49,8 +49,7 @@ HOME_HIDE_TAGS = False
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
-MENUITEMS = (('Home', '/index.html'),
-			('Archives', '/archives.html'),
+MENUITEMS = (('Archives', '/archives.html'),
 			('Categories', '/categories.html'),
             ('Tags', '/tags.html'),)
 
