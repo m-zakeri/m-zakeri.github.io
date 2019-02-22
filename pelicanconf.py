@@ -74,9 +74,9 @@ THEME = 'Flex'
 
 STATIC_PATHS = ['aimg', 'apdf', 'acss']
 
-CUSTOM_CSS = 'acss/custom.css'
-FAVICON = 'aimg/favicon.ico'
-SITELOGO = 'aimg/profile.png'
+CUSTOM_CSS = '/acss/custom.css'
+FAVICON = '/aimg/favicon.ico'
+SITELOGO = '/aimg/profile.png'
 
 
 
