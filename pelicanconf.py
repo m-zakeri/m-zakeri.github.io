@@ -7,12 +7,10 @@ AUTHOR = 'Morteza'
 SITENAME = 'Morteza ZAKERI'
 SITEURL = ''
 SITETITLE = SITENAME
-SITESUBTITLE = 'Ph.D. Student, Computer Engineering,\nIran University of Science and Technology'
+SITESUBTITLE = 'Ph.D. Student, Computer Engineering'
 #SITEDESCRIPTION = 'Iran University of Science and Technology'
 
 THEME = 'Flex'
-
-
 
 #PYGMENTS_STYLE = 'monokai'
 
@@ -74,7 +72,7 @@ DEFAULT_PAGINATION = 5
 
 STATIC_PATHS = ['_img', '_pdf', '_css']
 FAVICON = '_img/favicon.ico'
-SITELOGO = '_img/profile2.jpg'
+SITELOGO = '_img/profile.png'
 CUSTOM_CSS = '_css/custom.css'
 
 
