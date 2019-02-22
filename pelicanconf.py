@@ -32,8 +32,10 @@ SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/mortazazakeri/'),
 
 DEFAULT_PAGINATION = 5
 
-THEME = 'path/to/pelican-themes/chosen-theme'
-STATIC_PATHS = ['_img', '_pdf']
+STATIC_PATHS = ['_img', '_pdf', '_css']
+THEME = 'Flex'
+FAVICON = '_img/favicon.ico'
+#CUSTOM_CSS = '_css/custom.css'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

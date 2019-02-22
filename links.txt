@@ -1,1 +1,2 @@
 https://blog.justalfred.com/getting-started-with-pelican-on-github-pages.html
+https://rasor.github.io/using-pelican-blog-on-github-pages.html
