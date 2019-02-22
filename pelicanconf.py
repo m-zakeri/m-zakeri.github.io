@@ -10,7 +10,7 @@ SITETITLE = SITENAME
 SITESUBTITLE = 'Ph.D. Student, Computer Engineering'
 #SITEDESCRIPTION = 'Iran University of Science and Technology'
 
-THEME = 'Flex'
+
 
 #PYGMENTS_STYLE = 'monokai'
 
@@ -70,11 +70,14 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/mortazazakeri/'),
 
 DEFAULT_PAGINATION = 5
 
-STATIC_PATHS = ['_img', '_pdf', '_css']
+THEME = 'Flex'
 
-FAVICON = '/_img/favicon.ico'
-SITELOGO = '/_img/profile.png'
-CUSTOM_CSS = '/_css/custom.css'
+STATIC_PATHS = ['aimg', 'apdf', 'acss']
+
+CUSTOM_CSS = 'acss/custom.css'
+FAVICON = 'aimg/favicon.ico'
+SITELOGO = 'aimg/profile.png'
+
 
 
 PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
