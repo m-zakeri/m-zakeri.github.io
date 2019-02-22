@@ -71,8 +71,9 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/mortazazakeri/'),
 DEFAULT_PAGINATION = 5
 
 STATIC_PATHS = ['_img', '_pdf', '_css']
+
 FAVICON = '_img/favicon.ico'
-SITELOGO = '_img/profile.png'
+#SITELOGO = '_img/profile.png'
 CUSTOM_CSS = '_css/custom.css'
 
 
