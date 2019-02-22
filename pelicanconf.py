@@ -72,9 +72,9 @@ DEFAULT_PAGINATION = 5
 
 STATIC_PATHS = ['_img', '_pdf', '_css']
 
-FAVICON = '_img/favicon.ico'
-#SITELOGO = '_img/profile.png'
-CUSTOM_CSS = '_css/custom.css'
+FAVICON = '/_img/favicon.ico'
+SITELOGO = '/_img/profile.png'
+CUSTOM_CSS = '/_css/custom.css'
 
 
 PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
