@@ -5,28 +5,33 @@ from datetime import datetime
 
 AUTHOR = 'Morteza'
 SITENAME = 'Morteza ZAKERI'
-SITEURL = ''
-SITETITLE = 'Morteza ZAKERI Personal Webpage'
-SITESUBTITLE = 'Ph.D. Student, Computer Engineering'
+SITEURL = 'http://localhost:8000'
+SITETITLE = 'Morteza ZAKERI'
+SITESUBTITLE = 'Ph.D. Student, Computer Engineering,\nIran University of Science and Technology'
 SITEDESCRIPTION = 'Iran University of Science and Technology'
 
-PYGMENTS_STYLE = 'monokai'
+SITELOGO = '_img/profile2.jpg'
+
+#PYGMENTS_STYLE = 'monokai'
 
 PATH = 'content'
 
 # Copyrigth
+
 """CC_LICENSE = {
     'name': 'All rights reserved.',
     'version': '1.0',
     'slug': 'Morteza ZAKERI'
 }"""
-
+COPYRIGHT_NAME = AUTHOR
 COPYRIGHT_YEAR = datetime.now().year
 
 # Time and date
 TIMEZONE = 'Asia/Tehran'
 
-DEFAULT_LANG = 'English'
+I18N_TEMPLATES_LANG = 'en'
+DEFAULT_LANG = 'en'
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -37,16 +42,21 @@ AUTHOR_FEED_RSS = None
 TYPOGRIFY = True
 
 # Blogroll
+USE_FOLDER_AS_CATEGORY = True
+MAIN_MENU = True
+HOME_HIDE_TAGS = False
+
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
 MENUITEMS = (('Home', '/index.html'),
 			('Archives', '/archives.html'),
+			('Categories', '/categories.html'),
             ('Tags', '/tags.html'),)
 
-LINKS = (('IUST Reverse Engineering Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
-         ('Micropedia', 'http://micropedia.ir'),
-         ('IUST Personal Page', 'http://webpages.iust.ac.ir/morteza_zakeri/'),)
+LINKS = (('Our Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
+         ('Our Micropedia', 'http://micropedia.ir'),
+         ('My University Page', 'http://webpages.iust.ac.ir/morteza_zakeri/'),)
 
 # Social widget
 GITHUB_URL = 'https://github.com/m-zakeri/'
@@ -60,10 +70,10 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/mortazazakeri/'),
 DEFAULT_PAGINATION = 5
 
 STATIC_PATHS = ['_img', '_pdf', '_css']
-THEME = 'Flex'
 FAVICON = '_img/favicon.ico'
-PROFILE = '_img/morteza_zakeri_lattary600x600.png'
 CUSTOM_CSS = '_css/custom.css'
+
+THEME = 'Flex'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
