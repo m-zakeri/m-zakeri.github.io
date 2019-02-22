@@ -10,7 +10,9 @@ SITETITLE = SITENAME
 SITESUBTITLE = 'Ph.D. Student, Computer Engineering,\nIran University of Science and Technology'
 #SITEDESCRIPTION = 'Iran University of Science and Technology'
 
-SITELOGO = '_img/profile2.jpg'
+THEME = 'Flex'
+
+
 
 #PYGMENTS_STYLE = 'monokai'
 
@@ -51,7 +53,9 @@ DISPLAY_CATEGORIES_ON_MENU = True
 
 MENUITEMS = (('Archives', '/archives.html'),
 			('Categories', '/categories.html'),
-            ('Tags', '/tags.html'),)
+            ('Tags', '/tags.html'),
+			 ('Sitemap', '/sitemap.xml'),
+			 )
 
 LINKS = (('Our Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
          ('Our Micropedia', 'http://micropedia.ir'),
@@ -64,15 +68,34 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/mortazazakeri/'),
           ('twitter', 'https://twitter.com/_zakeri_'),
 		  ('github', 'https://github.com/m-zakeri/'),
 		  ('github', 'https://github.com/mortazazakeri/'),
-		  ('orcid', 'https://orcid.org/0000-0003-4289-0606'))
+		  ('rss', '/feeds/all.atom.xml'),)
 
 DEFAULT_PAGINATION = 5
 
 STATIC_PATHS = ['_img', '_pdf', '_css']
 FAVICON = '_img/favicon.ico'
+SITELOGO = '_img/profile2.jpg'
 CUSTOM_CSS = '_css/custom.css'
 
-THEME = 'Flex'
+
+PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
+#PLUGINS = ['neighbors']
+PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
+#PLUGINS = ['sitemap']
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.6,
+        'indexes': 0.6,
+        'pages': 0.5,
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly',
+    }
+}
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = False
