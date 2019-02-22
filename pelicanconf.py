@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import datetime
 
 AUTHOR = 'Morteza'
 SITENAME = 'Morteza ZAKERI'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 SITETITLE = 'Morteza ZAKERI Personal Webpage'
 SITESUBTITLE = 'Ph.D. Student, Computer Engineering'
 SITEDESCRIPTION = 'Iran University of Science and Technology'
@@ -14,11 +15,11 @@ PYGMENTS_STYLE = 'monokai'
 PATH = 'content'
 
 # Copyrigth
-CC_LICENSE = {
+"""CC_LICENSE = {
     'name': 'All rights reserved.',
     'version': '1.0',
     'slug': 'Morteza ZAKERI'
-}
+}"""
 
 COPYRIGHT_YEAR = datetime.now().year
 
@@ -39,15 +40,13 @@ TYPOGRIFY = True
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
-MENUITEMS = ('Home', '/index.html'),
+MENUITEMS = (('Home', '/index.html'),
 			('Archives', '/archives.html'),
             ('Tags', '/tags.html'),)
 
 LINKS = (('IUST Reverse Engineering Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
          ('Micropedia', 'http://micropedia.ir'),
-         ('IUST Personal Page', 'http://webpages.iust.ac.ir/morteza_zakeri/'),
-		 
-		 )
+         ('IUST Personal Page', 'http://webpages.iust.ac.ir/morteza_zakeri/'),)
 
 # Social widget
 GITHUB_URL = 'https://github.com/m-zakeri/'
