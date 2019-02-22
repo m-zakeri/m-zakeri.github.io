@@ -80,8 +80,8 @@ CUSTOM_CSS = '_css/custom.css'
 
 PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
 #PLUGINS = ['neighbors']
-PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
-#PLUGINS = ['sitemap']
+#PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
+PLUGINS = ['sitemap']
 
 SITEMAP = {
     'format': 'xml',
