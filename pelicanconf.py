@@ -16,15 +16,14 @@ SITESUBTITLE = 'Ph.D. Student, Computer Engineering'
 
 PATH = 'content'
 
-# Copyrigth
-
+# Copyright
+COPYRIGHT_YEAR = '2017 - ' + str(datetime.now().year)
+COPYRIGHT_NAME = SITENAME + '. All rights reserved.'
 """CC_LICENSE = {
     'name': 'All rights reserved.',
     'version': '1.0',
     'slug': 'Morteza ZAKERI'
 }"""
-COPYRIGHT_NAME = AUTHOR
-COPYRIGHT_YEAR = datetime.now().year
 
 # Time and date
 TIMEZONE = 'Asia/Tehran'
@@ -72,13 +71,11 @@ DEFAULT_PAGINATION = 5
 
 THEME = 'Flex'
 
-STATIC_PATHS = ['aimg', 'apdf', 'acss']
+STATIC_PATHS = ['static/img/', 'static/pdf/', 'static/css/']
 
-CUSTOM_CSS = '/acss/custom.css'
-FAVICON = '/aimg/favicon.ico'
-SITELOGO = '/aimg/profile.png'
-
-
+CUSTOM_CSS = '/static/css/custom.css'
+FAVICON = '/static/img/favicon.ico'
+SITELOGO = '/static/img/profile.png'
 
 PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
 #PLUGINS = ['neighbors']
