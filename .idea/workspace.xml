@@ -2,269 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/m-zakeri.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/m-zakeri.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/acss/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/aimg/children-and-programming.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/img/children-and-programming.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/aimg/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/aimg/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/img/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/children-and-programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/children-and-programming.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/contact.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/pages/resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/resources.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive_2017/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive_2017/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive_2017/links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/2018/04/26/children-and-programming/feed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/2018/04/26/children-and-programming/feed/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/2018/04/26/children-and-programming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/2018/04/26/children-and-programming/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/2018/04/26/hello-world/feed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/2018/04/26/hello-world/feed/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/2018/04/26/hello-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/2018/04/26/hello-world/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/FONT/IranSansWeb_Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/FONT/IranSansWeb_Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/FONT/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/FONT/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/comments/feed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/comments/feed/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/binarysearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/binarysearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/binarytree.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/binarytree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/bubblesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/linearsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/linearsearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/linkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/quicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/compiler/treevisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/compiler/treevisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/css/farsi_site.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/css/farsi_site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/css/img/footer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/css/img/footer.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/css/img/header.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/css/img/header.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/css/img/tab.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/css/img/tab.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/css/img/tab2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/css/img/tab2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/css/mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/css/mainpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/css/w3.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/css/w3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/feed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/feed/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/img/20180323_123115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/img/20180323_123115.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/img/20180323_123215.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/img/20180323_123215.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/img/monogram-letter-m-hi.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/img/monogram-letter-m-hi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/index0d0b.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/index0d0b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/index1c4a.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/index1c4a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/index9cd7.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/index9cd7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/indexcff1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/indexcff1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/post/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/post/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/post/sequence_to_sequence_learning_with_neural_networks.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/post/sequence_to_sequence_learning_with_neural_networks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/tc/lexer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/tc/lexer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/tc/parser.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/tc/parser.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/trial_index/gwd_preview_newindex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/trial_index/gwd_preview_newindex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/trial_index/gwd_workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/trial_index/gwd_workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/trial_index/newindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/trial_index/newindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/trial_index/newindex_groups_archive" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/trial_index/newindex_groups_archive" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/LayerSlider/static/layerslider/css/layersliderc098.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/LayerSlider/static/layerslider/css/layersliderc098.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jqueryc098.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jqueryc098.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsc098.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsc098.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/contact-form-7/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/contact-form-7/images/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/contact-form-7/includes/css/styles972f.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/contact-form-7/includes/css/styles972f.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/contact-form-7/includes/js/scripts972f.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/contact-form-7/includes/js/scripts972f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/css/js_composer.min972f.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/css/js_composer.min972f.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.eot" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.woff" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1d41d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1d41d.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons8309.svg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons8309.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons8309.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons8309.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons8309.woff" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons8309.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/flickr.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/flickr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/address-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/address-book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/anchor.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/anchor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/application-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/application-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/asterisk.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/asterisk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/balloon.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/balloon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/battery-full.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/battery-full.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/binocular.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/binocular.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/blue-document-pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/blue-document-pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/blue-document-powerpoint.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/blue-document-powerpoint.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/blue-document-word.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/blue-document-word.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/bookmark.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/bookmark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/camcorder.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/camcorder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/camera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/chart-pie.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/chart-pie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/clock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/control.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/control.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/fire.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/fire.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/heart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/mail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/plus-shield.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/plus-shield.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/icons/video.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/icons/video.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/toggle_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/toggle_close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/images/toggle_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/images/toggle_open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min972f.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min972f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min972f.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min972f.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min972f.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min972f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/vc/alert.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/vc/alert.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/vc/exclamation.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/vc/exclamation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/vc/info.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/vc/info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/js_composer/assets/vc/tick.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/js_composer/assets/vc/tick.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/assets/coloredbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/assets/coloredbg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/assets/gridtile.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/assets/gridtile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/assets/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/assets/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/css/closedhand.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/css/closedhand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/css/openhand.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/css/openhand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/css/settings4ee1.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/css/settings4ee1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.eot" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min4ee1.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min4ee1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min4ee1.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min4ee1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/animations/animations.minec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/animations/animations.minec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/animations/animations.minec91.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/animations/animations.minec91.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.monday.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.monday.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.monday.seeking.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.monday.seeking.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.mondayec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.mondayec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/jplayer/css/jplayer.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/jplayer/css/jplayer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/jplayer/jplayer.minec91.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/jplayer/jplayer.minec91.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/contentPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/contentPattern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_rounded/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/dark_square/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/default/default_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/default/default_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/default/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/default/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_x.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_y.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/default/sprite_y.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternBottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternBottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternLeft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternRight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternTop.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/contentPatternTop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/default_thumbnail.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/default_thumbnail.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/facebook/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/light_rounded/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/light_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/light_square/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/light_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/light_square/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/images/light_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/images/light_square/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/prettyPhoto/prettyPhotoec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/prettyPhoto/prettyPhotoec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/bg_widget_header.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/bg_widget_header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/bg_widget_header_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/bg_widget_header_active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-icons_2e83ff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-icons_454545_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-icons_888888_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/assets/ui/jquery.ui.allec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/assets/ui/jquery.ui.allec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/css/baseec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/css/baseec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/css/layoutec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/css/layoutec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/css/responsiveec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/css/responsiveec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/css/shortcodesec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/css/shortcodesec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/fonts/mfn-icons2e38.eot" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/fonts/mfn-icons2e38.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/fonts/mfn-icons2e38.svg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/fonts/mfn-icons2e38.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/fonts/mfn-icons2e38.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/fonts/mfn-icons2e38.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/fonts/mfn-icons2e38.woff" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/fonts/mfn-icons2e38.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/bg_panel.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/bg_panel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/blockquote.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/blockquote.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/blog_masonry_tile_gradient.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/blog_masonry_tile_gradient.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/box_shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/box_shadow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/box_shadow_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/box_shadow_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/contact_form_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/contact_form_error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/fancy_heading_hr.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/fancy_heading_hr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/fancy_heading_hr_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/fancy_heading_hr_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/icons/list_check.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/icons/list_check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/icons/list_idea.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/icons/list_idea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/icons/list_star.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/icons/list_star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/link.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/link.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/photo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/preloader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/progressbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/progressbar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/recent_comments.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/recent_comments.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/stripes/stripes_10_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/stripes/stripes_10_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/stripes/stripes_10_w.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/stripes/stripes_10_w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/stripes/stripes_3_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/stripes/stripes_3_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/stripes/stripes_5_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/stripes/stripes_5_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/stripes/textline.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/stripes/textline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/timeline_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/timeline_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/timeline_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/timeline_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/timeline_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/timeline_top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/top_bar_right_shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/top_bar_right_shadow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/images/videomask.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/images/videomask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/js/menuec91.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/js/menuec91.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/js/parallax/smoothscrollec91.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/js/parallax/smoothscrollec91.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/js/parallax/translate3dec91.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/js/parallax/translate3dec91.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/js/pluginsec91.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/js/pluginsec91.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/js/scriptsec91.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/js/scriptsec91.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/themes/betheme/styleec91.css" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/themes/betheme/styleec91.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/20180323_123215-1024x576.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/20180323_123215-1024x576.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/20180323_123215-1200x675.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/20180323_123215-1200x675.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/20180323_123215-500x350.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/20180323_123215-500x350.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/20180323_123215-80x80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/20180323_123215-80x80.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/20180323_123215.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/20180323_123215.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/monogram-letter-m-hi.png" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/monogram-letter-m-hi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-1024x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-1024x768.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-1200x675.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-1200x675.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-500x350.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-500x350.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-80x80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-80x80.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/comment-reply.min55fe.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/comment-reply.min55fe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/jquery-migrate.min330a.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/jquery-migrate.min330a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/jqueryb8ff.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/jqueryb8ff.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/ui/accordion.mine899.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/ui/accordion.mine899.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/ui/core.mine899.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/ui/core.mine899.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/ui/mouse.mine899.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/ui/mouse.mine899.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/ui/sortable.mine899.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/ui/sortable.mine899.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/ui/tabs.mine899.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/ui/tabs.mine899.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/jquery/ui/widget.mine899.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/jquery/ui/widget.mine899.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/js/wp-embed.min55fe.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/js/wp-embed.min55fe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-includes/wlwmanifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-includes/wlwmanifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embed038b.json" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embed038b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embed0675.json" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embed0675.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embed17fc" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embed17fc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embed394c.json" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embed394c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embed52b6.json" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embed52b6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embed94f5" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embed94f5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embeda5cf" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embeda5cf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embeda981.json" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embeda981.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embedbe61" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embedbe61" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/wp-json/oembed/1.0/embedd6a2" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/wp-json/oembed/1.0/embedd6a2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_site2/xmlrpc0db0.php" beforeDir="false" afterPath="$PROJECT_DIR$/arcive_2018/xmlrpc0db0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pelicanconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelicanconf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publishconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/publishconf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -290,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/content/pages/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1892">
-                <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <first_editor relative-caret-position="-308">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -302,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/content/pages/resources.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="88">
-                <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <first_editor relative-caret-position="110">
+                <caret line="30" column="165" selection-start-line="30" selection-start-column="165" selection-end-line="30" selection-end-column="165" />
               </first_editor>
               <second_editor />
             </state>
@@ -762,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/pages/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1892">
-            <caret line="39" selection-start-line="39" selection-end-line="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/children-and-programming.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -782,11 +510,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/pages/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-308">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/pages/resources.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <first_editor relative-caret-position="110">
+            <caret line="30" column="165" selection-start-line="30" selection-start-column="165" selection-end-line="30" selection-end-column="165" />
           </first_editor>
           <second_editor />
         </state>
