@@ -4,14 +4,19 @@ Author: Morteza
 
 Some related and useful links in programming and software engineering
 
+
 ##Research and technical reports
 * [ A Survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017
 * [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian)
 
+
 ## Have a programming question? Join us-:)
-* [Micropedia code group on the telegram]()
-* [Micropedia programming tutorials (Persian)](micropedia.ir/tutorials/){:target="_blank"} (in Persian)
+* [Micropedia code group on the telegram](http://micropedia.ir/){:target="_blank"}
+* [Micropedia programming tutorials (Persian)](http://micropedia.ir/tutorials/){:target="_blank"} (in Persian)
 * [Micropedia code repository](http://micropedia.ir/category/code/){:target="_blank"} 
+
+
+
 
 ## Recommended programming resources
 
