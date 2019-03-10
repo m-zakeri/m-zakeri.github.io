@@ -13,24 +13,23 @@ Some related and useful links
 * Micropedia programming tutorials (Persian)
 
 ## Recommended programming resources
-| Row |                                                                        Resource name                                                                       |        URLs       |                                      Image                                      |
-|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------:|:-------------------------------------------------------------------------------:|
-|  1  | [Micropedia essential course on C and C++ (for beginners)](http://micropedia.ir/category/cpp-essential-course/){:target="_blank"}                          | www.micropedia.ir | ![Micropedia essential course Series](../static/img/bookcover/micropedia_C_and_CPP_thumbnail_v2.png) |
-|  2  | [C How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram7e/tabid/3635/Default.aspx){:target="_blank"}        |   www.deitel.com  |       ![C How to Program](../static/img/bookcover/deitel_and_deitel_c.jpg)      |
-|  3  | [C++ How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram9e/tabid/3644/Default.aspx){:target="_blank"}      |   www.deitel.com  |     ![CPP How to Program](../static/img/bookcover/deitel_and_deitel_cpp.jpg)    |
-| 4   | [JAVA How to Program (Book by Harvey Deitel and Paul  Deitel)](http://deitel.com/Books/Java/JavaHowtoProgram11e/tabid/3683/Default.aspx){:target="_blank"} | www.deitel.com    | ![JAVA How to Program](../static/img/bookcover/deitel_and_deitel_java.jpg)      |
-| 5   |                                                                                                                                                            |                   |                                                                                 |
-| 6   |                                                                                                                                                            |                   |                                                                                 |
-| 7   |                                                                                                                                                            |                   |                                                                                 |
-
+| Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |               Additional links                         |
+|:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
+|  1  | ![Micropedia essential course Series](../static/img/bookcover/micropedia_C_and_CPP_thumbnail_v2.png)                   | [Micropedia essential course on C and C++ (for beginners)](http://micropedia.ir/category/cpp-essential-course/){:target="_blank"}                          | www.micropedia.ir                                      |
+|  2  | ![C How to Program](../static/img/bookcover/deitel_and_deitel_c.jpg)                                                   | [C How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram7e/tabid/3635/Default.aspx){:target="_blank"}        | www.deitel.com                                         |
+|  3  | ![CPP How to Program](../static/img/bookcover/deitel_and_deitel_cpp.jpg)                                               | [C++ How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram9e/tabid/3644/Default.aspx){:target="_blank"}      | www.deitel.com                                         |
+|  4  | ![JAVA How to Program](../static/img/bookcover/deitel_and_deitel_java.jpg)                                             | [JAVA How to Program (Book by Harvey Deitel and Paul  Deitel)](http://deitel.com/Books/Java/JavaHowtoProgram11e/tabid/3683/Default.aspx){:target="_blank"} | www.deitel.com                                         |
+|  5  |                                                                                                                        |                                                                                                                                                            |                                                        |
+|  6  |                                                                                                                        |                                                                                                                                                            |                                                        |
+|  7  |                                                                                                                        |                                                                                                                                                            |                                                        |
 
 
 ## Recommended programming resources for children
-| Row 	|                             Resource name                             	|         URLs        	|                      Image                      	|
-|:---:	|:---------------------------------------------------------------------:	|:-------------------:	|:-----------------------------------------------:	|
-|  1  	| [Scratch (MIT Media Lab)](https://scratch.mit.edu/){:target="_blank"} 	| www.scratch.mit.edu 	| ![Scratch](../static/img/bookcover/scratch.jpg) 	|
-|  2  	|                                                                       	|                     	|                                                 	|
-|  3  	|                                                                       	|                     	|                                                 	|
+| Row |                             Photo                             	|         Resource name                                             	|                Additional links                   |
+|:---:|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|:-------------------------------------------------:|
+|  1  | ![Scratch](../static/img/bookcover/scratch.jpg)                 |[Scratch (MIT Media Lab)](https://scratch.mit.edu/){:target="_blank"} 	|  www.scratch.mit.edu	                            |
+|  2  |                                                                 |                           	                                        |                                                   |
+|  3  |                                                                 |                                                                      	|                                                   |
 
 
 ## Other useful links
