@@ -11,7 +11,7 @@ My current location and contact information:
 
 #### Website(s) 
    - [m-zakeri.github.io](https://m-zakeri.github.io/){:target="_blank"}
-   - [m-zakeri.ir](www.m-zakeri.ir){:target="_blank"}
+   - [m-zakeri.ir](http://m-zakeri.ir){:target="_blank"}
    - [webpages.iust.ac.ir/morteza_zakeri](http://webpages.iust.ac.ir/morteza_zakeri/){:target="_blank"}
    - [LinkedIn](https://www.linkedin.com/in/mortazazakeri/){:target="_blank"}
 

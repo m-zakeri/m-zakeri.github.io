@@ -11,7 +11,7 @@ Some related and useful links in programming and software engineering
 
 
 ## Have a programming question? Join us-:)
-* [Micropedia code group on the telegram](http://micropedia.ir/){:target="_blank"}
+* [Micropedia code group on the telegram](https://t.me/joinchat/CBglrD-j_t75j-7BM1mDjg){:target="_blank"}
 * [Micropedia programming tutorials (Persian)](http://micropedia.ir/tutorials/){:target="_blank"} (in Persian)
 * [Micropedia code repository](http://micropedia.ir/category/code/){:target="_blank"} 
 

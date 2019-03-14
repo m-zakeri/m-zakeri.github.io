@@ -3,13 +3,13 @@ Author: Morteza
 
 
 
-Welcome to my webpage. I am a first year Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I have got my B.Sc. in computer engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and then received my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+I am a first year Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I have got my B.Sc. in computer engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and then received my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 
 
 ## Educations
-* Ph.D., Computer Engineering, Software; Iran University of Science and Technology (2018 - Now)
-* M.Sc., Computer Engineering, Software; Iran University of Science and Technology (2016 - 2018)
-* B.Sc., Computer Engineering, Software; Arak University (2011 - 2015)
+* Ph.D., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2018 - Now)
+* M.Sc., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}
+* B.Sc., Computer Engineering, Software; [Arak University](http://en.araku.ac.ir/){:target="_blank"} (2011 - 2015)
 
 
 ## Research Interests
