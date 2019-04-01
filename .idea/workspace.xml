@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/welcome.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/pages/presenations.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/presenations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/resources.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +29,20 @@
         <entry file="file://$PROJECT_DIR$/content/pages/presenations.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="396">
-                <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <first_editor relative-caret-position="287">
+                <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/blog/welcome.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="88">
+                <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,7 +118,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/compiler/index.html" />
         <option value="$PROJECT_DIR$/content/blog/seq2seq-learning.md" />
-        <option value="$PROJECT_DIR$/content/blog/welcome.md" />
         <option value="$PROJECT_DIR$/content/blog/childrens-and-programming.md" />
         <option value="$PROJECT_DIR$/content/static/css/custom.css" />
         <option value="$PROJECT_DIR$/publishconf.py" />
@@ -120,6 +129,7 @@
         <option value="$PROJECT_DIR$/content/pages/contact.md" />
         <option value="$PROJECT_DIR$/content/pages/projects.md" />
         <option value="$PROJECT_DIR$/content/pages/honors.md" />
+        <option value="$PROJECT_DIR$/content/blog/welcome.md" />
         <option value="$PROJECT_DIR$/content/pages/presenations.md" />
       </list>
     </option>
@@ -453,16 +463,6 @@
     <entry file="file://$PROJECT_DIR$/old_site/links.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/compiler/index.html" />
-    <entry file="file://$PROJECT_DIR$/content/blog/welcome.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="286">
-            <caret line="7" column="330" selection-start-line="7" selection-start-column="312" selection-end-line="7" selection-end-column="330" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/seq2seq-learning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -571,11 +571,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/welcome.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="88">
+            <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/pages/presenations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <first_editor relative-caret-position="287">
+            <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>

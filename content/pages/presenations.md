@@ -4,15 +4,12 @@ Author: Morteza
 
 
 
-All of my previous presentations and talks are available to view or download. Please cite it if you read that and it was useful for you. All presentations slides are hosted by [SlideShare](https://www.slideshare.net/MortezaZakeri){:target="_blank"}, and content of this page updates regularly.
-
-
-## Videos
-
+All of my previous presentations and talks are available to view or download. Please cite it if you read that and it was useful for you. All presentations slides are hosted by [SlideShare](https://www.slideshare.net/){:target="_blank"}, and all video talks are hosted by [Aparat](https://www.aparat.com/) free video sharing service.
+Content of this page updates regularly based on my [SlideShare](https://www.slideshare.net/MortezaZakeri){:target="_blank"} account and [Micropedia channel in Aparat](){:target="_blank"}. 
 
 
 
-## Slides
+## Presentations
 
 
 ### An overview of anomaly detection techniques
@@ -85,4 +82,28 @@ All of my previous presentations and talks are available to view or download. Pl
 ### An introduction to Python programming
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/52m44ihH8Z09lz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MortezaZakeri/mypyv2-51321593" title="An Introduction to Python Programming" target="_blank">An Introduction to Python Programming</a> </strong> from <strong><a href="https://www.slideshare.net/MortezaZakeri" target="_blank">Morteza Zakeri</a></strong> </div>
+
+
+
+## Talks
+
+### Anomaly detection techniques in IDSs
+
+<div id="15541465683505835"><script type="text/JavaScript" src="https://www.aparat.com/embed/6NdVH?data[rnddiv]=15541465683505835&data[responsive]=yes"></script></div>
+
+
+### Sequence-to-sequence learning with neural networks: A survey
+
+<div id="15541465683505835"><script type="text/JavaScript" src="https://www.aparat.com/embed/6NdVH?data[rnddiv]=15541465683505835&data[responsive]=yes"></script></div>
+
+
+### Test data generation methods in file format fuzzers
+
+<div id="15541464692868996"><script type="text/JavaScript" src="https://www.aparat.com/embed/tUTLl?data[rnddiv]=15541464692868996&data[responsive]=yes"></script></div>
+
+
+### Create content table in Microsoft Word
+
+<div id="15541384388510825"><script type="text/JavaScript" src="https://www.aparat.com/embed/T8lRz?data[rnddiv]=15541384388510825&data[responsive]=yes"></script></div>
+
 
