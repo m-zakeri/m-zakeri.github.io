@@ -18,7 +18,7 @@ Some related and useful links in programming and software engineering
 
 
 
-## Recommended programming resources
+## Recommended resources for basic programming 
 
 A road map to learning programming/codding
 
@@ -43,20 +43,20 @@ A road map to learning programming/codding
 
 
 
-## Advanced software engineering resources
+## Recommended resources for advanced software engineering
 
 | Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |               Additional links                         |
 |:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
 |  1  | ![An introduction to algorithms](../static/img/bookcover/CLRS.jpg)                                                     | An introduction to Algorithms                                                                                                                              |                                                        |
 |  2  | ![Head first object oriented](../static/img/bookcover/head_first_object_oriented.jpg)                              | Object oriented design and analysis                                                                                                                                                          |                                                        |
 |  3  | ![Head first design patterns](../static/img/bookcover/head_first_design_patterns.jpg )                             | Design patterns                                                                                                                                                           |                                                        |
-|  4  | ![Dr Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )                             | System design and analysis in software engineering (in Persian)                                                                                                                                                           |       A book written by My Ph.D. adviser Dr. S. Parsa                                                  |
-|  5  | ![Dr Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )                             | Performance testing in software engineering (in Persian)                                                                                                                                                           |      A book written by My Ph.D. adviser Dr. S. Parsa                                                  |
+|  4  | ![Dr Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )                             | System design and analysis in software engineering (in Persian)                                                                                                                                                           |       A book written by my Ph.D. adviser Dr. S. Parsa                                                  |
+|  5  | ![Dr Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )                             | Performance testing in software engineering (in Persian)                                                                                                                                                           |      A book written by my Ph.D. adviser Dr. S. Parsa                                                  |
 
 
 
 
-## Other useful links
+## Useful links
 * [My GitHub projects](https://github.com/m-zakeri/){:target="_blank"} [New]
 * [My GitHub projects](https://github.com/mortazazakeri){:target="_blank"} [Old]
 * [My gist (code snip)](https://gist.github.com/m-zakeri){:target="_blank"}
