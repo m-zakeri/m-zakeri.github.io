@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/content/blog/welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/welcome.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/pages/presenations.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/presenations.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/content/pages/presenations.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="287">
-                <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+              <first_editor relative-caret-position="441">
+                <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
               </first_editor>
               <second_editor />
             </state>
@@ -584,8 +583,8 @@
     <entry file="file://$PROJECT_DIR$/content/pages/presenations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="287">
-            <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <first_editor relative-caret-position="441">
+            <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
           </first_editor>
           <second_editor />
         </state>

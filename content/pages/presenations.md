@@ -5,7 +5,7 @@ Author: Morteza
 
 
 All of my previous presentations and talks are available to view or download. Please cite it if you read that and it was useful for you. All presentations slides are hosted by [SlideShare](https://www.slideshare.net/){:target="_blank"}, and all video talks are hosted by [Aparat](https://www.aparat.com/) free video sharing service.
-Content of this page updates regularly based on my [SlideShare](https://www.slideshare.net/MortezaZakeri){:target="_blank"} account and [Micropedia channel in Aparat](){:target="_blank"}. 
+Content of this page updates regularly based on my [SlideShare](https://www.slideshare.net/MortezaZakeri){:target="_blank"} account and [Micropedia channel in Aparat](https://www.aparat.com/micropedia){:target="_blank"}. 
 
 
 
@@ -85,11 +85,13 @@ Content of this page updates regularly based on my [SlideShare](https://www.slid
 
 
 
+
 ## Talks
+
 
 ### Anomaly detection techniques in IDSs
 
-<div id="15541465683505835"><script type="text/JavaScript" src="https://www.aparat.com/embed/6NdVH?data[rnddiv]=15541465683505835&data[responsive]=yes"></script></div>
+<div id="15541472348368722"><script type="text/JavaScript" src="https://www.aparat.com/embed/HnDRK?data[rnddiv]=15541472348368722&data[responsive]=yes"></script></div>
 
 
 ### Sequence-to-sequence learning with neural networks: A survey
