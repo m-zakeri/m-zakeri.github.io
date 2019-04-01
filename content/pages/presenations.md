@@ -4,7 +4,7 @@ Author: Morteza
 
 
 
-All of my previous presentations and talks are available to view or download. Please cite it if you read that and it was useful for you. All presentations slides are hosted by [SlideShare](https://www.slideshare.net/){:target="_blank"}, and all video talks are hosted by [Aparat](https://www.aparat.com/) free video sharing service.
+All of my previous presentations and talks are available to view or download. Please cite it if you read that and it was useful for you. All presentations slides are hosted by [SlideShare](https://www.slideshare.net/){:target="_blank"}, and all video talks are hosted by [Aparat](https://www.aparat.com/){:target="_blank"} free video sharing service.
 Content of this page updates regularly based on my [SlideShare](https://www.slideshare.net/MortezaZakeri){:target="_blank"} account and [Micropedia channel in Aparat](https://www.aparat.com/micropedia){:target="_blank"}. 
 
 
@@ -104,7 +104,9 @@ Content of this page updates regularly based on my [SlideShare](https://www.slid
 <div id="15541464692868996"><script type="text/JavaScript" src="https://www.aparat.com/embed/tUTLl?data[rnddiv]=15541464692868996&data[responsive]=yes"></script></div>
 
 
-### Create content table in Microsoft Word
+## Video Tutorial
+
+### Creating content table in Microsoft Word
 
 <div id="15541384388510825"><script type="text/JavaScript" src="https://www.aparat.com/embed/T8lRz?data[rnddiv]=15541384388510825&data[responsive]=yes"></script></div>
 
