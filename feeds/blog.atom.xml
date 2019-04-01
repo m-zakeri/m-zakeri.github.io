@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Morteza ZAKERI - blog</title><link href="https://m-zakeri.github.io/" rel="alternate"></link><link href="https://m-zakeri.github.io%5Cfeeds/blog.atom.xml" rel="self"></link><id>https://m-zakeri.github.io/</id><updated>2019-03-10T21:13:00+03:30</updated><subtitle>Ph.D. Student, Computer Engineering</subtitle><entry><title>Children and Programming</title><link href="https://m-zakeri.github.io%5Cchildren-and-programming.html" rel="alternate"></link><published>2019-03-10T21:13:00+03:30</published><updated>2019-03-10T21:13:00+03:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\children-and-programming.html,2019-03-10:</id><summary type="html">&lt;p&gt;Getting started: Teach computer programming to your children,&amp;nbsp;today!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Children and Programming " src="../static/img/children-and-programming.jpg"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Morteza ZAKERI - blog</title><link href="https://m-zakeri.github.io/" rel="alternate"></link><link href="https://m-zakeri.github.io%5Cfeeds/blog.atom.xml" rel="self"></link><id>https://m-zakeri.github.io/</id><updated>2019-04-02T02:00:00+04:30</updated><subtitle>Ph.D. Student, Computer Engineering</subtitle><entry><title>WordPress for beginning</title><link href="https://m-zakeri.github.io%5Cwordpress-for-beginning.html" rel="alternate"></link><published>2019-04-02T02:00:00+04:30</published><updated>2019-04-02T02:00:00+04:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\wordpress-for-beginning.html,2019-04-02:</id><summary type="html">&lt;p&gt;WordPress essential training for&amp;nbsp;beginners&lt;/p&gt;</summary><content type="html">&lt;p&gt;Welcome to our WordPress essential training for beginners: &lt;strong&gt;WordPress for beginning&lt;/strong&gt;.
+WordPress is a free and open-source content management system (&lt;span class="caps"&gt;CMS&lt;/span&gt;) based on &lt;span class="caps"&gt;PHP&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; MySQL. Features include a plugin architecture and a template system. It is most associated with blogging but supports other types of web content including more traditional mailing lists and forums, media galleries, and online stores. Used by more than 60 million websites, including 30.6% of the top 10 million&amp;nbsp;websites&lt;/p&gt;
+&lt;h2&gt;Video&amp;nbsp;tutorials&lt;/h2&gt;
+&lt;h3&gt;Part 0: Introduction and&amp;nbsp;syllabus&lt;/h3&gt;
+&lt;div id="15541545029611626"&gt;&lt;script type="text/JavaScript" src="https://www.aparat.com/embed/KPqS7?data[rnddiv]=15541545029611626&amp;data[responsive]=yes"&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h3&gt;Part 1: Internet and world wide web&amp;nbsp;(www)&lt;/h3&gt;
+&lt;div id="15541545263083211"&gt;&lt;script type="text/JavaScript" src="https://www.aparat.com/embed/xM7sP?data[rnddiv]=15541545263083211&amp;data[responsive]=yes"&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h3&gt;Part 2: Content management systems&amp;nbsp;(CMSs)&lt;/h3&gt;
+&lt;div id="15541545411872107"&gt;&lt;script type="text/JavaScript" src="https://www.aparat.com/embed/HPfO4?data[rnddiv]=15541545411872107&amp;data[responsive]=yes"&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h3&gt;Part 3: Installing and configuring WordPress on&amp;nbsp;cPanel&lt;/h3&gt;
+&lt;p&gt;Coming&amp;nbsp;soon&lt;/p&gt;
+&lt;h3&gt;Part 4: Working with WordPress admin panel&amp;nbsp;(dashboard)&lt;/h3&gt;
+&lt;p&gt;Coming&amp;nbsp;soon&lt;/p&gt;
+&lt;h3&gt;Part 5: Plugin&amp;nbsp;management&lt;/h3&gt;
+&lt;p&gt;Coming&amp;nbsp;soon&lt;/p&gt;
+&lt;h3&gt;Part 6: Media&amp;nbsp;management&lt;/h3&gt;
+&lt;p&gt;Coming&amp;nbsp;soon&lt;/p&gt;
+&lt;h3&gt;Part 7: User&amp;nbsp;management&lt;/h3&gt;</content><category term="blog"></category></entry><entry><title>Children and Programming</title><link href="https://m-zakeri.github.io%5Cchildren-and-programming.html" rel="alternate"></link><published>2019-03-10T21:13:00+03:30</published><updated>2019-03-10T21:13:00+03:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\children-and-programming.html,2019-03-10:</id><summary type="html">&lt;p&gt;Getting started: Teach computer programming to your children,&amp;nbsp;today!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Children and Programming " src="../static/img/children-and-programming.jpg"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;Children are a free resource of positive&amp;nbsp;energy&amp;#8221;. &lt;/p&gt;
 &lt;/blockquote&gt;
