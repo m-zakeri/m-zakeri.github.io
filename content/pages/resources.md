@@ -6,13 +6,13 @@ Some related and useful links in programming and software engineering
 
 
 ##Research and technical reports
-* [ A Survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017
+* [ A survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017
 * [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian)
 
 
 ## Have a programming question? Join us-:)
 * [Micropedia code group on the telegram](https://t.me/joinchat/CBglrD-j_t75j-7BM1mDjg){:target="_blank"}
-* [Micropedia programming tutorials (Persian)](http://micropedia.ir/tutorials/){:target="_blank"} (in Persian)
+* [Micropedia programming tutorials](http://micropedia.ir/tutorials/){:target="_blank"} (in Persian)
 * [Micropedia code repository](http://micropedia.ir/category/code/){:target="_blank"} 
 
 
@@ -38,7 +38,7 @@ A road map to learning programming/codding
 |:---:|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|:-------------------------------------------------:|
 |  1  | ![Scratch](../static/img/bookcover/scratch.jpg)                 | [Scratch (MIT Media Lab)](https://scratch.mit.edu/){:target="_blank"} 	|  www.scratch.mit.edu	                            |
 |     | ![Scratch](../static/img/bookcover/python_for_kids.jpg)         | [Python for Kids: A Playful Introduction to Programming](https://books.google.com/books/about/Python_for_Kids.html?id=Wd_PJ2y68uIC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false){:target="_blank"}     |     |
-|  2  | ![Python cookbook.jpg](../static/img/bookcover/paython_book.jpg)| Python Cookbook                           	                                        |                                                   |
+|  2  | ![Python cookbook](../static/img/bookcover/paython_book.jpg)| Python Cookbook                           	                                        |                                                   |
 |  3  |                                                                 |                                                                      	|                                                   |
 
 
@@ -48,8 +48,10 @@ A road map to learning programming/codding
 | Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |               Additional links                         |
 |:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
 |  1  | ![An introduction to algorithms](../static/img/bookcover/CLRS.jpg)                                                     | An introduction to Algorithms                                                                                                                              |                                                        |
-|  2  | ![Head first object oriented.jpg](../static/img/bookcover/head_first_object_oriented.jpg)                              | Object oriented design and analysis                                                                                                                                                          |                                                        |
-|  3  | ![Head first design patterns.jpg](../static/img/bookcover/head_first_design_patterns.jpg )                             | Design patterns                                                                                                                                                           |                                                        |
+|  2  | ![Head first object oriented](../static/img/bookcover/head_first_object_oriented.jpg)                              | Object oriented design and analysis                                                                                                                                                          |                                                        |
+|  3  | ![Head first design patterns](../static/img/bookcover/head_first_design_patterns.jpg )                             | Design patterns                                                                                                                                                           |                                                        |
+|  4  | ![Dr Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )                             | System design and analysis in software engineering (in Persian)                                                                                                                                                           |       A book written by My Ph.D. adviser Dr. S. Parsa                                                  |
+|  5  | ![Dr Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )                             | Performance testing in software engineering (in Persian)                                                                                                                                                           |      A book written by My Ph.D. adviser Dr. S. Parsa                                                  |
 
 
 
