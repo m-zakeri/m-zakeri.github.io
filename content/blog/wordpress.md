@@ -1,6 +1,6 @@
 Title: WordPress for beginning
 Date: 2019-04-02 02:00
-Tags: blog
+Tags: blog, WordPress
 Author: Morteza
 Summary: WordPress essential training for beginners
 
@@ -10,7 +10,7 @@ Summary: WordPress essential training for beginners
 
 
 Welcome to our WordPress essential training for beginners: **WordPress for beginning**.
-WordPress is a free and open-source content management system (CMS) based on PHP & MySQL. Features include a plugin architecture and a template system. It is most associated with blogging but supports other types of web content including more traditional mailing lists and forums, media galleries, and online stores. Used by more than 60 million websites, including 30.6% of the top 10 million websites
+WordPress is a free and open-source content management system (CMS) based on PHP programming language and MySQL database. Features include a plugin architecture and a template system. It is most associated with blogging but supports other types of web content including more traditional mailing lists and forums, media galleries, and online stores. Used by more than 60 million websites, including 30.6% of the top 10 million websites, make it a popular CMS and web framework. The following video tutorials help you start building your own website by WordPress. Tutorials are available in Persian language.
 
 ##Video tutorials
 

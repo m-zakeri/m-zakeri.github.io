@@ -106,6 +106,9 @@ Content of this page updates regularly based on my [SlideShare](https://www.slid
 
 ## Video Tutorial
 
+### WordPress for beginning
+Click [here](../blog/wordpress.md) to see all video tutorial in the Section
+
 ### Creating content table in Microsoft Word
 
 <div id="15541384388510825"><script type="text/JavaScript" src="https://www.aparat.com/embed/T8lRz?data[rnddiv]=15541384388510825&data[responsive]=yes"></script></div>

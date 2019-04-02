@@ -66,5 +66,6 @@ A road map to learning programming/codding
 * [Other resources and materials](https://www.slideshare.net/MortezaZakeri){:target="_blank"}
 
 
+* [ProjectEuler in Persian](https://marhale3.github.io/problems.html){:target="_blank"}
 
 

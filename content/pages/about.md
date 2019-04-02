@@ -8,7 +8,7 @@ I am a first year Ph.D. student at [Iran University of Science and Technology (I
 
 ## Educations
 * Ph.D., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2018 - Now)
-* M.Sc., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}
+* M.Sc., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2016 - 2018)
 * B.Sc., Computer Engineering, Software; [Arak University](http://en.araku.ac.ir/){:target="_blank"} (2011 - 2015)
 
 
