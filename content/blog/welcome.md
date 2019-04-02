@@ -9,6 +9,7 @@ Summary: "**L**ife **I**s a **F**ractal **E**vent. Create unlimited values in li
 
 ![fractal-life](../static/img/fractal-life.gif)
 
+
 > "**L**ife **I**s a **F**ractal **E**vent (Exploration). Create unlimited (infinite) values in limited time!"
 >
 > _Morteza Zakeri_

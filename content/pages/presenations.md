@@ -104,10 +104,13 @@ Content of this page updates regularly based on my [SlideShare](https://www.slid
 <div id="15541464692868996"><script type="text/JavaScript" src="https://www.aparat.com/embed/tUTLl?data[rnddiv]=15541464692868996&data[responsive]=yes"></script></div>
 
 
+
+
 ## Video Tutorial
 
 ### WordPress for beginning
-Click [here](../blog/wordpress.md) to see all video tutorial in the Section
+Click [here]({filename}../blog/wordpress.md) to see all video tutorial in the Section.
+
 
 ### Creating content table in Microsoft Word
 
