@@ -12,7 +12,7 @@ Summary: "**L**ife **I**s a **F**ractal **E**vent. Create unlimited values in li
 
 > "**L**ife **I**s a **F**ractal **E**vent (Exploration). Create unlimited (infinite) values in limited time!"
 >
-> _Morteza Zakeri_
+> _Morteza_
 
 
 Hello and welcome to my new personal web-page and blog on GitHub. The blog is under construction and some pages will add in future. Please refer to [About me](../pages/about.md) page for more information. 

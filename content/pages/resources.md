@@ -6,6 +6,7 @@ Some related and useful links in programming and software engineering
 
 
 ##Research and technical reports
+
 * [ A survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017
 * [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian)
 
@@ -29,6 +30,8 @@ A road map to learning programming/codding
 |  2  | ![C How to Program](../static/img/bookcover/deitel_and_deitel_c.jpg)                                                   | [C How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram7e/tabid/3635/Default.aspx){:target="_blank"}        | www.deitel.com                                         |
 |  3  | ![CPP How to Program](../static/img/bookcover/deitel_and_deitel_cpp.jpg)                                               | [C++ How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram9e/tabid/3644/Default.aspx){:target="_blank"}      | www.deitel.com                                         |
 |  4  | ![JAVA How to Program](../static/img/bookcover/deitel_and_deitel_java.jpg)                                             | [JAVA How to Program (Book by Harvey Deitel and Paul  Deitel)](http://deitel.com/Books/Java/JavaHowtoProgram11e/tabid/3683/Default.aspx){:target="_blank"} | www.deitel.com                                         |
+|  5  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do) {:target="_blank"}  | 
+
 
 
 
@@ -37,9 +40,10 @@ A road map to learning programming/codding
 | Row |                             Photo                             	|         Resource name                                             	|                Additional links                   |
 |:---:|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|:-------------------------------------------------:|
 |  1  | ![Scratch](../static/img/bookcover/scratch.jpg)                 | [Scratch (MIT Media Lab)](https://scratch.mit.edu/){:target="_blank"} 	|  www.scratch.mit.edu	                            |
-|     | ![Scratch](../static/img/bookcover/python_for_kids.jpg)         | [Python for Kids: A Playful Introduction to Programming](https://books.google.com/books/about/Python_for_Kids.html?id=Wd_PJ2y68uIC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false){:target="_blank"}     |     |
-|  2  | ![Python cookbook](../static/img/bookcover/paython_book.jpg)| Python Cookbook                           	                                        |                                                   |
-|  3  |                                                                 |                                                                      	|                                                   |
+|  2   | ![Scratch](../static/img/bookcover/python_for_kids.jpg)         | [Python for Kids: A Playful Introduction to Programming](https://books.google.com/books/about/Python_for_Kids.html?id=Wd_PJ2y68uIC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false){:target="_blank"}     |   [www.oreilly.com](http://shop.oreilly.com/product/9781593274078.do){:target="_blank"}  |
+|  3  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do){:target="_blank"}     |
+|  4  | ![Python cookbook](../static/img/bookcover/paython_book.jpg)| Python Cookbook                           	                                        |                                               [www.oreilly.com](http://shop.oreilly.com/product/0636920027072.do){:target="_blank"}    |
+
 
 
 
@@ -52,7 +56,6 @@ A road map to learning programming/codding
 |  3  | ![Head first design patterns](../static/img/bookcover/head_first_design_patterns.jpg )                             | Design patterns                                                                                                                                                           |                                                        |
 |  4  | ![Dr Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )                             | System design and analysis in software engineering (in Persian)                                                                                                                                                           |       A book written by my Ph.D. adviser Dr. S. Parsa                                                  |
 |  5  | ![Dr Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )                             | Performance testing in software engineering (in Persian)                                                                                                                                                           |      A book written by my Ph.D. adviser Dr. S. Parsa                                                  |
-
 
 
 
