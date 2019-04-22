@@ -734,7 +734,7 @@ model.fit([encoder_input_data, decoder_input_data], decoder_target_data,batch_si
 &lt;/div&gt;</content><category term="blog"></category></entry><entry><title>Welcome</title><link href="https://m-zakeri.github.io%5Cwelcome.html" rel="alternate"></link><published>2019-02-22T12:30:00+03:30</published><updated>2019-02-22T12:30:00+03:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\welcome.html,2019-02-22:</id><summary type="html">&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;&lt;strong&gt;L&lt;/strong&gt;ife &lt;strong&gt;I&lt;/strong&gt;s a &lt;strong&gt;F&lt;/strong&gt;ractal &lt;strong&gt;E&lt;/strong&gt;vent. Create unlimited values in limited time!&amp;#8221;,&amp;nbsp;Morteza&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="fractal-life" src="../static/img/fractal-life.gif"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;&lt;strong&gt;L&lt;/strong&gt;ife &lt;strong&gt;I&lt;/strong&gt;s a &lt;strong&gt;F&lt;/strong&gt;ractal &lt;strong&gt;E&lt;/strong&gt;vent (Exploration). Create unlimited (infinite) values in limited&amp;nbsp;time!&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Morteza&amp;nbsp;Zakeri&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Morteza&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Hello and welcome to my new personal web-page and blog on GitHub. The blog is under construction and some pages will add in future. Please refer to &lt;a href="../pages/about.md"&gt;About me&lt;/a&gt; page for more&amp;nbsp;information. &lt;/p&gt;
 &lt;h3&gt;A note about the blogging&amp;nbsp;tool&lt;/h3&gt;
