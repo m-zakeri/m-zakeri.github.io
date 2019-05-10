@@ -30,7 +30,7 @@ A road map to learning programming/codding
 |  2  | ![C How to Program](../static/img/bookcover/deitel_and_deitel_c.jpg)                                                   | [C How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram7e/tabid/3635/Default.aspx){:target="_blank"}        | www.deitel.com                                         |
 |  3  | ![CPP How to Program](../static/img/bookcover/deitel_and_deitel_cpp.jpg)                                               | [C++ How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram9e/tabid/3644/Default.aspx){:target="_blank"}      | www.deitel.com                                         |
 |  4  | ![JAVA How to Program](../static/img/bookcover/deitel_and_deitel_java.jpg)                                             | [JAVA How to Program (Book by Harvey Deitel and Paul  Deitel)](http://deitel.com/Books/Java/JavaHowtoProgram11e/tabid/3683/Default.aspx){:target="_blank"} | www.deitel.com                                         |
-|  5  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do) {:target="_blank"}  | 
+|  5  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do){:target="_blank"}  | 
 
 
 
