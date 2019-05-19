@@ -5,10 +5,15 @@ Author: Morteza
 Some related and useful links in programming and software engineering
 
 
-##Research and technical reports
+## Research and technical reports
 
 * [ A survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017
 * [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian)
+
+
+## Machine learning and deep learning
+* [Hacker's guide to neural networks by Andrej Karpathy](http://karpathy.github.io/neuralnets/){:target="_blank"}
+* 
 
 
 ## Have a programming question? Join us-:)

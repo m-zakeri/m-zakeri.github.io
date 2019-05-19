@@ -5,7 +5,7 @@ save_as: index.html
 
 
 
-I am a first year Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I have got my B.Sc. in computer engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and then received my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+I am a first year computer engineering Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I have got my B.Sc. in computer engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and then received my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 
 ## Research Interests
 > Toward better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
@@ -70,9 +70,9 @@ As a software engineer, I know about software development methodologies (both tr
 From summer 2013 my friends and I also maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
 
 
-There is no commenting tool here on this blog yet. You can contact me anytime by sending an email to: 
+Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} or jump to [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} page for more information. At this time, there is no commenting tool here on my blog and you can contact me anytime by sending an email to: 
 **M – Z A K E R I [AT] L I V E [DOT] C O M**
-([m-my_last_name@live.com](mailto:m-my_last_name@live.com)).
+([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). I will provide proper response as soon as possible.
 
 
 ## Curriculum vitae
