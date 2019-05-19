@@ -8,7 +8,8 @@ save_as: index.html
 I am a first year Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I have got my B.Sc. in computer engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and then received my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 
 ## Research Interests
-> Toward better software systems through the intelligent reverse engineering techniques
+> Toward better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
+
 
 My research interests are about empirical and automated software engineering (ASE), especially automated software testing, test data generation, dynamic software analysis and applying machine learning in software engineering.  As a new contribution I want to use deep learning techniques in various phases of software testing process include test data generation, fault localization and program repair. For the time being, I have focused on fuzz testing and test data generation in file format fuzzers. I used deep neural networks (kind of deep learning techniques) to statistically capture the format of highly complex file structures and then built a generative model to generate new test data. It seems that there is a straight relationship between well-formed files and percentage of code coverage when Software Under Test (SUT) was executed with such files as input.
 
