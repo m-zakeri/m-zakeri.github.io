@@ -48,11 +48,13 @@ HOME_HIDE_TAGS = False
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
-MENUITEMS = (('Archives', '/archives.html'),
-			('Categories', '/categories.html'),
+INDEX_SAVE_AS = 'blog_index.html'
+
+MENUITEMS = (('Blog', 'blog_index.html'),
+            ('Archives', '/archives.html'),
+	        ('Categories', '/categories.html'),
             ('Tags', '/tags.html'),
-			 ('Sitemap', '/sitemap.xml'),
-			 )
+	        ('Sitemap', '/sitemap.xml'))
 
 LINKS = (('Our Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
          ('Our Micropedia', 'http://micropedia.ir'),
