@@ -50,7 +50,7 @@ DISPLAY_CATEGORIES_ON_MENU = True
 
 INDEX_SAVE_AS = 'blog_index.html'
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives']
-MENUITEMS = (('Blog', 'blog_index.html'),
+MENUITEMS = (('Blog', '/blog_index.html'),
              ('Resources', '/pages/resources.html'),
             ('Archives', '/archives.html'),
 	        ('Categories', '/categories.html'),
