@@ -43,7 +43,7 @@ In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer a
 
 * My M.Sc Thesis [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T003nHGvhCeNP_ZpH){:target="_blank"}
 * My M.Sc Seminar Report [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T0z0qB1ioqHIMebW_){:target="_blank"}
-* My M.Sc. Thesis Defense Slides [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T0z5EohuEY5QdVqFs){:target="_blank"} [[PPTx*]](){:target="_blank"}
+* My M.Sc. Thesis Defense Slides [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T0z5EohuEY5QdVqFs){:target="_blank"}  - [[PPTx*]](https://1drv.ms/p/s!AmpQstTzvc-TgqRuCUxRfrlxgzDWKQ){:target="_blank"}
 
    ''' *Password is needed. '''
 

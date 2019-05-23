@@ -9,12 +9,25 @@ Content of this page updates regularly based on my [SlideShare](https://www.slid
 
 
 
+
 ## Presentations
+
+
+### SpotifyX architectural review: Micro-services and scalability
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/hkk1TxIUXWzx7M" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MortezaZakeri/spotifyx-architectural-review" title="SpotifyX Architectural Review" target="_blank">SpotifyX Architectural Review</a> </strong> from <strong><a href="https://www.slideshare.net/MortezaZakeri" target="_blank">Morteza Zakeri</a></strong> </div>
+
+
+
+### Community detection in dynamic complex networks with genetic algorithm
+ 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2UNQz3CIAyrFiS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MortezaZakeri/community-detection-with-genetic-algorithm-147293494" title="Community Detection with Genetic Algorithm" target="_blank">Community Detection with Genetic Algorithm</a> </strong> from <strong><a href="https://www.slideshare.net/MortezaZakeri" target="_blank">Morteza Zakeri</a></strong> </div>
 
 
 ### An overview of anomaly detection techniques
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/9gEdaM73xNkiGL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MortezaZakeri/an-overview-of-anomaly-detection-techniques" title="An overview of anomaly detection techniques" target="_blank">An overview of anomaly detection techniques</a> </strong> from <strong><a href="https://www.slideshare.net/MortezaZakeri" target="_blank">Morteza Zakeri</a></strong> </div>
+
 
 
 ### SQLite and object-relational mapping in Java

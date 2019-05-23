@@ -11,9 +11,12 @@ Some related and useful links in programming and software engineering
 * [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian)
 
 
-## Machine learning and deep learning
-* [Hacker's guide to neural networks by Andrej Karpathy](http://karpathy.github.io/neuralnets/){:target="_blank"}
-* 
+## Machine learning, deep learning and deep neural networks
+* [Hacker's guide to neural networks by Dr. Andrej Karpathy](http://karpathy.github.io/neuralnets/){:target="_blank"}
+* [IUST deep learning course by Dr. Mohammad Taher Pilehvar](https://iust-courses.github.io/ai97/){:target="_blank"}
+* [IUST Deep learning with google TensorFlow by Eng. Mahdizade](https://github.com/Mahdizade/IUSTDeepLearningWithTensorFlow){:target="_blank"}
+* [Keras book, documentation and blog](https://blog.keras.io/){:target="_blank"}
+
 
 
 ## Have a programming question? Join us-:)
