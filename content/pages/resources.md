@@ -7,8 +7,9 @@ Some related and useful links in programming and software engineering
 
 ## Research and technical reports
 
+* [Data and end of homelessness](http://micropedia.ir/1398/03/15/using-data-to-understand-and-end-homelessness/){:target="_blank"} (in Persian) Spring 2019
 * [ A survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017
-* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian)
+* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian) Fall 2016
 
 
 ## Machine learning, deep learning and deep neural networks
@@ -20,7 +21,7 @@ Some related and useful links in programming and software engineering
 
 
 ## Have a programming question? Join us-:)
-* [Micropedia code group on the telegram](https://t.me/joinchat/CBglrD-j_t75j-7BM1mDjg){:target="_blank"}
+* [Micropedia code group on the telegram](https://t.me/joinchat/CBglrD-j_t75j-7BM1mDjg){:target="_blank"} or Contact with ID @mztel
 * [Micropedia programming tutorials](http://micropedia.ir/tutorials/){:target="_blank"} (in Persian)
 * [Micropedia code repository](http://micropedia.ir/category/code/){:target="_blank"} 
 
@@ -68,15 +69,17 @@ A road map to learning programming/codding
 
 
 ## Useful links
+### Mine
 * [My GitHub projects](https://github.com/m-zakeri/){:target="_blank"} [New]
 * [My GitHub projects](https://github.com/mortazazakeri){:target="_blank"} [Old]
 * [My gist (code snip)](https://gist.github.com/m-zakeri){:target="_blank"}
 * [My old blog](http://zakerim.webs.com/){:target="_blank"}
 * [My LinkedIn profile](https://www.linkedin.com/in/mortazazakeri/){:target="_blank"}
 * [My SlideShare profile](https://www.slideshare.net/MortezaZakeri){:target="_blank"}
-* [Other resources and materials](https://www.slideshare.net/MortezaZakeri){:target="_blank"}
 
 
+### Others
+* [A Survival Guide to a Ph.D. by Dr. Andrej Karpathy](http://karpathy.github.io/2016/09/07/phd/){:target="_blank"}
 * [ProjectEuler in Persian](https://marhale3.github.io/problems.html){:target="_blank"}
 
 
