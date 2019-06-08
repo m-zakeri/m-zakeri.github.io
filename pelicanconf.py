@@ -83,10 +83,10 @@ SITELOGO = '/static/img/profile.png'
 PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
 #PLUGINS = ['neighbors']
 #PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
-PLUGINS = ['sitemap', 'disqus_static']
-# PLUGINS = ['sitemap']
+PLUGINS = ["disqus_static", "sitemap"]
+# PLUGINS = ['sitemap', 'pelican-readtime']
 
-DISQUS_SITENAME = 'https://m-zakeri.github.io/'
+DISQUS_SITENAME = 'http://m-zakeri.github.io'
 DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
 DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
 
