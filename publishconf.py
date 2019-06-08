@@ -17,15 +17,15 @@ RELATIVE_URLS = True
 #USE_LESS = False
 
 
-PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
+# PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
 #PLUGINS = ['neighbors']
 #PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
-PLUGINS = ["disqus_static", "sitemap"]
+# PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'pelican-readtime']
 
-DISQUS_SITENAME = 'http://m-zakeri.github.io'
-DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
-DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
+# DISQUS_SITENAME = 'http://m-zakeri.github.io'
+# DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
+# DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
