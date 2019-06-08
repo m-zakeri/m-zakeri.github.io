@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Morteza ZAKERI - courses</title><link href="https://m-zakeri.github.io/" rel="alternate"></link><link href="https://m-zakeri.github.io%5Cfeeds/courses.atom.xml" rel="self"></link><id>https://m-zakeri.github.io/</id><updated>2019-03-10T21:12:00+03:30</updated><subtitle>Ph.D. Student, Computer Engineering</subtitle><entry><title>Compiler design and constructions</title><link href="https://m-zakeri.github.io%5Ccompiler-design-and-constructions.html" rel="alternate"></link><published>2019-03-10T21:12:00+03:30</published><updated>2019-03-10T21:12:00+03:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\compiler-design-and-constructions.html,2019-03-10:</id><summary type="html">&lt;p&gt;Compiler design and constructions, Bachelor&amp;nbsp;course.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;References&lt;/h2&gt;
+&lt;h2&gt;Homework&lt;/h2&gt;
+&lt;h2&gt;Useful&amp;nbsp;links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://parsa.iust.ac.ir/courses/compilers/" target="_blank"&gt;Compiler course in &lt;span class="caps"&gt;IUST&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://compileriust.github.io/" target="_blank"&gt;Github page (in&amp;nbsp;Persian)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="courses"></category></entry></feed>
