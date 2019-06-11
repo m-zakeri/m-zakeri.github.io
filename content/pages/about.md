@@ -78,7 +78,7 @@ Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_bla
 ## Curriculum vitae
 More details can be found in my up-to-date C.V. 
 
-* My C.V. (u2018 - English) [PDF](https://www.dropbox.com/s/uskbycwjukva3ag/Zakeri_Resume_970112_EN.pdf?dl=0){:target="_blank"}
+* My C.V. (u2018 - English) [PDF](https://www.dropbox.com/s/g3jkrhck5v0q0rn/Zakeri_Resume_971201_EN.pdf?dl=0){:target="_blank"}
 
 * My C.V. (u2018 - Persian) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 
