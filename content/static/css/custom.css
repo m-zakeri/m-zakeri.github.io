@@ -7,7 +7,7 @@
 body {
 font-family: sitka;
 text-align: justify;
-width: 95%;
+width: 90%;
 }
 
 div {
@@ -25,4 +25,8 @@ tr:hover {
 
 img {
     box-shadow: 0px 0px 5px white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
 }
