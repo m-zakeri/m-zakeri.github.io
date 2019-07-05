@@ -4,14 +4,14 @@
   src: url(./sitka/sitka.ttc);
 }
 
-img {
-    box-shadow: 0px 0px 5px white;
-}
-
-
 body {
 font-family: sitka;
 text-align: justify;
+width: 95%;
+}
+
+div {
+    font-size:medium;
 }
 
 th, td {
@@ -21,4 +21,8 @@ th, td {
 
 tr:hover {
     background-color: #f5f5f5;
+}
+
+img {
+    box-shadow: 0px 0px 5px white;
 }
