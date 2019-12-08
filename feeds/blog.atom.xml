@@ -273,148 +273,148 @@ $$ g=\frac { 5g }{ s }. $$
 در این قسمت جزئیات کد مدل توالی‌به‌توالی پیاده‌سازی شده در keras و تغییرات آن را شرح می‌دهیم. این کد به همراه مجموعه داده از پیوندهای ابتدای گزارش قابل دریافت است. پیاده‌سازی مدل توالی‌به‌توالی در  اینجا در سطح کاراکتر است یعنی وظیفه ترجمه ماشینی را کاراکتر به کاراکتر انجام می‌دهد. البته برای وظیفه ترجمه ماشینی مدل در سطح واژه مرسوم است. شروع از سطح کاراتر ساده تر بوده و بعدا با اضافه کردن یک لایه embedding می‌توان مدل را به آسانی در سطح واژه آموزش داد.
 مجموعه آموزش شامل یک فایل متنی است که در هر سطر آن یک عبارت انگلیسی و سپس ترجمه معادل آن آمده است. دو عبارت در یک سطر با کاراکتر t\ از هم جدا شده‌اند. بنابراین جمله زبان مقصد با کاراکتر t\ شروع و با کاراکتر n\ خاتمه می‌یابد. برای تغییر حالت از کدگذار به کدگشا از نشانه  t\  و برای مشخص کردن پایان جمله زبان مقصد از نشانه n\ استفاده خواهد شد. ابتدا فایل ورودی را سطر به سطر خوانده و  دو  بخش متن ورودی و متن هدف را  را از روی آن می‌سازیم. سپس با روش one-hot  متن ورودی و متن هدف را به بردار عددی معادل تبدیل می‌کنیم. تکه کد زیر اینکار را انجام&amp;nbsp;می‌دهد:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-input_token_index = dict([(char, i) for i, char in enumerate(input_characters)])
-target_token_index = dict([(char, i) for i, char in enumerate(target_characters)])
-encoder_input_data = np.zeros((len(input_texts), max_encoder_seq_length, num_encoder_tokens), dtype=&amp;#39;float32&amp;#39;)
-decoder_input_data = np.zeros((len(input_texts), max_decoder_seq_length, num_decoder_tokens), dtype=&amp;#39;float32&amp;#39;)
-decoder_target_data = np.zeros((len(input_texts), max_decoder_seq_length, num_decoder_tokens),dtype=&amp;#39;float32&amp;#39;)
-# bulid one-hot vector
-for i, (input_text, target_text) in enumerate(zip(input_texts, target_texts)):
-for t, char in enumerate(input_text):
-    encoder_input_data[i, t, input_token_index[char]] = 1.
-for t, char in enumerate(target_text):
-    # decoder_target_data is ahead of decoder_input_data by one timestep
-    decoder_input_data[i, t, target_token_index[char]] = 1.
-    if t &amp;gt; 0:
-        # decoder_target_data will be ahead by one timestep
-        # and will not include the start character.
-        decoder_target_data[i, t - 1, target_token_index[char]] = 1.
+&lt;span class="nv"&gt;input_token_index&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;dict&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;[&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;char&lt;/span&gt;, &lt;span class="nv"&gt;i&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="nv"&gt;char&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;enumerate&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_characters&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;]&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;target_token_index&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;dict&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;[&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;char&lt;/span&gt;, &lt;span class="nv"&gt;i&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="nv"&gt;char&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;enumerate&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;target_characters&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;]&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;encoder_input_data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;np&lt;/span&gt;.&lt;span class="nv"&gt;zeros&lt;/span&gt;&lt;span class="ss"&gt;((&lt;/span&gt;&lt;span class="nv"&gt;len&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_texts&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;, &lt;span class="nv"&gt;max_encoder_seq_length&lt;/span&gt;, &lt;span class="nv"&gt;num_encoder_tokens&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;, &lt;span class="nv"&gt;dtype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;float32&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;decoder_input_data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;np&lt;/span&gt;.&lt;span class="nv"&gt;zeros&lt;/span&gt;&lt;span class="ss"&gt;((&lt;/span&gt;&lt;span class="nv"&gt;len&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_texts&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;, &lt;span class="nv"&gt;max_decoder_seq_length&lt;/span&gt;, &lt;span class="nv"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;, &lt;span class="nv"&gt;dtype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;float32&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;decoder_target_data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;np&lt;/span&gt;.&lt;span class="nv"&gt;zeros&lt;/span&gt;&lt;span class="ss"&gt;((&lt;/span&gt;&lt;span class="nv"&gt;len&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_texts&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;, &lt;span class="nv"&gt;max_decoder_seq_length&lt;/span&gt;, &lt;span class="nv"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;,&lt;span class="nv"&gt;dtype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;float32&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+# &lt;span class="nv"&gt;bulid&lt;/span&gt; &lt;span class="nv"&gt;one&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;hot&lt;/span&gt; &lt;span class="nv"&gt;vector&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_text&lt;/span&gt;, &lt;span class="nv"&gt;target_text&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;enumerate&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;zip&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_texts&lt;/span&gt;, &lt;span class="nv"&gt;target_texts&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;:
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;t&lt;/span&gt;, &lt;span class="nv"&gt;char&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;enumerate&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_text&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
+    &lt;span class="nv"&gt;encoder_input_data&lt;/span&gt;[&lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="nv"&gt;t&lt;/span&gt;, &lt;span class="nv"&gt;input_token_index&lt;/span&gt;[&lt;span class="nv"&gt;char&lt;/span&gt;]] &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;.
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;t&lt;/span&gt;, &lt;span class="nv"&gt;char&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;enumerate&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;target_text&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
+    # &lt;span class="nv"&gt;decoder_target_data&lt;/span&gt; &lt;span class="nv"&gt;is&lt;/span&gt; &lt;span class="nv"&gt;ahead&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;decoder_input_data&lt;/span&gt; &lt;span class="nv"&gt;by&lt;/span&gt; &lt;span class="nv"&gt;one&lt;/span&gt; &lt;span class="nv"&gt;timestep&lt;/span&gt;
+    &lt;span class="nv"&gt;decoder_input_data&lt;/span&gt;[&lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="nv"&gt;t&lt;/span&gt;, &lt;span class="nv"&gt;target_token_index&lt;/span&gt;[&lt;span class="nv"&gt;char&lt;/span&gt;]] &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;.
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nv"&gt;t&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;:
+        # &lt;span class="nv"&gt;decoder_target_data&lt;/span&gt; &lt;span class="nv"&gt;will&lt;/span&gt; &lt;span class="nv"&gt;be&lt;/span&gt; &lt;span class="nv"&gt;ahead&lt;/span&gt; &lt;span class="nv"&gt;by&lt;/span&gt; &lt;span class="nv"&gt;one&lt;/span&gt; &lt;span class="nv"&gt;timestep&lt;/span&gt;
+        # &lt;span class="nv"&gt;and&lt;/span&gt; &lt;span class="nv"&gt;will&lt;/span&gt; &lt;span class="nv"&gt;not&lt;/span&gt; &lt;span class="k"&gt;include&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;start&lt;/span&gt; &lt;span class="nv"&gt;character&lt;/span&gt;.
+        &lt;span class="nv"&gt;decoder_target_data&lt;/span&gt;[&lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="nv"&gt;t&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;, &lt;span class="nv"&gt;target_token_index&lt;/span&gt;[&lt;span class="nv"&gt;char&lt;/span&gt;]] &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;.
 ...
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;دقت شود که ورودی کدگشا در مرحله آموزش، عبارت زبان مقصد (متن هدف) و خروجی آن نیز همان عبارت زبان مقصد است که یک واحد به جلو شیفت داده شده است (روش موسوم به teacher forcing). کد بالا این کار را نیز انجام می‌دهد یعنی خروجی کدگشا را به همین روش اضافه می‌کند.
 حال نوبت به تعریف &lt;span class="caps"&gt;LSTM&lt;/span&gt; کدگذار و &lt;span class="caps"&gt;LSTM&lt;/span&gt; کدگشا می‌رسد. در keras کلاس &lt;span class="caps"&gt;LSTM&lt;/span&gt; کلیه وظایف مربوط به این نوع شبکه را پیاده‌سازی کرده است. کافی است یک نمونه (شیء) از این کلاس ایجاد کنیم. این کلاس همچنین متد &lt;strong&gt;&lt;em&gt;call&lt;/em&gt;&lt;/strong&gt; را داراست که لایه ورودی را به عنوان آرگومان دریافت و به شیء ساخته شده از کلاس متصل می‌کند. &lt;span class="caps"&gt;LSTM&lt;/span&gt; کدگذار بنابراین به‌صورت زیر تعریف&amp;nbsp;می‌شود:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-encoder_inputs = Input(shape=(None, num_encoder_tokens))
-#print(type(encoder_inputs))
-encoder = LSTM(latent_dim, return_state=True)
-#print(type(encoder))
-encoder_outputs, state_h, state_c = encoder(encoder_inputs)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="n"&gt;encoder_inputs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;Input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;num_encoder_tokens&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;encoder_inputs&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;encoder&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;LSTM&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;latent_dim&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;return_state&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;encoder&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;encoder_outputs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;state_h&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;state_c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;encoder&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;encoder_inputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;وقتی از آرگومان return_state=True در ساخت یک شی از کلاس &lt;span class="caps"&gt;LSTM&lt;/span&gt; استفاده می‌شود دو حالت حافظه موجود در &lt;span class="caps"&gt;LSTM&lt;/span&gt; هم به عنوان خروجی، علاوه بر توالی خروجی اصلی بازگردانیده می‌شوند. در کد بالا این دو حالت state_c و state_h نام دارند. خروجی کدگذار در مدل توالی‌به‌توالی استفاده‌ای ندارد و دور انداخته می‌شود.  در عوض از حالت‌های state_c و state_h به عنوان حالت آغازین &lt;span class="caps"&gt;LSTM&lt;/span&gt; کدگشا به صورت زیر استفاده&amp;nbsp;می‌شود:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-encoder_states = [state_h, state_c]
-# Set up the decoder, using `encoder_states` as initial state.
-decoder_inputs = Input(shape=(None, num_decoder_tokens))
-# We set up our decoder to return full output sequences,
-# and to return internal states as well. We don&amp;#39;t use the
-# return states in the training model, but we will use them in inference.
-decoder_lstm = LSTM(latent_dim, return_sequences=True, return_state=True)
-decoder_outputs, _, _ = decoder_lstm(decoder_inputs,initial_state = encoder_states)
+&lt;span class="nv"&gt;encoder_states&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; [&lt;span class="nv"&gt;state_h&lt;/span&gt;, &lt;span class="nv"&gt;state_c&lt;/span&gt;]
+# &lt;span class="nv"&gt;Set&lt;/span&gt; &lt;span class="nv"&gt;up&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;decoder&lt;/span&gt;, &lt;span class="nv"&gt;using&lt;/span&gt; `&lt;span class="nv"&gt;encoder_states&lt;/span&gt;` &lt;span class="nv"&gt;as&lt;/span&gt; &lt;span class="nv"&gt;initial&lt;/span&gt; &lt;span class="nv"&gt;state&lt;/span&gt;.
+&lt;span class="nv"&gt;decoder_inputs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;None&lt;/span&gt;, &lt;span class="nv"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+# &lt;span class="nv"&gt;We&lt;/span&gt; &lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;up&lt;/span&gt; &lt;span class="nv"&gt;our&lt;/span&gt; &lt;span class="nv"&gt;decoder&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nv"&gt;full&lt;/span&gt; &lt;span class="nv"&gt;output&lt;/span&gt; &lt;span class="nv"&gt;sequences&lt;/span&gt;,
+# &lt;span class="nv"&gt;and&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nv"&gt;internal&lt;/span&gt; &lt;span class="nv"&gt;states&lt;/span&gt; &lt;span class="nv"&gt;as&lt;/span&gt; &lt;span class="nv"&gt;well&lt;/span&gt;. &lt;span class="nv"&gt;We&lt;/span&gt; &lt;span class="nv"&gt;don&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;t use the&lt;/span&gt;
+# &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nv"&gt;states&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;training&lt;/span&gt; &lt;span class="nv"&gt;model&lt;/span&gt;, &lt;span class="nv"&gt;but&lt;/span&gt; &lt;span class="nv"&gt;we&lt;/span&gt; &lt;span class="nv"&gt;will&lt;/span&gt; &lt;span class="nv"&gt;use&lt;/span&gt; &lt;span class="nv"&gt;them&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;inference&lt;/span&gt;.
+&lt;span class="nv"&gt;decoder_lstm&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;LSTM&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;latent_dim&lt;/span&gt;, &lt;span class="nv"&gt;return_sequences&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;True&lt;/span&gt;, &lt;span class="nv"&gt;return_state&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;True&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;decoder_outputs&lt;/span&gt;, &lt;span class="nv"&gt;_&lt;/span&gt;, &lt;span class="nv"&gt;_&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;decoder_lstm&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;decoder_inputs&lt;/span&gt;,&lt;span class="nv"&gt;initial_state&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;encoder_states&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
 ...
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;همچنین  یک لایه softmax برروی خروجی توالی‌ نهایی LSTMکدگشا جهت تبدیل خروجی به احتمالات معتبر به شکل زیر قرار&amp;nbsp;می‌دهیم:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-decoder_dense = Dense(num_decoder_tokens, activation = &amp;#39;softmax&amp;#39;)
-decoder_outputs = decoder_dense(decoder_outputs)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="n"&gt;decoder_dense&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Dense&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;activation&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;softmax&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;decoder_outputs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;decoder_dense&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decoder_outputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;اکنون لایه‌های مدل ساخته شده است. این لایه‌ها بایستی به شکل یک گراف به هم متصل شده و تشکیل یک مدل با ورودی و خروجی معین را بدهند. در keras دو نوع  مدل وجود دارد. نوع اول مدل‌های ترتیبی (sequential) هستند که یک پشته خطی از لایه‌ها را در قالب مدل به هم مرتبط می‌کنند. یعنی گراف نهایی مدل ترتیبی حالتی خطی دارد. مدل ترتیبی برای ایجاد مدل‌های پیچیده‌تر مثل مدل توالی‌به‌توالی مناسب نیست. نوع دوم مدل در keras با استفاده از Keras functional &lt;span class="caps"&gt;API&lt;/span&gt; ساخته می‌شوند. این حالت برای ساختن مدل‌هایی با چند ورودی و چند خروجی که گراف آن‌ها لزوما خطی نیست به کار می‌رود. در اینجا از این روش استفاده شده است.  برای این منظور پس از تعیین تک تک لایه‌‌ها (کد قسمت‌های قبلی)، از کلاس Model استفاده کرده و ورودی و خروجی نهایی مدل را تعیین&amp;nbsp;می‌کنیم:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-# Define the model that will turn
-#encoder_input_data` &amp;amp; `decoder_input_data` into `decoder_target_data`
-model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="c1"&gt;# Define the model that will turn&lt;/span&gt;
+&lt;span class="c1"&gt;#encoder_input_data` &amp;amp; `decoder_input_data` into `decoder_target_data`&lt;/span&gt;
+&lt;span class="n"&gt;model&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;Model&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;encoder_inputs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;decoder_inputs&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;decoder_outputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;با استفاده از تابع plot_model می‌توان به صورت گرافیکی بهم‌بست مدل ایجاد شده را مشاهده&amp;nbsp;کرد: &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-plot_model(model, to_file = &amp;#39;./modelpic/seq2seq_model_&amp;#39; + dt + &amp;#39;.png&amp;#39;, show_shapes=True, show_layer_names=True)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="n"&gt;plot_model&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;to_file&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;./modelpic/seq2seq_model_&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;dt&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;show_shapes&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;show_layer_names&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;برای استفاده از این تابع لازم است با دستور from keras.utils import plot_model  بسته حاوی تابع plot_model را در ابتدای کد، به  برنامه اضافه کنیم. نتیجه اجرای این تابع به شکل زیر است:
 &lt;img alt="شکل (الف - 1) مدل توالی‌به‌توالی ساخته شده در keras و رسم شده توسط تابع plot_model" src="https://boute.s3.amazonaws.com/290-seq2seq_model_20180206_155430.png"&gt;&lt;/p&gt;
 &lt;p&gt;در مرحله بعد تابع خطا و روش یادگیری مدل تعیین&amp;nbsp;می‌شود:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-model.compile(optimizer=&amp;#39;rmsprop&amp;#39;, loss=&amp;#39;categorical_crossentropy&amp;#39;)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;optimizer&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;rmsprop&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;loss&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;categorical_crossentropy&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;و درنهایت مدل را با داده‌های واقعی آموزش&amp;nbsp;می‌دهیم:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-# Run training
-model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
-      batch_size=batch_size,
-      epochs=epochs,
-      validation_split=0.2)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="n"&gt;Run&lt;/span&gt; &lt;span class="n"&gt;training&lt;/span&gt;
+&lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fit&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;encoder_input_data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;decoder_input_data&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;decoder_target_data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="n"&gt;batch_size&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;batch_size&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="n"&gt;epochs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;epochs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+      &lt;span class="n"&gt;validation_split&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;پس از آموزش مدل نوبت به آزمون مدل می‌رسد. در این مرحله می‌خواهیم با دادن یک جمله  زبان مبدأ به مدل ترجمه معادل آن در زبان مقصد را کدگشایی کنیم. برای این منظور نیاز است تا مدل‌هایی مشابه اما جدا از مدل آموزش تعریف کنیم. ابتدا مدل کدگذار را به نحوی تعریف می کنیم که جمله زبان مبدا را به عنوان ورودی بپذیرد و حالات آغازین مدل کدگشا را به عنوان خروجی تولید&amp;nbsp;کند:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-## encoder model
-encoder_model = Model(encoder_inputs, encoder_states)
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="o"&gt;##&lt;/span&gt; &lt;span class="n"&gt;encoder&lt;/span&gt; &lt;span class="n"&gt;model&lt;/span&gt;
+&lt;span class="n"&gt;encoder_model&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Model&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;encoder_inputs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;encoder_states&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;مدل کدگشا را طوری تعریف می‌کنیم که ورودی آن شامل حالت‌ها و خروجی مرحله قبلی خود باشد. در مرحله اول کدگشایی مقادیر  این ورودی‌ها عبارت‌اند از حالات خروجی مدل کدگذار و نشانه آغاز جمله زبان مقصد یعنی همان t. تکه کد زیر مدل کدگشا را تعریف&amp;nbsp;می‌کند:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-## decoder model
-decoder_state_input_h = Input(shape=(latent_dim,))
-decoder_state_input_c = Input(shape=(latent_dim,))
-decoder_states_inputs = [decoder_state_input_h, decoder_state_input_c]
-decoder_outputs, state_h, state_c = decoder_lstm(decoder_inputs, initial_state=decoder_states_inputs)
-decoder_states = [state_h, state_c]
-decoder_outputs = decoder_dense(decoder_outputs)
-decoder_model = Model([decoder_inputs] + decoder_states_inputs,[decoder_outputs] + decoder_states)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;decoder&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;decoder_state_input_h&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;Input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;latent_dim&lt;/span&gt;&lt;span class="p"&gt;,))&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;decoder_state_input_c&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;Input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;latent_dim&lt;/span&gt;&lt;span class="p"&gt;,))&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;decoder_states_inputs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;decoder_state_input_h, decoder_state_input_c&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;decoder_outputs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;state_h&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;state_c&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;decoder_lstm&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decoder_inputs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;initial_state&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;decoder_states_inputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;decoder_states&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;state_h, state_c&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;decoder_outputs&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;decoder_dense&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decoder_outputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;decoder_model&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Model&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;decoder_inputs&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;decoder_states_inputs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;decoder_outputs&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;decoder_states&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;دقت شود که برای ساخت مدل از همان لایه‌های (اشیای &lt;span class="caps"&gt;LSTM&lt;/span&gt; کدگذار و کدگشای ) ساخته شده در مرحله آموزش استفاده شده است. در ای حالت وزن لایه‌ها بین دو مدل ب اشتراک گذاشته می‌شود. یعنی وزن لایه‌ها از مرحله آموزش گرفته می‌شود و  از این مدل‌ها فقط برای پیش‌بینی خروجی با داشتن ورودی، استفاده می‌شود. تابع decode_sequence آمده در زیر، به عنوان آرگومان یک توالی ورودی را دریافت و توالی خروجی معادل آن را باز&amp;nbsp;می‌گرداند:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-def decode_sequence(input_seq):
-# Encode the input as state vectors.
-states_value = encoder_model.predict(input_seq)
-# Generate empty target sequence of length 1.
-target_seq = np.zeros((1, 1, num_decoder_tokens))
-# Populate the first character of target sequence with the start character.
-target_seq[0, 0, target_token_index[&amp;#39;\t&amp;#39;]] = 1.
-# Sampling loop for a batch of sequences
-# (to simplify, here we assume a batch of size 1).
-stop_condition = False
-decoded_sentence = &amp;#39;&amp;#39;
-while not stop_condition:
-    output_tokens, h, c = decoder_model.predict(
-        [target_seq] + states_value)
-    # Sample a token
-    sampled_token_index = np.argmax(output_tokens[0, -1, :])
-    sampled_char = reverse_target_char_index[sampled_token_index]
-    decoded_sentence += sampled_char
-    # Exit condition: either hit max length
-    # or find stop character.
-    if (sampled_char == &amp;#39;\n&amp;#39; or
-       len(decoded_sentence) &amp;gt; max_decoder_seq_length):
-        stop_condition = True
-    # Update the target sequence (of length 1).
-    target_seq = np.zeros((1, 1, num_decoder_tokens))
-    target_seq[0, 0, sampled_token_index] = 1.
-    # Update states
-    states_value = [h, c]
-return decoded_sentence
+&lt;span class="nv"&gt;def&lt;/span&gt; &lt;span class="nv"&gt;decode_sequence&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_seq&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
+# &lt;span class="nv"&gt;Encode&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;input&lt;/span&gt; &lt;span class="nv"&gt;as&lt;/span&gt; &lt;span class="nv"&gt;state&lt;/span&gt; &lt;span class="nv"&gt;vectors&lt;/span&gt;.
+&lt;span class="nv"&gt;states_value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;encoder_model&lt;/span&gt;.&lt;span class="nv"&gt;predict&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input_seq&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+# &lt;span class="nv"&gt;Generate&lt;/span&gt; &lt;span class="nv"&gt;empty&lt;/span&gt; &lt;span class="nv"&gt;target&lt;/span&gt; &lt;span class="nv"&gt;sequence&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;length&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;.
+&lt;span class="nv"&gt;target_seq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;np&lt;/span&gt;.&lt;span class="nv"&gt;zeros&lt;/span&gt;&lt;span class="ss"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;, &lt;span class="mi"&gt;1&lt;/span&gt;, &lt;span class="nv"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+# &lt;span class="nv"&gt;Populate&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;first&lt;/span&gt; &lt;span class="nv"&gt;character&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;target&lt;/span&gt; &lt;span class="nv"&gt;sequence&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;start&lt;/span&gt; &lt;span class="nv"&gt;character&lt;/span&gt;.
+&lt;span class="nv"&gt;target_seq&lt;/span&gt;[&lt;span class="mi"&gt;0&lt;/span&gt;, &lt;span class="mi"&gt;0&lt;/span&gt;, &lt;span class="nv"&gt;target_token_index&lt;/span&gt;[&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="se"&gt;\t&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;]] &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;.
+# &lt;span class="nv"&gt;Sampling&lt;/span&gt; &lt;span class="k"&gt;loop&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;batch&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;sequences&lt;/span&gt;
+# &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;simplify&lt;/span&gt;, &lt;span class="nv"&gt;here&lt;/span&gt; &lt;span class="nv"&gt;we&lt;/span&gt; &lt;span class="nv"&gt;assume&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;batch&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;size&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;.
+&lt;span class="nv"&gt;stop_condition&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;False&lt;/span&gt;
+&lt;span class="nv"&gt;decoded_sentence&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="nv"&gt;not&lt;/span&gt; &lt;span class="nv"&gt;stop_condition&lt;/span&gt;:
+    &lt;span class="nv"&gt;output_tokens&lt;/span&gt;, &lt;span class="nv"&gt;h&lt;/span&gt;, &lt;span class="nv"&gt;c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;decoder_model&lt;/span&gt;.&lt;span class="nv"&gt;predict&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;
+        [&lt;span class="nv"&gt;target_seq&lt;/span&gt;] &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nv"&gt;states_value&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+    # &lt;span class="nv"&gt;Sample&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;token&lt;/span&gt;
+    &lt;span class="nv"&gt;sampled_token_index&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;np&lt;/span&gt;.&lt;span class="nv"&gt;argmax&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;output_tokens&lt;/span&gt;[&lt;span class="mi"&gt;0&lt;/span&gt;, &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;, :]&lt;span class="ss"&gt;)&lt;/span&gt;
+    &lt;span class="nv"&gt;sampled_char&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;reverse_target_char_index&lt;/span&gt;[&lt;span class="nv"&gt;sampled_token_index&lt;/span&gt;]
+    &lt;span class="nv"&gt;decoded_sentence&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="nv"&gt;sampled_char&lt;/span&gt;
+    # &lt;span class="k"&gt;Exit&lt;/span&gt; &lt;span class="nv"&gt;condition&lt;/span&gt;: &lt;span class="nv"&gt;either&lt;/span&gt; &lt;span class="nv"&gt;hit&lt;/span&gt; &lt;span class="nv"&gt;max&lt;/span&gt; &lt;span class="nv"&gt;length&lt;/span&gt;
+    # &lt;span class="nv"&gt;or&lt;/span&gt; &lt;span class="nv"&gt;find&lt;/span&gt; &lt;span class="nv"&gt;stop&lt;/span&gt; &lt;span class="nv"&gt;character&lt;/span&gt;.
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;sampled_char&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt; &lt;span class="nv"&gt;or&lt;/span&gt;
+       &lt;span class="nv"&gt;len&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;decoded_sentence&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nv"&gt;max_decoder_seq_length&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
+        &lt;span class="nv"&gt;stop_condition&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;True&lt;/span&gt;
+    # &lt;span class="nv"&gt;Update&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;target&lt;/span&gt; &lt;span class="nv"&gt;sequence&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;length&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;.
+    &lt;span class="nv"&gt;target_seq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;np&lt;/span&gt;.&lt;span class="nv"&gt;zeros&lt;/span&gt;&lt;span class="ss"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;, &lt;span class="mi"&gt;1&lt;/span&gt;, &lt;span class="nv"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="nv"&gt;target_seq&lt;/span&gt;[&lt;span class="mi"&gt;0&lt;/span&gt;, &lt;span class="mi"&gt;0&lt;/span&gt;, &lt;span class="nv"&gt;sampled_token_index&lt;/span&gt;] &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;.
+    # &lt;span class="nv"&gt;Update&lt;/span&gt; &lt;span class="nv"&gt;states&lt;/span&gt;
+    &lt;span class="nv"&gt;states_value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; [&lt;span class="nv"&gt;h&lt;/span&gt;, &lt;span class="nv"&gt;c&lt;/span&gt;]
+&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nv"&gt;decoded_sentence&lt;/span&gt;
 ...
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -426,15 +426,15 @@ return decoded_sentence
 &lt;p&gt;&lt;strong&gt;&lt;h3&gt;ژرف‌سازی&amp;nbsp;شبکه&lt;/h3&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;اگرچه مدل توضیح داده‌شده در این قسمت به طور کامل از مفاهیم شبکه‌های عصبی ژرف استفاده می‌کند اما به معنای واقعی کلمه &lt;em&gt;ژرف&lt;/em&gt; نیست. در keras به راحتی می‌توان یک مدل ژرف را با پشته کردن لایه‌ها روی یکدیگر ایجاد کرد. برای مثال چنانچه بخواهیم شبکه کدگذار مدل فوق دارای دو لایه &lt;span class="caps"&gt;LSTM&lt;/span&gt; باشد کافی است اولین لایه شبکه کدگذار (encoder_l1) را به‌گونه‌ای تعریف کنیم که یک توالی را به‌عنوان خروجی بدهد. سپس لایه ورودی را به این لایه متصل می‌کنیم و لایه &lt;span class="caps"&gt;LSTM&lt;/span&gt; موجود در کد قبلی این‌بار لایه جدید را به عنوان ورودی&amp;nbsp;می‌پذیرد:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-# Define an input sequence. 
-encoder_inputs = Input(shape=(None, num_encoder_tokens))
-# Define LSTM layer 1 and pass the above encoder input sequence to it.
-# note that return_sequences argument must set to be True in order to connect next to layer.
-encoder_l1 = LSTM(latent_dim, return_sequences=True, return_state=True)(encoder_inputs)
-# Define LSTM layer 2 (encoder)
-encoder = LSTM(latent_dim, return_state=True)
-# Pass (connect) encoder_l1 to LSTM layer 2 (encoder)
-encoder_outputs, state_h, state_c = encoder(encoder_l1)
+# &lt;span class="nv"&gt;Define&lt;/span&gt; &lt;span class="nv"&gt;an&lt;/span&gt; &lt;span class="nv"&gt;input&lt;/span&gt; &lt;span class="nv"&gt;sequence&lt;/span&gt;. 
+&lt;span class="nv"&gt;encoder_inputs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;None&lt;/span&gt;, &lt;span class="nv"&gt;num_encoder_tokens&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+# &lt;span class="nv"&gt;Define&lt;/span&gt; &lt;span class="nv"&gt;LSTM&lt;/span&gt; &lt;span class="nv"&gt;layer&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="nv"&gt;and&lt;/span&gt; &lt;span class="nv"&gt;pass&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;above&lt;/span&gt; &lt;span class="nv"&gt;encoder&lt;/span&gt; &lt;span class="nv"&gt;input&lt;/span&gt; &lt;span class="nv"&gt;sequence&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;it&lt;/span&gt;.
+# &lt;span class="nv"&gt;note&lt;/span&gt; &lt;span class="nv"&gt;that&lt;/span&gt; &lt;span class="nv"&gt;return_sequences&lt;/span&gt; &lt;span class="nv"&gt;argument&lt;/span&gt; &lt;span class="nv"&gt;must&lt;/span&gt; &lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;be&lt;/span&gt; &lt;span class="nv"&gt;True&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;order&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="k"&gt;connect&lt;/span&gt; &lt;span class="k"&gt;next&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;layer&lt;/span&gt;.
+&lt;span class="nv"&gt;encoder_l1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;LSTM&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;latent_dim&lt;/span&gt;, &lt;span class="nv"&gt;return_sequences&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;True&lt;/span&gt;, &lt;span class="nv"&gt;return_state&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;True&lt;/span&gt;&lt;span class="ss"&gt;)(&lt;/span&gt;&lt;span class="nv"&gt;encoder_inputs&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+# &lt;span class="nv"&gt;Define&lt;/span&gt; &lt;span class="nv"&gt;LSTM&lt;/span&gt; &lt;span class="nv"&gt;layer&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;encoder&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;encoder&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;LSTM&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;latent_dim&lt;/span&gt;, &lt;span class="nv"&gt;return_state&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;True&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+# &lt;span class="nv"&gt;Pass&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="k"&gt;connect&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;encoder_l1&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;LSTM&lt;/span&gt; &lt;span class="nv"&gt;layer&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;encoder&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;encoder_outputs&lt;/span&gt;, &lt;span class="nv"&gt;state_h&lt;/span&gt;, &lt;span class="nv"&gt;state_c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;encoder&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;encoder_l1&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
 ...
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -442,25 +442,25 @@ encoder_outputs, state_h, state_c = encoder(encoder_l1)
 &lt;p&gt;و به همین ترتیب این اقدام باید برای دیگر لایه‌های شبکه هم انجام&amp;nbsp;شود.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;h3&gt;تبدیل مدل به یک مدل در سطح&amp;nbsp;واژه&lt;/h3&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;مدل فوق در سطح کاراکتر عمل می‌کند. اگر یک توالی از اعداد صحیح داشته باشیم که هر عدد نشان دهنده شاخص واژه‌ای خاص در یک دیکشنری باشد. می‌توان با استفاده از لایه embedding موجود در keras مدل را برای استفاده از این نشانه‌های عددصحیح آماده کرد. تکه کد زیر این امکان را اضافه&amp;nbsp;می‌کند:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-# Define an input sequence and process it.
-encoder_inputs = Input(shape=(None,))
-x = Embedding(num_encoder_tokens, latent_dim)(encoder_inputs)
-x, state_h, state_c = LSTM(latent_dim,return_state=True)(x)encoder_states = [state_h, state_c]
-# Set up the decoder, using `encoder_states` as initial state.
-decoder_inputs = Input(shape=(None,))
-x = Embedding(num_decoder_tokens, latent_dim)(decoder_inputs)
-x = LSTM(latent_dim, return_sequences=True)(x, initial_state=encoder_states)
-decoder_outputs = Dense(num_decoder_tokens, activation=&amp;#39;softmax&amp;#39;)(x)
-# Define the model that will turn
-#encoder_input_data` &amp;amp; `decoder_input_data` into `decoder_target_data`
-model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
-# Compile &amp;amp; run training
-model.compile(optimizer=&amp;#39;rmsprop&amp;#39;, loss=&amp;#39;categorical_crossentropy&amp;#39;)
-# Note that `decoder_target_data` needs to be one-hot encoded,
-# rather than sequences of integers like `decoder_input_data`!
-model.fit([encoder_input_data, decoder_input_data], decoder_target_data,batch_size=batch_size,epochs=epochs, validation_split=0.2)
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="c1"&gt;# Define an input sequence and process it.&lt;/span&gt;
+&lt;span class="n"&gt;encoder_inputs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;Input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,))&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;Embedding&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;num_encoder_tokens&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;latent_dim&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;encoder_inputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;state_h&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;state_c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;LSTM&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;latent_dim&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;return_state&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="no"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="n"&gt;encoder_states&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;state_h&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;state_c&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="c1"&gt;# Set up the decoder, using `encoder_states` as initial state.&lt;/span&gt;
+&lt;span class="n"&gt;decoder_inputs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;Input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,))&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;Embedding&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;latent_dim&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;decoder_inputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;LSTM&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;latent_dim&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;return_sequences&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="no"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;initial_state&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;encoder_states&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;decoder_outputs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;Dense&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;num_decoder_tokens&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;activation&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;softmax&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c1"&gt;# Define the model that will turn&lt;/span&gt;
+&lt;span class="c1"&gt;#encoder_input_data` &amp;amp; `decoder_input_data` into `decoder_target_data`&lt;/span&gt;
+&lt;span class="n"&gt;model&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;Model&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;encoder_inputs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;decoder_inputs&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;decoder_outputs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c1"&gt;# Compile &amp;amp; run training&lt;/span&gt;
+&lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;optimizer&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;rmsprop&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;loss&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;categorical_crossentropy&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c1"&gt;# Note that `decoder_target_data` needs to be one-hot encoded,&lt;/span&gt;
+&lt;span class="c1"&gt;# rather than sequences of integers like `decoder_input_data`!&lt;/span&gt;
+&lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;fit&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;encoder_input_data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;decoder_input_data&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;decoder_target_data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;batch_size&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;batch_size&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;epochs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;epochs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;validation_split&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -725,7 +725,8 @@ model.fit([encoder_input_data, decoder_input_data], decoder_target_data,batch_si
 &lt;p&gt;چندین نوع محاسبه از امتیاز &lt;span class="caps"&gt;BLEU&lt;/span&gt; وجود دارد کــه هر نوع با یک اسکریپت زبان perl تعریف شده است و در این مقاله از این اسکریپت‌های موجود برای محاسبه امتیاز &lt;span class="caps"&gt;BLEU&lt;/span&gt; استفاده شده است.&amp;#160;&lt;a class="footnote-backref" href="#fnref-34" title="Jump back to footnote 33 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="blog"></category></entry><entry><title>Welcome</title><link href="https://m-zakeri.github.io%5Cwelcome.html" rel="alternate"></link><published>2019-02-22T12:30:00+03:30</published><updated>2019-02-22T12:30:00+03:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\welcome.html,2019-02-22:</id><summary type="html">&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;&lt;strong&gt;L&lt;/strong&gt;ife &lt;strong&gt;I&lt;/strong&gt;s a &lt;strong&gt;F&lt;/strong&gt;ractal &lt;strong&gt;E&lt;/strong&gt;vent. Create unlimited values in limited time!&amp;#8221;,&amp;nbsp;Morteza&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="fractal-life" src="../static/img/fractal-life.gif"&gt;&lt;/p&gt;
+&lt;/div&gt;</content><category term="blog"></category></entry><entry><title>Computer science at the heart of civilization</title><link href="https://m-zakeri.github.io%5Ccomputer-science-at-the-heart-of-civilization.html" rel="alternate"></link><published>2019-02-22T12:30:00+03:30</published><updated>2019-02-22T12:30:00+03:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\computer-science-at-the-heart-of-civilization.html,2019-02-22:</id><summary type="html"></summary><content type="html">&lt;p&gt;Through the past years, I connected the computer sciences to various fields: To medicine (non-invasive bladder monitoring system), to civil engineering (bridge management systems), to rail-way engineering (interlocking system), to sociology (an intelligent mixed reserach framework), to sport (Swims competitions management system) and to
+molecular physics (Raman&amp;nbsp;spectroscopy).&lt;/p&gt;</content><category term="blog"></category></entry><entry><title>Welcome</title><link href="https://m-zakeri.github.io%5Cwelcome.html" rel="alternate"></link><published>2019-02-22T12:30:00+03:30</published><updated>2019-02-22T12:30:00+03:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io\welcome.html,2019-02-22:</id><summary type="html">&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;&lt;strong&gt;L&lt;/strong&gt;ife &lt;strong&gt;I&lt;/strong&gt;s a &lt;strong&gt;F&lt;/strong&gt;ractal &lt;strong&gt;E&lt;/strong&gt;vent. Create unlimited values in limited time!&amp;#8221;,&amp;nbsp;Morteza&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="fractal-life" src="../static/img/fractal-life.gif"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;&lt;strong&gt;L&lt;/strong&gt;ife &lt;strong&gt;I&lt;/strong&gt;s a &lt;strong&gt;F&lt;/strong&gt;ractal &lt;strong&gt;E&lt;/strong&gt;vent (Exploration). Create unlimited (infinite) values in limited&amp;nbsp;time!&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Morteza&lt;/em&gt;&lt;/p&gt;

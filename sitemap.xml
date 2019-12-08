@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/archives.html</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tags.html</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/categories.html</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/contact-me.html</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,7 +54,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/pages/my-presentations-and-talks.html</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,7 +68,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/pages/resources.html</loc>
-<lastmod>2019-09-12T19:58:55-00:00</lastmod>
+<lastmod>2019-12-08T21:40:51-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -88,7 +88,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://m-zakeri.github.io/compiler-design-and-constructions.html</loc>
+<loc>https://m-zakeri.github.io/compilers.html</loc>
 <lastmod>2019-03-10T21:12:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
@@ -96,6 +96,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/a-survey-of-sequence-to-sequence-learning-with-neural-networks.html</loc>
+<lastmod>2019-02-22T12:30:00+03:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/computer-science-at-the-heart-of-civilization.html</loc>
 <lastmod>2019-02-22T12:30:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
@@ -138,6 +145,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/tag/courses.html</loc>
+<lastmod>2019-03-10T21:12:00+03:26</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/tag/teaching.html</loc>
 <lastmod>2019-03-10T21:12:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
