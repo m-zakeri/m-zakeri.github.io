@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/connecting_the_dots.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/courses/advanced_software_engineering.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/courses/dynamic_complex_networks.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/courses/game_theory.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/pages/gallery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/pages/media.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/pages/news.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/pages/publications.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu-font-family-0.83.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/CONTRIBUTING.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/FONTLOG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/LICENCE-FAQ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/LICENCE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/TRADEMARKS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-B.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-BI.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-C.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-L.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-LI.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-M.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-MI.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-R.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-RI.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-Th.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-B.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-BI.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-R.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-RI.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/copyright.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/img/446721837_191255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/img/msc_graduate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/static/img/outstanding-student-2018.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/courses/compiler.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/courses/compiler.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/honors.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/honors.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/presenations.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/presenations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/resources.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/static/img/sunrise-in-iust.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/img/sunrise-in-iust.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pelicanconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelicanconf.py" afterDir="false" />
-    </list>
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

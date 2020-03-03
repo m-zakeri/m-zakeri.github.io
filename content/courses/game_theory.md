@@ -1,4 +1,4 @@
-Title: Compilers
+Title: Game Theory
 Date: 2020-03-04 21:12
 Tags: courses, teaching
 Author: Morteza
