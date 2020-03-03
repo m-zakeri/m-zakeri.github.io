@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="" />
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/content/blog/connecting_the_dots.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/courses/advanced_software_engineering.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/courses/dynamic_complex_networks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/courses/game_theory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/gallery.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/gallery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/static/img/446721837_191255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/static/img/msc_graduate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelicanconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelicanconf.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
