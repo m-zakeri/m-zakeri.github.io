@@ -1,67 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/connecting_the_dots.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/courses/advanced_software_engineering.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/courses/dynamic_complex_networks.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/courses/game_theory.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/gallery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/media.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/news.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/publications.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu-font-family-0.83.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/CONTRIBUTING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/FONTLOG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/LICENCE-FAQ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/LICENCE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/TRADEMARKS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-B.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-BI.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-C.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-L.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-LI.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-M.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-MI.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-R.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-RI.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/Ubuntu-Th.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-B.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-BI.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-R.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/UbuntuMono-RI.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/css/ubuntu/copyright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/img/446721837_191255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/img/msc_graduate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/static/img/outstanding-student-2018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/courses/compiler.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/courses/compiler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/honors.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/honors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/presenations.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/presenations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/projects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/resources.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/static/img/sunrise-in-iust.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/img/sunrise-in-iust.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelicanconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelicanconf.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/pages/about.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="553">
-                <caret line="79" selection-start-line="79" selection-end-line="79" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/static/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/publishconf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pelicanconf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="82" column="73" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/pages/projects.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="484">
-                <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,119 +71,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/mainpage.css" />
-        <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/links.html" />
-        <option value="$PROJECT_DIR$/blog/index.html" />
-        <option value="$PROJECT_DIR$/contact/index.html" />
-        <option value="$PROJECT_DIR$/resources/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/compiler/index.html" />
-        <option value="$PROJECT_DIR$/content/blog/seq2seq-learning.md" />
-        <option value="$PROJECT_DIR$/content/blog/childrens-and-programming.md" />
-        <option value="$PROJECT_DIR$/content/courses/compiler.md" />
-        <option value="$PROJECT_DIR$/content/blog/wordpress.md" />
-        <option value="$PROJECT_DIR$/content/blog/children-and-programming.md" />
-        <option value="$PROJECT_DIR$/content/pages/contact.md" />
-        <option value="$PROJECT_DIR$/content/blog/welcome.md" />
-        <option value="$PROJECT_DIR$/content/pages/honors.md" />
-        <option value="$PROJECT_DIR$/content/pages/presenations.md" />
-        <option value="$PROJECT_DIR$/content/pages/resources.md" />
-        <option value="$PROJECT_DIR$/publishconf.py" />
-        <option value="$PROJECT_DIR$/content/pages/about.md" />
-        <option value="$PROJECT_DIR$/content/pages/projects.md" />
-        <option value="$PROJECT_DIR$/pelicanconf.py" />
-        <option value="$PROJECT_DIR$/content/static/css/custom.css" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="246" />
-    <option name="y" value="-8" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1Qk06xEku6PNd53WGCmIv8oTiw6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="m-zakeri.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m-zakeri.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="m-zakeri.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m-zakeri.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="m-zakeri.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m-zakeri.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="m-zakeri.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m-zakeri.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="courses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="m-zakeri.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m-zakeri.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="m-zakeri.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m-zakeri.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="m-zakeri.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m-zakeri.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AnacondaProjects\m-zakeri.github.io\css\img" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -387,27 +292,21 @@
     <option name="localTasksCounter" value="26" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19652265" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49683878" visible="true" weight="0.29577464" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50316125" side_tool="true" visible="true" weight="0.29577464" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32963374" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -422,178 +321,14 @@
     <MESSAGE value="compiler project test cases." />
     <option name="LAST_COMMIT_MESSAGE" value="compiler project test cases." />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newindex/newindex.html" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_ipython_console_011.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainpage.css" />
-    <entry file="file://$PROJECT_DIR$/contact.html" />
-    <entry file="file://$PROJECT_DIR$/links.html" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/20180323_123215-500x350.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/20180323_123215-80x80.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/monogram-letter-m-hi.png" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-80x80.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-500x350.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-1024x768.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/photo_2016-05-23_00-27-14-1200x675.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/04/20180323_123215.jpg" />
-    <entry file="file://$PROJECT_DIR$/indexcff1.html" />
-    <entry file="file://$PROJECT_DIR$/index9cd7.html" />
-    <entry file="file://$PROJECT_DIR$/index1c4a.html" />
-    <entry file="file://$PROJECT_DIR$/index0d0b.html" />
-    <entry file="file://$PROJECT_DIR$/contact/index.html" />
-    <entry file="file://$PROJECT_DIR$/blog/index.html" />
-    <entry file="file://$PROJECT_DIR$/resources/index.html" />
-    <entry file="file://$PROJECT_DIR$/old_site/links.html" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/compiler/index.html" />
-    <entry file="file://$PROJECT_DIR$/content/blog/seq2seq-learning.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="26" selection-end-line="4" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="802" column="8" selection-start-line="802" selection-start-column="8" selection-end-line="802" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/courses/compiler.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/children-and-programming.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="16" column="399" selection-start-line="16" selection-start-column="399" selection-end-line="16" selection-end-column="399" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/wordpress.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="12" column="606" selection-start-line="12" selection-start-column="606" selection-end-line="12" selection-end-column="606" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/pages/contact.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/pages/honors.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/welcome.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/pages/presenations.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="267">
-            <caret line="18" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/pages/resources.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="9" column="31" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publish.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/pages/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="553">
-            <caret line="79" selection-start-line="79" selection-end-line="79" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/pages/projects.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="484">
-            <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publishconf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pelicanconf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="82" column="73" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="640" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576331433304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576331433304" />
+    <state x="540" y="257" width="1158" height="660" key="IDE.errors.dialog" timestamp="1575827802477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="257" width="1158" height="660" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575827802477" />
   </component>
 </project>

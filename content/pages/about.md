@@ -4,14 +4,21 @@ URL:
 save_as: index.html
 
 
-
-I am a first year computer engineering Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I have got my B.Sc. in computer engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and then received my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+Hello and welcome! I am a second year Computer Engineering (C.E.) Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I received my B.Sc. in Computer Engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. This website summarizes me and my works :)
 
 ## Research Interests
 > Toward better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
 
 
-My research interests are about empirical and automated software engineering (ASE), especially automated software testing, test data generation, dynamic software analysis and applying machine learning in software engineering.  As a new contribution I want to use deep learning techniques in various phases of software testing process include test data generation, fault localization and program repair. For the time being, I have focused on fuzz testing and test data generation in file format fuzzers. I used deep neural networks (kind of deep learning techniques) to statistically capture the format of highly complex file structures and then built a generative model to generate new test data. It seems that there is a straight relationship between well-formed files and percentage of code coverage when Software Under Test (SUT) was executed with such files as input.
+My research interests are about empirical and automated software engineerin (EaASE), especially automated software refactoring, testing, test data generation, dynamic software analysis and applying machine learning in software engineering.  As a new contribution I want to use deep learning techniques in various phases of software testing process include test data generation, fault localization and program repair. For the time being, I have focused on fuzz testing and test data generation in file format fuzzers. I used deep neural networks (kind of deep learning techniques) to statistically capture the format of highly complex file structures and then built a generative model to generate new test data. It seems that there is a straight relationship between well-formed files and percentage of code coverage when Software Under Test (SUT) was executed with such files as input.
+
+
+### Research Interests in Details
+* Automated software engineering, testing, and debugging.
+* Software reverse engineering, re-engineering, and refactoring.
+* Software security and source code analysis (dynamic and static analysis).
+* Machine learning and deep learning applications in software engineering.
+* Machine learning and deep learning applications in sociology (computational sociology)
 
 ## Current Position
 Currently, I am a member of [IUST Reverse Engineering Research Laboratory](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"} and work under the supervision of [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}. You can find and read more information on the official [laboratory website](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"}. 
@@ -27,10 +34,6 @@ Currently, I am a member of [IUST Reverse Engineering Research Laboratory](http:
 * B.Sc., Computer Engineering, Software; [Arak University](http://en.araku.ac.ir/){:target="_blank"} (2011 - 2015)
     * Project Title: "Design and implementation multi-agent system to participant in Multi-Agent Programming Contest (MAPC) 2015".
     * Supervisor: [Dr. Vahid Rafe](http://webpages.iust.ac.ir/rafe/){:target="_blank"}
-
-
-
-
 
 
 ## Theses
@@ -56,18 +59,20 @@ In my B.Sc. project, I worked on agent-oriented software engineering and develop
 ## Skills
 As a software engineer, I know about software development methodologies (both traditional and modern methodologies), software architectures, enterprise applications design and development, programming, and computer networks. I am an expert in object-oriented design, database concepts, and ORMs. During the IUST master program, I learned about distributed systems, advanced software engineering, software reverse engineering techniques, cluster, grid, and cloud computing, and secure and dependable software systems design. For the time being, my skills are as follows:
 
-* Software Engineering
-* Software Testing
-    * Automatic Test Data Generation
-    * Fuzzing
-    * Dynamic Program Analysis
+* Software engineering
+    * Object-oriented system analysis and design
+    * RUP and Agile methodologies
+* Software testing
+    * Automatic test data generation
+    * Security testing, stress testing, and fuzzing
+    * Static and dynamic program analysis
 * Deep Learning
     * Recurrent Neural Networks
     * Recurrent Language Models
 
 
 ## Micropedia
-From summer 2013 my friends and I also maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
+From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
 
 
 Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} or jump to [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} page for more information. At this time, there is no commenting tool here on my blog and you can contact me anytime by sending an email to: 
@@ -78,9 +83,6 @@ Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_bla
 ## Curriculum vitae
 More details can be found in my up-to-date C.V. 
 
-* My C.V. (u2018 - English) [PDF](https://www.dropbox.com/s/g3jkrhck5v0q0rn/Zakeri_Resume_971201_EN.pdf?dl=0){:target="_blank"}
+* My C.V. August 2019 (English) [PDF](https://www.dropbox.com/s/ey2q9n46bbglc2w/Zakeri_CV20190821.pdf?dl=0){:target="_blank"}
 
-* My C.V. (u2018 - Persian) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
-
-
-
+* My C.V. March 2018  (Persian) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}

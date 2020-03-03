@@ -1,11 +1,11 @@
 
 @font-face {
-  font-family: sitka;
-  src: url(./sitka/sitka.ttc);
+  font-family: ubuntu;
+  src: url(./ubuntu/Ubuntu-L.ttf);
 }
 
 html, body {
-font-family: sitka;
+font-family: ubuntu;
 text-align: justify;
 width: 90%;
 }

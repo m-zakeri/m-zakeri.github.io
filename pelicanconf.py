@@ -52,14 +52,16 @@ INDEX_SAVE_AS = 'blog_index.html'
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives']
 MENUITEMS = (('Blog', '/blog_index.html'),
              ('Resources', '/pages/resources.html'),
+            ('Courses', '/category/courses.html'),
             ('Archives', '/archives.html'),
 	        ('Categories', '/categories.html'),
             ('Tags', '/tags.html'),
 	        ('Sitemap', '/sitemap.xml'))
 
-LINKS = (('Our Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
-         ('Our Micropedia', 'http://micropedia.ir'),
-         ('My University Page', 'http://webpages.iust.ac.ir/morteza_zakeri/'),)
+LINKS = (('Courses', 'https://m-zakeri.github.io/category/courses.html'),
+        ('Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
+        ('Micropedia', 'http://micropedia.ir'),
+        ('University', 'http://webpages.iust.ac.ir/morteza_zakeri/'),)
 
 # Social widget
 GITHUB_URL = 'https://github.com/m-zakeri/'
