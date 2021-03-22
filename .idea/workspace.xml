@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="" />
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/codart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/deep_fuzz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/children-and-programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/children-and-programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/courses/advanced-software-engineering.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/courses/advanced-software-engineering.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/courses/compiler.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/courses/compiler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/news.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/news.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/projects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/publications.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,11 +42,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,18 +58,7 @@
       <recent name="D:\AnacondaProjects\m-zakeri.github.io\css\img" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -255,13 +256,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -277,13 +277,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="compiler project test cases." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576331433304">
+    <state x="740" y="274" width="661" height="660" key="FileChooserDialogImpl" timestamp="1604949409831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576331433304" />
-    <state x="540" y="257" width="1158" height="660" key="IDE.errors.dialog" timestamp="1575827802477">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="257" width="1158" height="660" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575827802477" />
+    <state x="740" y="274" width="661" height="660" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604949409831" />
   </component>
 </project>

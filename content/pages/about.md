@@ -4,13 +4,21 @@ URL:
 save_as: index.html
 
 
-Hello and welcome! I am a second year Computer Engineering (C.E.) Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I received my B.Sc. in Computer Engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. This website summarizes me and my works :)
+Hello and welcome! I am a third year Computer Engineering (C.E.) Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I received my B.Sc. in Computer Engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. This website summarizes me and my works :)
 
 ## Research Interests
-> Toward better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
+> Towards better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
 
 
-My research interests are about empirical and automated software engineerin (EaASE), especially automated software refactoring, testing, test data generation, dynamic software analysis and applying machine learning in software engineering.  As a new contribution I want to use deep learning techniques in various phases of software testing process include test data generation, fault localization and program repair. For the time being, I have focused on fuzz testing and test data generation in file format fuzzers. I used deep neural networks (kind of deep learning techniques) to statistically capture the format of highly complex file structures and then built a generative model to generate new test data. It seems that there is a straight relationship between well-formed files and percentage of code coverage when Software Under Test (SUT) was executed with such files as input.
+My research interests are about empirical and automated software engineerin (EaASE), especially [automated software refactoring](https://m-zakeri.github.io/CodART), [testing](https://github.com/m-zakeri/benchmark), [test data generation](https://m-zakeri.github.io/iust_deep_fuzz), dynamic software analysis and applying machine learning in software engineering.
+
+Software engineering is a very complex task because software systems and ecosystems are inherently complex, intangible, and unpredictable!
+Software engineers must deal with numerous problems during the software development life cycle (SDLC), mainly software testing and maintenance. Automating software engineering activities efficiently not only increase the quality of these activities but also leads to an economic saving. 
+Unfortunately, search-based software engineering (SBSE) fails to cope with many complex problems in measuring and improving software quality.  
+I use machine learning software engineering (MLSE) besides SBSE to address open problems in automating  SDLC activities, including software testing, debugging, repair, and maintenance. 
+During my M.Sc., I applied deep learning to statistically capture the format of complex file structures and then built a generative model to [generate new test data for file format fuzzer](https://m-zakeri.github.io/iust_deep_fuzz). 
+For the time being, as part of my Ph.D. thesis, I have focused on [measuring and improving the testability of software systems artifacts](https://m-zakeri.github.io/ADAFEST). 
+
 
 
 ### Research Interests in Details
@@ -81,8 +89,11 @@ Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_bla
 
 
 ## Curriculum vitae
-More details can be found in my up-to-date C.V. 
 
-* My C.V. August 2019 (English) [PDF](https://www.dropbox.com/s/ey2q9n46bbglc2w/Zakeri_CV20190821.pdf?dl=0){:target="_blank"}
+More details can be found in my up-to-date C.V.
+
+* My C.V. August 2020 (English) [PDF](https://www.dropbox.com/s/h1i8tt2my07qps6/Zakeri_CV20200813.pdf?dl=0){:target="_blank"}
+  
 
 * My C.V. March 2018  (Persian) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
+

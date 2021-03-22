@@ -1,5 +1,5 @@
 Title: Advanced Software Engineering
-Date: 2020-03-04 00:37
+Date: 2021-03-23 00:23
 Tags: courses, teaching
 Author: Morteza
 Summary: Advanced Software Engineering, Graduate course.
@@ -18,3 +18,4 @@ I was teaching assistant of Advanced Software Engineering M.Sc. and Ph.D. course
 
 
 ## As Student
+
