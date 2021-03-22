@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/codart.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/deep_fuzz.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/children-and-programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/children-and-programming.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/courses/advanced-software-engineering.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/courses/advanced-software-engineering.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/courses/compiler.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/courses/compiler.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/news.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/news.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/publications.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

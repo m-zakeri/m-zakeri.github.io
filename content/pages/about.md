@@ -28,6 +28,7 @@ For the time being, as part of my Ph.D. thesis, I have focused on [measuring and
 * Machine learning and deep learning applications in software engineering.
 * Machine learning and deep learning applications in sociology (computational sociology)
 
+
 ## Current Position
 Currently, I am a member of [IUST Reverse Engineering Research Laboratory](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"} and work under the supervision of [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}. You can find and read more information on the official [laboratory website](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"}. 
 
@@ -52,11 +53,13 @@ Hmm... It is on the way!
 ### Master Thesis
 In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer and provide IUST-PDFCorpus, a large dataset of PDF files and PDF data objects. IUST-DeepFuzz can automatically learn the grammar (structure) of a given input file, then generate and fuzz various test data based on the learned model and some mutation-based methods. You can find all relevant information about my M.Sc. thesis on the [IUST-DeepFuzz GitHub repository](https://github.com/m-zakeri/iust_deep_fuzz){:target="_blank"}. 
 
+
 * My M.Sc Thesis [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T003nHGvhCeNP_ZpH){:target="_blank"}
 * My M.Sc Seminar Report [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T0z0qB1ioqHIMebW_){:target="_blank"}
 * My M.Sc. Thesis Defense Slides [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T0z5EohuEY5QdVqFs){:target="_blank"}  - [[PPTx*]](https://1drv.ms/p/s!AmpQstTzvc-TgqRuCUxRfrlxgzDWKQ){:target="_blank"}
 
    ''' *Password is needed. '''
+
 
 ### Bachelor Project
 In my B.Sc. project, I worked on agent-oriented software engineering and developed a multi-agent system to participate in the [multi-agent programming contest (MAPC)](https://multiagentcontest.org/){:target="_blank"}. Unfortunately, the competitions did not hold in the year 2014, for the technical reasons raised by the new scenario, and our team could not participate in the competitions. But MAPC is alive for me and my teammates and there for our final project reports is kept in draft version :)
