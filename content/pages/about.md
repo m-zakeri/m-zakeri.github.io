@@ -12,10 +12,10 @@ Hello and welcome! I am a forth year computer science Ph.D. student at [Iran Uni
 
 ### Overview
 * Automated software engineering (code generation, testing, and debugging)
-* Software reverse engineering, re-engineering, and refactoring
+* Software refactoring, re-engineering, and reverse engineering
 * Compilers, program analysis, and transformation
 * Machine learning and natural language processing applications in software engineering
-* Machine learning applications in medical engineering
+* Machine learning applications in biomedical engineering
 * Machine learning applications in sociology (computational sociology)
 
 
@@ -91,7 +91,7 @@ As a software engineer, I know about software development methodologies (both tr
 From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
 
 
-Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} or jump to [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} page for more information. At this time, there is no commenting tool here on my blog and you can contact me anytime by sending an email to: 
+Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} or jump to [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} page for more information. At this time, there is no commenting tool here on my blog, and you can contact me anytime by sending an email to: 
 **M – Z A K E R I [AT] L I V E [DOT] C O M**
 ([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). I will provide proper response as soon as possible.
 
