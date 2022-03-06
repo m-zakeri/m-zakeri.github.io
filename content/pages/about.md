@@ -1,32 +1,37 @@
 Title: About Me
-Author: Morteza
+Author: Morteza Zakeri
 URL:
 save_as: index.html
 
 
-Hello and welcome! I am a third year Computer Engineering (C.E.) Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I received my B.Sc. in Computer Engineering / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and my M.Sc. degree from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. This website summarizes me and my works :)
+Hello and welcome! I am a forth year computer science Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I received my B.Sc. in computer science / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. This website summarizes me and my works :)
 
 ## Research Interests
 > Towards better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
 
 
-My research interests are about empirical and automated software engineerin (EaASE), especially [automated software refactoring](https://m-zakeri.github.io/CodART), [testing](https://github.com/m-zakeri/benchmark), [test data generation](https://m-zakeri.github.io/iust_deep_fuzz), dynamic software analysis and applying machine learning in software engineering.
+### Overview
+* Automated software engineering (code generation, testing, and debugging)
+* Software reverse engineering, re-engineering, and refactoring
+* Compilers, program analysis, and transformation
+* Machine learning and natural language processing applications in software engineering
+* Machine learning applications in medical engineering
+* Machine learning applications in sociology (computational sociology)
 
-Software engineering is a very complex task because software systems and ecosystems are inherently complex, intangible, and unpredictable!
-Software engineers must deal with numerous problems during the software development life cycle (SDLC), mainly software testing and maintenance. Automating software engineering activities efficiently not only increase the quality of these activities but also leads to an economic saving. 
-Unfortunately, search-based software engineering (SBSE) fails to cope with many complex problems in measuring and improving software quality.  
-I use machine learning software engineering (MLSE) besides SBSE to address open problems in automating  SDLC activities, including software testing, debugging, repair, and maintenance. 
-During my M.Sc., I applied deep learning to statistically capture the format of complex file structures and then built a generative model to [generate new test data for file format fuzzer](https://m-zakeri.github.io/iust_deep_fuzz). 
+
+### Research statement
+ My research interests are about empirical and automated software engineering (EASE), focused on [refactoring](https://m-zakeri.github.io/CodART), [testing](https://github.com/m-zakeri/benchmark), [test data generation](https://m-zakeri.github.io/iust_deep_fuzz), static analysis, and applying machine learning in software engineering.
+
+Software engineering is intricate because software systems and ecosystems are inherently complex, intangible, and unpredictable.
+Software engineers must deal with non-trivial activities such as testing, quality assurance, and maintenance during the software development life cycle (SDLC). Efficient automation of these activities not only increases processes quality but also leads to economic savings. 
+
+Unfortunately, search-based software engineering (SBSE) techniques fail to automate emerging tasks such as measuring and improving software quality in practice.
+I use machine learning software engineering (MLSE) besides SBSE to address open problems in automating SDLC activities, including refactoring, testing, debugging, repair, and maintenance. 
+
+During my M.Sc., I applied deep learning to learn the complex files formats grammar and then built a generative model to [generate new test data for file format fuzzer](https://m-zakeri.github.io/iust_deep_fuzz). 
 For the time being, as part of my Ph.D. thesis, I have focused on [measuring and improving the testability of software systems artifacts](https://m-zakeri.github.io/ADAFEST). 
 
 
-
-### Research Interests in Details
-* Automated software engineering, testing, and debugging.
-* Software reverse engineering, re-engineering, and refactoring.
-* Software security and source code analysis (dynamic and static analysis).
-* Machine learning and deep learning applications in software engineering.
-* Machine learning and deep learning applications in sociology (computational sociology)
 
 
 ## Current Position

@@ -146,7 +146,7 @@
  'TAG_URL': 'tag/{slug}.html',
  'TEMPLATE_EXTENSIONS': ['.html'],
  'TEMPLATE_PAGES': {},
- 'THEME': 'd:\\anaconda3\\envs\\tensorflow\\lib\\site-packages\\pelican\\themes\\Flex',
+ 'THEME': 'D:\\AnacondaProjects\\m-zakeri.github.io\\Flex',
  'THEME_STATIC_DIR': 'theme',
  'THEME_STATIC_PATHS': ['static'],
  'THEME_TEMPLATES_OVERRIDES': [],
