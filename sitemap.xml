@@ -5,77 +5,77 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/archives.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tags.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/categories.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/contact-me.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/gallery.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/honors-and-awards.html</loc>
-<lastmod>2019-04-01T19:30:00+04:30</lastmod>
+<lastmod>2022-04-01T19:30:00+04:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/media.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/news.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/presentations.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -89,16 +89,51 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/pages/publications.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/resources.html</loc>
-<lastmod>2022-03-06T15:15:10-00:00</lastmod>
+<lastmod>2022-05-03T00:49:12-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/a-gentle-introduction-to-search-based-software-refactoring.html</loc>
+<lastmod>2022-05-03T00:45:00+04:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/codart-automated-source-code-refactoring-toolkit.html</loc>
+<lastmod>2022-05-02T23:58:00+04:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/automated-refactoring-of-the-java-code-using-antlr-in-python.html</loc>
+<lastmod>2022-05-02T00:30:00+04:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/program-dynamic-analysis-with-antlr.html</loc>
+<lastmod>2021-03-30T23:45:00+04:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/program-static-analysis-with-antlr.html</loc>
+<lastmod>2021-03-29T23:45:00+04:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
 </url>
 
 <url>
@@ -116,8 +151,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://m-zakeri.github.io/codart-automated-source-code-refactoring-toolkit.html</loc>
-<lastmod>2021-03-22T23:58:00+04:30</lastmod>
+<loc>https://m-zakeri.github.io/an-introduction-to-antlr-in-python.html</loc>
+<lastmod>2021-03-22T23:00:00+04:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
@@ -173,7 +208,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/category/blog.html</loc>
-<lastmod>2021-03-22T23:58:00+03:26</lastmod>
+<lastmod>2022-05-03T00:45:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
@@ -181,6 +216,34 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://m-zakeri.github.io/category/courses.html</loc>
 <lastmod>2021-03-23T00:23:00+03:26</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/tag/blog.html</loc>
+<lastmod>2022-05-03T00:45:00+03:26</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/tag/antlr.html</loc>
+<lastmod>2022-05-03T00:45:00+03:26</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/tag/compiler.html</loc>
+<lastmod>2022-05-03T00:45:00+03:26</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://m-zakeri.github.io/tag/tutorial.html</loc>
+<lastmod>2022-05-03T00:45:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
@@ -195,13 +258,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://m-zakeri.github.io/tag/teaching.html</loc>
 <lastmod>2021-03-23T00:23:00+03:26</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.6</priority>
-</url>
-
-<url>
-<loc>https://m-zakeri.github.io/tag/blog.html</loc>
-<lastmod>2021-03-22T23:58:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
@@ -229,7 +285,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/author/morteza.html</loc>
-<lastmod>2021-03-23T00:23:00+03:26</lastmod>
+<lastmod>2022-05-03T00:45:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
