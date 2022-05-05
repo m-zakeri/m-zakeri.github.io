@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update post">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/publications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651768031020</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Update home page">
+      <created>1651769136087</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1651769136087</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -410,6 +416,7 @@
     <MESSAGE value="Add a blog post search-based refactoring" />
     <MESSAGE value="Add some figures used in the blog posts" />
     <MESSAGE value="Update post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update post" />
+    <MESSAGE value="Update home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update home page" />
   </component>
 </project>
