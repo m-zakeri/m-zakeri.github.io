@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="">
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update post">
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,22 +34,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1Qk06xEku6PNd53WGCmIv8oTiw6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/AnacondaProjects/m-zakeri.github.io/content/blog"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\blog" />
+      <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\static\img\dynamic_analysis" />
+      <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\static\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AnacondaProjects\m-zakeri.github.io\css\img" />
     </key>
@@ -235,7 +247,126 @@
       <option name="project" value="LOCAL" />
       <updated>1548220027093</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update back-end">
+      <created>1646566695976</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1646566695976</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update about.md">
+      <created>1646567008599</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1646567008599</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update css">
+      <created>1651747527462</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651747527463</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add static_analysis.md">
+      <created>1651749058342</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1651749058342</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Update resources.md">
+      <created>1651749076088</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651749076088</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update news and projects">
+      <created>1651749095665</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1651749095665</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add the blog post on ANTLR basic">
+      <created>1651749167400</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651749167400</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add the blog post on the program dynamic and static analysis with ANTLR">
+      <created>1651749233883</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1651749233883</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Update courses materials">
+      <created>1651750553228</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1651750553228</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Update courses materials">
+      <created>1651750571529</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1651750571529</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Update honors">
+      <created>1651750587649</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1651750587649</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update CodART blog post">
+      <created>1651750739634</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1651750739634</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add a blog post about automated refactoring with ANTLR">
+      <created>1651767051549</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1651767051549</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Update links">
+      <created>1651767067719</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1651767067719</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add a blog post search-based refactoring">
+      <created>1651767912387</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1651767912387</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add some figures used in the blog posts">
+      <created>1651768004288</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1651768004288</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Update post">
+      <created>1651768031020</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1651768031020</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -251,7 +382,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -264,12 +394,22 @@
     <MESSAGE value="New website launched." />
     <MESSAGE value="Change title from msc to phd student." />
     <MESSAGE value="compiler project test cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="compiler project test cases." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="274" width="661" height="660" key="FileChooserDialogImpl" timestamp="1604949409831">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" width="661" height="660" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604949409831" />
+    <MESSAGE value="Update back-end" />
+    <MESSAGE value="Update about.md" />
+    <MESSAGE value="Update css" />
+    <MESSAGE value="Add static_analysis.md" />
+    <MESSAGE value="Update resources.md" />
+    <MESSAGE value="Update news and projects" />
+    <MESSAGE value="Add the blog post on ANTLR basic" />
+    <MESSAGE value="Add the blog post on the program dynamic and static analysis with ANTLR" />
+    <MESSAGE value="Update courses materials" />
+    <MESSAGE value="Update honors" />
+    <MESSAGE value="Update CodART blog post" />
+    <MESSAGE value="Add a blog post about automated refactoring with ANTLR" />
+    <MESSAGE value="Update links" />
+    <MESSAGE value="Add a blog post search-based refactoring" />
+    <MESSAGE value="Add some figures used in the blog posts" />
+    <MESSAGE value="Update post" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update post" />
   </component>
 </project>
