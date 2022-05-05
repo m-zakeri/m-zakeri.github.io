@@ -1,5 +1,5 @@
 Title: CodART: Automated Source Code Refactoring Toolkit
-Date: 2021-03-22 23:58
+Date: 2022-05-02 23:58
 Tags: blog
 Author: Morteza
 Summary: Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe, and if so, transforms the program.
