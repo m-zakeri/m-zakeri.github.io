@@ -9,7 +9,7 @@ Summary: Compiler design and constructions, Undergraduate course (Bachelor).
 
 
 ### Foreword
-I was teaching assistant of Compiler Design and Construction B.Sc. course by [Dr. Saeed Parsa](http://parsa.iust.ac.ir/) {:target="_blank"} for seven semesters (more than three years) at Iran University of Science and Technology. Our teaching materials during these three years are available to view and download.
+I was teaching assistant of Compiler Design and Construction B.Sc. course by [Dr. Saeed Parsa](http://parsa.iust.ac.ir/){:target="_blank"} for seven semesters (more than three years) at Iran University of Science and Technology. Our teaching materials during these three years are available to view and download.
 
 I put all source code that I developed to practically teach compiler  to students on the GitHub page, the [IUST compiler course](http://parsa.iust.ac.ir/courses/compilers/){:target="_blank"}. 
 
