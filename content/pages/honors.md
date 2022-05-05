@@ -1,12 +1,13 @@
 Title: Honors and Awards
 Author: Morteza
 Date: 2019-04-01 10:20
-Modified: 2019-04-01 19:30
+Modified: 2022-04-01 19:30
 
 
 ## Graduate Study
+* Distinguished Ph.D. researcher (recognized by the IUST Talent Office), Winter 2022
 * **Ph.D.** admission without entrance exam, Fall 2018.
-* Awarded as an **outstanding graduated**, Iran University of Science and Technology (IUST), 2019.
+* Awarded as an **outstanding graduate**, Iran University of Science and Technology (IUST), 2019.
 * Ranked **first** among 60 M.Sc. students.
 * Awarded as an **outstanding student** by Iran University of Science and Technology (IUST) Talents Office, 2017.
 
