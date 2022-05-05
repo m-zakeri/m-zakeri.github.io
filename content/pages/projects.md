@@ -19,9 +19,9 @@ Modified: 2019-04-01 19:30
 
 
 ## Enterprise Projects
-* Parsina Bridge Management System (BMS), 2015.
-* Classchin, 2014. [[www]](https://github.com/MAJAVA/ClassChinX){:target="_blank"}
-* Karchin
+* Parsina Bridge Management System (BMS) a.k.a Golden Gate , 2015.
+* ClassChin, 2014. [[www]](https://github.com/MAJAVA/ClassChinX){:target="_blank"}
+* KarChin
 
 
 
