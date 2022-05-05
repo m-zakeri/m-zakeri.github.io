@@ -30,8 +30,7 @@ I use machine learning software engineering (MLSE) besides SBSE to address open 
 
 During my M.Sc., I applied deep learning to learn the complex files formats grammar and then built a generative model to [generate new test data for file format fuzzer](https://m-zakeri.github.io/iust_deep_fuzz). 
 For the time being, as part of my Ph.D. thesis, I have focused on [measuring and improving the testability of software systems artifacts](https://m-zakeri.github.io/ADAFEST). 
-
-
+I have described some backgrounds used in my research in my [blog](https://m-zakeri.github.io/category/blog.html){:target="_blank"}.
 
 
 ## Current Position
