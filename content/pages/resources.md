@@ -4,6 +4,13 @@ Author: Morteza
 
 Some related and useful links in programming and software engineering
 
+## IUST Course Arsenal
+* [All things you need to pass a cOuRcE during your graduate program at IUST](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"} – March 2020 
+
+This repository contains my notes, assignments, presentations, and projects for some graduate courses in computer science and artificial intelligence. In almost all of these courses, I was in **the top three students** among my classmate. I'm pleased to share these materials with you. Any feedback about them will be great. 
+
+I do not guarantee the absence of scientific mistakes in these materials, but please let me know if you find any mistakes, copyright violations, and any other issues. The IUST Graduate Course Arsenal provides a roadmap for graduate students who want to advance quickly and helps them to go one step forward toward discovering new topics and producing their original research. The repository will be publicly available until **March 11, 2023**.
+
 
 ## Research and technical reports
 
