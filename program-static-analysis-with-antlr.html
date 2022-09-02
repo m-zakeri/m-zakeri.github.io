@@ -401,7 +401,7 @@ The first field holds all class instances of the source code, and the second fie
 <span class="cp">#</span><span class="w"> </span><span class="cp">include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
 <span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span><span class="w"></span>
 
-<span class="k">class</span> <span class="nc">Person</span><span class="w"></span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Person</span><span class="w"></span>
 <span class="p">{</span><span class="w"></span>
 <span class="k">protected</span><span class="o">:</span><span class="w"></span>
 <span class="w">     </span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">;</span><span class="w"></span>
@@ -432,7 +432,7 @@ The first field holds all class instances of the source code, and the second fie
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
 
-<span class="k">class</span> <span class="nc">Student</span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Person</span><span class="w"></span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Student</span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Person</span><span class="w"></span>
 <span class="p">{</span><span class="w"></span>
 <span class="k">private</span><span class="o">:</span><span class="w"></span>
 <span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="n">studentNumber</span><span class="p">;</span><span class="w"></span>
@@ -456,7 +456,7 @@ The first field holds all class instances of the source code, and the second fie
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
 
-<span class="k">class</span> <span class="nc">Teacher</span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Person</span><span class="w"></span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Teacher</span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Person</span><span class="w"></span>
 <span class="p">{</span><span class="w"></span>
 <span class="k">private</span><span class="o">:</span><span class="w"></span>
 <span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="n">teacherNumber</span><span class="p">;</span><span class="w"></span>
@@ -477,7 +477,7 @@ The first field holds all class instances of the source code, and the second fie
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
 
-<span class="k">class</span> <span class="nc">Course</span><span class="w"></span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Course</span><span class="w"></span>
 <span class="p">{</span><span class="w"></span>
 <span class="k">public</span><span class="o">:</span><span class="w"></span>
 <span class="w">    </span><span class="n">string</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w"></span>
@@ -494,8 +494,8 @@ The first field holds all class instances of the source code, and the second fie
 <span class="cm">/* main function */</span><span class="w"></span>
 <span class="kt">int</span><span class="w"> </span><span class="n">main</span><span class="p">()</span><span class="w"></span>
 <span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="n">Teacher</span><span class="w"> </span><span class="nf">t1</span><span class="p">(</span><span class="s">&quot;Saeed&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Parsa&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1234</span><span class="p">,</span><span class="w"> </span><span class="mi">1398</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="n">Student</span><span class="w"> </span><span class="nf">s1</span><span class="p">(</span><span class="s">&quot;Morteza&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Zakeri&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">5678</span><span class="p">,</span><span class="w"> </span><span class="mi">2020</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="n">Teacher</span><span class="w"> </span><span class="n">t1</span><span class="p">(</span><span class="s">&quot;Saeed&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Parsa&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1234</span><span class="p">,</span><span class="w"> </span><span class="mi">1398</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="n">Student</span><span class="w"> </span><span class="n">s1</span><span class="p">(</span><span class="s">&quot;Morteza&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Zakeri&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">5678</span><span class="p">,</span><span class="w"> </span><span class="mi">2020</span><span class="p">);</span><span class="w"></span>
 <span class="w">    </span><span class="n">t1</span><span class="p">.</span><span class="n">doJob</span><span class="p">();</span><span class="w"></span>
 <span class="w">    </span><span class="n">s1</span><span class="p">.</span><span class="n">doJob</span><span class="p">();</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
