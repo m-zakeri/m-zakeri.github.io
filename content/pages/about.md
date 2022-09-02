@@ -54,7 +54,7 @@ Currently, I am a member of [IUST Reverse Engineering Research Laboratory](http:
 ### Ph.D. Dissertation
 
 **New (September 2022):**
-An early view of my PhD dissertation online appendix is now available at []()
+An early view of my PhD dissertation online appendix is now available at [http://webpages.iust.ac.ir/morteza_zakeri/PhD/](http://webpages.iust.ac.ir/morteza_zakeri/PhD/).
 
 
 
