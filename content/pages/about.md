@@ -52,7 +52,11 @@ Currently, I am a member of [IUST Reverse Engineering Research Laboratory](http:
 ## Theses
 
 ### Ph.D. Dissertation
-Hmm... It is on the way!
+
+**New (September 2022):**
+An early view of my PhD dissertation online appendix is now available at []()
+
+
 
 ### Master Thesis
 In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer and provide IUST-PDFCorpus, a large dataset of PDF files and PDF data objects. IUST-DeepFuzz can automatically learn the grammar (structure) of a given input file, then generate and fuzz various test data based on the learned model and some mutation-based methods. You can find all relevant information about my M.Sc. thesis on the [IUST-DeepFuzz GitHub repository](https://github.com/m-zakeri/iust_deep_fuzz){:target="_blank"}. 
@@ -89,18 +93,19 @@ As a software engineer, I know about software development methodologies (both tr
 ## Micropedia
 From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
 
-
-Please visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} or jump to [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} page for more information. At this time, there is no commenting tool here on my blog, and you can contact me anytime by sending an email to: 
+## Contact
+Visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} pages for more information. 
+There is no commenting tool here on my website. You may contact me by sending an email to: 
 **M – Z A K E R I [AT] L I V E [DOT] C O M**
-([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). I will provide proper response as soon as possible.
+([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). I will provide proper response ASAP.
 
 
 ## Curriculum vitae
 
 More details can be found in my up-to-date C.V.
 
-* My C.V. August 2020 (English) [PDF](https://www.dropbox.com/s/h1i8tt2my07qps6/Zakeri_CV20200813.pdf?dl=0){:target="_blank"}
-  
+* My C.V. September 2022 (English) [PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
+
 
 * My C.V. March 2018  (Persian) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 

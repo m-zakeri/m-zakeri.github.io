@@ -1,9 +1,12 @@
 Title: Publications
 Author: Morteza
 
-Selected publications lists.
+
+An up-to-date list of my publications:
 
 ## Journal (ISI)
+* Zakeri-Nasrabadi, M., & Parsa, S. (2022). **An ensemble meta-estimator to predict source code testability.** Applied Soft Computing, 129, 109562. https://doi.org/10.1016/j.asoc.2022.109562
+
 
 * Shahidi, M., Ashtiani, M., & Zakeri-Nasrabadi, M. (2022). **An automated extract method refactoring approach to correct the long method code smell**. Journal of Systems and Software, 111221.
 
@@ -32,6 +35,9 @@ Selected publications lists.
 
 
 ## Research profiles
+
+* WoS [[www]](https://www.webofscience.com/wos/author/record/1429477){:target="_blank"}
+
 
 * Publons [[www]](https://publons.com/researcher/1809049/morteza-zakeri-nasrabadi/){:target="_blank"}
 

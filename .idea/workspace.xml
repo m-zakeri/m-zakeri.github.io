@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update home page">
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Add cv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/publications.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/static/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/AnacondaProjects/m-zakeri.github.io/content/blog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AnacondaProjects/m-zakeri.github.io/content/blog&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\blog" />
@@ -372,7 +372,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651769136087</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Update publications">
+      <created>1651770959686</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1651770959686</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Update css">
+      <created>1651770986984</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1651770986984</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add cv">
+      <created>1662120756321</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1662120756321</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -402,7 +423,6 @@
     <MESSAGE value="compiler project test cases." />
     <MESSAGE value="Update back-end" />
     <MESSAGE value="Update about.md" />
-    <MESSAGE value="Update css" />
     <MESSAGE value="Add static_analysis.md" />
     <MESSAGE value="Update resources.md" />
     <MESSAGE value="Update news and projects" />
@@ -417,6 +437,9 @@
     <MESSAGE value="Add some figures used in the blog posts" />
     <MESSAGE value="Update post" />
     <MESSAGE value="Update home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update home page" />
+    <MESSAGE value="Update publications" />
+    <MESSAGE value="Update css" />
+    <MESSAGE value="Add cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cv" />
   </component>
 </project>
