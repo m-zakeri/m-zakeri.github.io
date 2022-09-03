@@ -57,22 +57,16 @@ Currently, I am a member of [IUST Reverse Engineering Research Laboratory](http:
 An early view of my PhD dissertation online appendix is now available at [http://webpages.iust.ac.ir/morteza_zakeri/PhD/](http://webpages.iust.ac.ir/morteza_zakeri/PhD/).
 
 
-
 ### Master Thesis
-In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer and provide IUST-PDFCorpus, a large dataset of PDF files and PDF data objects. IUST-DeepFuzz can automatically learn the grammar (structure) of a given input file, then generate and fuzz various test data based on the learned model and some mutation-based methods. You can find all relevant information about my M.Sc. thesis on the [IUST-DeepFuzz GitHub repository](https://github.com/m-zakeri/iust_deep_fuzz){:target="_blank"}. 
+In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer and provided IUST-PDFCorpus, a large dataset of PDF files and PDF data objects. IUST-DeepFuzz can automatically learn the grammar (structure) of a given input file, then generate and fuzz various test data based on the learned model and some mutation-based methods. You can find all relevant information about my M.Sc. thesis on the [IUST-DeepFuzz GitHub repository](https://github.com/m-zakeri/iust_deep_fuzz){:target="_blank"}. 
 
-
-* My M.Sc Thesis [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T003nHGvhCeNP_ZpH){:target="_blank"}
-* My M.Sc Seminar Report [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T0z0qB1ioqHIMebW_){:target="_blank"}
-* My M.Sc. Thesis Defense Slides [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-T0z5EohuEY5QdVqFs){:target="_blank"}  - [[PPTx*]](https://1drv.ms/p/s!AmpQstTzvc-TgqRuCUxRfrlxgzDWKQ){:target="_blank"}
-
-   ''' *Password is needed. '''
+* My M.Sc Thesis [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriThesis_MSc/){:target="_blank"}
 
 
 ### Bachelor Project
 In my B.Sc. project, I worked on agent-oriented software engineering and developed a multi-agent system to participate in the [multi-agent programming contest (MAPC)](https://multiagentcontest.org/){:target="_blank"}. Unfortunately, the competitions did not hold in the year 2014, for the technical reasons raised by the new scenario, and our team could not participate in the competitions. But MAPC is alive for me and my teammates and there for our final project reports is kept in draft version :)
 
-* Download my B.Sc Project Report (Draft version) [[PDF]](https://1drv.ms/b/s!AmpQstTzvc-TgqQsaOdlDn1UwPfcLw){:target="_blank"}
+* Download my B.Sc Project Report (Draft version) [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}
 
 
 ## Skills
@@ -92,6 +86,7 @@ As a software engineer, I know about software development methodologies (both tr
 
 ## Micropedia
 From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
+
 
 ## Contact
 Visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} pages for more information. 
