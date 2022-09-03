@@ -64,9 +64,9 @@ In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer a
 
 
 ### Bachelor Project
-In my B.Sc. project, I worked on agent-oriented software engineering and developed a multi-agent system to participate in the [multi-agent programming contest (MAPC)](https://multiagentcontest.org/){:target="_blank"}. Unfortunately, the competitions did not hold in the year 2014, for the technical reasons raised by the new scenario, and our team could not participate in the competitions. But MAPC is alive for me and my teammates and there for our final project reports is kept in draft version :)
+In my B.Sc. project, I worked on agent-oriented software engineering and developed a multi-agent system to participate in the [multi-agent programming contest (MAPC)](https://multiagentcontest.org/){:target="_blank"}. Unfortunately, the competitions did not hold in the year 2014, for the technical reasons raised by the new scenario, and our team could not participate in the competitions. However, MAPC is alive for me and my teammates. Hence, our final project reports is kept in draft version to be updated ASAP:)
 
-* Download my B.Sc Project Report (Draft version) [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}
+* My B.Sc. Project Report (draft version) [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}
 
 
 ## Skills
