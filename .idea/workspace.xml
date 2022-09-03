@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Add cv">
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update thesis links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/publications.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,7 +392,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662120756321</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Update about page and publication page">
+      <created>1662120951570</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1662120951570</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Update about page add PhD appendix webpage">
+      <created>1662121441415</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1662121441415</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Update thesis links">
+      <created>1662207251691</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1662207251691</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -415,9 +435,6 @@
       <path value="$PROJECT_DIR$/pelican-plugins" />
       <path value="$PROJECT_DIR$/pelican-themes" />
     </ignored-roots>
-    <MESSAGE value="Set the template." />
-    <MESSAGE value="Complete homepage" />
-    <MESSAGE value="Complete homepage and links." />
     <MESSAGE value="New website launched." />
     <MESSAGE value="Change title from msc to phd student." />
     <MESSAGE value="compiler project test cases." />
@@ -440,6 +457,9 @@
     <MESSAGE value="Update publications" />
     <MESSAGE value="Update css" />
     <MESSAGE value="Add cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cv" />
+    <MESSAGE value="Update about page and publication page" />
+    <MESSAGE value="Update about page add PhD appendix webpage" />
+    <MESSAGE value="Update thesis links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update thesis links" />
   </component>
 </project>
