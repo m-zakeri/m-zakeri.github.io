@@ -16,7 +16,7 @@ Modified: 2022-09-16 16:30
 ## Research statement
 > Towards better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
 
- My research interests are about empirical and automated software engineering (EASE), focused on [refactoring](https://m-zakeri.github.io/CodART), [testing](https://github.com/m-zakeri/benchmark), [test data generation](https://m-zakeri.github.io/iust_deep_fuzz), static analysis, and applying machine learning in software engineering.
+My research interests are about empirical and automated software engineering (EASE), focused on [refactoring](https://m-zakeri.github.io/CodART), [testing](https://github.com/m-zakeri/benchmark), [test data generation](https://m-zakeri.github.io/iust_deep_fuzz), static analysis, and applying machine learning in software engineering.
 
 Software engineering is intricate because software systems and ecosystems are inherently complex, intangible, and unpredictable.
 Software engineers must deal with non-trivial activities such as testing, quality assurance, and maintenance during the software development life cycle (SDLC). Efficient automation of these activities not only increases processes quality but also leads to economic savings. 

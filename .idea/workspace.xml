@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update 16 september 2022.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pelicanconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelicanconf.py" afterDir="false" />
-    </list>
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update 16 september 2022, fix bugs." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523204651273</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Set the template.">
-      <created>1523208428624</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1523208428624</updated>
     </task>
     <task id="LOCAL-00004" summary="Set the template.">
       <created>1523208703585</created>
@@ -413,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663327909207</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Update 16 september 2022, fix bugs.">
+      <created>1663328064312</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663328064312</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -435,7 +432,6 @@
       <path value="$PROJECT_DIR$/pelican-plugins" />
       <path value="$PROJECT_DIR$/pelican-themes" />
     </ignored-roots>
-    <MESSAGE value="compiler project test cases." />
     <MESSAGE value="Update back-end" />
     <MESSAGE value="Update about.md" />
     <MESSAGE value="Add static_analysis.md" />
@@ -460,6 +456,7 @@
     <MESSAGE value="Update thesis links" />
     <MESSAGE value="Update about page." />
     <MESSAGE value="Update 16 september 2022." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 16 september 2022." />
+    <MESSAGE value="Update 16 september 2022, fix bugs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 16 september 2022, fix bugs." />
   </component>
 </project>

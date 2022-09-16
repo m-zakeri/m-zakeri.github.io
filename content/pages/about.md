@@ -20,7 +20,7 @@ Visit the [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} a
 * Machine learning applications in biomedical engineering
 * Machine learning applications in sociology (computational sociology)
 
-Find more on the [Research](research.md){:target="_blank"} page.
+Find more on the [Research](https://m-zakeri.github.io/pages/research.html){:target="_blank"} page.
 
 
 ## Educational background
