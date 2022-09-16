@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update thesis links">
+    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update 16 september 2022.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelicanconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelicanconf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523204651273</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Set the template.">
-      <created>1523208291319</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1523208291319</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Set the template.">
-      <created>1523208306790</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1523208306790</updated>
     </task>
     <task id="LOCAL-00003" summary="Set the template.">
       <created>1523208428624</created>
@@ -413,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662207251691</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Update about page.">
+      <created>1662207405624</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1662207405625</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Update 16 september 2022.">
+      <created>1663327909206</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1663327909207</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -435,8 +435,6 @@
       <path value="$PROJECT_DIR$/pelican-plugins" />
       <path value="$PROJECT_DIR$/pelican-themes" />
     </ignored-roots>
-    <MESSAGE value="New website launched." />
-    <MESSAGE value="Change title from msc to phd student." />
     <MESSAGE value="compiler project test cases." />
     <MESSAGE value="Update back-end" />
     <MESSAGE value="Update about.md" />
@@ -460,6 +458,8 @@
     <MESSAGE value="Update about page and publication page" />
     <MESSAGE value="Update about page add PhD appendix webpage" />
     <MESSAGE value="Update thesis links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update thesis links" />
+    <MESSAGE value="Update about page." />
+    <MESSAGE value="Update 16 september 2022." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 16 september 2022." />
   </component>
 </project>
