@@ -4,13 +4,15 @@ URL:
 save_as: index.html
 
 
-Hello and welcome! I am a forth year computer science Ph.D. student at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. I received my B.Sc. in computer science / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"} and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. This website summarizes me and my works :)
+Hello and welcome! I am a computer science Ph.D. candidate at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+I received my B.Sc. in computer science / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+I am a member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}. 
+This website summarizes me and my works :) 
+Visit the [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} pages for more information.
 
-## Research Interests
+## Research interests
 > Towards better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
 
-
-### Overview
 * Automated software engineering (code generation, testing, and debugging)
 * Software refactoring, re-engineering, and reverse engineering
 * Compilers, program analysis, and transformation
@@ -18,89 +20,53 @@ Hello and welcome! I am a forth year computer science Ph.D. student at [Iran Uni
 * Machine learning applications in biomedical engineering
 * Machine learning applications in sociology (computational sociology)
 
-
-### Research statement
- My research interests are about empirical and automated software engineering (EASE), focused on [refactoring](https://m-zakeri.github.io/CodART), [testing](https://github.com/m-zakeri/benchmark), [test data generation](https://m-zakeri.github.io/iust_deep_fuzz), static analysis, and applying machine learning in software engineering.
-
-Software engineering is intricate because software systems and ecosystems are inherently complex, intangible, and unpredictable.
-Software engineers must deal with non-trivial activities such as testing, quality assurance, and maintenance during the software development life cycle (SDLC). Efficient automation of these activities not only increases processes quality but also leads to economic savings. 
-
-Unfortunately, search-based software engineering (SBSE) techniques fail to automate emerging tasks such as measuring and improving software quality in practice.
-I use machine learning software engineering (MLSE) besides SBSE to address open problems in automating SDLC activities, including refactoring, testing, debugging, repair, and maintenance. 
-
-During my M.Sc., I applied deep learning to learn the complex files formats grammar and then built a generative model to [generate new test data for file format fuzzer](https://m-zakeri.github.io/iust_deep_fuzz). 
-For the time being, as part of my Ph.D. thesis, I have focused on [measuring and improving the testability of software systems artifacts](https://m-zakeri.github.io/ADAFEST). 
-I have described some backgrounds used in my research in my [blog](https://m-zakeri.github.io/category/blog.html){:target="_blank"}.
+Find more on the [Research](research.md){:target="_blank"} page.
 
 
-## Current Position
-Currently, I am a member of [IUST Reverse Engineering Research Laboratory](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"} and work under the supervision of [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}. You can find and read more information on the official [laboratory website](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"}. 
-
-
-## Educational Background
+## Educational background
 * Ph.D., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2018 - Now)
+    * Thesis title: Measuring and improving testability of software systems artifacts
     * Supervisor: [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
+    * Co-advisor: [Dr. Mehrdad Ashtiani](){:target="_blank"}
 * M.Sc., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2016 - 2018)
-    * Thesis Title: "Automatic Test Data Generation in File Format Fuzzers".
+    * Thesis title: "Automatic Test Data Generation in File Format Fuzzers".
     * Supervisor: [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
-
 * B.Sc., Computer Engineering, Software; [Arak University](http://en.araku.ac.ir/){:target="_blank"} (2011 - 2015)
-    * Project Title: "Design and implementation multi-agent system to participant in Multi-Agent Programming Contest (MAPC) 2015".
+    * Project title: "Design and implementing multi-agent system to participate in Multi-Agent Programming Contest (MAPC) 2015".
     * Supervisor: [Dr. Vahid Rafe](http://webpages.iust.ac.ir/rafe/){:target="_blank"}
 
 
-## Theses
-
-### Ph.D. Dissertation
-
-**New (September 2022):**
-An early view of my PhD dissertation online appendix is now available at [http://webpages.iust.ac.ir/morteza_zakeri/PhD/](http://webpages.iust.ac.ir/morteza_zakeri/PhD/).
-
-
-### Master Thesis
-In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer and provided IUST-PDFCorpus, a large dataset of PDF files and PDF data objects. IUST-DeepFuzz can automatically learn the grammar (structure) of a given input file, then generate and fuzz various test data based on the learned model and some mutation-based methods. You can find all relevant information about my M.Sc. thesis on the [IUST-DeepFuzz GitHub repository](https://github.com/m-zakeri/iust_deep_fuzz){:target="_blank"}. 
-
-* My M.Sc Thesis [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriThesis_MSc/){:target="_blank"}
-
-
-### Bachelor Project
-In my B.Sc. project, I worked on agent-oriented software engineering and developed a multi-agent system to participate in the [multi-agent programming contest (MAPC)](https://multiagentcontest.org/){:target="_blank"}. Unfortunately, the competitions did not hold in the year 2014, for the technical reasons raised by the new scenario, and our team could not participate in the competitions. However, MAPC is alive for me and my teammates. Hence, our final project reports is kept in draft version to be updated ASAP:)
-
-* My B.Sc. Project Report (draft version) [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}
 
 
 ## Skills
-As a software engineer, I know about software development methodologies (both traditional and modern methodologies), software architectures, enterprise applications design and development, programming, and computer networks. I am an expert in object-oriented design, database concepts, and ORMs. During the IUST master program, I learned about distributed systems, advanced software engineering, software reverse engineering techniques, cluster, grid, and cloud computing, and secure and dependable software systems design. For the time being, my skills are as follows:
+As a software and machine intelligence engineer, I know about software development methodologies, software architectures, enterprise applications design and development, machine learning, computer programming, and networks. I am an expert in object-oriented design, databases, and ORMs. During the IUST M.Sc. and Ph.D. programs, I learned about compiler design, program analysis, software reverse engineering techniques, secure and dependable software systems design, distributed systems and computing (cluster, grid, and cloud), IoT, game theory, machine learning, and natural language processing. My skills are as follows:
 
 * Software engineering
     * Object-oriented system analysis and design
-    * RUP and Agile methodologies
+    * RUP and Agile software development methodologies
+    * Automated software engineering
+* Compilers
+    * Static and dynamic program analysis
+    * Program transformation
 * Software testing
     * Automatic test data generation
     * Security testing, stress testing, and fuzzing
-    * Static and dynamic program analysis
-* Deep Learning
-    * Recurrent Neural Networks
-    * Recurrent Language Models
-
-
-## Micropedia
-From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
-
-
-## Contact
-Visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} pages for more information. 
-There is no commenting tool here on my website. You may contact me by sending an email to: 
-**M – Z A K E R I [AT] L I V E [DOT] C O M**
-([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). I will provide proper response ASAP.
+* Machine learning and deep Learning
+    * Recurrent neural networks
+    * Recurrent language models
+* Natural language processing (NLP)
+* Network analysis
 
 
 ## Curriculum vitae
-
-More details can be found in my up-to-date C.V.
+Detailed information are available on my up-to-date C.V.
 
 * My C.V. September 2022 (English) [PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
-
-
 * My C.V. March 2018  (Persian) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 
+
+## Contact
+You can contact me by sending an email to: 
+**M – Z A K E R I [AT] L I V E [DOT] C O M**
+([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). 
+I will provide proper response ASAP.

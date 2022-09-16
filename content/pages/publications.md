@@ -34,6 +34,30 @@ An up-to-date list of my publications:
 
 
 
+## Theses
+
+### Ph.D. dissertation
+
+**New (September 2022):**
+An early view of my Ph.D. dissertation online appendix is now available at [http://webpages.iust.ac.ir/morteza_zakeri/PhD/](http://webpages.iust.ac.ir/morteza_zakeri/PhD/){:target="_blank"}.
+
+
+### Master thesis
+In my M.Sc. thesis, I designed and built _IUST-DeepFuzz_, a file format fuzzer and provided IUST-PDFCorpus, a large dataset of PDF files and PDF data objects. IUST-DeepFuzz can automatically learn the grammar (structure) of a given input file, then generate and fuzz various test data based on the learned model and some mutation-based methods. You can find all relevant information about my M.Sc. thesis on the [IUST-DeepFuzz GitHub repository](https://github.com/m-zakeri/iust_deep_fuzz){:target="_blank"}. 
+
+* My M.Sc Thesis [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriThesis_MSc/){:target="_blank"}
+
+
+### Bachelor project
+In my B.Sc. project, I worked on agent-oriented software engineering and developed a multi-agent system to participate in the [multi-agent programming contest (MAPC)](https://multiagentcontest.org/){:target="_blank"}. Unfortunately, the competitions did not hold in the year 2014, for the technical reasons raised by the new scenario, and our team could not participate in the competitions. However, MAPC is alive for me and my teammates. Hence, our final project reports is kept in draft version to be updated ASAP:)
+
+* My B.Sc. Project Report (draft version) [[www]](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}
+
+
+Find more on [IUST course materials](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"}.
+
+
+
 ## Research profiles
 
 * WoS [[www]](https://www.webofscience.com/wos/author/record/1429477){:target="_blank"}
@@ -61,5 +85,4 @@ An up-to-date list of my publications:
 
 
 * DeepAI [[www]](https://deepai.org/profile/morteza-zakeri-nasrabadi){:target="_blank"}
-
 

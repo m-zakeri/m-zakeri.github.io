@@ -2,24 +2,29 @@ Title: Resources
 Author: Morteza
 
 
-Some related and useful links in programming and software engineering
+This page contains many related and useful links about computer programming and software engineering.
 
-## IUST Course Arsenal
-* [All things you need to pass a cOuRcE during your graduate program at IUST](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"} – March 2020 
+## IUST course arsenal
+* [All things you need to pass a cOuRcE during your graduate program at IUST](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"} – March 2020. 
 
-This repository contains my notes, assignments, presentations, and projects for some graduate courses in computer science and artificial intelligence. In almost all of these courses, I was in **the top three students** among my classmate. I'm pleased to share these materials with you. Any feedback about them will be great. 
-
-I do not guarantee the absence of scientific mistakes in these materials, but please let me know if you find any mistakes, copyright violations, and any other issues. The IUST Graduate Course Arsenal provides a roadmap for graduate students who want to advance quickly and helps them to go one step forward toward discovering new topics and producing their original research. The repository will be publicly available until **March 11, 2023**.
+This repository contains my notes, assignments, presentations, and projects for some graduate courses in computer science and artificial intelligence. In almost all of these courses, I was in **the top three students** among my classmates. I'm pleased to share these materials with all. Any feedback about them will be great. The IUST Graduate Course Arsenal provides a roadmap for graduate students who want to advance quickly and helps them to go one step forward toward discovering new topics and producing their original research. The repository will be publicly available until **March 11, 2023**.
 
 
-## Research and technical reports
-
-* [Data and end of homelessness](http://micropedia.ir/1398/03/15/using-data-to-understand-and-end-homelessness/){:target="_blank"} (in Persian) Spring 2019
-* [ A survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017
-* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian) Fall 2016
 
 
-## Machine learning, deep learning and deep neural networks
+
+## Micropedia
+From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/){:target="_blank"} a free software engineering/ programming tutorials website in Persian. You can find some basic programming tutorials on Micropedia. 
+
+### Have a programming question? Join us on Micropedia -:)
+* [Micropedia code group on the telegram](https://t.me/joinchat/CBglrD-j_t75j-7BM1mDjg){:target="_blank"} or Contact with ID @mztel
+* [Micropedia programming tutorials](http://micropedia.ir){:target="_blank"} (in Persian)
+* [Micropedia code repository](http://micropedia.ir){:target="_blank"} 
+
+
+
+## Machine learning and deep learning
+* [ A survey of sequence-to-sequence learning with neural networks ](http://www.boute.ir/iust-nlp-96/290){:target="_blank"} (in Persian) Fall 2017.
 * [Hacker's guide to neural networks by Dr. Andrej Karpathy](http://karpathy.github.io/neuralnets/){:target="_blank"}
 * [IUST deep learning course by Dr. Mohammad Taher Pilehvar](https://iust-courses.github.io/ai97/){:target="_blank"}
 * [IUST Deep learning with google TensorFlow by Eng. Mahdizade](https://github.com/Mahdizade/IUSTDeepLearningWithTensorFlow){:target="_blank"}
@@ -27,43 +32,7 @@ I do not guarantee the absence of scientific mistakes in these materials, but pl
 
 
 
-## Have a programming question? Join us-:)
-* [Micropedia code group on the telegram](https://t.me/joinchat/CBglrD-j_t75j-7BM1mDjg){:target="_blank"} or Contact with ID @mztel
-* [Micropedia programming tutorials](http://micropedia.ir/tutorials/){:target="_blank"} (in Persian)
-* [Micropedia code repository](http://micropedia.ir/category/code/){:target="_blank"} 
-
-
-
-
-## Recommended resources for basic programming 
-
-A road map to learning programming/codding
-
-
-| Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |               Additional links                         |
-|:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
-|  1  | ![Micropedia essential course Series](../static/img/bookcover/micropedia_C_and_CPP_thumbnail_v2.png)                   | [Micropedia essential course on C and C++ (for beginners)](http://micropedia.ir/category/cpp-essential-course/){:target="_blank"}                          | www.micropedia.ir                                      |
-|  2  | ![C How to Program](../static/img/bookcover/deitel_and_deitel_c.jpg)                                                   | [C How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram7e/tabid/3635/Default.aspx){:target="_blank"}        | www.deitel.com                                         |
-|  3  | ![CPP How to Program](../static/img/bookcover/deitel_and_deitel_cpp.jpg)                                               | [C++ How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram9e/tabid/3644/Default.aspx){:target="_blank"}      | www.deitel.com                                         |
-|  4  | ![JAVA How to Program](../static/img/bookcover/deitel_and_deitel_java.jpg)                                             | [JAVA How to Program (Book by Harvey Deitel and Paul  Deitel)](http://deitel.com/Books/Java/JavaHowtoProgram11e/tabid/3683/Default.aspx){:target="_blank"} | www.deitel.com                                         |
-|  5  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do){:target="_blank"}  | 
-
-
-
-
-
-## Recommended programming resources for children
-| Row |                             Photo                             	|         Resource name                                             	|                Additional links                   |
-|:---:|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|:-------------------------------------------------:|
-|  1  | ![Scratch](../static/img/bookcover/scratch.jpg)                 | [Scratch (MIT Media Lab)](https://scratch.mit.edu/){:target="_blank"} 	|  www.scratch.mit.edu	                            |
-|  2   | ![Scratch](../static/img/bookcover/python_for_kids.jpg)         | [Python for Kids: A Playful Introduction to Programming](https://books.google.com/books/about/Python_for_Kids.html?id=Wd_PJ2y68uIC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false){:target="_blank"}     |   [www.oreilly.com](http://shop.oreilly.com/product/9781593274078.do){:target="_blank"}  |
-|  3  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do){:target="_blank"}     |
-|  4  | ![Python cookbook](../static/img/bookcover/paython_book.jpg)| Python Cookbook                           	                                        |                                               [www.oreilly.com](http://shop.oreilly.com/product/0636920027072.do){:target="_blank"}    |
-
-
-
-
-## Recommended resources for advanced software engineering
+## Advanced software engineering
 
 | Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |               Additional links                         |
 |:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
@@ -75,18 +44,50 @@ A road map to learning programming/codding
 
 
 
+## Computer programming
+A road-map to learn programming/ codding.
+
+| Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |               Additional links                         |
+|:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
+|  1  | ![Micropedia essential course Series](../static/img/bookcover/micropedia_C_and_CPP_thumbnail_v2.png)                   | [Micropedia essential course on C and C++ (for beginners)](http://micropedia.ir/category/cpp-essential-course/){:target="_blank"}                          | www.micropedia.ir                                      |
+|  2  | ![C How to Program](../static/img/bookcover/deitel_and_deitel_c.jpg)                                                   | [C How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram7e/tabid/3635/Default.aspx){:target="_blank"}        | www.deitel.com                                         |
+|  3  | ![CPP How to Program](../static/img/bookcover/deitel_and_deitel_cpp.jpg)                                               | [C++ How to Program (Book by Harvey Deitel and Paul Deitel)](http://www.deitel.com/Books/C/CHowtoProgram9e/tabid/3644/Default.aspx){:target="_blank"}      | www.deitel.com                                         |
+|  4  | ![JAVA How to Program](../static/img/bookcover/deitel_and_deitel_java.jpg)                                             | [JAVA How to Program (Book by Harvey Deitel and Paul  Deitel)](http://deitel.com/Books/Java/JavaHowtoProgram11e/tabid/3683/Default.aspx){:target="_blank"} | www.deitel.com                                         |
+|  5  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do){:target="_blank"}  | 
+
+
+
+## Computer programming resources for children
+| Row |                             Photo                             	|         Resource name                                             	|                Additional links                   |
+|:---:|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|:-------------------------------------------------:|
+|  1  | ![Scratch](../static/img/bookcover/scratch.jpg)                 | [Scratch (MIT Media Lab)](https://scratch.mit.edu/){:target="_blank"} 	|  www.scratch.mit.edu	                            |
+|  2   | ![Scratch](../static/img/bookcover/python_for_kids.jpg)         | [Python for Kids: A Playful Introduction to Programming](https://books.google.com/books/about/Python_for_Kids.html?id=Wd_PJ2y68uIC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false){:target="_blank"}     |   [www.oreilly.com](http://shop.oreilly.com/product/9781593274078.do){:target="_blank"}  |
+|  3  | ![Head_first_python](../static/img/bookcover/head_first_python.png)| Head First Python: A Brain-Friendly Guide                           	                                        |                                                 [www.oreilly.com](http://shop.oreilly.com/product/0636920003434.do){:target="_blank"}     |
+|  4  | ![Python cookbook](../static/img/bookcover/paython_book.jpg)| Python Cookbook                           	                                        |                                               [www.oreilly.com](http://shop.oreilly.com/product/0636920027072.do){:target="_blank"}    |
+
+
+
+
 ## Useful links
-### Mine
+### My profiles
 * [My GitHub projects](https://github.com/m-zakeri/){:target="_blank"} [New]
 * [My GitHub projects](https://github.com/mortazazakeri){:target="_blank"} [Old]
 * [My gist (code snip)](https://gist.github.com/m-zakeri){:target="_blank"}
-* [My old blog](http://zakerim.webs.com/){:target="_blank"}
 * [My LinkedIn profile](https://www.linkedin.com/in/mortazazakeri/){:target="_blank"}
 * [My SlideShare profile](https://www.slideshare.net/MortezaZakeri){:target="_blank"}
 
+### Outdated
+* [My old blog](http://zakerim.webs.com/){:target="_blank"} Spring 2011
+* [Data and end of homelessness](http://micropedia.ir/1398/03/15/using-data-to-understand-and-end-homelessness/){:target="_blank"} (in Persian) Spring 2019
+* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian) Fall 2016
 
-### Others
+
+### Miscellaneous
 * [A Survival Guide to a Ph.D. by Dr. Andrej Karpathy](http://karpathy.github.io/2016/09/07/phd/){:target="_blank"}
 * [ProjectEuler in Persian](https://marhale3.github.io/problems.html){:target="_blank"}
 
+
+
+## Disclaimer
+I do not guarantee the absence of scientific mistakes in the above materials and resources, but please let me know if you find any mistakes, copyright violations, and any other issues.
 
