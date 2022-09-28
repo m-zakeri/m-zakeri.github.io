@@ -7,7 +7,7 @@ AUTHOR = 'Morteza'
 SITENAME = 'Morteza Zakeri'
 SITEURL = ''
 SITETITLE = SITENAME
-SITESUBTITLE = 'Ph.D. student, computer science'
+SITESUBTITLE = 'Ph.D. candidate, computer science'
 # SITEDESCRIPTION = 'Iran University of Science and Technology'
 
 # PYGMENTS_STYLE = 'monokai'
@@ -19,7 +19,7 @@ COPYRIGHT_YEAR = '2016 - ' + str(datetime.now().year)
 COPYRIGHT_NAME = SITENAME + '. All rights reserved.'
 """CC_LICENSE = {
     'name': 'All rights reserved.',
-    'version': '1.10',
+    'version': '2.1',
     'slug': 'Morteza Zakeri-Nasrabadi'
 }"""
 
@@ -48,29 +48,35 @@ DISPLAY_CATEGORIES_ON_MENU = True
 INDEX_SAVE_AS = 'blog_index.html'
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives']
 
-MENUITEMS = (('Blog', '/category/blog.html'),
-             ('Research', '/pages/research.html'),
-             ('Resources', '/pages/resources.html'),
-             ('Courses', '/category/courses.html'),
-             ('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),
-             ('Sitemap', '/sitemap.xml'))
+MENUITEMS = (
+    ('Blog', '/category/blog.html'),
+    ('Research', '/pages/research.html'),
+    ('Resources', '/pages/resources.html'),
+    ('Courses', '/category/courses.html'),
+    ('Archives', '/archives.html'),
+    ('Categories', '/categories.html'),
+    ('Tags', '/tags.html'),
+    ('Sitemap', '/sitemap.xml')
+)
 
-LINKS = (('Courses', 'https://m-zakeri.github.io/category/courses.html'),
-         ('Laboratory', 'http://parsa.iust.ac.ir/reverse-engineering-lab/'),
-         ('Micropedia', 'http://micropedia.ir'),
-         ('University', 'http://webpages.iust.ac.ir/morteza_zakeri/'))
+LINKS = (
+    # ('Courses', 'https://m-zakeri.github.io/category/courses.html'),
+    ('Laboratory', 'http://reverse.iust.ac.ir'),
+    # ('Micropedia', 'http://micropedia.ir'),
+    ('University page', 'http://webpages.iust.ac.ir/morteza_zakeri/')
+)
 
 # Social widget
 GITHUB_URL = 'https://github.com/m-zakeri/'
 TWITTER_USERNAME = '_zakeri_'
 
-SOCIAL = (('linkedin', 'https://www.linkedin.com/in/mortazazakeri/'),
-          ('twitter', 'https://twitter.com/_zakeri_'),
-          ('github', 'https://github.com/m-zakeri/'),
-          ('github', 'https://github.com/mortazazakeri/'),
-          ('rss', '/feeds/all.atom.xml'),)
+SOCIAL = (
+    ('linkedin', 'https://www.linkedin.com/in/mortazazakeri/'),
+    ('twitter', 'https://twitter.com/_zakeri_'),
+    ('github', 'https://github.com/m-zakeri/'),
+    # ('github', 'https://github.com/mortazazakeri/'),
+    ('rss', '/feeds/all.atom.xml'),
+)
 
 DEFAULT_PAGINATION = 5
 

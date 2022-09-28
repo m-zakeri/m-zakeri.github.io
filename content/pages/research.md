@@ -5,6 +5,10 @@ Modified: 2022-09-16 16:30
 
 
 ## Overview
+Venn diagram of my research areas.
+
+![Research fields](../static/img/research_fields_v2.png)
+
 * Automated software engineering (code generation, testing, and debugging)
 * Software refactoring, re-engineering, and reverse engineering
 * Compilers, program analysis, and transformation
