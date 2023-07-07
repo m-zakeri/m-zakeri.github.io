@@ -4,7 +4,8 @@ URL:
 save_as: index.html
 
 
-Hello and welcome! I am a computer science Ph.D. candidate at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+Hello and welcome! 
+I am a computer science Ph.D. candidate at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 I received my B.Sc. in computer science / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 I am a member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}. 
 This website summarizes me and my works :) 
@@ -39,6 +40,8 @@ Find more on the [Research](https://m-zakeri.github.io/pages/research.html){:tar
 
 
 ## Skills
+
+I am an expert researcher and developer of intelligent software systems. Intelligent systems use artificial intelligence to solve real-world or scientific problems. They are mainly based on the software 2.0 paradigm in which a learning algorithm forms the kernel of the software system.
 As a software and machine intelligence engineer, I know about software development methodologies, software architectures, enterprise applications design and development, machine learning, computer programming, and networks. I am an expert in object-oriented design, databases, and ORMs. During the IUST M.Sc. and Ph.D. programs, I learned about compiler design, program analysis, software reverse engineering techniques, secure and dependable software systems design, distributed systems and computing (cluster, grid, and cloud), IoT, game theory, machine learning, and natural language processing. My skills are as follows:
 
 * Software engineering
@@ -47,13 +50,14 @@ As a software and machine intelligence engineer, I know about software developme
     * Automated software engineering
 * Compilers
     * Static and dynamic program analysis
-    * Program transformation
+    * Program transformation/refactoring
 * Software testing
     * Automatic test data generation
     * Security testing, stress testing, and fuzzing
 * Machine learning and deep Learning
-    * Recurrent neural networks
-    * Recurrent language models
+    * Supervised learning, unsupervised learning, anomaly detection
+    * Deep neural networks and language models
+    * Vector space model
 * Natural language processing (NLP)
 * Network analysis
 
@@ -61,9 +65,13 @@ As a software and machine intelligence engineer, I know about software developme
 ## Curriculum vitae
 Detailed information are available on my up-to-date C.V.
 
-* My C.V. September 2022 (English) [PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
-* My C.V. March 2018  (Persian) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
+* My C.V. (English, July 2023) [PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
+* My C.V. (Persian, March 2018 ) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 
+## Research and teaching statements
+
+* My research statement (July 2023) [PDF](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
+* My teaching statement (July 2023) [PDF](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
 
 ## Contact
 You can contact me by sending an email to: 

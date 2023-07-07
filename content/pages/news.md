@@ -2,7 +2,9 @@ Title: News
 Author: Morteza
 
 
-* **March 2022**: I was selected as the best Ph.D. student researcher in computer engineering school by IUST Talent Office.
+* **March 2023**: I was selected as the outstanding Ph.D. student researcher in computer engineering school by IUST Talent Office (for second time).
+
+* **March 2022**: I was selected as the outstanding Ph.D. student researcher in computer engineering school by IUST Talent Office.
 
 * **March 2021**: I just shared some valuable course material from my M.Sc. program at IUST. Please refer to the resource page.
 
