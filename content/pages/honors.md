@@ -5,7 +5,8 @@ Modified: 2022-04-01 19:30
 
 
 ## Graduate Study
-* Distinguished Ph.D. researcher (recognized by the IUST Talent Office), Winter 2022
+* Distinguished **Ph.D. researcher** (recognized by the IUST Talent Office), Winter 2023.
+* Distinguished **Ph.D. researcher** (recognized by the IUST Talent Office), Winter 2022.
 * **Ph.D.** admission without entrance exam, Fall 2018.
 * Awarded as an **outstanding graduate**, Iran University of Science and Technology (IUST), 2019.
 * Ranked **first** among 60 M.Sc. students.

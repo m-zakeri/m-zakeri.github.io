@@ -29,14 +29,14 @@ Unfortunately, search-based software engineering (SBSE) techniques fail to autom
 I use machine learning software engineering (MLSE) besides SBSE to address open problems in automating SDLC activities, including refactoring, testing, debugging, repair, and maintenance. 
 
 During my M.Sc., I applied deep learning to learn the complex files formats grammar and then built a generative model to [generate new test data for file format fuzzer](https://m-zakeri.github.io/iust_deep_fuzz). 
-For the time being, as part of my Ph.D. thesis, I have focused on [measuring and improving the testability of software systems artifacts](https://m-zakeri.github.io/ADAFEST). 
-I have described some backgrounds used in my research in my [blog](https://m-zakeri.github.io/category/blog.html){:target="_blank"}.
+For the time being, as part of my Ph.D. thesis, I have focused on [measuring and improving the testability of software systems artifacts](https://m-zakeri.github.io/PhD). 
+For more information please refer to [my research statement](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}.
+Also, I have described some backgrounds used in my research in my [blog](https://m-zakeri.github.io/category/blog.html){:target="_blank"}.
 
 
 ## Research projects
 
 ### DeepFuzz
-
 DeepFuzz is a fuzzing framework based on the deep neural languages to fuzz software with complex inputs. This project belongs to my master thesis in software engineering: "Automatic test data generation in file format fuzzers". DeepFuzz automatically generates new, valid, and various complex structure files, mainly PDF files, as test data to use in dynamic testing of real-world applications, e.g., PDF readers.
 [Read more](https://www.researchgate.net/project/IUST-Deep-Fuzz){:target="_blank"}.
 
@@ -47,12 +47,14 @@ Connecting runtime information to the static properties of the program is a key 
 
 
 ### Healthcare with IoT
+Healthcare with IoT is a field that explores the use of internet-connected devices and networks to provide, monitor, and improve patient care and health services.
+IoT-based healthcare has shown potential benefits such as improved patient safety, reduced healthcare costs, enhanced accessibility of healthcare services, and increased operational efficiency in the healthcare industry.
 This project aims to explore the applications of Internet of Things (IoT) in healthcare. 
 [Read more](https://www.researchgate.net/project/Healthcare-with-IoT){:target="_blank"}.
 
 
 ### QualCode
-QualCode is an online platform to measure and rank software systems quality based on ISO/IEC 25010.
+QualCode is an online platform to measure and rank software systems quality based on [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010).
 The quality model is the cornerstone of a product quality evaluation system. The quality model determines which quality characteristics will be taken into account when evaluating the properties of a software product.
 
 ### CodART
