@@ -4,8 +4,8 @@ URL:
 save_as: index.html
 
 
-Hello and welcome! 
-I am a computer science Ph.D. candidate at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+Hello and welcome to Morteza's personal website! 
+I completed my Ph.D. in Computer Science (CS) at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 I received my B.Sc. in computer science / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 I am a member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}. 
 This website summarizes me and my works :) 
@@ -26,14 +26,14 @@ Find more on the [Research](https://m-zakeri.github.io/pages/research.html){:tar
 
 ## Educational background
 * Ph.D., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2018 - Now)
-    * Thesis title: Measuring and improving testability of software systems artifacts
+    * Thesis title: "[Measuring and improving testability of software systems artifacts](https://m-zakeri.github.io/PhD/){:target="_blank"}" (2018 - Now)
     * Supervisor: [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
     * Co-advisor: [Dr. Mehrdad Ashtiani](){:target="_blank"}
 * M.Sc., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2016 - 2018)
-    * Thesis title: "Automatic Test Data Generation in File Format Fuzzers".
+    * Thesis title: "[Automatic Test Data Generation in File Format Fuzzers](https://m-zakeri.github.io/iust_deep_fuzz/){:target="_blank"}".
     * Supervisor: [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
 * B.Sc., Computer Engineering, Software; [Arak University](http://en.araku.ac.ir/){:target="_blank"} (2011 - 2015)
-    * Project title: "Design and implementing multi-agent system to participate in Multi-Agent Programming Contest (MAPC) 2015".
+    * Project title: "[Design and implementing multi-agent system to participate in Multi-Agent Programming Contest (MAPC) 2015](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}".
     * Supervisor: [Dr. Vahid Rafe](http://webpages.iust.ac.ir/rafe/){:target="_blank"}
 
 
