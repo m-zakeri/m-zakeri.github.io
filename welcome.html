@@ -6,6 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/>
+
+  <script>
+        $(document).ready(function() {
+             $('#tipue_search_input').tipuesearch({
+                  'mode': 'json',
+                  'contentLocation': 'tipuesearch_content.json'
+             });
+        });
+  </script>
+
     <meta name="robots" content="" />
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -66,7 +81,7 @@
         <a href="./">Morteza Zakeri</a>
       </h1>
 
-<p>Ph.D. candidate, computer science</p>
+<p>PhD in Computer Science</p>
 
       <nav>
         <ul class="list">
