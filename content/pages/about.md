@@ -85,15 +85,15 @@ Find more at [my publicly shared courses materials](http://webpages.iust.ac.ir/m
 
 Detailed information are available on my up-to-date C.V.
 
-* My C.V. (English, February 2024) [PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
-* My C.V. (Persian, March 2018 ) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
+* My CV  (English, February 2024) [[PDF]](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
+* My CV  (Persian, March 2018 ) [[PDF]](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 
 
 
 ## Research and teaching statements
 
-* My research statement (December 2023) [PDF](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
-* My teaching statement (December 2023) [PDF](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
+* My research statement (December 2023) [[PDF]](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
+* My teaching statement (December 2023) [[PDF]](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
 
 
 ## Contact

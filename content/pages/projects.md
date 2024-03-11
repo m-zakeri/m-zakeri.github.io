@@ -7,8 +7,9 @@ Modified: 2019-04-01 19:30
 ## My Coding Summary
 <div style="text-align: center;">
 
- <img width="49%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=m-zakeri&show_icons=true&count_private=true&hide_border=true%22" />
-<img width="41%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=m-zakeri&layout=compact" />
+ <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=m-zakeri&show_icons=true&count_private=true&hide_border=true%22"/>
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=m-zakeri&layout=compact"/>
 </div>
 
 

@@ -4,18 +4,43 @@ Tags: courses, teaching
 Author: Morteza
 
 
+<style>
+		button {
+			color: #ffffff;
+			background-color: #1a55c1;
+			font-size: 18px;
+			border: 1px solid #2d63c8;
+			padding: 20px 50px;
+            margin: 4px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #2d63c8;
+			background-color: #ffffff;
+		}
+	</style>
+
 <div style="text-align: center;">
 
  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
-  
-  
-<a href="https://m-zakeri.github.io/AI" target="blank" style="display:inline-block;border:4px solid rgb(45, 48, 172);border-radius:6px;padding:22px;background:linear-gradient(to bottom,rgb(240, 228, 226),rgb(240, 252, 244));color:rgb(3, 25, 82)">Artificial Intelligence</a>
-  
-  
-<a href="https://m-zakeri.github.io/Compilers" target="blank" style="display:inline-block;border:4px solid rgb(0, 0, 0);border-radius:4px;padding:22px;background:linear-gradient(to bottom,rgb(240, 228, 226),rgb(240, 252, 244));color:rgb(205, 91, 91)">Compiler Design</a> 
-<a href="https://m-zakeri.github.io/DatabaseDesign" target="blank" style="display:inline-block;border:4px solid rgb(57, 172, 45);border-radius:4px;padding:22px;background:linear-gradient(to bottom,rgb(240, 228, 226),rgb(240, 252, 244));color:rgb(3, 82, 7)">Database Design</a>
-  
-  
-<a href="https://m-zakeri.github.io/CP" target="blank" style="display:inline-block;border:4px solid rgb(220, 12, 241);border-radius:6px;padding:22px;background:linear-gradient(to bottom,rgb(240, 228, 226),rgb(240, 252, 244));color:rgb(82, 3, 81)">Computer Programming </a>
-  
+
+
+<a href="https://m-zakeri.github.io/AI">  
+<button type="button" name="ai">Artificial Intelligence</button>
+</a>
+
+<a href="https://m-zakeri.github.io/Compilers">  
+<button type="button" name="compiler">Compilers</button>
+</a>
+
+<a href="https://m-zakeri.github.io/DatabaseDesign">  
+<button type="button" name="DatabaseDesign">DatabaseDesign</button>
+</a>
+
+<a href="https://m-zakeri.github.io/CP">  
+<button type="button" name="compiler">Computer Programming </button>
+</a>
+
+
+
  </div>
