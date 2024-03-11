@@ -7,7 +7,7 @@ AUTHOR = 'Morteza'
 SITENAME = 'Morteza Zakeri'
 SITEURL = ''
 SITETITLE = SITENAME
-SITESUBTITLE = 'Ph.D. candidate, computer science'
+SITESUBTITLE = 'PhD in Computer Science'
 # SITEDESCRIPTION = 'Iran University of Science and Technology'
 
 # PYGMENTS_STYLE = 'monokai'
@@ -92,7 +92,7 @@ PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
 # PLUGINS = ['neighbors']
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
-PLUGINS = ['sitemap']
+PLUGINS = ['sitemap', 'tipue_search.tipue_search']
 
 DISQUS_SITENAME = 'http://m-zakeri.github.io'
 DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'

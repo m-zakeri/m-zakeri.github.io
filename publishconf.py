@@ -8,20 +8,22 @@ from __future__ import unicode_literals
 import os
 import sys
 from datetime import datetime
+
 sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://m-zakeri.github.io'
 RELATIVE_URLS = True
-#USE_LESS = False
+# USE_LESS = False
 
 
 # PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
-#PLUGINS = ['neighbors']
-#PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
+# PLUGINS = ['neighbors']
+# PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'pelican-readtime']
+# PLUGINS = ['tipue_search.tipue_search']
 
 # DISQUS_SITENAME = 'http://m-zakeri.github.io'
 # DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
@@ -34,5 +36,5 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+# DISQUS_SITENAME = ""
+# GOOGLE_ANALYTICS = ""
