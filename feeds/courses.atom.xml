@@ -20,19 +20,19 @@
  &lt;img src="https://capsule-render.vercel.app/api?type=waving&amp;height=200&amp;color=gradient&amp;text=Teaching&amp;section=header&amp;animation=twinkling&amp;fontColor=Brown&amp;textBg=false"/&gt;
 
 
-&lt;a href="https://m-zakeri.github.io/AI"&gt;  
+&lt;a href="https://m-zakeri.github.io/AI" target="blank"&gt;  
 &lt;button type="button" name="ai"&gt;Artificial Intelligence&lt;/button&gt;
 &lt;/a&gt;
 
-&lt;a href="https://m-zakeri.github.io/Compilers"&gt;  
+&lt;a href="https://m-zakeri.github.io/Compilers" target="blank"&gt;  
 &lt;button type="button" name="compiler"&gt;Compilers&lt;/button&gt;
 &lt;/a&gt;
 
-&lt;a href="https://m-zakeri.github.io/DatabaseDesign"&gt;  
+&lt;a href="https://m-zakeri.github.io/DatabaseDesign" target="blank"&gt;  
 &lt;button type="button" name="DatabaseDesign"&gt;DatabaseDesign&lt;/button&gt;
 &lt;/a&gt;
 
-&lt;a href="https://m-zakeri.github.io/CP"&gt;  
+&lt;a href="https://m-zakeri.github.io/CP" target="blank"&gt;  
 &lt;button type="button" name="compiler"&gt;Computer Programming &lt;/button&gt;
 &lt;/a&gt;
 
