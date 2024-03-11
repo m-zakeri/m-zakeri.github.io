@@ -6,10 +6,11 @@ save_as: index.html
 
 Hello and welcome to Morteza's personal website! 
 I completed my Ph.D. in Computer Science (CS) at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
-I received my B.Sc. in computer science / *software* from [Arak University](http://en.araku.ac.ir/){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+I received my B.Sc. in computer science / *software* from [Arak University](http://araku.ac.ir){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 I am a member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}. 
 This website summarizes me and my works :) 
 Visit the [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} pages for more information.
+
 
 ## Research interests
 > Towards better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques

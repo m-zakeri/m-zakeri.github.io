@@ -12,7 +12,7 @@ The IUST advanced software engineering (ASE) course aims at teaching the latest 
 
 
 ### Foreword
-I was teaching assistant of Advanced Software Engineering M.Sc. and Ph.D. course by [Dr. Saeed Parsa](http://parsa.iust.ac.ir/) {:target="_blank"} for six semesters at Iran University of Science and Technology. 
+I was teaching assistant of Advanced Software Engineering M.Sc. and Ph.D. course by [Dr. Saeed Parsa](http://parsa.iust.ac.ir/){:target="_blank"} for six semesters at Iran University of Science and Technology. 
 Our teaching materials during these three years are available to view and download.
 
 
