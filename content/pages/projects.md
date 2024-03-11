@@ -4,6 +4,14 @@ Date: 2019-04-01 10:20
 Modified: 2019-04-01 19:30
 
 
+## My Coding Summary
+<div style="text-align: center;">
+
+ <img width="49%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=m-zakeri&show_icons=true&count_private=true&hide_border=true%22" />
+<img width="41%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=m-zakeri&layout=compact" />
+</div>
+
+
 ## Academic Projects
 
 * STaRT, Coming soon! [[www]]
@@ -19,7 +27,7 @@ Modified: 2019-04-01 19:30
 
 
 ## Enterprise Projects
-* Parsina Bridge Management System (BMS) a.k.a Golden Gate , 2015.
+* Parsina Bridge Management System (BMS) a.k.a. Golden Gate , 2015.
 * ClassChin, 2014. [[www]](https://github.com/MAJAVA/ClassChinX){:target="_blank"}
 * KarChin
 

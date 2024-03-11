@@ -24,6 +24,16 @@ Visit the [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} a
 Find more on the [Research](https://m-zakeri.github.io/pages/research.html){:target="_blank"} page.
 
 
+## Teaching interests
+
+* Compiler Design ([Course webpage](https://m-zakeri.github.io/Compilers){:target="_blank"})
+* Database Design ([Course webpage](https://m-zakeri.github.io/https://m-zakeri.github.io/DatabaseDesign){:target="_blank"})
+* Artificial Intelligence ([Course webpage](https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/AI){:target="_blank"})
+* Fundamentals of Computer and Programming ([Course webpage](https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/CP){:target="_blank"})
+
+Find more on the [Teaching](https://m-zakeri.github.io/tag/teaching.html){:target="_blank"} page.
+
+
 ## Educational background
 * Ph.D., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2018 - Now)
     * Thesis title: "[Measuring and improving testability of software systems artifacts](https://m-zakeri.github.io/PhD/){:target="_blank"}" (2018 - Now)
@@ -34,49 +44,64 @@ Find more on the [Research](https://m-zakeri.github.io/pages/research.html){:tar
     * Supervisor: [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
 * B.Sc., Computer Engineering, Software; [Arak University](http://en.araku.ac.ir/){:target="_blank"} (2011 - 2015)
     * Project title: "[Design and implementing multi-agent system to participate in Multi-Agent Programming Contest (MAPC) 2015](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}".
-    * Supervisor: [Dr. Vahid Rafe](http://webpages.iust.ac.ir/rafe/){:target="_blank"}
+    * Supervisor: [Dr. Vahid Rafe](https://www.gold.ac.uk/computing/people/rafe-vahid){:target="_blank"}
 
 
 
 
 ## Skills
 
-I am an expert researcher and developer of intelligent software systems. Intelligent systems use artificial intelligence to solve real-world or scientific problems. They are mainly based on the software 2.0 paradigm in which a learning algorithm forms the kernel of the software system.
-As a software and machine intelligence engineer, I know about software development methodologies, software architectures, enterprise applications design and development, machine learning, computer programming, and networks. I am an expert in object-oriented design, databases, and ORMs. During the IUST M.Sc. and Ph.D. programs, I learned about compiler design, program analysis, software reverse engineering techniques, secure and dependable software systems design, distributed systems and computing (cluster, grid, and cloud), IoT, game theory, machine learning, and natural language processing. My skills are as follows:
+I am an accomplished researcher and proficient developer specializing in intelligent software systems. These systems leverage artificial intelligence to address real-world and scientific challenges. Their foundation lies in the software 2.0 paradigm, where a central learning algorithm serves as the core of the software.
 
-* Software engineering
-    * Object-oriented system analysis and design
-    * RUP and Agile software development methodologies
-    * Automated software engineering
-* Compilers
-    * Static and dynamic program analysis
-    * Program transformation/refactoring
-* Software testing
-    * Automatic test data generation
-    * Security testing, stress testing, and fuzzing
-* Machine learning and deep Learning
-    * Supervised learning, unsupervised learning, anomaly detection
-    * Deep neural networks and language models
-    * Vector space model
-* Natural language processing (NLP)
-* Network analysis
+As a seasoned software and machine intelligence engineer, I possess expertise across various domains, including:
+
+1. **Software Development Methodologies:** I am well-versed in industry-standard practices for creating robust and efficient software.
+2. **Software Architectures:** I have a deep understanding of architectural patterns and their impact on system performance and scalability.
+3. **Enterprise Applications Design and Development:** My experience extends to designing and building large-scale applications tailored to organizational needs.
+4. **Machine Learning:** I am proficient in applying machine learning techniques to solve complex problems.
+5. **Computer Programming:** My programming skills cover a wide range of languages and paradigms. 
+6. **Networks:** I have a solid grasp of network protocols, security, and communication patterns.
+
+Furthermore, I specialize in:
+
+1. **Object-Oriented Design:** Crafting modular and maintainable software using object-oriented principles.
+2. **Databases and ORMs:** Efficiently managing data and integrating it into software systems.
+3. **Compiler Design:** Understanding the intricacies of language translation and code optimization.
+4. **Program Analysis:** Profiling and assessing software performance and correctness.
+5. **Software Reverse Engineering Techniques:** Unraveling existing systems to gain insights and improve them.
+6. **Secure and Dependable Software Systems Design:** Ensuring robustness and resilience against threats.
+7. **Distributed Systems and Computing:** Navigating the complexities of distributed architectures (clusters, grids, and clouds).
+8. **Internet of Things (IoT):** Exploring the intersection of software and connected devices.
+9. **Game Theory:** Applying strategic thinking to software design and decision-making.
+10. **Natural Language Processing:** Enhancing software’s ability to understand and process human language.
+
+Throughout my academic journey, spanning both my M.Sc. and Ph.D. programs at IUST, I delved into these topics, honing my skills and expanding my knowledge base. I remain committed to advancing the field of intelligent software systems and contributing to innovative solutions. 
+
+Find more at [my publicly shared courses materials](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"}
+
 
 
 ## Curriculum vitae
+
 Detailed information are available on my up-to-date C.V.
 
-* My C.V. (English, July 2023) [PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
+* My C.V. (English, February 2024) [PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
 * My C.V. (Persian, March 2018 ) [PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 
 
+
 ## Research and teaching statements
-* My research statement (July 2023) [PDF](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
-* My teaching statement (July 2023) [PDF](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
+
+* My research statement (December 2023) [PDF](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
+* My teaching statement (December 2023) [PDF](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
 
 
 ## Contact
 
 You can contact me by sending an email to: 
+
 **M – Z A K E R I [AT] L I V E [DOT] C O M**
 ([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). 
+
 I will provide proper response ASAP.
+
