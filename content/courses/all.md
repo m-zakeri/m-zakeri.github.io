@@ -25,19 +25,19 @@ Author: Morteza
  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
 
 
-<a href="https://m-zakeri.github.io/AI">  
+<a href="https://m-zakeri.github.io/AI" target="blank">  
 <button type="button" name="ai">Artificial Intelligence</button>
 </a>
 
-<a href="https://m-zakeri.github.io/Compilers">  
+<a href="https://m-zakeri.github.io/Compilers" target="blank">  
 <button type="button" name="compiler">Compilers</button>
 </a>
 
-<a href="https://m-zakeri.github.io/DatabaseDesign">  
+<a href="https://m-zakeri.github.io/DatabaseDesign" target="blank">  
 <button type="button" name="DatabaseDesign">DatabaseDesign</button>
 </a>
 
-<a href="https://m-zakeri.github.io/CP">  
+<a href="https://m-zakeri.github.io/CP" target="blank">  
 <button type="button" name="compiler">Computer Programming </button>
 </a>
 
