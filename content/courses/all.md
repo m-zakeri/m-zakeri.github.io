@@ -32,38 +32,69 @@ Author: Morteza
 		}
 	</style>
 
+
+
 <div style="text-align: center;">
 
  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
 
 
-<a href="https://m-zakeri.github.io/AI" target="blank">  
-<button  class="button1" type="button" name="ai">Artificial Intelligence</button>
-</a>
+## Undergraduate courses
+
 <a href="https://m-zakeri.github.io/Compilers" target="blank">  
-<button class="button1" type="button" name="compiler">Compilers</button>
+<button class="button1" type="button" name="compiler">Compiler Design</button>
 </a>
 
 
 <a href="https://m-zakeri.github.io/DatabaseDesign" target="blank">  
-<button class="button1" type="button" name="db">DatabaseDesign</button>
+<button class="button1" type="button" name="db">Database Design</button>
 </a>
+
+<br>
+
+<a href="https://m-zakeri.github.io/AlgorithmDesign" target="blank">  
+<button  class="button1" type="button" name="ai">Algorithm Design</button>
+</a>
+
+
+<a href="https://m-zakeri.github.io/SoftwareTesting" target="blank">  
+<button  class="button1" type="button" name="ai">Software Testing</button>
+</a>
+
+<br> 
+
+<a href="https://m-zakeri.github.io/AI" target="blank">  
+<button  class="button1" type="button" name="ai">Artificial Intelligence</button>
+</a>
+
 
 <a href="https://m-zakeri.github.io/CP" target="blank">  
 <button class="button1" type="button" name="compiler">Computer Programming </button>
 </a>
 
+
+## Graduate courses
+
+
 <a href="https://m-zakeri.github.io/advanced-software-engineering.html#advanced-software-engineering" target="blank">  
 <button class="button1" type="button" name="ase">Advanced Software Engineering</button>
 </a>
+
+<br> 
 
 <a href="https://m-zakeri.github.io/dynamic-complex-network.html#dynamic-complex-network" target="blank">  
 <button class="button1" type="button" name="dcn">Dynamic Complex Networks</button>
 </a>
 
+<br> 
+
 <a href="https://m-zakeri.github.io/game-theory.html#game-theory" target="blank">  
-<button class="button1" type="button" name="gt">Game Theory</button>
+<button class="button1" type="button" name="gt">Algorithmic Game Theory</button>
 </a>
+
+
+
+## More
 
 <a href="https://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials" target="blank">  
 <button class="button2" type="button" name="gt">Find more</button>

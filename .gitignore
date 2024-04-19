@@ -7,3 +7,5 @@
 *.py[cod]
 output
 Flex
+venv
+.idea
