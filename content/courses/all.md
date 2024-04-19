@@ -39,6 +39,9 @@ Author: Morteza
  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
 
 
+> We learn 10 percent of what we read, 20 percent of what we hear, 30 percent of what we see, 50 percent of what we see and hear, 70 percent of what we discuss, 80 percent of what we experience, and 95 percent of what we teach others.” William Glasser (1925-2013)
+
+
 ## Undergraduate courses
 
 <a href="https://m-zakeri.github.io/Compilers" target="blank">  
