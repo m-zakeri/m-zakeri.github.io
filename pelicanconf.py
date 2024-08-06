@@ -99,17 +99,22 @@ DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5
 DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
 
 SITEMAP = {
-    'format': 'xml',
-    'priorities': {
-        'articles': 0.6,
-        'indexes': 0.6,
-        'pages': 0.5,
+    "format": 'xml',
+    "priorities": {
+        'articles': 0.7,
+        'indexes': 0.5,
+        'pages': 0.3,
     },
-    'changefreqs': {
+    "changefreqs": {
         'articles': 'monthly',
         'indexes': 'daily',
         'pages': 'monthly',
-    }
+    },
+    "exclude": [
+            "^/noindex/",  # starts with "/noindex/"
+            "/tag/",       # contains "/tag/"
+            "\.json$",     # ends with ".json"
+        ]
 }
 
 # Uncomment following line if you want document-relative URLs when developing

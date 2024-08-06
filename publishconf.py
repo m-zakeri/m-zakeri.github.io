@@ -25,9 +25,7 @@ RELATIVE_URLS = True
 # PLUGINS = ['sitemap', 'pelican-readtime']
 # PLUGINS = ['tipue_search.tipue_search']
 
-# DISQUS_SITENAME = 'http://m-zakeri.github.io'
-# DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
-# DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
+
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
@@ -35,6 +33,12 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
+# DISQUS_SITENAME = 'http://m-zakeri.github.io'
+DISQUS_SITENAME = "m-zakeri"
+DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
+DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
 
-# DISQUS_SITENAME = ""
 # GOOGLE_ANALYTICS = ""
+
+# Pelican-search Configuration
+STORK_INPUT_OPTIONS = {"stemming": "English", "url_prefix": SITEURL}
