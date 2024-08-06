@@ -2,5 +2,17 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/ace_editor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/backreftranslate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/better_code_samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/bootstrapify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/category_order" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/cjk-auto-spacing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/deadlinks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/encrypt-content" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/figure-ref" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/ga_page_view" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/pelican-tipue-search/image_process" vcs="Git" />
   </component>
 </project>
