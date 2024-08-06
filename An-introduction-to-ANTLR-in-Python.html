@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://zakeri.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="./theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/pygments/github.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href=".//static/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://m-zakeri.github.io/feeds/all.atom.xml" rel="alternate" title="Morteza Zakeri Atom" type="application/atom+xml"/>
+<meta content="Morteza" name="author"/>
+<meta content="ANTLR is a parser generator that can generate the parser program from context-free grammar descriptions specified in the ANTLR grammar format. In this tutorial, I explain how we can generate and use the Java parser with ANTLR in the Python programming language." name="description"/>
+<meta content="blog, ANTLR, compiler, tutorial" name="keywords"/>
+<meta content="Morteza Zakeri" property="og:site_name">
+<meta content="An introduction to ANTLR in Python" property="og:title"/>
+<meta content="ANTLR is a parser generator that can generate the parser program from context-free grammar descriptions specified in the ANTLR grammar format. In this tutorial, I explain how we can generate and use the Java parser with ANTLR in the Python programming language." property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="./An-introduction-to-ANTLR-in-Python.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2021-03-22 23:00:00+04:30" property="article:published_time"/>
+<meta content="" property="article:modified_time"/>
+<meta content="./author/morteza.html" property="article:author"/>
+<meta content="blog" property="article:section">
+<meta content="blog" property="article:tag"/>
+<meta content="ANTLR" property="article:tag"/>
+<meta content="compiler" property="article:tag"/>
+<meta content="tutorial" property="article:tag"/>
+<meta content="/static/img/profile.png" property="og:image"/>
+<title>Morteza Zakeri – An introduction to ANTLR in Python</title>
+</meta></meta><link href="https://m-zakeri.github.io\An-introduction-to-ANTLR-in-Python.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Morteza Zakeri", "item": "https://m-zakeri.github.io"}, {"@type": "ListItem", "position": 2, "name": "An introduction to antlr in python", "item": "https://m-zakeri.github.io\\An-introduction-to-ANTLR-in-Python.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Morteza"}, "publisher": {"@type": "Organization", "name": "Morteza Zakeri"}, "headline": "An introduction to <span class=\"caps\">ANTLR</span> in&nbsp;Python", "about": "blog", "datePublished": "2021-03-22 23:00"}</script></head>
+<body class="light-theme">
+<aside>
+<div>
+<a href="./">
+<img alt="Morteza Zakeri" src="/static/img/profile.png" title="Morteza Zakeri"/>
+</a>
+<h1>
+<a href="./">Morteza Zakeri</a>
+</h1>
+<p>PhD in Computer Science</p>
+<nav>
+<ul class="list">
+<li>
+<a href="./#about-me" target="_self">
+                About Me
+              </a>
+</li>
+<li>
+<a href="./pages/contact-me.html#contact-me" target="_self">
+                Contact Me
+              </a>
+</li>
+<li>
+<a href="./pages/gallery.html#gallery" target="_self">
+                Gallery
+              </a>
+</li>
+<li>
+<a href="./pages/honors-and-awards.html#honors-and-awards" target="_self">
+                Honors and Awards
+              </a>
+</li>
+<li>
+<a href="./pages/media.html#media" target="_self">
+                Media
+              </a>
+</li>
+<li>
+<a href="./pages/news.html#news" target="_self">
+                News
+              </a>
+</li>
+<li>
+<a href="./pages/presentations.html#presentations" target="_self">
+                Presentations
+              </a>
+</li>
+<li>
+<a href="./pages/projects.html#projects" target="_self">
+                Projects
+              </a>
+</li>
+<li>
+<a href="./pages/publications.html#publications" target="_self">
+                Publications
+              </a>
+</li>
+<li>
+<a href="./pages/research.html#research" target="_self">
+                Research
+              </a>
+</li>
+<li>
+<a href="./pages/resources.html#resources" target="_self">
+                Resources
+              </a>
+</li>
+<li>
+<a href="http://reverse.iust.ac.ir" target="_self">Laboratory</a>
+</li>
+<li>
+<a href="http://webpages.iust.ac.ir/morteza_zakeri/" target="_self">University page</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/in/mortazazakeri/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/_zakeri_" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/m-zakeri/" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-rss" href="/feeds/all.atom.xml" target="_blank">
+<i class="fa-solid fa-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="./">Home</a>
+<a href="/category/blog.html">Blog</a>
+<a href="/pages/research.html">Research</a>
+<a href="/pages/resources.html">Resources</a>
+<a href="/category/courses.html">Courses</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="/sitemap.xml">Sitemap</a>
+<a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+</nav>
+<article class="single">
+<header>
+<h1 id="An-introduction-to-ANTLR-in-Python">An introduction to <span class="caps">ANTLR</span> in Python</h1>
+<p>
+      Posted on Mon 22 March 2021 in <a href="./category/blog.html">blog</a>
+</p>
+</header>
+<div>
+<h2>Background</h2>
+<p>The <span class="caps">ANTLR</span> tool generates a top-down parser from the grammar rules defined with the <span class="caps">ANTLR</span> meta-grammar (Parr and Fisher 2011). The initial version of <span class="caps">ANTLR</span> generated the target parser source code in Java. In the current version (version 4), the parser source code can be generated in a wide range of programming languages listed on the <a href="https://www.antlr.org" target="_blank"><span class="caps">ANTLR</span> official website</a> (Parr 2022a). 
+For simplicity, we generate the parser in Python 3, which provides us to run the tool on every platform having Python 3 installed on it. 
+Another reason to use Python is that we can integrate the developed program easily with other libraries available in Python, such as machine learning and optimization libraries. 
+Finally, I found that there is no comprehensive tutorial on using <span class="caps">ANTLR</span> with the Python backend. </p>
+<p>To use <span class="caps">ANTLR</span> in other programming languages, specifically Java and C#, refer to the <span class="caps">ANTLR</span> slides I created before this tutorial. </p>
+<p>The <span class="caps">ANTLR</span> tool is a small “.jar” file that must be run from the command line to generate the parser codes. The <span class="caps">ANTLR</span> tool jar file can be downloaded from <a href="https://www.antlr.org/download/antlr-4.10.1-complete.jar">here</a>. </p>
+<h2>Generating parser</h2>
+<p>As mentioned, to generate a parser for a programming language, the grammar specification described with <span class="caps">ANTLR</span> meta-grammar is required. <span class="caps">ANTLR</span> grammar files are named with the “.g4” suffix. </p>
+<p>We obtain the grammar of Java 8 to build our parser for the Java programming language. The grammar can be downloaded from <span class="caps">ANTLR</span> 4 grammar repository on GitHub: <a href="[https://github.com/antlr/grammars-v4">https://github.com/antlr/grammars-v4</a>. 
+Once the <span class="caps">ANTLR</span> tool and required grammar files are prepared, we can generate the parser for that with the following command:</p>
+<div class="highlight"><pre><span></span><code>&gt; java -Xmx500M -cp antlr-4.9.3-complete.jar org.antlr.v4.Tool -Dlanguage=Python3 -o . JavaLexer.g4
+
+&gt; java -Xmx500M -cp antlr-4.9.3-complete.jar org.antlr.v4.Tool -Dlanguage=Python3 -visitor -listener -o . JavaLabeledParser.g4
+</code></pre></div>
+<p>The first command generates the lexer from the <code>JavaLexer.g4</code> description file and the second command generates the parser from the <code>JavaLabeledParser.g4</code> description file. It is worth noting that the lexer and parser can be written in one file. In such a case, a <em>single command</em> generates all required codes in one step.</p>
+<p>The grammar files used in the above command are also available in <a href="https://m-zakeri.github.io/IUSTCompiler/grammars" target="_blank">grammars directory</a> of the CodART repository.
+You may see that I have made some modifications to the Parser rules. </p>
+<p>In the above commands, the <code>antlr-4.9.3-complete.jar</code> is the <span class="caps">ANTLR</span> tool that requires Java to be executed. <code>-Dlanguage</code> denotes the destination language that the <span class="caps">ANTLR</span> parser (and lexer) source code is generated in which. In our case, we set it to Python3. </p>
+<p>After executing the <span class="caps">ANTLR</span> parser generation commands, eight files, including parser source code and other required information, are generated. Figure 1 shows the generated files. The “.py” contains lexer and parser source code that can parse any Java input file. The <code>-visitor -listener</code> switches in the second command result in generating two separate source files, <code>JavaLabledParserListener.py</code> and <code>JavaLabledParserVistor.py</code>, which provide interfaces to implement the required codes for a specific language application. Our application is source code refactoring which uses the listener mechanism to implement necessary actions transforming the program to the refactored version. 
+The parse tree structure in and listener mechanism are discussed in the next sections.</p>
+<p><img alt="ANTLR generated files " src="../static/img/antlr_basics/antlr-generated-files.png"/></p>
+<p><em>Figure 1. Generated files by <span class="caps">ANTLR</span>.</em></p>
+<p>It should be noted that to use the generated classes in Figure 1, for developing a specific program, we need to install the appropriate <span class="caps">ANTLR</span> runtime library. For creating <span class="caps">ANTLR</span>-based programs in Python, the command <code>pip install antlr-python3-runtime</code> can be used. It installed all runtime dependencies required to program using the <span class="caps">ANTLR</span> library.</p>
+<h2><span class="caps">ANTLR</span> parse tree</h2>
+<p>The generated parser by <span class="caps">ANTLR</span> is responsible for parsing every Java source code file and generating the parse tree or designating the syntax errors in the input file. The parse tree for real-world programs with thousands of lines of code has a non-trivial structure. <span class="caps">ANTLR</span> developers have provided some <span class="caps">IDE</span> plugins that can visualize the parse tree to better understand the structure of the parse tree generated by <span class="caps">ANTLR</span>. We use Pycharm <span class="caps">IDE</span> developed by Jetbrains  to work with Python code. </p>
+<p>Figure 2 shows how we can install the <span class="caps">ANTLR</span> plugin in PyCharm. The plugin source code is available on the <a href="https://github.com/antlr/intellij-plugin-v4" target="_blank">GitHub repo</a>. When the plugin is installed, the <span class="caps">ANTLR</span> preview widow is applied at the bottom of the PyCharm <span class="caps">IDE</span>. In addition, the <span class="caps">IDE</span> can be recognized as “.g4” files and some other options added to the <span class="caps">IDE</span>. The main option is the ability to test a grammar rule and visualize the corresponding parse tree to that rule.</p>
+<p><img alt="Installing ANTLR plugin in PyCharm IDE " src="../static/img/antlr_basics/installing-antlr4-plugin-in-pycharm.png"/></p>
+<p><em>Figure 2. Installing the <span class="caps">ANTLR</span> plugin in the PyCharm <span class="caps">IDE</span>.</em></p>
+<p>In order to use the <span class="caps">ANTLR</span> preview tab, the <span class="caps">ANTLR</span> grammar should be opened in the PyCharm <span class="caps">IDE</span>. We then select a rule (typically the start rule) of our grammar, right-click on the rule, and select the “Test Rule <code>rule_name</code>” option from the opened menu, shown in Figure 3. We now write our sample input program in the left panel of the <span class="caps">ANTLR</span> preview, and the parse tree is shown in the right panel. </p>
+<p><img alt="Test the grammar rule in the ANTLR PyCharm plugin " src="../static/img/antlr_basics/selecting-rule-for-test-in-antlr-preview-window.png"/></p>
+<p><em>Figure 3. Test the grammar rule in the <span class="caps">ANTLR</span> PyCharm plugin.</em></p>
+<p>Figure 4 shows a simple Java class and the corresponding parse tree generated by the <span class="caps">ANTLR</span>. The leaves of the parse tree are program tokens, while the intermediate nodes are grammar rules that the evaluating program is derived from them. Also, the root of the tree is the grammar rule, which we selected to start parsing. It means that we can select and test every rule independently. However, a complete Java program can only parse from the start rule of the given grammar, i.e., the <code>compilaionUnit</code> rule.</p>
+<p><img alt="Test the grammar rule in the ANTLR PyCharm plugin" src="../static/img/antlr_basics/example_of_antlr-parse-tree-in-antlr-preview.png"/></p>
+<p><em>Figure 4. Test the grammar rule in the <span class="caps">ANTLR</span> PyCharm plugin.</em></p>
+<p>It should be mentioned that the <span class="caps">ANTLR</span> Preview window is based on a grammar interpreter, not on the actual generated parser described in the previous section. It means that grammar attributes such as actions and predicates will not be evaluated during live preview because the interpreter is language agnostic. For the same reasons, if the generated parser and/or lexer classes extend a custom implementation of the base parser/lexer classes, the custom code will not be run during the live preview. </p>
+<p>In addition to the parse tree visualization, the <span class="caps">ANTLR</span> plugin provides facilities such as profiling, code generation, etc., described in <a href="https://github.com/antlr/intellij-plugin-v4" target="_blank">here</a> (Parr 2022b). For example, the profile tab shows the execution time of each rule in the parser for a given input string.</p>
+<p>I want to emphasize that visualizing the parse tree with the <span class="caps">ANTLR</span> plugin is really helpful when developing code and fixing bugs described in the next section of this tutorial.</p>
+<h2>Traversing the parse tree programmatically</h2>
+<p><span class="caps">ANTLR</span> is not a simple parser generator. It provides a depth-first parse tree visiting and a callback mechanism called listener to implement the required program analysis or transformation passes. The depth-first search is performed by instantiating an object from the <span class="caps">ANTLR</span> <code>ParseTreeWalker</code> class and calling the walk method, which takes an instance of <code>ParseTree</code> as an input argument and traverses it.</p>
+<p>Obviously, if we visit the parse tree with the depth-first search algorithm, all program tokens are visited in the same order that they appeared in the source code file. However, the depth-first search contains additional information about when a node in the tree is visited and when the visiting all nodes in its subtree is finished. Therefore, we can add the required actions when visiting a node to perform a special task. For example, according to Figure 4, for counting the number of classes in a code snippet, we can define a counter variable, initialize it to zero, and increase it whenever the walker visits the “classDeclartion” node. </p>
+<p><span class="caps">ANTLR</span> provides two callback functions for each node in the parse tree. One is called by the walker when it is entered into a node, i.e., visit the node, but the children are not visited yet. Another is called when all nodes in the subtree of the visited node have been visited, and the walker is exiting the node. These callback functions are available in the listener class generated by the <span class="caps">ANTLR</span> for every rule in a given grammar. In our example for counting the number of classes, we implement all required logic in the body of <code>enterClassDeclartion</code> method of the <code>JavaLabledParserListener</code> class. We called these logic codes <em>grammar’s actions</em> since, indeed, they are bunded to a grammar rule. </p>
+<p>It is worth noting that we can add these actions codes in the grammar file (<code>.g4</code> file) to form an attributed grammar. Embedding actions in grammar increase the efficiency of the analyzing process. However, when we need many complex actions, the listener mechanism provides a better way to implement them. Indeed, <span class="caps">ANTLR</span> 4 emphasizes separating the language applications from the language grammar by using the listener mechanism.</p>
+<p>Listing 1 shows the implementation program for counting the number of classes using the <span class="caps">ANTLR</span> listener mechanism. The <code>DesignMetrics</code> class inherits from <code>JavaLabeledParserListener</code> class which is the default listener class generated by <span class="caps">ANTLR</span>. We only implement the <code>enterClassDeclartion</code> method, which increases the value of the <code>__dsc</code> counter each time the walker visits a Java class.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># module: JavaLabledParserListener.py</span>
+
+<span class="n">__version__</span> <span class="o">=</span> <span class="s2">"0.1.0"</span>
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">"Morteza"</span>
+
+<span class="kn">from</span> <span class="nn">antlr4</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="s2">"."</span> <span class="ow">in</span> <span class="vm">__name__</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">.JavaLabeledParser</span> <span class="kn">import</span> <span class="n">JavaLabeledParser</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">JavaLabeledParser</span> <span class="kn">import</span> <span class="n">JavaLabeledParser</span>
+
+<span class="k">class</span> <span class="nc">JavaLabeledParserListener</span><span class="p">(</span><span class="n">ParseTreeListener</span><span class="p">):</span>
+    <span class="c1"># …</span>
+    <span class="k">def</span> <span class="nf">enterClassDeclaration</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                              <span class="n">ctx</span><span class="p">:</span><span class="n">JavaLabeledParser</span><span class="o">.</span><span class="n">ClassDeclarationContext</span><span class="p">):</span>
+        <span class="k">pass</span>
+    <span class="c1"># …</span>
+
+<span class="k">class</span> <span class="nc">DesignMetrics</span><span class="p">(</span><span class="n">JavaLabeledParserListener</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dsc</span><span class="p">:</span><span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># Keep design size in classes</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">get_design_size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dsc</span>
+
+    <span class="k">def</span> <span class="nf">enterClassDeclaration</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                              <span class="n">ctx</span><span class="p">:</span><span class="n">JavaLabeledParser</span><span class="o">.</span><span class="n">ClassDeclarationContext</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dsc</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div>
+<p><em>Listing 1: Programs that count the number of classes in a Java source code.</em></p>
+<h3>Wiring the modules</h3>
+<p>To complete our simple analysis task, first, the parse tree for a given input should be constructed. Then, the DesignMetrics class should be instantiated and passed to an object of ParseTreeWalker class. We created a driver module in Python beside the generated code by <span class="caps">ANTLR</span> to connect different parts of our program and complete our task. Listing 2 shows the implementation of the main driver for a program that counts the number of classes in Java source codes.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Module: main_driver.py</span>
+
+<span class="n">__version__</span> <span class="o">=</span> <span class="s2">"0.1.0"</span>
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">"Morteza"</span>
+<span class="kn">from</span> <span class="nn">antlr4</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">JavaLabledLexer</span> <span class="kn">import</span> <span class="n">JavaLabledLexer</span>
+<span class="kn">from</span> <span class="nn">JavaLeabledParser</span> <span class="kn">import</span> <span class="n">JavaLabledParser</span>
+<span class="kn">from</span> <span class="nn">JavaLabledParserListener</span> <span class="kn">import</span> <span class="n">DesignMetrics</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+
+    <span class="c1"># Step 1: Load input source into the stream object</span>
+    <span class="n">stream</span> <span class="o">=</span> <span class="n">FileStream</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">file</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span>
+
+    <span class="c1"># Step 2: Create an instance of AssignmentStLexer</span>
+    <span class="n">lexer</span> <span class="o">=</span> <span class="n">JavaLabledLexer</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
+
+    <span class="c1"># Step 3: Convert the input source into a list of tokens</span>
+    <span class="n">token_stream</span> <span class="o">=</span> <span class="n">CommonTokenStream</span><span class="p">(</span><span class="n">lexer</span><span class="p">)</span>
+
+    <span class="c1"># Step 4: Create an instance of the AssignmentStParser</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">JavaLabledParser</span><span class="p">(</span><span class="n">token_stream</span><span class="p">)</span>
+
+    <span class="c1"># Step 5: Create parse tree</span>
+    <span class="n">parse_tree</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">compilationUnit</span><span class="p">()</span>
+
+    <span class="c1"># Step 6: Create an instance of DesignMetrics listener class</span>
+    <span class="n">my_listener</span> <span class="o">=</span> <span class="n">DesignMetrics</span><span class="p">()</span>
+
+    <span class="c1"># Step 7: Create a walker to traverse the parse tree and callback our listener</span>
+    <span class="n">walker</span> <span class="o">=</span> <span class="n">ParseTreeWalker</span><span class="p">()</span>
+    <span class="n">walker</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="n">parse_tree</span><span class="p">,</span> <span class="n">listener</span><span class="o">=</span><span class="n">my_listener</span><span class="p">)</span>
+
+    <span class="c1"># Step 8: Getting the results</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'DSC=</span><span class="si">{</span><span class="n">my_listener</span><span class="o">.</span><span class="n">get_design_size</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+</code></pre></div>
+<p><em>Listing 2: Main driver module for the program in Listing 1</em></p>
+<h2>Conclusion and remarks</h2>
+<p>In this tutorial, we described the basic concepts regarding using the <span class="caps">ANTLR</span> tool to generate and walk phase three and implement custom program analysis applications with the help of the <span class="caps">ANTLR</span> listener mechanism. The most important point is that we used the real-world programming languages grammars to show the parsing and analyzing process. The discussed topics form the underlying concepts of our approach for automated refactoring used in CodART.
+Check out the <a href="https://m-zakeri.github.io/CodART/tutorials/antlr_advanced/" target="_blank"><span class="caps">ANTLR</span> advanced tutorial</a> to find out how we can use <span class="caps">ANTLR</span> for reliable and efficient program transformation.</p>
+<hr/>
+<h2>References</h2>
+<p>Parr T <span class="caps">ANTLR</span> (ANother Tool for Language Recognition). https://www.antlr.org. Accessed 10 Jan 2022a</p>
+<p>Parr T IntelliJ Idea Plugin for <span class="caps">ANTLR</span> v4. https://github.com/antlr/intellij-plugin-v4. Accessed 10 Jan 2022b</p>
+<p>Parr T, Fisher K (2011) <span class="caps">LL</span>(*): the foundation of the <span class="caps">ANTLR</span> parser generator. Proc 32nd <span class="caps">ACM</span> <span class="caps">SIGPLAN</span> Conf Program Lang Des Implement 425–436. https://doi.org/http://doi.acm.org/10.1145/1993498.1993548</p>
+</div>
+<div class="tag-cloud">
+<p>
+<a href="./tag/blog.html">blog</a>
+<a href="./tag/antlr.html">ANTLR</a>
+<a href="./tag/compiler.html">compiler</a>
+<a href="./tag/tutorial.html">tutorial</a>
+</p>
+</div>
+<div class="related-posts">
+<h4>You might enjoy</h4>
+<ul class="related-posts">
+<li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
+<li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using <span class="caps">ANTLR</span> in Python</a></li>
+<li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with <span class="caps">ANTLR</span></a></li>
+<li><a href="./program-static-analysis-with-antlr.html">Program static analysis with <span class="caps">ANTLR</span></a></li>
+<li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
+</ul>
+</div>
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'zakeri';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+<footer>
+<p>© 2016 - 2024 Morteza Zakeri. All rights reserved.</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p></footer> </main>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : ".",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>
+<script async="" id="dsq-count-scr" src="//zakeri.disqus.com/count.js"></script>
+</body>
+</html>

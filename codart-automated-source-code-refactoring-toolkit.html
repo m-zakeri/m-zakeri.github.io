@@ -1,247 +1,203 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/>
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
 
-  <script>
-        $(document).ready(function() {
-             $('#tipue_search_input').tipuesearch({
-                  'mode': 'json',
-                  'contentLocation': 'tipuesearch_content.json'
-             });
-        });
-  </script>
-
-    <meta name="robots" content="" />
-
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
-
-
-    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="./theme/pygments/github.min.css">
-
-
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
-
-    <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
-
-    <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
-
-
-    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
-
-  
-
-
- 
-
-<meta name="author" content="Morteza" />
-<meta name="description" content="Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe, and if so, transforms the program." />
-<meta name="keywords" content="blog">
-
-
-  <meta property="og:site_name" content="Morteza Zakeri"/>
-  <meta property="og:title" content="CodART: Automated Source Code Refactoring Toolkit"/>
-  <meta property="og:description" content="Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe, and if so, transforms the program."/>
-  <meta property="og:locale" content="en_US"/>
-  <meta property="og:url" content="./codart-automated-source-code-refactoring-toolkit.html"/>
-  <meta property="og:type" content="article"/>
-  <meta property="article:published_time" content="2022-05-02 23:58:00+04:30"/>
-  <meta property="article:modified_time" content=""/>
-  <meta property="article:author" content="./author/morteza.html">
-  <meta property="article:section" content="blog"/>
-  <meta property="article:tag" content="blog"/>
-  <meta property="og:image" content="/static/img/profile.png">
-
-  <title>Morteza Zakeri &ndash; CodART: Automated Source Code Refactoring Toolkit</title>
-
-</head>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://zakeri.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="./theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/pygments/github.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href=".//static/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://m-zakeri.github.io/feeds/all.atom.xml" rel="alternate" title="Morteza Zakeri Atom" type="application/atom+xml"/>
+<meta content="Morteza" name="author"/>
+<meta content="Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe, and if so, transforms the program." name="description"/>
+<meta content="blog" name="keywords"/>
+<meta content="Morteza Zakeri" property="og:site_name">
+<meta content="CodART: Automated Source Code Refactoring Toolkit" property="og:title"/>
+<meta content="Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe, and if so, transforms the program." property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="./codart-automated-source-code-refactoring-toolkit.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2022-05-02 23:58:00+04:30" property="article:published_time"/>
+<meta content="" property="article:modified_time"/>
+<meta content="./author/morteza.html" property="article:author"/>
+<meta content="blog" property="article:section">
+<meta content="blog" property="article:tag"/>
+<meta content="/static/img/profile.png" property="og:image"/>
+<title>Morteza Zakeri – CodART: Automated Source Code Refactoring Toolkit</title>
+</meta></meta><link href="https://m-zakeri.github.io\codart-automated-source-code-refactoring-toolkit.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Morteza Zakeri", "item": "https://m-zakeri.github.io"}, {"@type": "ListItem", "position": 2, "name": "Codart automated source code refactoring toolkit", "item": "https://m-zakeri.github.io\\codart-automated-source-code-refactoring-toolkit.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Morteza"}, "publisher": {"@type": "Organization", "name": "Morteza Zakeri"}, "headline": "CodART: Automated Source Code Refactoring&nbsp;Toolkit", "about": "blog", "datePublished": "2022-05-02 23:58"}</script></head>
 <body class="light-theme">
-  <aside>
-    <div>
-      <a href="./">
-        <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
-      </a>
-
-      <h1>
-        <a href="./">Morteza Zakeri</a>
-      </h1>
-
+<aside>
+<div>
+<a href="./">
+<img alt="Morteza Zakeri" src="/static/img/profile.png" title="Morteza Zakeri"/>
+</a>
+<h1>
+<a href="./">Morteza Zakeri</a>
+</h1>
 <p>PhD in Computer Science</p>
-
-      <nav>
-        <ul class="list">
-
-
-              <li>
-                <a target="_self"
-                   href="./#about-me">
-                  About&nbsp;Me
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/contact-me.html#contact-me">
-                  Contact&nbsp;Me
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/gallery.html#gallery">
-                  Gallery
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/honors-and-awards.html#honors-and-awards">
-                  Honors and&nbsp;Awards
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/media.html#media">
-                  Media
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/news.html#news">
-                  News
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/presentations.html#presentations">
-                  Presentations
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/projects.html#projects">
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/publications.html#publications">
-                  Publications
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/research.html#research">
-                  Research
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/resources.html#resources">
-                  Resources
-                </a>
-              </li>
-
-            <li>
-              <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory</a>
-            </li>
-            <li>
-              <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >University page</a>
-            </li>
-        </ul>
-      </nav>
-
-      <ul class="social">
-          <li>
-            <a  class="sc-linkedin" href="https://www.linkedin.com/in/mortazazakeri/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a  class="sc-twitter" href="https://twitter.com/_zakeri_" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a  class="sc-github" href="https://github.com/m-zakeri/" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a  class="sc-rss" href="/feeds/all.atom.xml" target="_blank">
-              <i class="fas fa-rss"></i>
-            </a>
-          </li>
-      </ul>
-    </div>
-
-  </aside>
-  <main>
-
-    <nav>
-      <a href="./">Home</a>
-
-      <a href="/category/blog.html">Blog</a>
-      <a href="/pages/research.html">Research</a>
-      <a href="/pages/resources.html">Resources</a>
-      <a href="/category/courses.html">Courses</a>
-      <a href="/archives.html">Archives</a>
-      <a href="/categories.html">Categories</a>
-      <a href="/tags.html">Tags</a>
-      <a href="/sitemap.xml">Sitemap</a>
-
-      <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
-
-    </nav>
-
+<nav>
+<ul class="list">
+<li>
+<a href="./#about-me" target="_self">
+                About Me
+              </a>
+</li>
+<li>
+<a href="./pages/contact-me.html#contact-me" target="_self">
+                Contact Me
+              </a>
+</li>
+<li>
+<a href="./pages/gallery.html#gallery" target="_self">
+                Gallery
+              </a>
+</li>
+<li>
+<a href="./pages/honors-and-awards.html#honors-and-awards" target="_self">
+                Honors and Awards
+              </a>
+</li>
+<li>
+<a href="./pages/media.html#media" target="_self">
+                Media
+              </a>
+</li>
+<li>
+<a href="./pages/news.html#news" target="_self">
+                News
+              </a>
+</li>
+<li>
+<a href="./pages/presentations.html#presentations" target="_self">
+                Presentations
+              </a>
+</li>
+<li>
+<a href="./pages/projects.html#projects" target="_self">
+                Projects
+              </a>
+</li>
+<li>
+<a href="./pages/publications.html#publications" target="_self">
+                Publications
+              </a>
+</li>
+<li>
+<a href="./pages/research.html#research" target="_self">
+                Research
+              </a>
+</li>
+<li>
+<a href="./pages/resources.html#resources" target="_self">
+                Resources
+              </a>
+</li>
+<li>
+<a href="http://reverse.iust.ac.ir" target="_self">Laboratory</a>
+</li>
+<li>
+<a href="http://webpages.iust.ac.ir/morteza_zakeri/" target="_self">University page</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/in/mortazazakeri/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/_zakeri_" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/m-zakeri/" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-rss" href="/feeds/all.atom.xml" target="_blank">
+<i class="fa-solid fa-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="./">Home</a>
+<a href="/category/blog.html">Blog</a>
+<a href="/pages/research.html">Research</a>
+<a href="/pages/resources.html">Resources</a>
+<a href="/category/courses.html">Courses</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="/sitemap.xml">Sitemap</a>
+<a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+</nav>
 <article class="single">
-  <header>
-      
-    <h1 id="codart-automated-source-code-refactoring-toolkit">CodART: Automated Source Code Refactoring&nbsp;Toolkit</h1>
-    <p>
+<header>
+<h1 id="codart-automated-source-code-refactoring-toolkit">CodART: Automated Source Code Refactoring Toolkit</h1>
+<p>
       Posted on Mon 02 May 2022 in <a href="./category/blog.html">blog</a>
-
-    </p>
-  </header>
-
-
-  <div>
-    <p><strong>Abstract—</strong> Software refactoring is performed by changing the software structure without modifying its external behavior. Many software quality attributes can be enhanced through the source code refactoring, such as reusability, flexibility, understandability, and testability. Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe, and if so, transforms the program. Refactoring engines are a key component of modern Integrated Development Environments (IDEs), and programmers rely on them to perform refactorings. In this project, an open-source software toolkit for refactoring Java source codes, namely CodART, will be developed. <span class="caps">ANTLR</span> parser generator is used to create and modify the program syntax-tree and produce the refactored version of the program. To the best of our knowledge, CodART is the first open-source refactoring toolkit based on <span class="caps">ANTLR</span>.</p>
-<p><strong>Index Terms:</strong> Software refactoring, refactoring engine, search-based refactoring, <span class="caps">ANTLR</span>,&nbsp;Java.</p>
-<h2>1&nbsp;Introduction</h2>
-<p><strong>R</strong>efactoring is a behavior-preserving program transformation that improves the design of a program. Refactoring engines are tools that automate the application of refactorings. The programmer need only select which refactoring to apply, and the engine will automatically check the <em>preconditions</em> and apply the transformations across the entire program if the preconditions are satisfied. Refactoring is gaining popularity, as evidenced by the inclusion of refactoring engines in modern IDEs such as <a href="https://www.jetbrains.com/idea/">IntelliJ <span class="caps">IDEA</span></a>, <a href="http://www.eclipse.org">Eclipse</a>, or <a href="http://www.netbeans.org">NetBeans</a> for&nbsp;Java.</p>
-<p>Considering the <em>EncapsulateField</em> refactoring as an illustrative example. This refactoring replaces all references to a field with accesses through setter and getter methods. The <em>EncapsulateField</em> refactoring takes as input the name of the field to encapsulate and the names of the new getter and setter methods. It performs the following&nbsp;transformations:</p>
+</p>
+</header>
+<div>
+<p><strong>Abstract—</strong> Software refactoring is performed by changing the software structure without modifying its external behavior. Many software quality attributes can be enhanced through the source code refactoring, such as reusability, flexibility, understandability, and testability. Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe, and if so, transforms the program. Refactoring engines are a key component of modern Integrated Development Environments (IDEs), and programmers rely on them to perform refactorings. In this project, an open-source software toolkit for refactoring Java source codes, namely CodART, will be developed. <span class="caps">ANTLR</span> parser generator is used to create and modify the program syntax-tree and produce the refactored version of the program. To the best of our knowledge, CodART is the first open-source refactoring toolkit based on <span class="caps">ANTLR</span>.</p>
+<p><strong>Index Terms:</strong> Software refactoring, refactoring engine, search-based refactoring, <span class="caps">ANTLR</span>, Java.</p>
+<h2>1 Introduction</h2>
+<p><strong>R</strong>efactoring is a behavior-preserving program transformation that improves the design of a program. Refactoring engines are tools that automate the application of refactorings. The programmer need only select which refactoring to apply, and the engine will automatically check the <em>preconditions</em> and apply the transformations across the entire program if the preconditions are satisfied. Refactoring is gaining popularity, as evidenced by the inclusion of refactoring engines in modern IDEs such as <a href="https://www.jetbrains.com/idea/">IntelliJ <span class="caps">IDEA</span></a>, <a href="http://www.eclipse.org">Eclipse</a>, or <a href="http://www.netbeans.org">NetBeans</a> for Java.</p>
+<p>Considering the <em>EncapsulateField</em> refactoring as an illustrative example. This refactoring replaces all references to a field with accesses through setter and getter methods. The <em>EncapsulateField</em> refactoring takes as input the name of the field to encapsulate and the names of the new getter and setter methods. It performs the following transformations:</p>
 <ul>
-<li>Creates a public getter method that returns the field&#8217;s&nbsp;value, </li>
-<li>Creates a public setter method that updates the field&#8217;s value,
-to a given parameter&#8217;s&nbsp;value,</li>
-<li>Replaces all field reads with calls to the getter&nbsp;method,</li>
-<li>Replaces all field writes with calls to the setter&nbsp;method,</li>
-<li>Changes the field&#8217;s access modifier to&nbsp;private.</li>
+<li>Creates a public getter method that returns the field’s value, </li>
+<li>Creates a public setter method that updates the field’s value,
+to a given parameter’s value,</li>
+<li>Replaces all field reads with calls to the getter method,</li>
+<li>Replaces all field writes with calls to the setter method,</li>
+<li>Changes the field’s access modifier to private.</li>
 </ul>
 <p>The <em>EncapsulateField</em> refactoring checks several preconditions, including that the code does not already contain accessor methods and that these methods are applicable to the expressions in which the field appears. Figure 1 shows a sample program before and after encapsulating the field <code>f</code> into the <code>getF</code> and <code>setF</code> methods.</p>
-<p><img alt="Figure 1. Example EncapsulateField refactoring" src="../static/img/codart_example.png"></p>
-<p><em>Figure 1. Example EncapsulateField&nbsp;refactoring</em></p>
-<p>Refactoring engines must be reliable. A fault in a refactoring engine can silently introduce bugs in the refactored program and lead to challenging debugging sessions. If the original program compiles, but the refactored program does not, the refactoring is obviously incorrect and can be easily undone. However, if the refactoring engine erroneously produces a refactored program that compiles but does not preserve the semantics of the original program, this can have severe&nbsp;consequences. </p>
-<p>To perform refactoring correctly, the tool has to operate on the syntax tree of the code, not on the text. Manipulating the syntax tree is much more reliable to preserve what the code is doing. Refactoring is not just understanding and updating the syntax tree. The tool also needs to figure out how to rerender the code into text back in the editor view, called code transformation. All in all, implementing decent refactoring is a challenging programming exercise, required compiler&nbsp;knowledge. </p>
-<p>In this project, we develop CodART, a toolkit for applying a given refactoring on the source code and obtain the refactored code. To this aim, we will use <span class="caps">ANTLR</span> [1] to generate and modify the program syntax tree. CodART development consists of two phases: In the first phase, <strong>47 common refactoring operations</strong> will be automated, and in the second phase, an algorithm to find the best sequence of refactorings to apply on a given software will be developed using many-objective search-based&nbsp;approaches.</p>
-<p>The rest of this <em>white-paper</em> is organized as follows. Section 2 describes the refactoring operations in detail. Section 3 explains code smells in detail. Section 4 briefly discusses the search-based refactoring techniques and many-objective evolutionary algorithms. Section 5 explains the implementation details of the current version of CodART. Section 6 lists the Java project used to evaluate CodART. Section 7 articulates the proposals that existed behind the CodART projects. Finally, the conclusion and future works are discussed in Section&nbsp;8.</p>
-<h2>2 Refactoring&nbsp;operations</h2>
-<p>This section explains the refactoring operations used in the project. A catalog of 72 refactoring operations has been proposed by Fowler [2]. We called this refactorings atomic refactoring&nbsp;operations. </p>
+<p><img alt="Figure 1. Example EncapsulateField refactoring" src="../static/img/codart_example.png"/></p>
+<p><em>Figure 1. Example EncapsulateField refactoring</em></p>
+<p>Refactoring engines must be reliable. A fault in a refactoring engine can silently introduce bugs in the refactored program and lead to challenging debugging sessions. If the original program compiles, but the refactored program does not, the refactoring is obviously incorrect and can be easily undone. However, if the refactoring engine erroneously produces a refactored program that compiles but does not preserve the semantics of the original program, this can have severe consequences. </p>
+<p>To perform refactoring correctly, the tool has to operate on the syntax tree of the code, not on the text. Manipulating the syntax tree is much more reliable to preserve what the code is doing. Refactoring is not just understanding and updating the syntax tree. The tool also needs to figure out how to rerender the code into text back in the editor view, called code transformation. All in all, implementing decent refactoring is a challenging programming exercise, required compiler knowledge. </p>
+<p>In this project, we develop CodART, a toolkit for applying a given refactoring on the source code and obtain the refactored code. To this aim, we will use <span class="caps">ANTLR</span> [1] to generate and modify the program syntax tree. CodART development consists of two phases: In the first phase, <strong>47 common refactoring operations</strong> will be automated, and in the second phase, an algorithm to find the best sequence of refactorings to apply on a given software will be developed using many-objective search-based approaches.</p>
+<p>The rest of this <em>white-paper</em> is organized as follows. Section 2 describes the refactoring operations in detail. Section 3 explains code smells in detail. Section 4 briefly discusses the search-based refactoring techniques and many-objective evolutionary algorithms. Section 5 explains the implementation details of the current version of CodART. Section 6 lists the Java project used to evaluate CodART. Section 7 articulates the proposals that existed behind the CodART projects. Finally, the conclusion and future works are discussed in Section 8.</p>
+<h2>2 Refactoring operations</h2>
+<p>This section explains the refactoring operations used in the project. A catalog of 72 refactoring operations has been proposed by Fowler [2]. We called this refactorings atomic refactoring operations. </p>
 <p>Each refactoring operation has a definition and is clearly specified by the entities in which it is involved and the role of each. Table 1 describes the desirable refactorings, which we aim to automate them. It worth noting that not all of these refactoring operations are introduced by Fowler [2]. A concrete example for most of the refactoring operations in the table is available at <a href="https://refactoring.com/catalog/">https://refactoring.com/catalog/</a>. Examples of other refactorings can be found at <a href="https://refactoring.guru/refactoring/techniques">https://refactoring.guru/refactoring/techniques</a> and <a href="ttps://sourcemaking.com/refactoring/refactorings">https://sourcemaking.com/refactoring/refactorings</a>. </p>
-<p><em>Table 1. Refactoring&nbsp;operations</em></p>
+<p><em>Table 1. Refactoring operations</em></p>
 <table>
 <thead>
 <tr>
@@ -542,29 +498,29 @@ to a given parameter&#8217;s&nbsp;value,</li>
 </tr>
 </tbody>
 </table>
-<h2>3 Code&nbsp;smells</h2>
-<p>Deciding when and where to start refactoring—and when and where to stop—is just as important to refactoring as knowing how to operate its mechanics [2]. To answer this important question, we should know the refactoring activities. The refactoring process consists of six distinct activities&nbsp;[9]:</p>
+<h2>3 Code smells</h2>
+<p>Deciding when and where to start refactoring—and when and where to stop—is just as important to refactoring as knowing how to operate its mechanics [2]. To answer this important question, we should know the refactoring activities. The refactoring process consists of six distinct activities [9]:</p>
 <ol>
 <li>
-<p>Identify where the software should be&nbsp;refactored.</p>
+<p>Identify where the software should be refactored.</p>
 </li>
 <li>
-<p>Determine which refactoring(s) should be applied to the identified&nbsp;places.</p>
+<p>Determine which refactoring(s) should be applied to the identified places.</p>
 </li>
 <li>
-<p>Guarantee that the applied refactoring preserves&nbsp;behavior.</p>
+<p>Guarantee that the applied refactoring preserves behavior.</p>
 </li>
 <li>
-<p>Apply the&nbsp;refactoring.</p>
+<p>Apply the refactoring.</p>
 </li>
 <li>
-<p>Assess the effect of the refactoring on quality characteristics of the software (e.g., complexity, understandability, maintainability) or the process (e.g., productivity, cost,&nbsp;effort).</p>
+<p>Assess the effect of the refactoring on quality characteristics of the software (e.g., complexity, understandability, maintainability) or the process (e.g., productivity, cost, effort).</p>
 </li>
 <li>
-<p>Maintain the consistency between the refactored program code and other software artifacts (such as documentation, design documents, requirements specifications, tests,&nbsp;etc.).</p>
+<p>Maintain the consistency between the refactored program code and other software artifacts (such as documentation, design documents, requirements specifications, tests, etc.).</p>
 </li>
 </ol>
-<p><em>Table 2. Code&nbsp;smells</em></p>
+<p><em>Table 2. Code smells</em></p>
 <table>
 <thead>
 <tr>
@@ -575,7 +531,7 @@ to a given parameter&#8217;s&nbsp;value,</li>
 <tbody>
 <tr>
 <td>God class</td>
-<td>The class defines many data members (fields) and methods   and exhibits low cohesion. The god class smell occurs when a huge class surrounded   by many data classes acts as a controller (i.e., takes most of the decisions   and monopolizes the software&#8217;s functionality).       Other names: Blob, large   class, brain class.</td>
+<td>The class defines many data members (fields) and methods   and exhibits low cohesion. The god class smell occurs when a huge class surrounded   by many data classes acts as a controller (i.e., takes most of the decisions   and monopolizes the software’s functionality).       Other names: Blob, large   class, brain class.</td>
 </tr>
 <tr>
 <td>Long method</td>
@@ -659,50 +615,50 @@ to a given parameter&#8217;s&nbsp;value,</li>
 </tr>
 </tbody>
 </table>
-<h2>4 Search-based&nbsp;refactoring</h2>
-<p>After refactoring operations were automated, we must decide which refactorings souled be performed in order to elevate software quality. The concern about using refactoring operations in Table 1 is whether each one of them has a positive impact on the refactored code quality or not. Finding the right sequence of refactorings to be applied in a software artifact is considered a challenging task since there is a wide range of refactorings. The ideal sequence is, therefore, must correlate to different quality attributes to be improved as a result of applying&nbsp;refactorings. </p>
-<p>Finding the best refactoring sequence is an optimization problem that can be solved by search techniques in the field known as Search-Based Software Engineering (<span class="caps">SBSE</span>) [3]. In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software metrics. There are various metric suites available to measure characteristics like cohesion and coupling, but different metrics measure the software in different ways, and thus how they are applied will have a different effect on the&nbsp;outcome. </p>
-<p>The second phase of this project is to use a many-objective search algorithm to find the best sequence of refactoring on a given project. Recently, many-objective <span class="caps">SBSE</span> approach for refactoring [3]–[5] and remodularization, regrouping a set of classes C in terms of packages P, [6] has gained more attention due to its ability to find the best sequence of refactoring operations which is led to the improvement in software quality. Therefore, we first focus on implementing the proposed approach approaches in [3], [5], [6] as fundamental works in this area. Then, we will improve their approach. As a new contribution, we add new refactoring operations and new objective functions to improve the quality attribute of the software. We also evaluate our method on the new software projects which are not used in previous&nbsp;works.</p>
-<h2>5&nbsp;Implementation</h2>
-<p>This section describes implementation details of the CodART. It includes CodART architecture, high-level repository directories structure, refactoring automation with <span class="caps">ANTLR</span> parser generator, and refactoring recommendation through many-objective search-based software engineering&nbsp;techniques. </p>
-<h3>5.1 CodART&nbsp;architecture</h3>
-<p>The high-level architecture of CodART is shown in Figure 2. The source code consists of several Python packages and directories. We briefly describe each component in&nbsp;CodART. </p>
-<p><img alt="CodART_Architecture" src="../static/img/CodART_architecture__v0.1.1.png"></p>
-<p><em>Figure 2. CodART&nbsp;architecture</em></p>
-<p>I. <code>grammars</code>: This directory contains three <span class="caps">ANTLR4</span> grammars for the Java programming&nbsp;language: </p>
+<h2>4 Search-based refactoring</h2>
+<p>After refactoring operations were automated, we must decide which refactorings souled be performed in order to elevate software quality. The concern about using refactoring operations in Table 1 is whether each one of them has a positive impact on the refactored code quality or not. Finding the right sequence of refactorings to be applied in a software artifact is considered a challenging task since there is a wide range of refactorings. The ideal sequence is, therefore, must correlate to different quality attributes to be improved as a result of applying refactorings. </p>
+<p>Finding the best refactoring sequence is an optimization problem that can be solved by search techniques in the field known as Search-Based Software Engineering (<span class="caps">SBSE</span>) [3]. In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software metrics. There are various metric suites available to measure characteristics like cohesion and coupling, but different metrics measure the software in different ways, and thus how they are applied will have a different effect on the outcome. </p>
+<p>The second phase of this project is to use a many-objective search algorithm to find the best sequence of refactoring on a given project. Recently, many-objective <span class="caps">SBSE</span> approach for refactoring [3]–[5] and remodularization, regrouping a set of classes C in terms of packages P, [6] has gained more attention due to its ability to find the best sequence of refactoring operations which is led to the improvement in software quality. Therefore, we first focus on implementing the proposed approach approaches in [3], [5], [6] as fundamental works in this area. Then, we will improve their approach. As a new contribution, we add new refactoring operations and new objective functions to improve the quality attribute of the software. We also evaluate our method on the new software projects which are not used in previous works.</p>
+<h2>5 Implementation</h2>
+<p>This section describes implementation details of the CodART. It includes CodART architecture, high-level repository directories structure, refactoring automation with <span class="caps">ANTLR</span> parser generator, and refactoring recommendation through many-objective search-based software engineering techniques. </p>
+<h3>5.1 CodART architecture</h3>
+<p>The high-level architecture of CodART is shown in Figure 2. The source code consists of several Python packages and directories. We briefly describe each component in CodART. </p>
+<p><img alt="CodART_Architecture" src="../static/img/CodART_architecture__v0.1.1.png"/></p>
+<p><em>Figure 2. CodART architecture</em></p>
+<p>I. <code>grammars</code>: This directory contains three <span class="caps">ANTLR4</span> grammars for the Java programming language: </p>
 <ol>
 <li>
 <p><code>Java9_v2.g4</code>: This grammar was used in the initial version of CodART. The main problem of this grammar is that parsing large source code files is performed very slow due to some decisions used in grammar design. We have switched to the fast grammar <code>JavaParserLabled.g4</code>.</p>
 </li>
 <li>
-<p><code>JavaLexer.g4</code>: The lexer of Java fast grammar. This lexer is used for both fast parsers, i.e., <code>JavaParser.g4</code> and&nbsp;JavaParserLabeled.</p>
+<p><code>JavaLexer.g4</code>: The lexer of Java fast grammar. This lexer is used for both fast parsers, i.e., <code>JavaParser.g4</code> and JavaParserLabeled.</p>
 </li>
 <li>
 <p><code>JavaParser.g4</code>: The original parser of Java fast grammar. This parser is currently used in some refactoring. In the future release, this grammar will be replaced with <code>JavaPaseredLabled.g4</code>.</p>
 </li>
 <li>
-<p><code>JavaParserLabeled.g4</code>: This file contains the same <code>JavaParsar.g4</code> grammar. The only difference is that the rules with more than one extension are labled with a specific name. The <span class="caps">ANTLR</span> parser generator thus generates separate visitor and listener methods for each extension. This grammar facilitates the development of some refactoring. It is the preferred parser in CodART&nbsp;project.</p>
+<p><code>JavaParserLabeled.g4</code>: This file contains the same <code>JavaParsar.g4</code> grammar. The only difference is that the rules with more than one extension are labled with a specific name. The <span class="caps">ANTLR</span> parser generator thus generates separate visitor and listener methods for each extension. This grammar facilitates the development of some refactoring. It is the preferred parser in CodART project.</p>
 </li>
 </ol>
-<p><span class="caps">II</span>. <code>gen</code>: The <code>gen</code> packages contain all generated source code for the parser, lexer, visitor, and listener for different grammars available in the grammars directory. To develop refactorings and code smells, <code>gen.JavaLabled</code> package, which contains <code>JavaParserLabled.g4</code> generated source code, must be used. The content of this package is generated <em>automatically</em>, and therefore it should <em>not</em> be modified <em>manually</em>. Modules within this gen package are just for importing and using in other&nbsp;modules.</p>
-<p><span class="caps">III</span>. <code>speedy</code>: The python implementation for <span class="caps">ANTLR</span> is less efficient than Java or C++ implementation. The <code>speedy</code> module implements a Java parser with a C++ back-end, improving the efficiency and speed of parsing. It uses speedy-antlr implementation with some minor changes.  The current version of the speedy module use <code>java9_v2.g4</code> grammar, which inherently slow as described. To switch to C++ back-end, first, the speedy module must be installed on the client system. It requires a C++ compiler. We <em>recommended</em> to CodART developers using the Python back-end as switching to C++ back-end would be done transparently in the future release. The Python back-end saves debugging and developing&nbsp;time.</p>
-<p><span class="caps">IV</span>. <code>refactorings</code>: The <code>refactorings</code> package is the main package in the CodART project and contains numerous Python modules that form the kernel functionalities of CodART. Each module implements the automation of one refactoring operation according to standard practices. The modules may include several classes which <em>inherit</em> from <span class="caps">ANTLR</span> listeners. Sub-packages in this module contain refactorings, which are in an early step of development or deprecated version of an existing refactoring. This package is under active development and testing. The module in the root packages can be used for testing&nbsp;purposes.</p>
-<p>V. <code>refactoring_design_patters</code>: The refactoring_design_pattern packages contain modules that implement refactoring to a specific design pattern&nbsp;automatically. </p>
-<p><span class="caps">VI</span>. <code>smells</code>: The smell package implements the automatic detection of software code and design smells relevant to the refactoring operation supported by CodART. Each smell corresponds to one or more refactoring in the refactoring&nbsp;package.</p>
-<p><span class="caps">VII</span>. <code>metrics</code>: The metrics packages contain several modules that implement the computation of the most well-known source code metrics. These metrics used to detect code smells and measuring the quality of software in terms of quality&nbsp;attributed. </p>
-<p><span class="caps">VIII</span>. <code>tests</code>: The test directory contains individual test data and test cases that are used for developing specific refactorings. Typically, each test case is a single Java file that contains one or more Java&nbsp;classes.</p>
-<p><span class="caps">IX</span>. <code>benchmark_projects</code>: This directory contains several open-source Java projects formerly used in automated refactoring researches by many researchers. Once the implementation of refactoring is completed, it will be executed and tested on all projects in this benchmark to ensure the generalization of functionality proposed by the&nbsp;implementation.  </p>
-<p>X. <strong>Other packages</strong>: The information of other packages will be announced in the&nbsp;future.  </p>
-<h3>5.2 Refactoring&nbsp;automation</h3>
-<p>Each refactoring operation in Table 1 is implemented as an <span class="caps">API</span>, with the refactoring name. The <span class="caps">API</span> receives the involved entities with their refactoring roles and other required data as inputs, checks the feasibility of the refactoring using refactoring preconditions described in [2], performs the refactoring if it is feasible, and returns the refactored code or return null if the refactoring is not&nbsp;feasible.</p>
-<p>The core of our refactoring engine is a syntax-tree modification algorithm.  Fundamentally, <span class="caps">ANTLR</span> is used to generate and modify the syntax-tree of a given program. Each refactoring <span class="caps">API</span> is an <span class="caps">ANTLR</span> <em>Listener</em> or <em>visitor</em> class, which required argument by its constructor and preform refactoring when call by parse-tree walker object. The refactoring target and input parameters must read from a configuration file, which can be expressed in <span class="caps">JSON</span>, <span class="caps">XML</span>, or <span class="caps">YAML</span>&nbsp;formats.</p>
-<p>The key to use <span class="caps">ANTLR</span> for refactoring tasks is the <code>TokenStreamRewriter</code> object that knows how to give altered views of a token stream without actually modifying the stream. It treats all of the manipulation methods as &#8220;instructions&#8221; and queues them up for lazy execution when traversing the token stream to render it back as text. The rewriter <em>executes</em> those instructions every time we call <code>getText()</code>. This strategy is very effective for the general problem of source code instrumentation or refactoring. The <code>TokenStreamRewriter</code> is a powerful and extremely efficient means of manipulating a token&nbsp;stream.</p>
-<h3>5.3 Refactoring&nbsp;recommendation</h3>
-<p>A solution consists of a sequence of n refactoring operations applied to different code elements in the source code to fix. In order to represent a candidate solution (individual/chromosome), we use a vector-based representation. Each vector’s dimension represents a refactoring operation where the order of applying these refactoring operations corresponds to their positions in the vector. The initial population is generated by randomly assigning a sequence of refactorings to some code fragments. Each generated refactoring solution is executed on the software system <em>S</em>. Once all required data is computed, the solution is evaluated based on the quality of the resulting&nbsp;design.</p>
-<h2>6 Benchmark projects and&nbsp;testbed</h2>
+<p><span class="caps">II</span>. <code>gen</code>: The <code>gen</code> packages contain all generated source code for the parser, lexer, visitor, and listener for different grammars available in the grammars directory. To develop refactorings and code smells, <code>gen.JavaLabled</code> package, which contains <code>JavaParserLabled.g4</code> generated source code, must be used. The content of this package is generated <em>automatically</em>, and therefore it should <em>not</em> be modified <em>manually</em>. Modules within this gen package are just for importing and using in other modules.</p>
+<p><span class="caps">III</span>. <code>speedy</code>: The python implementation for <span class="caps">ANTLR</span> is less efficient than Java or C++ implementation. The <code>speedy</code> module implements a Java parser with a C++ back-end, improving the efficiency and speed of parsing. It uses speedy-antlr implementation with some minor changes.  The current version of the speedy module use <code>java9_v2.g4</code> grammar, which inherently slow as described. To switch to C++ back-end, first, the speedy module must be installed on the client system. It requires a C++ compiler. We <em>recommended</em> to CodART developers using the Python back-end as switching to C++ back-end would be done transparently in the future release. The Python back-end saves debugging and developing time.</p>
+<p><span class="caps">IV</span>. <code>refactorings</code>: The <code>refactorings</code> package is the main package in the CodART project and contains numerous Python modules that form the kernel functionalities of CodART. Each module implements the automation of one refactoring operation according to standard practices. The modules may include several classes which <em>inherit</em> from <span class="caps">ANTLR</span> listeners. Sub-packages in this module contain refactorings, which are in an early step of development or deprecated version of an existing refactoring. This package is under active development and testing. The module in the root packages can be used for testing purposes.</p>
+<p>V. <code>refactoring_design_patters</code>: The refactoring_design_pattern packages contain modules that implement refactoring to a specific design pattern automatically. </p>
+<p><span class="caps">VI</span>. <code>smells</code>: The smell package implements the automatic detection of software code and design smells relevant to the refactoring operation supported by CodART. Each smell corresponds to one or more refactoring in the refactoring package.</p>
+<p><span class="caps">VII</span>. <code>metrics</code>: The metrics packages contain several modules that implement the computation of the most well-known source code metrics. These metrics used to detect code smells and measuring the quality of software in terms of quality attributed. </p>
+<p><span class="caps">VIII</span>. <code>tests</code>: The test directory contains individual test data and test cases that are used for developing specific refactorings. Typically, each test case is a single Java file that contains one or more Java classes.</p>
+<p><span class="caps">IX</span>. <code>benchmark_projects</code>: This directory contains several open-source Java projects formerly used in automated refactoring researches by many researchers. Once the implementation of refactoring is completed, it will be executed and tested on all projects in this benchmark to ensure the generalization of functionality proposed by the implementation.  </p>
+<p>X. <strong>Other packages</strong>: The information of other packages will be announced in the future.  </p>
+<h3>5.2 Refactoring automation</h3>
+<p>Each refactoring operation in Table 1 is implemented as an <span class="caps">API</span>, with the refactoring name. The <span class="caps">API</span> receives the involved entities with their refactoring roles and other required data as inputs, checks the feasibility of the refactoring using refactoring preconditions described in [2], performs the refactoring if it is feasible, and returns the refactored code or return null if the refactoring is not feasible.</p>
+<p>The core of our refactoring engine is a syntax-tree modification algorithm.  Fundamentally, <span class="caps">ANTLR</span> is used to generate and modify the syntax-tree of a given program. Each refactoring <span class="caps">API</span> is an <span class="caps">ANTLR</span> <em>Listener</em> or <em>visitor</em> class, which required argument by its constructor and preform refactoring when call by parse-tree walker object. The refactoring target and input parameters must read from a configuration file, which can be expressed in <span class="caps">JSON</span>, <span class="caps">XML</span>, or <span class="caps">YAML</span> formats.</p>
+<p>The key to use <span class="caps">ANTLR</span> for refactoring tasks is the <code>TokenStreamRewriter</code> object that knows how to give altered views of a token stream without actually modifying the stream. It treats all of the manipulation methods as “instructions” and queues them up for lazy execution when traversing the token stream to render it back as text. The rewriter <em>executes</em> those instructions every time we call <code>getText()</code>. This strategy is very effective for the general problem of source code instrumentation or refactoring. The <code>TokenStreamRewriter</code> is a powerful and extremely efficient means of manipulating a token stream.</p>
+<h3>5.3 Refactoring recommendation</h3>
+<p>A solution consists of a sequence of n refactoring operations applied to different code elements in the source code to fix. In order to represent a candidate solution (individual/chromosome), we use a vector-based representation. Each vector’s dimension represents a refactoring operation where the order of applying these refactoring operations corresponds to their positions in the vector. The initial population is generated by randomly assigning a sequence of refactorings to some code fragments. Each generated refactoring solution is executed on the software system <em>S</em>. Once all required data is computed, the solution is evaluated based on the quality of the resulting design.</p>
+<h2>6 Benchmark projects and testbed</h2>
 <p>To ensure CodART works properly, we are running it on many real-life software projects.
-Refactorings are applied to the software systems listed in Table 3. Benchmark projects may update and extend in the future. For the time being, we use a set of well-known open-source Java projects that have been intensely studied in previous works. We have also added two new Java software programs, <span class="caps">WEKA</span> and <span class="caps">ANTLR</span>, to examine the versatility of CodART performance on real-life software&nbsp;projects. </p>
-<p><em>Table 3. Software systems refactored in this&nbsp;project</em></p>
+Refactorings are applied to the software systems listed in Table 3. Benchmark projects may update and extend in the future. For the time being, we use a set of well-known open-source Java projects that have been intensely studied in previous works. We have also added two new Java software programs, <span class="caps">WEKA</span> and <span class="caps">ANTLR</span>, to examine the versatility of CodART performance on real-life software projects. </p>
+<p><em>Table 3. Software systems refactored in this project</em></p>
 <table>
 <thead>
 <tr>
@@ -717,158 +673,158 @@ Refactorings are applied to the software systems listed in Table 3. Benchmark pr
 <tr>
 <td><a href="https://github.com/apache/xerces2-j">Xerces-J</a></td>
 <td>v2.7.0</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>software packages for parsing <span class="caps">XML</span></td>
 <td>[3], [6]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/vuze/vuze-remote-for-android">Azureus</a></td>
 <td>v2.3.0.6</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>Java BitTorrent client for handling multiple torrents</td>
 <td>[3]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/argouml-tigris-org/argouml">ArgoUML</a></td>
 <td>v0.26 and v0.3</td>
-<td>&#8212;</td>
+<td>—</td>
 <td><span class="caps">UML</span> tool for object-oriented design</td>
 <td>[3]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/apache/ant">Apache Ant</a></td>
 <td>v1.5.0 and v1.7.0</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>Java build tool and library</td>
 <td>[3]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/bardsoftware/ganttproject">GanttProject</a></td>
 <td>v1.10.2 and v1.11.1</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>project management</td>
 <td>[3], [6], [5]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/wumpz/jhotdraw">JHotDraw</a></td>
 <td>v6.1 and v6.0b1 and v5.3</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>graphics tool</td>
 <td>[6], [5], [4]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/jfree/jfreechart">JFreeChart</a></td>
 <td>v1.0.9</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>chart tool</td>
 <td>[6]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/svn2github/beaver-parser-generator-v09">Beaver</a></td>
 <td>v0.9.11 and v0.9.8</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>parser generator</td>
 <td>[5], [4]</td>
 </tr>
 <tr>
 <td><a href="https://ws.apache.org/xmlrpc/">Apache <span class="caps">XML</span>-<span class="caps">RPC</span></a></td>
 <td>v3.1.1</td>
-<td>&#8212;</td>
+<td>—</td>
 <td><span class="caps">B2B</span> communications</td>
 <td>[5], [4]</td>
 </tr>
 <tr>
 <td><a href="http://jrdf.sourceforge.net/index.html"><span class="caps">JRDF</span></a></td>
 <td>v0.3.4.3</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>semantic web (resource management)</td>
 <td>[5]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/elharo/xom"><span class="caps">XOM</span></a></td>
 <td>v1.2.1</td>
-<td>&#8212;</td>
+<td>—</td>
 <td><span class="caps">XML</span> tool</td>
 <td>[5]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/stleary/JSON-java"><span class="caps">JSON</span></a></td>
 <td>v1.1</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>software packages for parsing <span class="caps">JSON</span></td>
 <td>[4]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/jflex-de/jflex">JFlex</a></td>
 <td>v1.4.1</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>lexical analyzer generator</td>
 <td>[4]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/jfaster/mango">Mango</a></td>
 <td>v2.0.1</td>
-<td>&#8212;</td>
-<td>&#8212;</td>
+<td>—</td>
+<td>—</td>
 <td>[4]</td>
 </tr>
 <tr>
 <td><a href="https://github.com/ohmrefresh/Weka-Android-3.9.1-SNAPSHOT">Weka</a></td>
 <td>v3.9</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>data mining tool</td>
 <td>New</td>
 </tr>
 <tr>
 <td><a href="https://github.com/antlr/antlr4"><span class="caps">ANTLR</span></a></td>
 <td>v4.8.0</td>
-<td>&#8212;</td>
+<td>—</td>
 <td>parser generator tool</td>
 <td>New</td>
 </tr>
 </tbody>
 </table>
 <h2>7 CodART in <span class="caps">IUST</span></h2>
-<p>Developing a comprehensive refactoring engine required thousand of hours of programming. Refactoring is not just understanding and updating the syntax tree. The tool also needs to figure out how to rerender the code into text back in the editor view. According to a quote by Fowler [2] in his well-known refactoring book: “implementing decent refactoring is a challenging programming exercise—one that I’m mostly unaware of as I gaily use the&nbsp;tools.”</p>
+<p>Developing a comprehensive refactoring engine required thousand of hours of programming. Refactoring is not just understanding and updating the syntax tree. The tool also needs to figure out how to rerender the code into text back in the editor view. According to a quote by Fowler [2] in his well-known refactoring book: “implementing decent refactoring is a challenging programming exercise—one that I’m mostly unaware of as I gaily use the tools.”</p>
 <p>We have defined the basic functionalities of the CodART system as several student projects with different proposals. Students who will take our computer science course, including compiler design and construction, advanced compilers, and advanced software engineering, must be worked on these proposals as part of their course fulfillments. These projects try to familiarize students with the practical usage of compilers from the software engineering point of view.
-The detailed information of our current proposals are available in the following&nbsp;links:</p>
+The detailed information of our current proposals are available in the following links:</p>
 <ol>
 <li>
-<p><a href="./proposals/core_refactorings_development.md">Core refactoring operations development</a> (Fall&nbsp;2020)</p>
+<p><a href="./proposals/core_refactorings_development.md">Core refactoring operations development</a> (Fall 2020)</p>
 </li>
 <li>
-<p><a href="./proposals/core_code_smell_development.md">Core code smells development</a> Current semester (Winter and Spring&nbsp;2021)</p>
+<p><a href="./proposals/core_code_smell_development.md">Core code smells development</a> Current semester (Winter and Spring 2021)</p>
 </li>
 <li>
-<p><a href="./proposals/core_search_based_development.md">Core search-based development</a> (Future&nbsp;semesters)</p>
+<p><a href="./proposals/core_search_based_development.md">Core search-based development</a> (Future semesters)</p>
 </li>
 <li>
-<p><a href="./proposals/core_refactoring_to_design_patterns_development.md">Core refactoring to design patterns development</a> (Future&nbsp;semesters)</p>
+<p><a href="./proposals/core_refactoring_to_design_patterns_development.md">Core refactoring to design patterns development</a> (Future semesters)</p>
 </li>
 </ol>
-<p><strong>Note:</strong> Students whose final project is confirmed by the reverse engineering laboratory have an opportunity to work on CodART as an independent and advanced research project. The only prerequisite is to pass the compiler graduate course by Dr. Saeed&nbsp;Parsa.</p>
-<h2>8 Conclusion and&nbsp;remarks</h2>
+<p><strong>Note:</strong> Students whose final project is confirmed by the reverse engineering laboratory have an opportunity to work on CodART as an independent and advanced research project. The only prerequisite is to pass the compiler graduate course by Dr. Saeed Parsa.</p>
+<h2>8 Conclusion and remarks</h2>
 <p>Software refactoring is used to reduce the costs and risks of software evolution. 
-Automated software refactoring tools can reduce risks caused by manual refactoring, improve efficiency, and reduce software refactoring difficulties. Researchers have made great efforts to research how to implement and improve automated software refactoring tools. However, the results of automated refactoring tools often deviate from the intentions of the implementer. The goal of this project is to propose an open-source refactoring engine and toolkit that can automatically find the best refactoring sequence required for a given software and apply this sequence. Since the tool is work based on compiler principles, it is reliable to be used in practice and has many benefits for software developer companies. Students who participate in the project will learn compiler techniques such as lexing, parsing, source code analysis, and source code transformation. They also learn about software refactoring, search-based software engineering, optimization, software quality, and object-orient&nbsp;metrics. </p>
-<h3>Conflict of&nbsp;interest</h3>
+Automated software refactoring tools can reduce risks caused by manual refactoring, improve efficiency, and reduce software refactoring difficulties. Researchers have made great efforts to research how to implement and improve automated software refactoring tools. However, the results of automated refactoring tools often deviate from the intentions of the implementer. The goal of this project is to propose an open-source refactoring engine and toolkit that can automatically find the best refactoring sequence required for a given software and apply this sequence. Since the tool is work based on compiler principles, it is reliable to be used in practice and has many benefits for software developer companies. Students who participate in the project will learn compiler techniques such as lexing, parsing, source code analysis, and source code transformation. They also learn about software refactoring, search-based software engineering, optimization, software quality, and object-orient metrics. </p>
+<h3>Conflict of interest</h3>
 <p>The project is supported by the <a href="http://reverse.iust.ac.ir"><span class="caps">IUST</span> Reverse Engineering Research Laboratory</a>. 
 Interested students may continue working on this project 
-to fulfill their final bachelor and master thesis or their&nbsp;internship.</p>
+to fulfill their final bachelor and master thesis or their internship.</p>
 <h2>References</h2>
-<p>[1] T. Parr and K. Fisher, “<span class="caps">LL</span>(*): the foundation of the <span class="caps">ANTLR</span> parser generator,” Proc. 32nd <span class="caps">ACM</span> <span class="caps">SIGPLAN</span> Conf. Program. Lang. Des. Implement., pp. 425–436,&nbsp;2011.</p>
-<p>[2] <span class="caps">M. K. B.</span> Fowler, Refactoring: improving the design of existing code, Second Edi. Addison-Wesley,&nbsp;2018.</p>
-<p>[3] <span class="caps">M. W.</span> Mkaouer, M. Kessentini, S. Bechikh, M. Ó Cinnéide, and K. Deb, “On the use of many quality attributes for software refactoring: a many-objective search-based software engineering approach,” Empir. Softw. Eng., vol. 21, no. 6, pp. 2503–2545, Dec.&nbsp;2016.</p>
-<p>[4] M. Mohan, D. Greer, and P. McMullan, “Technical debt reduction using search based automated refactoring,” J. Syst. Softw., vol. 120, pp. 183–194, Oct.&nbsp;2016.</p>
-<p>[5] M. Mohan and D. Greer, “Using a many-objective approach to investigate automated refactoring,” Inf. Softw. Technol., vol. 112, pp. 83–101, Aug.&nbsp;2019.</p>
-<p>[6] W. Mkaouer et al., “Many-Objective Software Remodularization Using <span class="caps">NSGA</span>-<span class="caps">III</span>,” <span class="caps">ACM</span> Trans. Softw. Eng. Methodol., vol. 24, no. 3, pp. 1–45, May&nbsp;2015.</p>
-<p>[7] M. Mohan and D. Greer, “MultiRefactor: automated refactoring to improve software quality,” 2017, pp.&nbsp;556–572.</p>
-<p>[8] N. Tsantalis, T. Chaikalis, and A. Chatzigeorgiou, “Ten years of JDeodorant: lessons learned from the hunt for smells,” in 2018 <span class="caps">IEEE</span> 25th International Conference on Software Analysis, Evolution and Reengineering (<span class="caps">SANER</span>), 2018, pp.&nbsp;4–14.</p>
-<p>[9] T. Mens and T. Tourwe, “A survey of software refactoring,” <span class="caps">IEEE</span> Trans. Softw. Eng., vol. 30, no. 2, pp. 126–139, Feb.&nbsp;2004.</p>
-<h4>Related&nbsp;links</h4>
-<p><a href="http://parsa.iust.ac.ir/courses/compilers/"><span class="caps">IUST</span> compiler course official&nbsp;webpage</a></p>
+<p>[1] T. Parr and K. Fisher, “<span class="caps">LL</span>(*): the foundation of the <span class="caps">ANTLR</span> parser generator,” Proc. 32nd <span class="caps">ACM</span> <span class="caps">SIGPLAN</span> Conf. Program. Lang. Des. Implement., pp. 425–436, 2011.</p>
+<p>[2] <span class="caps">M. K. B.</span> Fowler, Refactoring: improving the design of existing code, Second Edi. Addison-Wesley, 2018.</p>
+<p>[3] <span class="caps">M. W.</span> Mkaouer, M. Kessentini, S. Bechikh, M. Ó Cinnéide, and K. Deb, “On the use of many quality attributes for software refactoring: a many-objective search-based software engineering approach,” Empir. Softw. Eng., vol. 21, no. 6, pp. 2503–2545, Dec. 2016.</p>
+<p>[4] M. Mohan, D. Greer, and P. McMullan, “Technical debt reduction using search based automated refactoring,” J. Syst. Softw., vol. 120, pp. 183–194, Oct. 2016.</p>
+<p>[5] M. Mohan and D. Greer, “Using a many-objective approach to investigate automated refactoring,” Inf. Softw. Technol., vol. 112, pp. 83–101, Aug. 2019.</p>
+<p>[6] W. Mkaouer et al., “Many-Objective Software Remodularization Using <span class="caps">NSGA</span>-<span class="caps">III</span>,” <span class="caps">ACM</span> Trans. Softw. Eng. Methodol., vol. 24, no. 3, pp. 1–45, May 2015.</p>
+<p>[7] M. Mohan and D. Greer, “MultiRefactor: automated refactoring to improve software quality,” 2017, pp. 556–572.</p>
+<p>[8] N. Tsantalis, T. Chaikalis, and A. Chatzigeorgiou, “Ten years of JDeodorant: lessons learned from the hunt for smells,” in 2018 <span class="caps">IEEE</span> 25th International Conference on Software Analysis, Evolution and Reengineering (<span class="caps">SANER</span>), 2018, pp. 4–14.</p>
+<p>[9] T. Mens and T. Tourwe, “A survey of software refactoring,” <span class="caps">IEEE</span> Trans. Softw. Eng., vol. 30, no. 2, pp. 126–139, Feb. 2004.</p>
+<h4>Related links</h4>
+<p><a href="http://parsa.iust.ac.ir/courses/compilers/"><span class="caps">IUST</span> compiler course official webpage</a></p>
 <p><span class="caps">ANTLR</span> slides: <span class="caps">PART</span> 1: <a href="http://parsa.iust.ac.ir/download_center/courses_material/compilers/slides/ANTLR_part1_introduction.pdf">Introduction</a></p>
-<p><span class="caps">ANTLR</span> slides: <span class="caps">PART</span> 2: <a href="http://parsa.iust.ac.ir/download_center/courses_material/compilers/slides/ANTLR_part2_getting_started_in_Java.pdf">Getting started in&nbsp;Java</a></p>
-<p><span class="caps">ANTLR</span> slides: <span class="caps">PART</span> 3: <a href="http://parsa.iust.ac.ir/download_center/courses_material/compilers/slides/ANTLR_part3_getting_started_in_CSharp.pdf">Getting started in&nbsp;C#</a></p>
+<p><span class="caps">ANTLR</span> slides: <span class="caps">PART</span> 2: <a href="http://parsa.iust.ac.ir/download_center/courses_material/compilers/slides/ANTLR_part2_getting_started_in_Java.pdf">Getting started in Java</a></p>
+<p><span class="caps">ANTLR</span> slides: <span class="caps">PART</span> 3: <a href="http://parsa.iust.ac.ir/download_center/courses_material/compilers/slides/ANTLR_part3_getting_started_in_CSharp.pdf">Getting started in C#</a></p>
 <h4>Endnotes</h4>
 <p>[1] <a href="https://www.jetbrains.com/idea/">https://www.jetbrains.com/idea/</a></p>
 <p>[2] <a href="http://www.eclipse.org">http://www.eclipse.org</a></p>
@@ -876,21 +832,26 @@ to fulfill their final bachelor and master thesis or their&nbsp;internship.</p>
 <p>[4] <a href="https://github.com/mmohan01/MultiRefactor">https://github.com/mmohan01/MultiRefactor</a> </p>
 <p>[5] <a href="http://sourceforge.net/projects/recoder">http://sourceforge.net/projects/recoder</a> </p>
 <p>[6] <a href="http://reverse.iust.ac.ir">http://reverse.iust.ac.ir</a> </p>
-  </div>
-  <div class="tag-cloud">
-    <p>
-      <a href="./tag/blog.html">blog</a>
-    </p>
-  </div>
-
-
-
-
-
+</div>
+<div class="tag-cloud">
+<p>
+<a href="./tag/blog.html">blog</a>
+</p>
+</div>
+<div class="related-posts">
+<h4>You might enjoy</h4>
+<ul class="related-posts">
+<li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
+<li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using <span class="caps">ANTLR</span> in Python</a></li>
+<li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with <span class="caps">ANTLR</span></a></li>
+<li><a href="./program-static-analysis-with-antlr.html">Program static analysis with <span class="caps">ANTLR</span></a></li>
+<li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to <span class="caps">ANTLR</span> in Python</a></li>
+</ul>
+</div>
 <!-- Disqus -->
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = 'http://m-zakeri.github.io';
+    var disqus_shortname = 'zakeri';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -902,17 +863,11 @@ to fulfill their final bachelor and master thesis or their&nbsp;internship.</p>
 </noscript>
 <!-- End Disqus -->
 </article>
-
-    <footer>
-<p>&copy; 2016 - 2024 Morteza Zakeri. All rights reserved.</p>
+<footer>
+<p>© 2016 - 2024 Morteza Zakeri. All rights reserved.</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
-</p>    </footer>
-  </main>
-
-
-
-
+</p></footer> </main>
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
@@ -923,6 +878,6 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "description": ""
 }
 </script>
-
+<script async="" id="dsq-count-scr" src="//zakeri.disqus.com/count.js"></script>
 </body>
 </html>

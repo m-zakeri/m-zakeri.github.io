@@ -1,251 +1,211 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/>
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
 
-  <script>
-        $(document).ready(function() {
-             $('#tipue_search_input').tipuesearch({
-                  'mode': 'json',
-                  'contentLocation': 'tipuesearch_content.json'
-             });
-        });
-  </script>
-
-    <meta name="robots" content="" />
-
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
-
-
-    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="./theme/pygments/github.min.css">
-
-
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
-
-    <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
-
-    <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
-
-
-    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
-
-  
-
-
- 
-
-<meta name="author" content="Morteza" />
-<meta name="description" content="Game Theory, Graduate course." />
-<meta name="keywords" content="courses, teaching">
-
-
-  <meta property="og:site_name" content="Morteza Zakeri"/>
-  <meta property="og:title" content="Game Theory"/>
-  <meta property="og:description" content="Game Theory, Graduate course."/>
-  <meta property="og:locale" content="en_US"/>
-  <meta property="og:url" content="./game-theory.html"/>
-  <meta property="og:type" content="article"/>
-  <meta property="article:published_time" content="2020-03-04 21:12:00+03:30"/>
-  <meta property="article:modified_time" content=""/>
-  <meta property="article:author" content="./author/morteza.html">
-  <meta property="article:section" content="courses"/>
-  <meta property="article:tag" content="courses"/>
-  <meta property="article:tag" content="teaching"/>
-  <meta property="og:image" content="/static/img/profile.png">
-
-  <title>Morteza Zakeri &ndash; Game Theory</title>
-
-</head>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://zakeri.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="./theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/pygments/github.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
+<link href="./theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
+<link href=".//static/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://m-zakeri.github.io/feeds/all.atom.xml" rel="alternate" title="Morteza Zakeri Atom" type="application/atom+xml"/>
+<meta content="Morteza" name="author"/>
+<meta content="Game Theory, Graduate course." name="description"/>
+<meta content="courses, teaching" name="keywords"/>
+<meta content="Morteza Zakeri" property="og:site_name">
+<meta content="Game Theory" property="og:title"/>
+<meta content="Game Theory, Graduate course." property="og:description"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="./game-theory.html" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="2020-03-04 21:12:00+03:30" property="article:published_time"/>
+<meta content="" property="article:modified_time"/>
+<meta content="./author/morteza.html" property="article:author"/>
+<meta content="courses" property="article:section">
+<meta content="courses" property="article:tag"/>
+<meta content="teaching" property="article:tag"/>
+<meta content="/static/img/profile.png" property="og:image"/>
+<title>Morteza Zakeri – Game Theory</title>
+</meta></meta><link href="https://m-zakeri.github.io\game-theory.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Morteza Zakeri", "item": "https://m-zakeri.github.io"}, {"@type": "ListItem", "position": 2, "name": "Game theory", "item": "https://m-zakeri.github.io\\game-theory.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Morteza"}, "publisher": {"@type": "Organization", "name": "Morteza Zakeri"}, "headline": "Game&nbsp;Theory", "about": "courses", "datePublished": "2020-03-04 21:12"}</script></head>
 <body class="light-theme">
-  <aside>
-    <div>
-      <a href="./">
-        <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
-      </a>
-
-      <h1>
-        <a href="./">Morteza Zakeri</a>
-      </h1>
-
+<aside>
+<div>
+<a href="./">
+<img alt="Morteza Zakeri" src="/static/img/profile.png" title="Morteza Zakeri"/>
+</a>
+<h1>
+<a href="./">Morteza Zakeri</a>
+</h1>
 <p>PhD in Computer Science</p>
-
-      <nav>
-        <ul class="list">
-
-
-              <li>
-                <a target="_self"
-                   href="./#about-me">
-                  About&nbsp;Me
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/contact-me.html#contact-me">
-                  Contact&nbsp;Me
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/gallery.html#gallery">
-                  Gallery
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/honors-and-awards.html#honors-and-awards">
-                  Honors and&nbsp;Awards
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/media.html#media">
-                  Media
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/news.html#news">
-                  News
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/presentations.html#presentations">
-                  Presentations
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/projects.html#projects">
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/publications.html#publications">
-                  Publications
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/research.html#research">
-                  Research
-                </a>
-              </li>
-              <li>
-                <a target="_self"
-                   href="./pages/resources.html#resources">
-                  Resources
-                </a>
-              </li>
-
-            <li>
-              <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory</a>
-            </li>
-            <li>
-              <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >University page</a>
-            </li>
-        </ul>
-      </nav>
-
-      <ul class="social">
-          <li>
-            <a  class="sc-linkedin" href="https://www.linkedin.com/in/mortazazakeri/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a  class="sc-twitter" href="https://twitter.com/_zakeri_" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a  class="sc-github" href="https://github.com/m-zakeri/" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a  class="sc-rss" href="/feeds/all.atom.xml" target="_blank">
-              <i class="fas fa-rss"></i>
-            </a>
-          </li>
-      </ul>
-    </div>
-
-  </aside>
-  <main>
-
-    <nav>
-      <a href="./">Home</a>
-
-      <a href="/category/blog.html">Blog</a>
-      <a href="/pages/research.html">Research</a>
-      <a href="/pages/resources.html">Resources</a>
-      <a href="/category/courses.html">Courses</a>
-      <a href="/archives.html">Archives</a>
-      <a href="/categories.html">Categories</a>
-      <a href="/tags.html">Tags</a>
-      <a href="/sitemap.xml">Sitemap</a>
-
-      <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
-
-    </nav>
-
+<nav>
+<ul class="list">
+<li>
+<a href="./#about-me" target="_self">
+                About Me
+              </a>
+</li>
+<li>
+<a href="./pages/contact-me.html#contact-me" target="_self">
+                Contact Me
+              </a>
+</li>
+<li>
+<a href="./pages/gallery.html#gallery" target="_self">
+                Gallery
+              </a>
+</li>
+<li>
+<a href="./pages/honors-and-awards.html#honors-and-awards" target="_self">
+                Honors and Awards
+              </a>
+</li>
+<li>
+<a href="./pages/media.html#media" target="_self">
+                Media
+              </a>
+</li>
+<li>
+<a href="./pages/news.html#news" target="_self">
+                News
+              </a>
+</li>
+<li>
+<a href="./pages/presentations.html#presentations" target="_self">
+                Presentations
+              </a>
+</li>
+<li>
+<a href="./pages/projects.html#projects" target="_self">
+                Projects
+              </a>
+</li>
+<li>
+<a href="./pages/publications.html#publications" target="_self">
+                Publications
+              </a>
+</li>
+<li>
+<a href="./pages/research.html#research" target="_self">
+                Research
+              </a>
+</li>
+<li>
+<a href="./pages/resources.html#resources" target="_self">
+                Resources
+              </a>
+</li>
+<li>
+<a href="http://reverse.iust.ac.ir" target="_self">Laboratory</a>
+</li>
+<li>
+<a href="http://webpages.iust.ac.ir/morteza_zakeri/" target="_self">University page</a>
+</li>
+</ul>
+</nav>
+<ul class="social">
+<li>
+<a class="sc-linkedin" href="https://www.linkedin.com/in/mortazazakeri/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a class="sc-twitter" href="https://twitter.com/_zakeri_" target="_blank">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</li>
+<li>
+<a class="sc-github" href="https://github.com/m-zakeri/" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+</li>
+<li>
+<a class="sc-rss" href="/feeds/all.atom.xml" target="_blank">
+<i class="fa-solid fa-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<main>
+<nav>
+<a href="./">Home</a>
+<a href="/category/blog.html">Blog</a>
+<a href="/pages/research.html">Research</a>
+<a href="/pages/resources.html">Resources</a>
+<a href="/category/courses.html">Courses</a>
+<a href="/archives.html">Archives</a>
+<a href="/categories.html">Categories</a>
+<a href="/tags.html">Tags</a>
+<a href="/sitemap.xml">Sitemap</a>
+<a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+</nav>
 <article class="single">
-  <header>
-      
-    <h1 id="game-theory">Game&nbsp;Theory</h1>
-    <p>
+<header>
+<h1 id="game-theory">Game Theory</h1>
+<p>
       Posted on Wed 04 March 2020 in <a href="./category/courses.html">courses</a>
-
-    </p>
-  </header>
-
-
-  <div>
-    <p>The course discusses the fundamentals of game theory. Game theory is the study of mathematical models of strategic interactions among rational agents. It has applications in all fields of social science and logic, economics, systems science, and computer science. Initially, it addresses two-person zero-sum games, in which each participant&#8217;s gains or losses are exactly balanced by those of other participants. Game theory has recently found many applications in formulating network resource allocation problems and coordinating network entities&#8217; behavior to achieve a stable operating point with global consensus&nbsp;property.</p>
-<h2>Teaching&nbsp;assistant</h2>
+</p>
+</header>
+<div>
+<p>The course discusses the fundamentals of game theory. Game theory is the study of mathematical models of strategic interactions among rational agents. It has applications in all fields of social science and logic, economics, systems science, and computer science. Initially, it addresses two-person zero-sum games, in which each participant’s gains or losses are exactly balanced by those of other participants. Game theory has recently found many applications in formulating network resource allocation problems and coordinating network entities’ behavior to achieve a stable operating point with global consensus property.</p>
+<h2>Teaching assistant</h2>
 <h2>Foreword</h2>
-<p>I was teaching assistant of Game Theory M.Sc. and Ph.D. course by <a href="http://webpages.iust.ac.ir/vhakami" target="_blank">Dr. Vesal Hakami</a> for one semester (Winter and spring 2020) at Iran University of Science and Technology. Here, our teaching materials during these two years are available to view and&nbsp;download</p>
-<h3>Useful&nbsp;links</h3>
+<p>I was teaching assistant of Game Theory M.Sc. and Ph.D. course by <a href="http://webpages.iust.ac.ir/vhakami" target="_blank">Dr. Vesal Hakami</a> for one semester (Winter and spring 2020) at Iran University of Science and Technology. Here, our teaching materials during these two years are available to view and download</p>
+<h3>Useful links</h3>
 <ul>
 <li><a href="https://www.dropbox.com/s/tup6h56v6hvfxe5/hw01.pdf?dl=0" target="_blank">Homework #1 (<span class="caps">PDF</span>)</a></li>
 <li><a href="https://www.dropbox.com/s/1holxfir0f5qfmn/hw02.pdf?dl=0" target="_blank">Homework #2 (<span class="caps">PDF</span>)</a></li>
 <li><a href="https://www.dropbox.com/s/p36nebp41n0j98o/hw03.pdf?dl=0" target="_blank">Homework #3 (<span class="caps">PDF</span>)</a></li>
-<li><a href="https://www.dropbox.com/s/zdxudn8hyj4empo/GT982_online_midterm_instructions.pdf?dl=0" target="_blank">Midterm&nbsp;instructions</a></li>
+<li><a href="https://www.dropbox.com/s/zdxudn8hyj4empo/GT982_online_midterm_instructions.pdf?dl=0" target="_blank">Midterm instructions</a></li>
 </ul>
-  </div>
-  <div class="tag-cloud">
-    <p>
-      <a href="./tag/courses.html">courses</a>
-      <a href="./tag/teaching.html">teaching</a>
-    </p>
-  </div>
-
-
-
-
-
+</div>
+<div class="tag-cloud">
+<p>
+<a href="./tag/courses.html">courses</a>
+<a href="./tag/teaching.html">teaching</a>
+</p>
+</div>
+<div class="related-posts">
+<h4>You might enjoy</h4>
+<ul class="related-posts">
+<li><a href="./list-of-my-teaching-courses.html">List of My Teaching Courses</a></li>
+<li><a href="./advanced-software-engineering.html">Advanced Software Engineering</a></li>
+<li><a href="./compilers.html">Compilers</a></li>
+<li><a href="./dynamic-complex-network.html">Dynamic Complex Network</a></li>
+</ul>
+</div>
 <!-- Disqus -->
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = 'http://m-zakeri.github.io';
+    var disqus_shortname = 'zakeri';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -257,17 +217,11 @@
 </noscript>
 <!-- End Disqus -->
 </article>
-
-    <footer>
-<p>&copy; 2016 - 2024 Morteza Zakeri. All rights reserved.</p>
+<footer>
+<p>© 2016 - 2024 Morteza Zakeri. All rights reserved.</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
-</p>    </footer>
-  </main>
-
-
-
-
+</p></footer> </main>
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
@@ -278,6 +232,6 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "description": ""
 }
 </script>
-
+<script async="" id="dsq-count-scr" src="//zakeri.disqus.com/count.js"></script>
 </body>
 </html>
