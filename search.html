@@ -52,7 +52,7 @@
   <meta property="og:url" content="."/>
   <meta property="og:image" content="/static/img/profile.png">
 
-  <title>Morteza Zakeri &ndash; Categories</title>
+  <title>Morteza ZakeriSearch - Morteza Zakeri</title>
 
 
 </head>
@@ -205,20 +205,12 @@
 
 </nav>
 
+
 <article class="single">
   <header>
-    <h1 id="categories">Categories</h1>
+    <h1 id="categories">Search Results</h1>
   </header>
-  <div>
-    <ul class="list">
-      <li>
-        <a href="./category/blog.html">blog</a> (11)
-      </li>
-      <li>
-        <a href="./category/courses.html">courses</a> (5)
-      </li>
-    </ul>
-  </div>
+  <div id="tipue_search_content"></div>
 </article>
 
 <footer>
@@ -236,6 +228,19 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "image": "/static/img/profile.png",
   "description": ""
 }
+</script>
+<script src="./theme/tipuesearch/jquery.min.js"></script>
+<script src="./theme/tipuesearch/tipuesearch.min.js"></script>
+<script src="./theme/tipuesearch/tipuesearch_set.min.js"></script>
+<script src="./tipuesearch_content.js"></script>
+<script>
+  $(document).ready(function () {
+    $("#tipue_search_input").tipuesearch({
+      show: 10,
+      mode: "json",
+      contentLocation: "./tipuesearch_content.js",
+    });
+  });
 </script>
 </body>
 </html>
