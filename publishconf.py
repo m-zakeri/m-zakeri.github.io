@@ -2,15 +2,19 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+import sys
+
 # This file is only used if you use `make publish` or
 # explicitly specify it as your config file.
 
-import os
-import sys
-from datetime import datetime
-
 sys.path.append(os.curdir)
-from pelicanconf import *
+
+try:
+    from pelicanconf import *
+except ImportError:
+    sys.path.append(os.path.join(os.curdir, "docs"))
+    from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://m-zakeri.github.io'
@@ -34,9 +38,9 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 # DISQUS_SITENAME = 'http://m-zakeri.github.io'
-DISQUS_SITENAME = "zakeri"
-#DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
-#DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
+# DISQUS_SITENAME = "zakeri"
+# DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
+# DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
 
 # GOOGLE_ANALYTICS = ""
 
