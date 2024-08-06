@@ -88,11 +88,11 @@ CUSTOM_CSS = '/static/css/custom.css'
 FAVICON = '/static/img/favicon.ico'
 SITELOGO = '/static/img/profile.png'
 
-PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
+# PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
 # PLUGINS = ['neighbors']
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
-PLUGINS = ['sitemap', 'tipue_search.tipue_search']
+# PLUGINS = ['sitemap', 'tipue_search.tipue_search']
 
 DISQUS_SITENAME = 'http://m-zakeri.github.io'
 DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
