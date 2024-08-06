@@ -38,7 +38,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 # DISQUS_SITENAME = 'http://m-zakeri.github.io'
-# DISQUS_SITENAME = "zakeri"
+DISQUS_SITENAME = "zakeri"
 # DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
 # DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
 

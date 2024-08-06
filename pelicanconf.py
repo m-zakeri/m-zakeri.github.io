@@ -5,7 +5,7 @@ from datetime import datetime
 
 AUTHOR = 'Morteza'
 SITENAME = 'Morteza Zakeri'
-SITEURL = ''
+SITEURL = 'https://m-zakeri.github.io'
 SITETITLE = SITENAME
 SITESUBTITLE = 'PhD in Computer Science'
 # SITEDESCRIPTION = 'Iran University of Science and Technology'
@@ -94,7 +94,7 @@ SITELOGO = '/static/img/profile.png'
 # PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'tipue_search.tipue_search']
 
-#DISQUS_SITENAME = "zakeri"
+DISQUS_SITENAME = "zakeri"
 #DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
 #DISQUS_PUBLIC_KEY = 'mu9aEsQaD6JNZFSYr3xeLZxyyV79byzZDov5TtQTHQzPV0qjmaogBoYdDOUD0Qem'
 
@@ -113,7 +113,7 @@ SITEMAP = {
     "exclude": [
             "^/noindex/",  # starts with "/noindex/"
             "/tag/",       # contains "/tag/"
-            "\.json$",     # ends with ".json"
+            "/.json$",     # ends with ".json"
         ]
 }
 
