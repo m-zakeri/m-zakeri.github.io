@@ -46,8 +46,24 @@ aside {
 
 
 aside nav ul li {
+    display: inline;
     line-height: 1.6em;
     font-size: 1.28em;
+    text-transform: none
+}
+
+main nav {
+    text-align: center;
+    text-transform: initial;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddc7c7;
+    font-size: 1
+}
+
+main nav a {
+    font-size: 15px;
+    padding: 0 5px;
+    border-right: 1px solid #b2b2b2
 }
 
 aside a:hover {
