@@ -3,7 +3,7 @@ Date: 2021-03-29 23:45
 Tags: blog, ANTLR, compiler, tutorial
 Author: Morteza
 Summary:  Static analysis means extracting specific information from the program artifacts, e.g., source code, without any execution of the program. The ANTLR tool can be used to perform all types of static analysis at the source-code level. In this tutorial, I explain how we can use the ANTLR  tool to perform some basic kinds of static analysis of the C++ programs in the Python programming language. The task I chose to explain is extracting the class diagram and computing the relevant design metrics. 
-
+related_posts: An-introduction-to-ANTLR-in-Python
 
 
 # Introduction

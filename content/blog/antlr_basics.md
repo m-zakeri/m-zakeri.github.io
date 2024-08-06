@@ -2,6 +2,7 @@ Title: An introduction to ANTLR in Python
 Date: 2021-03-22 23:00
 Tags: blog, ANTLR, compiler, tutorial
 Author: Morteza
+Slug: An-introduction-to-ANTLR-in-Python
 Summary: ANTLR is a parser generator that can generate the parser program from context-free grammar descriptions specified in the ANTLR grammar format. In this tutorial, I explain how we can generate and use the Java parser with ANTLR in the Python programming language.
 
 
