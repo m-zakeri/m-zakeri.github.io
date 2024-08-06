@@ -63,7 +63,7 @@ LINKS = (
     # ('Courses', 'https://m-zakeri.github.io/category/courses.html'),
     ('Laboratory', 'http://reverse.iust.ac.ir'),
     # ('Micropedia', 'http://micropedia.ir'),
-    ('University page', 'http://webpages.iust.ac.ir/morteza_zakeri/')
+    ('University Page', 'http://webpages.iust.ac.ir/morteza_zakeri/')
 )
 
 # Social widget
@@ -85,6 +85,7 @@ THEME = 'Flex'
 STATIC_PATHS = ['static/img/', 'static/pdf/', 'static/css/']
 
 CUSTOM_CSS = '/static/css/custom.css'
+CSS_FILE = '/static/css/custom.css'
 FAVICON = '/static/img/favicon.ico'
 SITELOGO = '/static/img/profile.png'
 

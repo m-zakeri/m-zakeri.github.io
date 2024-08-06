@@ -13,7 +13,7 @@ sys.path.append(os.curdir)
 try:
     from pelicanconf import *
 except ImportError:
-    sys.path.append(os.path.join(os.curdir, "docs"))
+    sys.path.append(os.path.join(os.curdir, "content"))
     from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
