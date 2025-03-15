@@ -47,13 +47,15 @@ aside {
     background-color: #1e093a;
 	color:#62fbc2;
 	text-align: center;
+	overflow-y: auto;
+	scrollbar-width: none;
 }
 
 aside nav ul li {
     display: inline;
     line-height: 1.25em;
     font-size: 1.15em;
-    text-transform: none
+    text-transform: none;
 }
 
 main nav {
