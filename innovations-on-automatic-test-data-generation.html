@@ -1,198 +1,253 @@
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="True" name="HandheldFriendly"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="robots"/>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
-<link href="./theme/stylesheet/style.min.css" rel="stylesheet" type="text/css"/>
-<link href="./theme/pygments/github.min.css" id="pygments-light-theme" rel="stylesheet" type="text/css"/>
-<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Open+Sans" rel="stylesheet"/>
-<link href="./theme/tipuesearch/tipuesearch.min.css" rel="stylesheet">
-<link href="./theme/font-awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
-<link href="./theme/font-awesome/css/brands.css" rel="stylesheet" type="text/css"/>
-<link href="./theme/font-awesome/css/solid.css" rel="stylesheet" type="text/css"/>
-<link href=".//static/css/custom.css" rel="stylesheet" type="text/css"/>
-<link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-<link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="https://m-zakeri.github.io/feeds/all.atom.xml" rel="alternate" title="Morteza Zakeri Atom" type="application/atom+xml"/>
-<meta content="Morteza" name="author"/>
-<meta content="Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (SUT), we are looking for possible faults and vulnerabilities." name="description"/>
-<meta content="blog, Testing, Fuzzing" name="keywords"/>
-<meta content="Morteza Zakeri" property="og:site_name">
-<meta content="Innovations on Automatic Test Data Generation" property="og:title"/>
-<meta content="Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (SUT), we are looking for possible faults and vulnerabilities." property="og:description"/>
-<meta content="en_US" property="og:locale"/>
-<meta content="./innovations-on-automatic-test-data-generation.html" property="og:url"/>
-<meta content="article" property="og:type"/>
-<meta content="2021-03-22 23:00:00+04:30" property="article:published_time"/>
-<meta content="" property="article:modified_time"/>
-<meta content="./author/morteza.html" property="article:author"/>
-<meta content="blog" property="article:section">
-<meta content="blog" property="article:tag"/>
-<meta content="Testing" property="article:tag"/>
-<meta content="Fuzzing" property="article:tag"/>
-<meta content="/static/img/profile.png" property="og:image"/>
-<title>Morteza Zakeri – Innovations on Automatic Test Data Generation</title>
-</meta></meta></link><link href="https://m-zakeri.github.io\innovations-on-automatic-test-data-generation.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Morteza Zakeri", "item": "https://m-zakeri.github.io"}, {"@type": "ListItem", "position": 2, "name": "Innovations on automatic test data generation", "item": "https://m-zakeri.github.io\\innovations-on-automatic-test-data-generation.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Morteza"}, "publisher": {"@type": "Organization", "name": "Morteza Zakeri"}, "headline": "Innovations on Automatic Test Data&nbsp;Generation", "about": "blog", "datePublished": "2021-03-22 23:00"}</script></head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="./theme/pygments/github.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Morteza" />
+<meta name="description" content="Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (SUT), we are looking for possible faults and vulnerabilities." />
+<meta name="keywords" content="blog, Testing, Fuzzing">
+
+
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:title" content="Innovations on Automatic Test Data Generation"/>
+  <meta property="og:description" content="Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (SUT), we are looking for possible faults and vulnerabilities."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./innovations-on-automatic-test-data-generation.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2021-03-22 23:00:00+04:30"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/morteza.html">
+  <meta property="article:section" content="blog"/>
+  <meta property="article:tag" content="blog"/>
+  <meta property="article:tag" content="Testing"/>
+  <meta property="article:tag" content="Fuzzing"/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; Innovations on Automatic Test Data Generation</title>
+
+
+</head>
 <body class="light-theme">
+
 <aside>
-<div>
-<a href="./">
-<img alt="Morteza Zakeri" src="/static/img/profile.png" title="Morteza Zakeri"/>
-</a>
-<h1>
-<a href="./">Morteza Zakeri</a>
-</h1>
-<p>PhD in Computer Science</p>
-<form action="./search.html" class="navbar-search" role="search">
-<input id="tipue_search_input" name="q" placeholder="Search..." type="text"/>
-</form>
-<nav>
-<ul class="list">
-<li>
-<a href="./#about-me" target="_self">
-                About Me
+  <div>
+    <a href="./">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="./">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./#about-me">
+                About&nbsp;Me
               </a>
-</li>
-<li>
-<a href="./pages/contact-me.html#contact-me" target="_self">
-                Contact Me
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact-me.html#contact-me">
+                Contact&nbsp;Me
               </a>
-</li>
-<li>
-<a href="./pages/gallery.html#gallery" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/gallery.html#gallery">
                 Gallery
               </a>
-</li>
-<li>
-<a href="./pages/honors-and-awards.html#honors-and-awards" target="_self">
-                Honors and Awards
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/honors-and-awards.html#honors-and-awards">
+                Honors and&nbsp;Awards
               </a>
-</li>
-<li>
-<a href="./pages/media.html#media" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/media.html#media">
                 Media
               </a>
-</li>
-<li>
-<a href="./pages/news.html#news" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/news.html#news">
                 News
               </a>
-</li>
-<li>
-<a href="./pages/presentations.html#presentations" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/presentations.html#presentations">
                 Presentations
               </a>
-</li>
-<li>
-<a href="./pages/projects.html#projects" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/projects.html#projects">
                 Projects
               </a>
-</li>
-<li>
-<a href="./pages/publications.html#publications" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/publications.html#publications">
                 Publications
               </a>
-</li>
-<li>
-<a href="./pages/research.html#research" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/research.html#research">
                 Research
               </a>
-</li>
-<li>
-<a href="./pages/resources.html#resources" target="_self">
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/resources.html#resources">
                 Resources
               </a>
-</li>
-<li>
-<a href="http://reverse.iust.ac.ir" target="_self">Laboratory</a>
-</li>
-<li>
-<a href="http://webpages.iust.ac.ir/morteza_zakeri/" target="_self">University Page</a>
-</li>
-</ul>
-</nav>
-<ul class="social">
-<li>
-<a class="sc-linkedin" href="https://www.linkedin.com/in/mortazazakeri/" target="_blank">
-<i class="fa-brands fa-linkedin"></i>
-</a>
-</li>
-<li>
-<a class="sc-twitter" href="https://twitter.com/_zakeri_" target="_blank">
-<i class="fa-brands fa-twitter"></i>
-</a>
-</li>
-<li>
-<a class="sc-github" href="https://github.com/m-zakeri/" target="_blank">
-<i class="fa-brands fa-github"></i>
-</a>
-</li>
-<li>
-<a class="sc-rss" href="/feeds/all.atom.xml" target="_blank">
-<i class="fa-solid fa-rss"></i>
-</a>
-</li>
-</ul>
-</div>
+            </li>
+
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >University Page</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri/"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
 </aside>
-<main>
+  <main>
+
 <nav>
-<a href="./">Home</a>
-<a href="/category/blog.html">Blog</a>
-<a href="/pages/research.html">Research</a>
-<a href="/pages/resources.html">Resources</a>
-<a href="/category/courses.html">Courses</a>
-<a href="/archives.html">Archives</a>
-<a href="/categories.html">Categories</a>
-<a href="/tags.html">Tags</a>
-<a href="/sitemap.xml">Sitemap</a>
-<a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+  <a href="./">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/pages/research.html">Research</a>
+  <a href="/pages/resources.html">Resources</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
 </nav>
+
 <article class="single">
-<header>
-<h1 id="innovations-on-automatic-test-data-generation">Innovations on Automatic Test Data Generation</h1>
-<p>
+  <header>
+      
+    <h1 id="innovations-on-automatic-test-data-generation">Innovations on Automatic Test Data&nbsp;Generation</h1>
+    <p>
       Posted on Mon 22 March 2021 in <a href="./category/blog.html">blog</a>
-</p>
-</header>
-<div>
-<p>Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (<span class="caps">SUT</span>), we are looking for possible faults and vulnerabilities. To this goal, fuzz testing requires varieties of test data. The most critical challenge is to handle the complexity of the file structures as program input. Surveys have revealed that many of the generated test data in these cases follow restricted numbers and superficial paths, because of being rejected by the parser of <span class="caps">SUT</span> in the initial stages of parsing. Using the grammatical structure of input files to generate test data lead to increase code coverage. However, often, the grammar extraction is performed manually, which is a time consuming, costly and error-prone task.</p>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (<span class="caps">SUT</span>), we are looking for possible faults and vulnerabilities. To this goal, fuzz testing requires varieties of test data. The most critical challenge is to handle the complexity of the file structures as program input. Surveys have revealed that many of the generated test data in these cases follow restricted numbers and superficial paths, because of being rejected by the parser of <span class="caps">SUT</span> in the initial stages of parsing. Using the grammatical structure of input files to generate test data lead to increase code coverage. However, often, the grammar extraction is performed manually, which is a time consuming, costly and error-prone&nbsp;task.</p>
 <p>Recently, we proposed an automated method for hybrid test data generation. We applied neural language models (NLMs) that are constructed by recurrent neural networks (RNNs). The proposed models by using deep learning techniques can learn the statistical structure of complex files and then generate new textual test data, based on the grammar, and binary data, based on mutations. Fuzzing the generated data is done by two newly introduced algorithms, called neural fuzz algorithms that use these models. We use our proposed method to generate test data, and then fuzz testing of MuPDF complicated software which takes portable document format (<span class="caps">PDF</span>) files as input. To train our generative models, we gathered a large corpus of <span class="caps">PDF</span> files. Our experiments demonstrate that the data generated by this method leads to an increase in the code coverage, more than 7.0%, compared to state-of-the-art file format fuzzers such as American fuzzy lop (<span class="caps">AFL</span>). Experiments also indicate a better learning accuracy of simpler <span class="caps">NLMS</span> in comparison with the more complicated encoder-decoder model and confirm that our proposed models can outperform the encoder-decoder model in code coverage when fuzzing the <span class="caps">SUT</span>.</p>
-<p>Out paper presents a solution for complex test data generation with the help of deep neural networks. The word “complex” in this context means that test data consist of various data types gathering together based on a specific format or grammar. This is what happens in most of the real-word applications which accept a file as their main input. For example, <span class="caps">PDF</span> reader software must handle <span class="caps">PDF</span> files as input, and <span class="caps">PDF</span> is one of the most complex input formats. A <span class="caps">PDF</span> file contains both textual and non-textual or binary data plus many human-defined rules which put such data fields beside each other and generate a file. To handle a complex file, an application processes the file in different stages. These stages usually begin by parsing the input file, then continue with semantic analysis, and finally terminate by executing the file content. Generating test data, here a complex input file, which can access to high code coverage and find more probably existing bugs, require that test data pass all of these stages. To the best of our knowledge, the methods used in fuzzing, one of the most effective software testing technics, show that randomly generating such test data lead to very low coverage of code and hence can not guarantee the absence of bugs or reliability of software. On the other hand, generating test data from grammar requires extracting the grammar or model of the file manually, which is expensive and time-consuming.</p>
-<h2>Challenges and Solutions</h2>
-<p>The problem of generating complex test data that successfully pass different stages in the processing of the file is addressed by using some machine learning techniques to learn the structure of a given input file and then generates some new test data based on the learned model. A file can be seen as a sequence of bytes which generate by a grammar of that file. Hence, we can use a language model to automatically learn this grammar form a corpus containing various samples of the given file. Neural language models are effective models to learn natural language properties and successfully are utilized in the complex natural language processing (<span class="caps">NLP</span>) tasks such as machine translation and image captioning. We apply a model based on deep neural language to learn the grammar of the file. The learned model is then sampled to generate new files as test data.</p>
-<p>The first problem we encountered was finding a mechanism to distinguish between data and meta-data. To do so, we applied a reasonable trick: As meta-data repeated in almost every sample of a file format, the learned model predicts the meta-data with higher probability in comparison to data. By putting a threshold at a model output, the data and metadata are distinguishable.</p>
-<p>Aims to seek bugs in software by fuzzing techniques, the second problem was how to determine which byte should be fuzzed to reveal failures in the software under test (<span class="caps">SUT</span>). This can be done by targeting different stages of input processing that <span class="caps">SUT</span> used them. For example, if we would like to fuzz parser, we should fuzz meta-data because parser usually deals with meta-data to validate the format of the input file and to extract data. On the other hand, if we would like to fuzz the execution stage, it may be better to fuzz data. The ability of the learned model in distinguishing data and meta-data is used to determine the place of fuzz in the file.</p>
-<p>In addition to determining the place of the fuzz, we should inform the value for replacing the third problem we addressed. As we know, the goal of fuzzing is creating the malformed input, and hence the most inappropriate byte is expected to put in the place of fuzz. Again most inappropriate byte can be determined by the learned neural language model. It is enough to select a byte with the lowest likelihood instead of the highest likelihood used in the default manner.</p>
+<p>Out paper presents a solution for complex test data generation with the help of deep neural networks. The word “complex” in this context means that test data consist of various data types gathering together based on a specific format or grammar. This is what happens in most of the real-word applications which accept a file as their main input. For example, <span class="caps">PDF</span> reader software must handle <span class="caps">PDF</span> files as input, and <span class="caps">PDF</span> is one of the most complex input formats. A <span class="caps">PDF</span> file contains both textual and non-textual or binary data plus many human-defined rules which put such data fields beside each other and generate a file. To handle a complex file, an application processes the file in different stages. These stages usually begin by parsing the input file, then continue with semantic analysis, and finally terminate by executing the file content. Generating test data, here a complex input file, which can access to high code coverage and find more probably existing bugs, require that test data pass all of these stages. To the best of our knowledge, the methods used in fuzzing, one of the most effective software testing technics, show that randomly generating such test data lead to very low coverage of code and hence can not guarantee the absence of bugs or reliability of software. On the other hand, generating test data from grammar requires extracting the grammar or model of the file manually, which is expensive and&nbsp;time-consuming.</p>
+<h2>Challenges and&nbsp;Solutions</h2>
+<p>The problem of generating complex test data that successfully pass different stages in the processing of the file is addressed by using some machine learning techniques to learn the structure of a given input file and then generates some new test data based on the learned model. A file can be seen as a sequence of bytes which generate by a grammar of that file. Hence, we can use a language model to automatically learn this grammar form a corpus containing various samples of the given file. Neural language models are effective models to learn natural language properties and successfully are utilized in the complex natural language processing (<span class="caps">NLP</span>) tasks such as machine translation and image captioning. We apply a model based on deep neural language to learn the grammar of the file. The learned model is then sampled to generate new files as test&nbsp;data.</p>
+<p>The first problem we encountered was finding a mechanism to distinguish between data and meta-data. To do so, we applied a reasonable trick: As meta-data repeated in almost every sample of a file format, the learned model predicts the meta-data with higher probability in comparison to data. By putting a threshold at a model output, the data and metadata are&nbsp;distinguishable.</p>
+<p>Aims to seek bugs in software by fuzzing techniques, the second problem was how to determine which byte should be fuzzed to reveal failures in the software under test (<span class="caps">SUT</span>). This can be done by targeting different stages of input processing that <span class="caps">SUT</span> used them. For example, if we would like to fuzz parser, we should fuzz meta-data because parser usually deals with meta-data to validate the format of the input file and to extract data. On the other hand, if we would like to fuzz the execution stage, it may be better to fuzz data. The ability of the learned model in distinguishing data and meta-data is used to determine the place of fuzz in the&nbsp;file.</p>
+<p>In addition to determining the place of the fuzz, we should inform the value for replacing the third problem we addressed. As we know, the goal of fuzzing is creating the malformed input, and hence the most inappropriate byte is expected to put in the place of fuzz. Again most inappropriate byte can be determined by the learned neural language model. It is enough to select a byte with the lowest likelihood instead of the highest likelihood used in the default&nbsp;manner.</p>
 <p>The fourth problem that raised in this regard was training a neural language model on an <span class="caps">ASCII</span> character set rather than training it on all bytes. To deal with non-<span class="caps">ASCII</span> bytes that make non-textual parts of the input, we replaced these parts by a specific token, called  Binary Token, and asked the model to learn that token. At the generating time, whenever a model predicted the specific binary token, we replace the binary token with a real binary section previously deleted form file. This is a simple but effective method to reach a hybrid test data generation scheme. Two specific fuzzing algorithms, MetadataNeuralFuzz and DataNeuralFuzz, are proposed based on a learned generative model. The former targets the parsing stage, and the latter focuses on rendering or executions stage in the processing of the input files. We believe that both algorithms are required to reach a complete fuzz testing with high code coverage and probably a high number of discovered bugs. We investigate the effectiveness of various language models with different configurations and several sampling strategies in the context of complex test data generation. Also, we study various parameters required when generating and fuzzing test data with deep learning techniques.
-Tools and Publications</p>
-<p>To bring our new theory to a practical tool, we designed and implemented <span class="caps">IUST</span>-DeePFUzz as a modular file format fuzzer. The main module of <span class="caps">IUST</span> DeepFuzz is a test data generator that implements our neural fuzz algorithms. The fuzzer injects test data to <span class="caps">SUT</span> and checks for unexpected results such as crash the memory of the <span class="caps">SUT</span>. <span class="caps">IUST</span> DeepFuzz uses Microsoft Application Verifier, a free runtime monitoring tool, as a monitoring module to catch any memory corruption. It also uses VSPerfMon, another tool from Microsoft, to measure code coverage. Modules are connected using modest Python and batch scripts. <span class="caps">IUST</span>-DeepFuzz can find both the place and the value of the fuzzed symbol automatically while generating the input. Other file formats such as <span class="caps">HTML</span>, <span class="caps">CSS</span>, <span class="caps">XML</span>, <span class="caps">JSON</span>, and all types of source codes can be produced in the same manner which is suitable for fuzzing and quick quality assurance of any software systems.</p>
-<h2>Read more</h2>
+Tools and&nbsp;Publications</p>
+<p>To bring our new theory to a practical tool, we designed and implemented <span class="caps">IUST</span>-DeePFUzz as a modular file format fuzzer. The main module of <span class="caps">IUST</span> DeepFuzz is a test data generator that implements our neural fuzz algorithms. The fuzzer injects test data to <span class="caps">SUT</span> and checks for unexpected results such as crash the memory of the <span class="caps">SUT</span>. <span class="caps">IUST</span> DeepFuzz uses Microsoft Application Verifier, a free runtime monitoring tool, as a monitoring module to catch any memory corruption. It also uses VSPerfMon, another tool from Microsoft, to measure code coverage. Modules are connected using modest Python and batch scripts. <span class="caps">IUST</span>-DeepFuzz can find both the place and the value of the fuzzed symbol automatically while generating the input. Other file formats such as <span class="caps">HTML</span>, <span class="caps">CSS</span>, <span class="caps">XML</span>, <span class="caps">JSON</span>, and all types of source codes can be produced in the same manner which is suitable for fuzzing and quick quality assurance of any software&nbsp;systems.</p>
+<h2>Read&nbsp;more</h2>
 <p>For more information about both the theoretical and practical aspect of <span class="caps">IUST</span>-DeepFuzz, refer to the <a href="https://m-zakeri.github.io/iust_deep_fuzz"><span class="caps">IUST</span>-DeepFuzz website</a>.</p>
-</div>
-<div class="tag-cloud">
-<p>
-<a href="./tag/blog.html">blog</a>
-<a href="./tag/testing.html">Testing</a>
-<a href="./tag/fuzzing.html">Fuzzing</a>
-</p>
-</div>
-<div class="related-posts">
-<h4>You might enjoy</h4>
-<ul class="related-posts">
-<li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
-<li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
-<li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using <span class="caps">ANTLR</span> in Python</a></li>
-<li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with <span class="caps">ANTLR</span></a></li>
-<li><a href="./program-static-analysis-with-antlr.html">Program static analysis with <span class="caps">ANTLR</span></a></li>
-</ul>
-</div>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/blog.html">blog</a>
+      <a href="./tag/testing.html">Testing</a>
+      <a href="./tag/fuzzing.html">Fuzzing</a>
+    </p>
+  </div>
+
+
+
+
+
+
 <!-- Disqus -->
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -208,11 +263,13 @@ Tools and Publications</p>
 </noscript>
 <!-- End Disqus -->
 </article>
+
 <footer>
-<p>© 2016 - 2024 Morteza Zakeri. All rights reserved.</p>
+<p>&copy; 2016 - 2025 Morteza Zakeri. All rights reserved.</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
-</p></footer> </main>
+</p></footer>  </main>
+
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
