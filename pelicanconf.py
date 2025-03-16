@@ -90,7 +90,7 @@ FAVICON = '/static/img/favicon.ico'
 SITELOGO = '/static/img/profile.png'
 
 # PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
-PLUGINS = ['neighbors', 'sitemap', 'pdf',]
+PLUGINS = ['neighbors', 'sitemap', 'pdf', 'search', 'related_posts']
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'tipue_search.tipue_search']

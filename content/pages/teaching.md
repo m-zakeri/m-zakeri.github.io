@@ -94,12 +94,22 @@ The main challenge for teaching in the computer science field is the appropriate
   .bachelor .tile:nth-child(1):hover { background-color: #c70039; }
   .bachelor .tile:nth-child(2) { background-color: #33c1ff; }
   .bachelor .tile:nth-child(2):hover { background-color: #0056a3; }
+  .bachelor .tile:nth-child(3) { background-color: #75ff33; }
+  .bachelor .tile:nth-child(3):hover { background-color: #2b9900; }
+  .bachelor .tile:nth-child(4) { background-color: #33c1ff; }
+  .bachelor .tile:nth-child(4):hover { background-color: #0056a3; }
+  .bachelor .tile:nth-child(5) { background-color: #ff5733; }
+  .bachelor .tile:nth-child(5):hover { background-color: #c70039; }
+  .bachelor .tile:nth-child(6) { background-color: #f3ff33; }
+  .bachelor .tile:nth-child(6):hover { background-color: #b1b400; }
 
   /* Graduate Courses Colors */
   .graduate .tile:nth-child(1) { background-color: #75ff33; }
   .graduate .tile:nth-child(1):hover { background-color: #2b9900; }
   .graduate .tile:nth-child(2) { background-color: #f3ff33; }
   .graduate .tile:nth-child(2):hover { background-color: #b1b400; }
+ .graduate .tile:nth-child(3) { background-color: #33c1ff; }
+  .graduate .tile:nth-child(3):hover { background-color: #0056a3; }
 </style>
 
 
@@ -111,7 +121,7 @@ The main challenge for teaching in the computer science field is the appropriate
   <a href="https://m-zakeri.github.io/Compilers"  target="blank" class="tile">
     <div class="tile-content">Compiler Design</div>
     <div class="tile-art">
-      <img src="https://via.placeholder.com/50?text=Art" alt="Art for Bachelor Course 1" />
+      <img src="https://via.placeholder.com/50?text=Art" alt="Bachelor Course 1" />
     </div>
   </a>
   <a href="https://m-zakeri.github.io/DatabaseDesign" target="blank" class="tile">
