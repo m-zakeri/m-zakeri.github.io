@@ -10,6 +10,7 @@ import sys
 
 sys.path.append(os.curdir)
 
+
 try:
     from pelicanconf import *
 except ImportError:

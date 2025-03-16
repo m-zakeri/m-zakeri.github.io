@@ -16,7 +16,7 @@ PATH = 'content'
 
 # Copyright
 COPYRIGHT_YEAR = r'2016 - ' + str(datetime.now().year)
-COPYRIGHT_NAME = SITENAME + r'. All rights reserved.'
+COPYRIGHT_NAME = SITENAME + '. All rights reserved.'
 CC_LICENSE = {
     'name': 'All rights reserved.',
     'version': '202503',
@@ -74,20 +74,22 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 5
 
-THEME = r'F:/Repoes/AnacondaProjects/m-zakeri.github.io/Flex'
+THEME = 'Flex'
 
 STATIC_PATHS = ['static/img/', 'static/pdf/', 'static/css/']
 
-CUSTOM_CSS = 'static/css/custom.css'
-CSS_FILE = 'static/css/custom.css'
-FAVICON = 'static/img/favicon.ico'
-SITELOGO = 'static/img/profile.png'
+CUSTOM_CSS = '/static/css/custom.css'
+CSS_FILE = '/static/css/custom.css'
+FAVICON = '/static/img/favicon.ico'
+SITELOGO = '/static/img/profile.png'
 
-# PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
-# PLUGINS = ['neighbors', 'sitemap', 'pdf', 'search', 'related_posts']
+# PLUGIN_PATHS = [r'D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
+# PLUGINS = ['neighbors', 'sitemap', 'pdf',  'related_posts' , 'search']
+# PLUGINS = ['neighbors', 'sitemap', 'pdf',  'related_posts']
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'tipue_search.tipue_search']
+PLUGINS = ['neighbors', 'sitemap', 'related_posts' , 'search']
 
 DISQUS_SITENAME = "zakeri"
 #DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
