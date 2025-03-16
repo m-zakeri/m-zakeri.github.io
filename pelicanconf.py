@@ -15,13 +15,13 @@ SITESUBTITLE = 'PhD in Computer Science'
 PATH = 'content'
 
 # Copyright
-COPYRIGHT_YEAR = '2016 - ' + str(datetime.now().year)
-COPYRIGHT_NAME = SITENAME + '. All rights reserved.'
-"""CC_LICENSE = {
+COPYRIGHT_YEAR = r'2016 - ' + str(datetime.now().year)
+COPYRIGHT_NAME = SITENAME + r'. All rights reserved.'
+CC_LICENSE = {
     'name': 'All rights reserved.',
-    'version': '2.1',
-    'slug': 'Morteza Zakeri'
-}"""
+    'version': '202503',
+    'slug': 'Morteza'
+}
 
 # Time and date
 TIMEZONE = 'Asia/Tehran'
@@ -29,13 +29,7 @@ TIMEZONE = 'Asia/Tehran'
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'en'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-TYPOGRIFY = True
+
 
 # Blogroll
 USE_FOLDER_AS_CATEGORY = True
@@ -80,17 +74,17 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 5
 
-THEME = 'Flex'
+THEME = r'F:/Repoes/AnacondaProjects/m-zakeri.github.io/Flex'
 
 STATIC_PATHS = ['static/img/', 'static/pdf/', 'static/css/']
 
-CUSTOM_CSS = '/static/css/custom.css'
-CSS_FILE = '/static/css/custom.css'
-FAVICON = '/static/img/favicon.ico'
-SITELOGO = '/static/img/profile.png'
+CUSTOM_CSS = 'static/css/custom.css'
+CSS_FILE = 'static/css/custom.css'
+FAVICON = 'static/img/favicon.ico'
+SITELOGO = 'static/img/profile.png'
 
 # PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
-PLUGINS = ['neighbors', 'sitemap', 'pdf', 'search', 'related_posts']
+# PLUGINS = ['neighbors', 'sitemap', 'pdf', 'search', 'related_posts']
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'tipue_search.tipue_search']

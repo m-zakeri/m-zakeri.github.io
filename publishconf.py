@@ -30,9 +30,14 @@ RELATIVE_URLS = True
 # PLUGINS = ['tipue_search.tipue_search']
 
 
-
+# Feed Generation:
+# When publishing, you usually want your feeds available.
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+TRANSLATION_FEED_ATOM = 'feeds/{lang}.atom.xml'
+AUTHOR_FEED_ATOM = 'feeds/{slug}.atom.xml'
+AUTHOR_FEED_RSS = 'feeds/{slug}.rss.xml'
+
 
 DELETE_OUTPUT_DIRECTORY = True
 

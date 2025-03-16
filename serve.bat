@@ -1,5 +1,6 @@
 pelican content
 REM cd output
-START "" "http://localhost:8000/"
+timeout /t 5
+START "" "http://127.0.0.1:8000"
 pelican --listen
 REM Ctrl-C to quit

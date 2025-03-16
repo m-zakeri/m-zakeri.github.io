@@ -50,16 +50,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;pelican&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Repoes/AnacondaProjects/m-zakeri.github.io&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "pelican",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Repoes/AnacondaProjects/m-zakeri.github.io",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\blog" />
@@ -454,6 +454,107 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/pelican-plugins" />
       <path value="$PROJECT_DIR$/pelican-themes" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/ace_editor" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/ace_editor/static/ace-build" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/backreftranslate" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/better_code_samples" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/bootstrapify" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/category_order" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/cjk-auto-spacing" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/deadlinks" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/encrypt-content" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/figure-ref" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/ga_page_view" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/image_process" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/just_table" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/lightbox" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/loadcsv" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/md-metayaml" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/md-metayaml/markdown_metayaml" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/multi_neighbors" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/multimarkdown_reader" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/org_pandoc_reader" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pandoc_reader" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/panorama" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pdf-img" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-cite" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-ert" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-flickr" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-genealogy" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-gist" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-githubprojects" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-ipynb" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-jinja2content" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-langcategory" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-linkclass" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-mboxreader" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-open_graph" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-page-hierarchy" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-page-order" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-toc" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-version" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_javascript" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_meetup_info" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_vimeo" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_youtube" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelicanfly" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelicanthemes-generator" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pin_to_top" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/post_revision" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/replacer" />
+      <path value="$PROJECT_DIR$/src/pelican-tipue-search/similar_posts" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/ace_editor" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/ace_editor/static/ace-build" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/backreftranslate" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/better_code_samples" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/bootstrapify" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/category_order" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/cjk-auto-spacing" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/deadlinks" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/encrypt-content" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/figure-ref" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/ga_page_view" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/image_process" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/just_table" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/lightbox" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/loadcsv" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/md-metayaml" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/md-metayaml/markdown_metayaml" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/multi_neighbors" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/multimarkdown_reader" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/org_pandoc_reader" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pandoc_reader" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/panorama" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pdf-img" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-cite" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-ert" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-flickr" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-genealogy" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-gist" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-githubprojects" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-ipynb" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-jinja2content" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-langcategory" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-linkclass" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-mboxreader" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-open_graph" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-page-hierarchy" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-page-order" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-toc" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican-version" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican_javascript" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican_meetup_info" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican_vimeo" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelican_youtube" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelicanfly" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pelicanthemes-generator" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/pin_to_top" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/post_revision" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/replacer" />
+      <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/similar_posts" />
     </ignored-roots>
     <MESSAGE value="Update back-end" />
     <MESSAGE value="Update about.md" />
