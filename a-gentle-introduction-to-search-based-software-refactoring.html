@@ -25,31 +25,26 @@
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
 
-  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="./static/css/custom.css">
 
-  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
 
 
   <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
 
 
 
-
-
-
-
-
  
 
 <meta name="author" content="Morteza" />
-<meta name="description" content="Finding the best sequence of the refactoring operation to ab applied to a software system is an optimization problem. It can be solved by search techniques in the field known as search-based software engineering (SBSE). In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software quality measures. Unfortunately, there is no technical document describing an implementation of decent search-based refactoring. In this tutorial, I am going to explain the implementation of search-based refactoring at the source code level from scratch." />
+<meta name="description" content="Finding the best sequence of the refactoring operation to ab applied to a software system is an optimization problem. It can be solved by search techniques in the field known as search-based software engineering (SBSE). In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software quality measures. Unfortunately, there is no technical document describing an implementation of decent search-based refactoring. In this tutorial, I am going to explain the implementation of search-based refactoring at the source code level from scratch." />
 <meta name="keywords" content="blog, ANTLR, compiler, tutorial">
 
 
   <meta property="og:site_name" content="Morteza Zakeri"/>
-  <meta property="og:title" content="A gentle introduction to search-based software refactoring"/>
-  <meta property="og:description" content="Finding the best sequence of the refactoring operation to ab applied to a software system is an optimization problem. It can be solved by search techniques in the field known as search-based software engineering (SBSE). In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software quality measures. Unfortunately, there is no technical document describing an implementation of decent search-based refactoring. In this tutorial, I am going to explain the implementation of search-based refactoring at the source code level from scratch."/>
+  <meta property="og:title" content="A gentle introduction to search-based software refactoring"/>
+  <meta property="og:description" content="Finding the best sequence of the refactoring operation to ab applied to a software system is an optimization problem. It can be solved by search techniques in the field known as search-based software engineering (SBSE). In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software quality measures. Unfortunately, there is no technical document describing an implementation of decent search-based refactoring. In this tutorial, I am going to explain the implementation of search-based refactoring at the source code level from scratch."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="./a-gentle-introduction-to-search-based-software-refactoring.html"/>
   <meta property="og:type" content="article"/>
@@ -61,9 +56,9 @@
   <meta property="article:tag" content="ANTLR"/>
   <meta property="article:tag" content="compiler"/>
   <meta property="article:tag" content="tutorial"/>
-  <meta property="og:image" content="/static/img/profile.png">
+  <meta property="og:image" content="static/img/profile.png">
 
-  <title>Morteza Zakeri &ndash; A gentle introduction to search-based software refactoring</title>
+  <title>Morteza Zakeri &ndash; A gentle introduction to search-based software refactoring</title>
 
 
 </head>
@@ -72,7 +67,7 @@
 <aside>
   <div>
     <a href="./">
-      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+      <img src="static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
     </a>
 
     <h1>
@@ -82,7 +77,7 @@
     <p>PhD in Computer Science</p>
 
     <div class="stork">
-      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..."/>
       <div class="stork-output" data-stork="sitesearch-output"></div>
     </div>
 
@@ -93,13 +88,13 @@
             <li>
               <a target="_self"
                  href="./#about-me">
-                About&nbsp;Me
+                About Me
               </a>
             </li>
             <li>
               <a target="_self"
                  href="./pages/contact-me.html#contact-me">
-                Contact&nbsp;Me
+                Contact Me
               </a>
             </li>
             <li>
@@ -111,7 +106,7 @@
             <li>
               <a target="_self"
                  href="./pages/honors-and-awards.html#honors-and-awards">
-                Honors and&nbsp;Awards
+                Honors and Awards
               </a>
             </li>
             <li>
@@ -226,7 +221,7 @@
 <article class="single">
   <header>
       
-    <h1 id="a-gentle-introduction-to-search-based-software-refactoring">A gentle introduction to search-based software&nbsp;refactoring</h1>
+    <h1 id="a-gentle-introduction-to-search-based-software-refactoring">A gentle introduction to search-based software refactoring</h1>
     <p>
       Posted on Thu 05 May 2022 in <a href="./category/blog.html">blog</a>
 
@@ -235,7 +230,7 @@
 
 
   <div>
-    <p>I will be back to complete this tutorial&nbsp;soon.</p>
+    <p>I will be back to complete this tutorial soon.</p>
   </div>
   <div class="tag-cloud">
     <p>
@@ -247,20 +242,15 @@
   </div>
 
 
-  <div class="neighbors">
-    <a class="btn float-left" href="./codart-automated-source-code-refactoring-toolkit.html" title="CodART: Automated Source Code Refactoring Toolkit">
-      <i class="fa fa-angle-left"></i> Previous Post
-    </a>
-  </div>
 
   <div class="related-posts">
     <h4>You might enjoy</h4>
     <ul class="related-posts">
-      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using <span class="caps">ANTLR</span> in&nbsp;Python</a></li>
-      <li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with <span class="caps">ANTLR</span></a></li>
-      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with <span class="caps">ANTLR</span></a></li>
-      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to <span class="caps">ANTLR</span> in&nbsp;Python</a></li>
-      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring&nbsp;Toolkit</a></li>
+      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using ANTLR in Python</a></li>
+      <li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with ANTLR</a></li>
+      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with ANTLR</a></li>
+      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to ANTLR in Python</a></li>
+      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
     </ul>
   </div>
 
@@ -283,9 +273,22 @@
 </article>
 
 <footer>
-<p>&copy; 2016 - 2025 Morteza Zakeri. All rights reserved.</p>
+<p>
+  &copy; 2016 - 2025 Morteza Zakeri. All rights reserved. - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/Morteza/202503/deed.en_US" target="_blank">All rights reserved.</a>
+</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/Morteza/202503/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/Morteza/202503/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
 </p></footer>  </main>
 
 <script type="application/ld+json">
@@ -294,16 +297,13 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "@type" : "Blog",
   "name": " Morteza Zakeri ",
   "url" : ".",
-  "image": "/static/img/profile.png",
+  "image": "static/img/profile.png",
   "description": ""
 }
-</script>  <script>
-    window.loadStorkIndex = function () {
-      stork.initialize("./theme/stork/stork.wasm")
-      stork.register("sitesearch", "./search-index.st", { showProgress: false });
-    }
+</script>  <script src="./theme/stork/stork.js"></script>
+  <script>
+    stork.register("sitesearch", "./search-index.st", {showProgress: false});
   </script>
-  <script src="./theme/stork/stork.js"></script>
 
 </body>
 </html>

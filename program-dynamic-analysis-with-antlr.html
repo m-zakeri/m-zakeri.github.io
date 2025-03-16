@@ -25,31 +25,26 @@
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
 
-  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="./static/css/custom.css">
 
-  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
 
 
   <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
 
 
 
-
-
-
-
-
  
 
 <meta name="author" content="Morteza" />
-<meta name="description" content="Dynamic analysis refers to extracting specific information from the program related to the program’s execution. Therefore, it requires to execute the program under analysis. Often the source code must be augmented in a way that executing the program outputs the additional information required for dynamic analysis. A well-known technique for this aim is program instrumentation. The ANTLR tool can be used to instrument the source code effectively. In this tutorial, I explain how we can use the ANTLR tool to instrument the C++ program in the Python programming language." />
+<meta name="description" content="Dynamic analysis refers to extracting specific information from the program related to the program&#39;s execution. Therefore, it requires to execute the program under analysis. Often the source code must be augmented in a way that executing the program outputs the additional information required for dynamic analysis. A well-known technique for this aim is program instrumentation. The ANTLR tool can be used to instrument the source code effectively. In this tutorial, I explain how we can use the ANTLR tool to instrument the C++ program in the Python programming language." />
 <meta name="keywords" content="blog, ANTLR, compiler, tutorial">
 
 
   <meta property="og:site_name" content="Morteza Zakeri"/>
   <meta property="og:title" content="Program dynamic analysis with ANTLR"/>
-  <meta property="og:description" content="Dynamic analysis refers to extracting specific information from the program related to the program’s execution. Therefore, it requires to execute the program under analysis. Often the source code must be augmented in a way that executing the program outputs the additional information required for dynamic analysis. A well-known technique for this aim is program instrumentation. The ANTLR tool can be used to instrument the source code effectively. In this tutorial, I explain how we can use the ANTLR tool to instrument the C++ program in the Python programming language."/>
+  <meta property="og:description" content="Dynamic analysis refers to extracting specific information from the program related to the program&#39;s execution. Therefore, it requires to execute the program under analysis. Often the source code must be augmented in a way that executing the program outputs the additional information required for dynamic analysis. A well-known technique for this aim is program instrumentation. The ANTLR tool can be used to instrument the source code effectively. In this tutorial, I explain how we can use the ANTLR tool to instrument the C++ program in the Python programming language."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="./program-dynamic-analysis-with-antlr.html"/>
   <meta property="og:type" content="article"/>
@@ -61,7 +56,7 @@
   <meta property="article:tag" content="ANTLR"/>
   <meta property="article:tag" content="compiler"/>
   <meta property="article:tag" content="tutorial"/>
-  <meta property="og:image" content="/static/img/profile.png">
+  <meta property="og:image" content="static/img/profile.png">
 
   <title>Morteza Zakeri &ndash; Program dynamic analysis with ANTLR</title>
 
@@ -72,7 +67,7 @@
 <aside>
   <div>
     <a href="./">
-      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+      <img src="static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
     </a>
 
     <h1>
@@ -82,7 +77,7 @@
     <p>PhD in Computer Science</p>
 
     <div class="stork">
-      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..."/>
       <div class="stork-output" data-stork="sitesearch-output"></div>
     </div>
 
@@ -93,13 +88,13 @@
             <li>
               <a target="_self"
                  href="./#about-me">
-                About&nbsp;Me
+                About Me
               </a>
             </li>
             <li>
               <a target="_self"
                  href="./pages/contact-me.html#contact-me">
-                Contact&nbsp;Me
+                Contact Me
               </a>
             </li>
             <li>
@@ -111,7 +106,7 @@
             <li>
               <a target="_self"
                  href="./pages/honors-and-awards.html#honors-and-awards">
-                Honors and&nbsp;Awards
+                Honors and Awards
               </a>
             </li>
             <li>
@@ -226,7 +221,7 @@
 <article class="single">
   <header>
       
-    <h1 id="program-dynamic-analysis-with-antlr">Program dynamic analysis with <span class="caps">ANTLR</span></h1>
+    <h1 id="program-dynamic-analysis-with-antlr">Program dynamic analysis with ANTLR</h1>
     <p>
       Posted on Tue 30 March 2021 in <a href="./category/blog.html">blog</a>
 
@@ -236,8 +231,8 @@
 
   <div>
     <h2>Introduction</h2>
-<p>In this tutorial we describe a primary task in source code transformation, <em>i.e.</em>, program instrumentation, which is one of the CodA&nbsp;features.</p>
-<p>The task can be performed by properly applying compiler techniques, adding required code snippets at specific source code places. Instrumentation is the fundamental prerequisite for almost all dynamic analysis types. Let us begin with a simple case in which the purpose of instrumentation is to log the executed path of the program control flow graph for each execution. Consider the following C++ program used to calculate the greatest common divider (<span class="caps">GCD</span>) of two&nbsp;integers:</p>
+<p>In this tutorial we describe a primary task in source code transformation, <em>i.e.</em>, program instrumentation, which is one of the CodA features.</p>
+<p>The task can be performed by properly applying compiler techniques, adding required code snippets at specific source code places. Instrumentation is the fundamental prerequisite for almost all dynamic analysis types. Let us begin with a simple case in which the purpose of instrumentation is to log the executed path of the program control flow graph for each execution. Consider the following C++ program used to calculate the greatest common divider (GCD) of two integers:</p>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
 
@@ -257,8 +252,8 @@
 <span class="p">}</span>
 </code></pre></div>
 
-<p><em>Figure 1. Source code of <span class="caps">GCD</span>&nbsp;program.</em></p>
-<p>Appropriate instrumentation will put a log statement at the beginning of each basic block. For simplicity, we add a print statement to write the number of the executed basic block in the console. In the <span class="caps">GCD</span> program, lines 6, 10, 13 shows the starting point of basic blocks. Therefore, the instrumented version of the <span class="caps">GCD</span> program is similar to the following code, in which print statement has been added&nbsp;manually:</p>
+<p><em>Figure 1. Source code of GCD program.</em></p>
+<p>Appropriate instrumentation will put a log statement at the beginning of each basic block. For simplicity, we add a print statement to write the number of the executed basic block in the console. In the GCD program, lines 6, 10, 13 shows the starting point of basic blocks. Therefore, the instrumented version of the GCD program is similar to the following code, in which print statement has been added manually:</p>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
 
@@ -290,8 +285,8 @@
 <span class="p">}</span>
 </code></pre></div>
 
-<p><em>Figure 2. Source code of <span class="caps">GCD</span> program after&nbsp;instrumenting.</em></p>
-<p>One can see the cout statements added in lines 6, 12, 15, i.e., at the beginning of each basic block. For large programs, it is impossible to add such statements manually. To perform this instrumentation by <span class="caps">ANTLR</span>, we just need to identify conditional statements, including if statements, loop statements, and switch-case statements. Besides, the beginning of each function should be recognized. <span class="caps">ANTLR</span> provides a listener interface that consists of an enter method and exit method for each non-terminal in target language grammar. The listener can be passed to the parse tree walker used for traversing the parse tree in <span class="caps">DFS</span> . For instrumenting, we must implement the methods of listener interface related to conditional rules. The implementation of the listener interface in Python is shown in the&nbsp;following:</p>
+<p><em>Figure 2. Source code of GCD program after instrumenting.</em></p>
+<p>One can see the cout statements added in lines 6, 12, 15, i.e., at the beginning of each basic block. For large programs, it is impossible to add such statements manually. To perform this instrumentation by ANTLR, we just need to identify conditional statements, including if statements, loop statements, and switch-case statements. Besides, the beginning of each function should be recognized. ANTLR provides a listener interface that consists of an enter method and exit method for each non-terminal in target language grammar. The listener can be passed to the parse tree walker used for traversing the parse tree in DFS . For instrumenting, we must implement the methods of listener interface related to conditional rules. The implementation of the listener interface in Python is shown in the following:</p>
 <div class="highlight"><pre><span></span><code> <span class="k">class</span> <span class="nc">InstrumentationListener</span><span class="p">(</span><span class="n">CPP14Listener</span><span class="p">):</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tokenized_source_code</span><span class="p">:</span> <span class="n">CommonTokenStream</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span> <span class="o">=</span> <span class="mi">0</span>
@@ -333,16 +328,16 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">insertAfter</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span> <span class="n">new_code</span><span class="p">)</span>
 </code></pre></div>
 
-<p><em>Figure 3. <span class="caps">ANTLR</span> listener for&nbsp;instrumenting.</em></p>
-<p>In the above code,&nbsp;class <code>InstrumentationListener</code> implements the&nbsp;interface <code>CPP14Listener</code>, which is the base listener for C++ grammar and generated by <span class="caps">ANTLR</span>. Note that the grammar of C++ 14 is available at <span class="caps">ANTLR</span> official website. Two&nbsp;methods <code>enterStatement()</code> and <code>enterFunctionbody()</code> are implemented to add a print statement in proper places of program code, respectively, at the beginning of each conditional statement and each function. These two methods are invoked by <span class="caps">ANTLR</span> parser tree walker if we pass an instance&nbsp;of <code>InstrumnentationListerer</code> to&nbsp;it.</p>
-<p><code>InstrumentationListener</code> class also has two&nbsp;attributes: <code>branch_number</code> and <code>token_stream_rewriter</code>. branch_umber used to track the number of instrumented blocks during the instrumentation. Each time we add a print statement, we increment the value&nbsp;of <code>branch_number</code> by one&nbsp;unit. </p>
-<p>Line 3&nbsp;defines <code>branch_number</code> and initialize it with&nbsp;zero. <code>token_stream_rewiter</code> object is an instance&nbsp;of <code>TokenStreamRewiter</code> class, which is provided by <span class="caps">ANTLR</span> and contain the stream of source code&nbsp;tokens. <code>TokenStreamRewriter</code> initializes with common_token_stream, which already has been built by <span class="caps">ANTLR</span> from the lexer class and then provides methods for adding and manipulating code snips within a given stream.  Line 5 creates an instance&nbsp;of <code>TokenStreamRewriter</code> class to access its required methods.&nbsp;If <code>common_token_stream</code> is none, then an exception raises (Line&nbsp;7).</p>
-<p>Let explain the logic&nbsp;of <code>enterFunctionbody()</code> as it seems to be simpler&nbsp;than <code>enterStatement()</code>. Each time a function definition occurred in the source code, this method is invoked. First, the branch_number will be increased by 1 (Line 25). At line 26, the print statement, including the branch_number is prepared, and then at Line 27, we&nbsp;tell <code>token_stream_rewiter</code>  to insert this new code after the current beginning function token, <em>i.e.</em>, <code>{</code> in&nbsp;C++. </p>
-<p>For adding print after conditional and loop statements, more effort is&nbsp;required. <code>enterStatement()</code> is invoked each time that a statement node is visited. Line 10 checks to see if the statement is an instance&nbsp;of <code>SelectionsteatemetContext</code> or <code>IterationstatementContext</code>, which are relevant rule contexts for conditional and loop statements in C++ grammar. If this condition is not valid, <em>i.e.</em>, for regular statements, no action will perform. Otherwise, we are faced with two different situations. The first one (Line 11) is that the body of the conditional or loop statement is a compound statement, i.e., it has more than one statement, which encloses between two&nbsp;braces <code>{</code> and <code>}</code>.</p>
-<p>In such a case, we just need to add our print statement at the beginning of the compound statement right after&nbsp;token <code>{</code>. The code of this condition is exactly the same code used&nbsp;in <code>enterFunctionbody()</code>. The second situation occurs when the conditional or loop statement has only one statement inside its basic block. In this state, only the first statement is considered within the condition or loop by the compiler. If one adds a print statement without any enclosing brace, the execution path will not be captured correctly. Hence, in Line 15, after detecting that the statement is neither a compound statement nor branch, the proper code will be provided. The required code for instrumenting includes a left brace, a print statement, a current statement or context, and at the end, a right&nbsp;brace. </p>
-<p>Line 22&nbsp;adds <code>new_code</code> to the current source code.
-Now the implementation of&nbsp;our <code>InstrumentationListener</code> has been finished. The next step is to write the main driver for the instrumentation tool and connect this listener to the parse tree&nbsp;walker. </p>
-<p>Figure 4 shows the body of the main python script required to create and run our efficient yet straightforward instrumenting tool. A comment line has explained each line of code, and therefore we omit extra descriptions. The only important note is that the instrumented code, <em>i.e.</em>, the modified source code, is accessible&nbsp;by <code>token_stream_rewirter</code> object.&nbsp;The <code>getDefualtText()</code> of <code>token_stream_rewirter</code> object is called to retrieve the new source code in Line&nbsp;18.</p>
+<p><em>Figure 3. ANTLR listener for instrumenting.</em></p>
+<p>In the above code, class <code>InstrumentationListener</code> implements the interface <code>CPP14Listener</code>, which is the base listener for C++ grammar and generated by ANTLR. Note that the grammar of C++ 14 is available at ANTLR official website. Two methods <code>enterStatement()</code> and <code>enterFunctionbody()</code> are implemented to add a print statement in proper places of program code, respectively, at the beginning of each conditional statement and each function. These two methods are invoked by ANTLR parser tree walker if we pass an instance of <code>InstrumnentationListerer</code> to it.</p>
+<p><code>InstrumentationListener</code> class also has two attributes: <code>branch_number</code> and <code>token_stream_rewriter</code>. branch_umber used to track the number of instrumented blocks during the instrumentation. Each time we add a print statement, we increment the value of <code>branch_number</code> by one unit. </p>
+<p>Line 3 defines <code>branch_number</code> and initialize it with zero. <code>token_stream_rewiter</code> object is an instance of <code>TokenStreamRewiter</code> class, which is provided by ANTLR and contain the stream of source code tokens. <code>TokenStreamRewriter</code> initializes with common_token_stream, which already has been built by ANTLR from the lexer class and then provides methods for adding and manipulating code snips within a given stream.  Line 5 creates an instance of <code>TokenStreamRewriter</code> class to access its required methods. If <code>common_token_stream</code> is none, then an exception raises (Line 7).</p>
+<p>Let explain the logic of <code>enterFunctionbody()</code> as it seems to be simpler than <code>enterStatement()</code>. Each time a function definition occurred in the source code, this method is invoked. First, the branch_number will be increased by 1 (Line 25). At line 26, the print statement, including the branch_number is prepared, and then at Line 27, we tell <code>token_stream_rewiter</code>  to insert this new code after the current beginning function token, <em>i.e.</em>, <code>{</code> in C++. </p>
+<p>For adding print after conditional and loop statements, more effort is required. <code>enterStatement()</code> is invoked each time that a statement node is visited. Line 10 checks to see if the statement is an instance of <code>SelectionsteatemetContext</code> or <code>IterationstatementContext</code>, which are relevant rule contexts for conditional and loop statements in C++ grammar. If this condition is not valid, <em>i.e.</em>, for regular statements, no action will perform. Otherwise, we are faced with two different situations. The first one (Line 11) is that the body of the conditional or loop statement is a compound statement, i.e., it has more than one statement, which encloses between two braces <code>{</code> and <code>}</code>.</p>
+<p>In such a case, we just need to add our print statement at the beginning of the compound statement right after token <code>{</code>. The code of this condition is exactly the same code used in <code>enterFunctionbody()</code>. The second situation occurs when the conditional or loop statement has only one statement inside its basic block. In this state, only the first statement is considered within the condition or loop by the compiler. If one adds a print statement without any enclosing brace, the execution path will not be captured correctly. Hence, in Line 15, after detecting that the statement is neither a compound statement nor branch, the proper code will be provided. The required code for instrumenting includes a left brace, a print statement, a current statement or context, and at the end, a right brace. </p>
+<p>Line 22 adds <code>new_code</code> to the current source code.
+Now the implementation of our <code>InstrumentationListener</code> has been finished. The next step is to write the main driver for the instrumentation tool and connect this listener to the parse tree walker. </p>
+<p>Figure 4 shows the body of the main python script required to create and run our efficient yet straightforward instrumenting tool. A comment line has explained each line of code, and therefore we omit extra descriptions. The only important note is that the instrumented code, <em>i.e.</em>, the modified source code, is accessible by <code>token_stream_rewirter</code> object. The <code>getDefualtText()</code> of <code>token_stream_rewirter</code> object is called to retrieve the new source code in Line 18.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">antlr4</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="c1"># Step 1: Convert input to a byte stream</span>
@@ -374,13 +369,13 @@ Now the implementation of&nbsp;our <code>InstrumentationListener</code> has been
 <span class="nb">print</span><span class="p">(</span><span class="n">new_source_code</span><span class="p">)</span>
 </code></pre></div>
 
-<p><em>Figure 4. The driver code for&nbsp;instrumenting.</em></p>
-<p>After the instrumenting was completed, the program must be compiled then executed to apply the modification. Figure 5 shows an example of executing with a sample input. As shown in Figure 5, the executed path for inputs 24 and 18 are logged into the console, in addition to the program output, which is 6 in this example. The sequence of the printed path shows the order in which basic blocks were executed. We may change the instrumentation to capture more complicated information about runtime. However, the techniques and principles will be the same used in this simple example. Interested readers may find more exercise about instrumentation at the end of this&nbsp;chapter.</p>
+<p><em>Figure 4. The driver code for instrumenting.</em></p>
+<p>After the instrumenting was completed, the program must be compiled then executed to apply the modification. Figure 5 shows an example of executing with a sample input. As shown in Figure 5, the executed path for inputs 24 and 18 are logged into the console, in addition to the program output, which is 6 in this example. The sequence of the printed path shows the order in which basic blocks were executed. We may change the instrumentation to capture more complicated information about runtime. However, the techniques and principles will be the same used in this simple example. Interested readers may find more exercise about instrumentation at the end of this chapter.</p>
 <p><img alt="Figure 5" src="../static/img/dynamic_analysis/gcd_execution_output.png"></p>
-<p><em>Figure 5. An example of executing the <span class="caps">GCD</span> program after&nbsp;instrumenting.</em></p>
+<p><em>Figure 5. An example of executing the GCD program after instrumenting.</em></p>
 <h2>Conclusion</h2>
-<p>We show that using the <span class="caps">ANTLR</span> listener mechanism; it would be very simple to instrument the real-world <span class="caps">CPP</span> programs. A similar technique can be used to instrument the source code written in other programming languages such as Java and C#.
-In the <a href="program_instrumentation.md">next tutorial</a>, we discuss using <span class="caps">ANTLR</span> for static analysis of the source code and computing some source code&nbsp;metrics.</p>
+<p>We show that using the ANTLR listener mechanism; it would be very simple to instrument the real-world CPP programs. A similar technique can be used to instrument the source code written in other programming languages such as Java and C#.
+In the <a href="program_instrumentation.md">next tutorial</a>, we discuss using ANTLR for static analysis of the source code and computing some source code metrics.</p>
   </div>
   <div class="tag-cloud">
     <p>
@@ -392,23 +387,15 @@ In the <a href="program_instrumentation.md">next tutorial</a>, we discuss using 
   </div>
 
 
-  <div class="neighbors">
-    <a class="btn float-left" href="./program-static-analysis-with-antlr.html" title="Program static analysis with ANTLR">
-      <i class="fa fa-angle-left"></i> Previous Post
-    </a>
-    <a class="btn float-right" href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html" title="Automated refactoring of the Java code using ANTLR in Python">
-      Next Post <i class="fa fa-angle-right"></i>
-    </a>
-  </div>
 
   <div class="related-posts">
     <h4>You might enjoy</h4>
     <ul class="related-posts">
-      <li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software&nbsp;refactoring</a></li>
-      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using <span class="caps">ANTLR</span> in&nbsp;Python</a></li>
-      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with <span class="caps">ANTLR</span></a></li>
-      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to <span class="caps">ANTLR</span> in&nbsp;Python</a></li>
-      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring&nbsp;Toolkit</a></li>
+      <li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
+      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using ANTLR in Python</a></li>
+      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with ANTLR</a></li>
+      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to ANTLR in Python</a></li>
+      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
     </ul>
   </div>
 
@@ -431,9 +418,22 @@ In the <a href="program_instrumentation.md">next tutorial</a>, we discuss using 
 </article>
 
 <footer>
-<p>&copy; 2016 - 2025 Morteza Zakeri. All rights reserved.</p>
+<p>
+  &copy; 2016 - 2025 Morteza Zakeri. All rights reserved. - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/Morteza/202503/deed.en_US" target="_blank">All rights reserved.</a>
+</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/Morteza/202503/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/Morteza/202503/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
 </p></footer>  </main>
 
 <script type="application/ld+json">
@@ -442,16 +442,13 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "@type" : "Blog",
   "name": " Morteza Zakeri ",
   "url" : ".",
-  "image": "/static/img/profile.png",
+  "image": "static/img/profile.png",
   "description": ""
 }
-</script>  <script>
-    window.loadStorkIndex = function () {
-      stork.initialize("./theme/stork/stork.wasm")
-      stork.register("sitesearch", "./search-index.st", { showProgress: false });
-    }
+</script>  <script src="./theme/stork/stork.js"></script>
+  <script>
+    stork.register("sitesearch", "./search-index.st", {showProgress: false});
   </script>
-  <script src="./theme/stork/stork.js"></script>
 
 </body>
 </html>
