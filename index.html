@@ -16,7 +16,6 @@
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
           href="./theme/pygments/github.min.css">
 
-
   <link rel="stylesheet"
         type="text/css"
         href="./theme/stork/stork.css" />
@@ -25,13 +24,18 @@
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
 
-  <link rel="stylesheet" type="text/css" href="./static/css/custom.css">
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
 
-  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
 
 
   <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
 
 
 
@@ -45,7 +49,7 @@
   <meta property="og:description" content=""/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="."/>
-  <meta property="og:image" content="static/img/profile.png">
+  <meta property="og:image" content="/static/img/profile.png">
 
 
 
@@ -58,7 +62,7 @@
 <aside>
   <div>
     <a href="./">
-      <img src="static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
     </a>
 
     <h1>
@@ -68,7 +72,7 @@
     <p>PhD in Computer Science</p>
 
     <div class="stork">
-      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..."/>
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
       <div class="stork-output" data-stork="sitesearch-output"></div>
     </div>
 
@@ -209,7 +213,7 @@
 
 </nav>
 
-<article class="single">
+<article>
   <header>
     
     <h1 id="about-me">About Me</h1>
@@ -233,7 +237,7 @@ Visit the <a href="https://m-zakeri.github.io/blog_index.html" target="_blank">b
 <li>Machine learning applications in biomedical engineering</li>
 <li>Machine learning applications in sociology (computational sociology)</li>
 </ul>
-<p>Find more on the <strong><a href="https://m-zakeri.github.io/pages/research.html" target="_blank">Research</a></strong> page.</p>
+<p>Find more on the <a href="https://m-zakeri.github.io/pages/research.html" target="_blank">Research</a> page.</p>
 <h2>Teaching interests</h2>
 <ul>
 <li>Compiler Design (<a href="https://m-zakeri.github.io/Compilers" target="_blank">Course webpage</a>)</li>
@@ -241,7 +245,7 @@ Visit the <a href="https://m-zakeri.github.io/blog_index.html" target="_blank">b
 <li>Artificial Intelligence (<a href="https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/AI" target="_blank">Course webpage</a>)</li>
 <li>Fundamentals of Computer and Programming (<a href="https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/CP" target="_blank">Course webpage</a>)</li>
 </ul>
-<p>Find more on the <strong><a href="https://m-zakeri.github.io/pages/teaching.html" target="_blank">Teaching</a></strong> page.</p>
+<p>Find more on the <a href="https://m-zakeri.github.io/pages/teaching.html" target="_blank">Teaching</a> page.</p>
 <h2>Educational background</h2>
 <ul>
 <li>Ph.D., Computer Engineering, Software; <a href="http://www.iust.ac.ir/en" target="_blank">Iran University of Science and Technology (IUST)</a> (2018 - Now)<ul>
@@ -330,13 +334,16 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "@type" : "Blog",
   "name": " Morteza Zakeri ",
   "url" : ".",
-  "image": "static/img/profile.png",
+  "image": "/static/img/profile.png",
   "description": ""
 }
-</script>  <script src="./theme/stork/stork.js"></script>
-  <script>
-    stork.register("sitesearch", "./search-index.st", {showProgress: false});
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
   </script>
+  <script src="./theme/stork/stork.js"></script>
 
 </body>
 </html>

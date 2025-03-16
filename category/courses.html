@@ -16,7 +16,6 @@
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
           href="../theme/pygments/github.min.css">
 
-
   <link rel="stylesheet"
         type="text/css"
         href="../theme/stork/stork.css" />
@@ -25,13 +24,18 @@
   <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/brands.css">
   <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/solid.css">
 
-  <link rel="stylesheet" type="text/css" href="../static/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="..//static/css/custom.css">
 
-  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
 
 
   <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
 
 
 
@@ -45,7 +49,7 @@
   <meta property="og:description" content=""/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content=".."/>
-  <meta property="og:image" content="static/img/profile.png">
+  <meta property="og:image" content="/static/img/profile.png">
 
   <title>Morteza Zakeri &ndash; Category courses</title>
 
@@ -56,7 +60,7 @@
 <aside>
   <div>
     <a href="../">
-      <img src="static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
     </a>
 
     <h1>
@@ -66,7 +70,7 @@
     <p>PhD in Computer Science</p>
 
     <div class="stork">
-      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..."/>
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
       <div class="stork-output" data-stork="sitesearch-output"></div>
     </div>
 
@@ -319,13 +323,16 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "@type" : "Blog",
   "name": " Morteza Zakeri ",
   "url" : "..",
-  "image": "static/img/profile.png",
+  "image": "/static/img/profile.png",
   "description": ""
 }
-</script>  <script src="../theme/stork/stork.js"></script>
-  <script>
-    stork.register("sitesearch", "../search-index.st", {showProgress: false});
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("../theme/stork/stork.wasm")
+      stork.register("sitesearch", "../search-index.st", { showProgress: false });
+    }
   </script>
+  <script src="../theme/stork/stork.js"></script>
 
 </body>
 </html>

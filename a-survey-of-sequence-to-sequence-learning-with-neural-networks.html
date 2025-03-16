@@ -16,7 +16,6 @@
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
           href="./theme/pygments/github.min.css">
 
-
   <link rel="stylesheet"
         type="text/css"
         href="./theme/stork/stork.css" />
@@ -25,13 +24,18 @@
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
 
-  <link rel="stylesheet" type="text/css" href="./static/css/custom.css">
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
 
-  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
 
 
   <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
 
 
 
@@ -53,7 +57,7 @@
   <meta property="article:author" content="./author/morteza.html">
   <meta property="article:section" content="blog"/>
   <meta property="article:tag" content="blog"/>
-  <meta property="og:image" content="static/img/profile.png">
+  <meta property="og:image" content="/static/img/profile.png">
 
   <title>Morteza Zakeri &ndash; A survey of sequence-to-sequence learning with neural networks</title>
 
@@ -64,7 +68,7 @@
 <aside>
   <div>
     <a href="./">
-      <img src="static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
     </a>
 
     <h1>
@@ -74,7 +78,7 @@
     <p>PhD in Computer Science</p>
 
     <div class="stork">
-      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..."/>
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
       <div class="stork-output" data-stork="sitesearch-output"></div>
     </div>
 
@@ -215,7 +219,7 @@
 
 </nav>
 
-<article class="single">
+<article>
   <header>
       
     <h1 id="a-survey-of-sequence-to-sequence-learning-with-neural-networks">A survey of sequence-to-sequence learning with neural networks</h1>
@@ -925,14 +929,33 @@ encoder_outputs, state_h, state_c = encoder(encoder_l1)
 
 
 
+  <div class="neighbors">
+    <a class="btn float-left" href="./welcome.html" title="Welcome">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="./children-and-programming.html" title="Children and programming">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
   <div class="related-posts">
-    <h4>You might enjoy</h4>
-    <ul class="related-posts">
-      <li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
-      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
-      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using ANTLR in Python</a></li>
-      <li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with ANTLR</a></li>
-      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with ANTLR</a></li>
+    <h5>You might enjoy</h5>
+    <ul>
+      <li>
+        <a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a>
+      </li>
+      <li>
+        <a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a>
+      </li>
+      <li>
+        <a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using ANTLR in Python</a>
+      </li>
+      <li>
+        <a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with ANTLR</a>
+      </li>
+      <li>
+        <a href="./program-static-analysis-with-antlr.html">Program static analysis with ANTLR</a>
+      </li>
     </ul>
   </div>
 
@@ -952,6 +975,7 @@ encoder_outputs, state_h, state_c = encoder(encoder_l1)
     Please enable JavaScript to view comments.
 </noscript>
 <!-- End Disqus -->
+
 </article>
 
 <footer>
@@ -979,13 +1003,16 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
   "@type" : "Blog",
   "name": " Morteza Zakeri ",
   "url" : ".",
-  "image": "static/img/profile.png",
+  "image": "/static/img/profile.png",
   "description": ""
 }
-</script>  <script src="./theme/stork/stork.js"></script>
-  <script>
-    stork.register("sitesearch", "./search-index.st", {showProgress: false});
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
   </script>
+  <script src="./theme/stork/stork.js"></script>
 
 </body>
 </html>
