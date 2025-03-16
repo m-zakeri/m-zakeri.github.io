@@ -17,11 +17,11 @@ PATH = 'content'
 # Copyright
 COPYRIGHT_YEAR = r'2016 - ' + str(datetime.now().year)
 COPYRIGHT_NAME = SITENAME + '. All rights reserved.'
-CC_LICENSE = {
-    'name': 'All rights reserved.',
-    'version': '202503',
-    'slug': 'Morteza'
-}
+# CC_LICENSE = {
+#     'name': 'All rights reserved.',
+#     'version': '202503',
+#     'slug': 'Morteza'
+# }
 
 # Time and date
 TIMEZONE = 'Asia/Tehran'
@@ -89,7 +89,8 @@ SITELOGO = '/static/img/profile.png'
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'tipue_search.tipue_search']
-PLUGINS = ['neighbors', 'sitemap', 'related_posts' , 'search']
+# PLUGINS = ['neighbors', 'sitemap', 'related_posts' , 'search']
+PLUGINS = ['neighbors', 'sitemap', 'related_posts', 'search']
 
 DISQUS_SITENAME = "zakeri"
 #DISQUS_SECRET_KEY = 'npvZaCi9OxTTK0bhCiZhWJqRWG47e51YCozCyO0JcVwGXRTX2OIHx9Cc4R5FETeZ'
