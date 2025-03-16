@@ -60,7 +60,7 @@ MENUITEMS = (
 )
 
 LINKS = (
-    ('Courses', 'https://m-zakeri.github.io/category/courses.html'),
+    # ('Courses', 'https://m-zakeri.github.io/category/courses.html'),
     ('Laboratory', 'http://reverse.iust.ac.ir'),
     # ('Micropedia', 'http://micropedia.ir'),
     ('University Page', 'http://webpages.iust.ac.ir/morteza_zakeri/')
@@ -90,7 +90,7 @@ FAVICON = '/static/img/favicon.ico'
 SITELOGO = '/static/img/profile.png'
 
 # PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
-PLUGINS = ['neighbors', 'sitemap', ]
+PLUGINS = ['neighbors', 'sitemap', 'pdf',]
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 # PLUGINS = ["disqus_static", "sitemap"]
 # PLUGINS = ['sitemap', 'tipue_search.tipue_search']

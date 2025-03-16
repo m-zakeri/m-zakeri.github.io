@@ -22,7 +22,7 @@ Visit the [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} a
 * Machine learning applications in biomedical engineering
 * Machine learning applications in sociology (computational sociology)
 
-Find more on the [Research](https://m-zakeri.github.io/pages/research.html){:target="_blank"} page.
+Find more on the **[Research](https://m-zakeri.github.io/pages/research.html){:target="_blank"}** page.
 
 
 ## Teaching interests
@@ -32,7 +32,7 @@ Find more on the [Research](https://m-zakeri.github.io/pages/research.html){:tar
 * Artificial Intelligence ([Course webpage](https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/AI){:target="_blank"})
 * Fundamentals of Computer and Programming ([Course webpage](https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/CP){:target="_blank"})
 
-Find more on the [Teaching](https://m-zakeri.github.io/tag/teaching.html){:target="_blank"} page.
+Find more on the **[Teaching](https://m-zakeri.github.io/pages/teaching.html){:target="_blank"}** page.
 
 
 ## Educational background
