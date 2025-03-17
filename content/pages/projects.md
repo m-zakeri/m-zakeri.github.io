@@ -34,8 +34,9 @@ Contact me (Z A K E R I [AT] A U T [DOT] A C [DOT] I R) to order one of the foll
 * ARTA [[www]](https://m-zakeri.github.io/ARTA){:target="_blank"}
 * ADAFEST [[www]](https://m-zakeri.github.io/ADAFEST){:target="_blank"}
 
-* STaRT (not public) [[www]((https://github.com/m-zakeri/)]
-* Anti-money laundering (not public) [[www]((https://github.com/m-zakeri/)]
+* STaRT (not public) [[www]](https://github.com/m-zakeri/){:target="_blank"}
+* Anti-money laundering (not public) [[www]](https://github.com/m-zakeri/){:target="_blank"}
+
 
 ### Software testing and security
 * DeepFuzz, 2018. [[www]](https://www.m-zakeri.ir/iust_deep_fuzz/){:target="_blank"}
@@ -52,7 +53,7 @@ Contact me (Z A K E R I [AT] A U T [DOT] A C [DOT] I R) to order one of the foll
 * ZMOST [[www]](https://github.com/m-zakeri/ZMOST){:target="_blank"}
 * IUST-DeepPoem, 2017. [[www]](https://github.com/m-zakeri/iust_deep_poem){:target="_blank"}
 
-Refer to the [teaching](teaching.md){:target="_blank"} page for a list of my current teaching projects.
+Refer to the [teaching](https://www.m-zakeri.ir/pages/teaching.html){:target="_blank"} page for a list of my current teaching projects.
 
 
 ## Enterprise applications

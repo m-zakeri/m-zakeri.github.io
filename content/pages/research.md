@@ -4,6 +4,15 @@ Date: 2022-09-12 12:00
 Modified: 2022-09-16 16:30
 
 
+<div style="text-align: center;">
+
+<br>
+
+ <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Research&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
+
+</div>
+
+
 I enjoy domain-independent problem-solving from Computer Science (CS) perspective. I like devising new thinking paradigms, problem-solving methods, and systems for complexity engineering. Complex real-life problems could be simplified and solved through various thinking paradigms: systematic thinking, abstract thinking, computational thinking, data thinking, network thinking, and eventually, what I call, reverse computational thinking.
 
 

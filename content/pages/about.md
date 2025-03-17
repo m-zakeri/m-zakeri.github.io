@@ -6,10 +6,10 @@ save_as: index.html
 
 Hello and welcome to Morteza's personal website!
 I am an assistant professor of Computer Science at [Amirkabir University of Technology (Tehran Polytechnic)](https://aut.ac.ir/en){:target="_blank"}. 
-I offer [advisory and consulting services](projects.md){:target="_blank"} to individuals and organizations seeking cutting-edge technological solutions. Drawing on years of expertise in automated software engineering, machine learning, and program analysis, I provide actionable insights and tailored strategies to tackle complex challenges in software development, optimization, and innovation. Whether it is advancing software quality, streamlining processes, or integrating intelligent systems, I specialize in delivering high-impact solutions that bridge the gap between [academic research](research.md){:target="_blank"} and [practical implementation](projects.md){:target="_blank"}.
+I offer [advisory and consulting services](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"} to individuals and organizations seeking cutting-edge technological solutions. Drawing on years of expertise in automated software engineering, machine learning, and program analysis, I provide actionable insights and tailored strategies to tackle complex challenges in software development, optimization, and innovation. Whether it is advancing software quality, streamlining processes, or integrating intelligent systems, I specialize in delivering high-impact solutions that bridge the gap between [academic research](https://www.m-zakeri.ir/pages/research.html){:target="_blank"} and [practical implementation](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"}.
 
 This website summarizes **me** and my works :) 
-Let me know if you require a [software solution or consulting service](projects.md){:target="_blank"} on the discussed topics by sending an email to Z A K E R I [AT] A U T [DOT] A C [DOT] I R.
+Let me know if you require a [software solution or consulting service](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"} on the discussed topics by sending an email to Z A K E R I [AT] A U T [DOT] A C [DOT] I R.
 I also deeply enjoy teaching courses in computer science and supervising talent students. I am committed to fostering a supportive and engaging learning environment, inspiring the next generation of computer scientists to excel in their academic and professional journeys. Visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} now if you are a curious person want to learn about computer science and engineering, thinking paradigms, and advanced problem-solving methods.
 
 
@@ -99,10 +99,10 @@ Detailed information are available on my up-to-date C.V.
 
 
 
-## Research and teaching statements
+### Research and teaching statements
 
-* My research statement (December 2023) [[PDF]](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
-* My teaching statement (December 2023) [[PDF]](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
+* My **research statement** (December 2023) [[PDF]](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
+* My **teaching statement** (December 2023) [[PDF]](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
 
 
 ## Contact

@@ -36,14 +36,18 @@ Author: Morteza
 
 <div style="text-align: center;">
 
- <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
+<br>
+
+ <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
 
 </div>
 
-> We learn 10 percent of what we read, 20 percent of what we hear, 30 percent of what we see, 50 percent of what we see and hear, 70 percent of what we discuss, 80 percent of what we experience, and 95 percent of what we teach others.” William Glasser (1925-2013)
+> We learn 10 percent of what we read, 20 percent of what we hear, 30 percent of what we see, 50 percent of what we see and hear, 70 percent of what we discuss, 80 percent of what we experience, and 95 percent of what we teach others.” 
+> 
+> _William Glasser_ (1925-2013)
 
 
-Teaching is a wonderful activity for me to help students, as well as myself, find a better way of thinking and acting.
+**Teaching** is a wonderful activity for me to help students, as well as myself, find a better way of thinking and acting.
 The main challenge for teaching in the computer science field is the appropriate management and regular updating of the educational content to cover the rapid changes in the field. Hence, working as a teacher also pushes me to learn more skills and to be an up-to-date researcher in this field. To me, teaching computer science courses means not only transmitting existing knowledge to students but also sparking their interest and independence toward lifelong learning. This way the gap between theory and practice in computer science education is mitigated systematically. My teaching in computer science is centered around governing computational thinking, reverse thinking, decentralized creativity, and lifelong learning. I strongly believe that these factors, especially teaching the ability of lifelong learning, are necessary to prepare young folks for a successful life in the era of artificial intelligence. Read my [teaching statement](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}.
 
 
