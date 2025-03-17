@@ -40,9 +40,9 @@ url = "/pages/presentations.html"
 title = "Presentations"
 
 [[input.files]]
-path = "pages/projects.html"
-url = "/pages/projects.html"
-title = "Projects"
+path = "pages/services-and-projects.html"
+url = "/pages/services-and-projects.html"
+title = "Services and Projects"
 
 [[input.files]]
 path = "pages/publications.html"
