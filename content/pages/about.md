@@ -19,7 +19,7 @@ After that, I was a postdoctoral researcher at [Institute for Research in Fundam
 I received my B.Sc. in computer science / *software* from [Arak University](http://araku.ac.ir){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 I was a former member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}.
 
-
+---
 
 ## Research interests
 > Towards better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
@@ -34,6 +34,7 @@ I was a former member of [IUST Reverse Engineering Research Laboratory](http://r
 Find more on the **[Research](https://m-zakeri.github.io/pages/research.html){:target="_blank"}** page.
 
 
+
 ## Teaching interests
 
 * Compiler Design ([Course webpage](https://m-zakeri.github.io/Compilers){:target="_blank"})
@@ -43,6 +44,7 @@ Find more on the **[Research](https://m-zakeri.github.io/pages/research.html){:t
 
 Find more on the **[Teaching](https://m-zakeri.github.io/pages/teaching.html){:target="_blank"}** page.
 
+---
 
 ## Educational background
 * Ph.D., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2018 - Now)
@@ -57,6 +59,7 @@ Find more on the **[Teaching](https://m-zakeri.github.io/pages/teaching.html){:t
     * Supervisor: [Dr. Vahid Rafe](https://www.gold.ac.uk/computing/people/rafe-vahid){:target="_blank"}
 
 
+---
 
 ## Skills
 
@@ -89,6 +92,7 @@ Throughout my academic journey, spanning both my M.Sc. and Ph.D. programs at IUS
 Find more at [my publicly shared courses materials](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"}
 
 
+---
 
 ## Curriculum vitae
 
@@ -98,6 +102,7 @@ Detailed information are available on my up-to-date C.V.
 * My CV  (Persian, March 2018 ) [[PDF]](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 
 
+---
 
 ### Research and teaching statements
 

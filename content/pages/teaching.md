@@ -5,42 +5,58 @@ Author: Morteza
 
 
 <style>
-		.button1 {
-			color: #ffffff;
-			background-color: #1a55c1;
-			font-size: 18px;
-			border: 1px solid #2d63c8;
-			padding: 20px 50px;
-            margin: 4px;
-			cursor: pointer
-		}
-		.button1:hover {
-			color: #2d63c8;
-			background-color: #ffffff;
-		}
-    	.button2 {
-			color: #ffffff;
-			background-color: #c82d8f;
-			font-size: 19px;
-			border: 1px solid #bd2dc8;
-			padding: 15px 50px;
-			cursor: pointer
-		}
-		.button2:hover {
-			color: #2d63c8;
-			background-color: #ffffff;
-		}
-	</style>
+    .button {
+        color: #ffffff;
+        font-size: 18px;
+        border: 1px solid;
+        padding: 20px 50px;
+        margin: 8px;
+        cursor: pointer;
+        width: 215px; /* Ensures consistent button size */
+        text-align: center;
+        display: inline-block;
+    }
+    .button.blue {
+        background-color: #1a55c1;
+        border-color: #2d63c8;
+    }
+    .button.blue:hover {
+        color: #2d63c8;
+        background-color: #ffffff;
+    }
+    .button.pink {
+        background-color: #c82d8f;
+        border-color: #bd2dc8;
+    }
+    .button.pink:hover {
+        color: #c82d8f;
+        background-color: #ffffff;
+    }
+    .button.green {
+        background-color: #28a745;
+        border-color: #218838;
+    }
+    .button.green:hover {
+        color: #218838;
+        background-color: #ffffff;
+    }
+    .button.orange {
+        background-color: #fd7e14;
+        border-color: #e96000;
+    }
+    .button.orange:hover {
+        color: #e96000;
+        background-color: #ffffff;
+    }
+</style>
 
 
 
 <div style="text-align: center;">
-
-<br>
-
- <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
-
+    <br>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
 </div>
+
 
 > We learn 10 percent of what we read, 20 percent of what we hear, 30 percent of what we see, 50 percent of what we see and hear, 70 percent of what we discuss, 80 percent of what we experience, and 95 percent of what we teach others.” 
 > 
@@ -55,65 +71,69 @@ The main challenge for teaching in the computer science field is the appropriate
 ## Undergraduate courses
 
 <div style="text-align: center;">
-<a href="https://m-zakeri.github.io/Compilers" target="blank">  
-<button class="button1" type="button" name="compiler">Compiler Design</button>
-</a>
-
-
-<a href="https://m-zakeri.github.io/DatabaseDesign" target="blank">  
-<button class="button1" type="button" name="db">Database Design</button>
-</a>
-
-<br>
+    <a href="https://m-zakeri.github.io/Compilers" target="_blank">
+        <button class="button blue" type="button">Compiler Design</button>
+    </a>
+    <a href="https://m-zakeri.github.io/DatabaseDesign" target="_blank">
+        <button class="button blue" type="button">Database Design</button>
+    </a>
 </div>
 
 <div style="text-align: center;">
-<a href="https://m-zakeri.github.io/AlgorithmDesign" target="blank">  
-<button  class="button1" type="button" name="ai">Algorithm Design</button>
-</a>
-
-
-<a href="https://m-zakeri.github.io/SoftwareTesting" target="blank">  
-<button  class="button1" type="button" name="ai">Software Testing</button>
-</a>
-
-<br> 
+    <a href="https://m-zakeri.github.io/AlgorithmDesign" target="_blank">
+        <button class="button blue" type="button">Algorithm Design</button>
+    </a>
+    <a href="https://m-zakeri.github.io/SoftwareTesting" target="_blank">
+        <button class="button blue" type="button">Software Testing</button>
+    </a>
 </div>
-
 
 <div style="text-align: center;">
-<a href="https://m-zakeri.github.io/AI" target="blank">  
-<button  class="button1" type="button" name="ai">Artificial Intelligence</button>
-</a>
-
-
-<a href="https://m-zakeri.github.io/CP" target="blank">  
-<button class="button1" type="button" name="compiler">Computer Programming </button>
-</a>
-
+    <a href="https://m-zakeri.github.io/AI" target="_blank">
+        <button class="button blue" type="button">Artificial Intelligence</button>
+    </a>
+    <a href="https://m-zakeri.github.io/CP" target="_blank">
+        <button class="button blue" type="button">Computer Programming</button>
+    </a>
 </div>
-
 
 ## Graduate courses
 
 <div style="text-align: center;">
+    <a href="https://m-zakeri.github.io/advanced-software-engineering.html" target="_blank">
+        <button class="button pink" type="button">Advanced Software Engineering</button>
+    </a>
+   <a href="https://m-zakeri.github.io/advanced-software-testing.html" target="_blank">
+        <button class="button pink" type="button">Advanced Software Testing</button>
+    </a>
+</div>
+<div style="text-align: center;">
+   <a href="https://m-zakeri.github.io/software-engineering-patterns.html" target="_blank">
+        <button class="button pink" type="button">Software Engineering Patterns</button>
+    </a>
+    <a href="https://m-zakeri.github.io/dynamic-complex-network.html" target="_blank">
+        <button class="button pink" type="button">Dynamic Complex Networks</button>
+    </a>
+</div>
+<div style="text-align: center;">
+ <a href="https://m-zakeri.github.io/software-architectures.html" target="_blank">
+        <button class="button pink" type="button">Software Architectures</button>
+    </a>
+    <a href="https://m-zakeri.github.io/game-theory.html" target="_blank">
+        <button class="button pink" type="button">Algorithmic Game Theory </button>
+    </a>
+</div>
 
-<a href="https://m-zakeri.github.io/advanced-software-engineering.html#advanced-software-engineering" target="blank">  
-<button class="button1" type="button" name="ase">Advanced Software Engineering</button>
-</a>
 
-<br> 
+## Future courses
 
-<a href="https://m-zakeri.github.io/dynamic-complex-network.html#dynamic-complex-network" target="blank">  
-<button class="button1" type="button" name="dcn">Dynamic Complex Networks</button>
-</a>
-
-<br> 
-
-<a href="https://m-zakeri.github.io/game-theory.html#game-theory" target="blank">  
-<button class="button1" type="button" name="gt">Algorithmic Game Theory</button>
-</a>
-
+<div style="text-align: center;">
+    <a href="https://m-zakeri.github.io" target="_blank">
+        <button class="button green" type="button">Secure Software Development</button>
+    </a>
+   <a href="https://m-zakeri.github.io" target="_blank">
+        <button class="button green" type="button">Intelligent Software Engineering</button>
+    </a>
 </div>
 
 ## More
@@ -121,9 +141,8 @@ The main challenge for teaching in the computer science field is the appropriate
 <div style="text-align: center;">
 
 <a href="https://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials" target="blank">  
-<button class="button2" type="button" name="gt">Find more</button>
+<button class="button orange" type="button" name="gt">Find more courses</button>
 </a>
 
 <br> 
  </div>
-
