@@ -65,6 +65,16 @@ url = "/pages/teaching.html"
 title = "Teaching"
 
 [[input.files]]
+path = "advanced-software-testing.html"
+url = "/advanced-software-testing.html"
+title = "Advanced Software Testing"
+
+[[input.files]]
+path = "software-architectures.html"
+url = "/software-architectures.html"
+title = "Software Architectures"
+
+[[input.files]]
 path = "a-gentle-introduction-to-search-based-software-refactoring.html"
 url = "/a-gentle-introduction-to-search-based-software-refactoring.html"
 title = "A gentle introduction to search-based software refactoring"
@@ -98,6 +108,11 @@ title = "Advanced Software Engineering"
 path = "compilers.html"
 url = "/compilers.html"
 title = "Compilers"
+
+[[input.files]]
+path = "patterns-and-principle-in-software-engineering.html"
+url = "/patterns-and-principle-in-software-engineering.html"
+title = "Patterns and Principle in Software Engineering"
 
 [[input.files]]
 path = "An-introduction-to-ANTLR-in-Python.html"
