@@ -108,7 +108,7 @@ The main challenge for teaching in the computer science field is the appropriate
     </a>
 </div>
 <div style="text-align: center;">
-   <a href="https://m-zakeri.github.io/software-engineering-patterns.html" target="_blank">
+   <a href="https://m-zakeri.github.io/patterns-and-principle-in-software-engineering.html" target="_blank">
         <button class="button pink" type="button">Software Engineering Patterns</button>
     </a>
     <a href="https://m-zakeri.github.io/dynamic-complex-network.html" target="_blank">
