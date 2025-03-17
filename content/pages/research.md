@@ -4,10 +4,15 @@ Date: 2022-09-12 12:00
 Modified: 2022-09-16 16:30
 
 
-## Overview
-Venn diagram of my research areas.
+I enjoy domain-independent problem-solving from Computer Science (CS) perspective. I like devising new thinking paradigms, problem-solving methods, and systems for complexity engineering. Complex real-life problems could be simplified and solved through various thinking paradigms: systematic thinking, abstract thinking, computational thinking, data thinking, network thinking, and eventually, what I call, reverse computational thinking.
+
+
+## Overview 
+My areas of research are depicted as a venn diagram in the following figure.
 
 ![Research fields](../static/img/research_fields_v2.png)
+
+Briefly, my research and consulting areas are as follows:
 
 * Automated software engineering (code generation, testing, and debugging)
 * Software refactoring, re-engineering, and reverse engineering

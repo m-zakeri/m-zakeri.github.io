@@ -4,12 +4,21 @@ URL:
 save_as: index.html
 
 
-Hello and welcome to Morteza's personal website! 
+Hello and welcome to Morteza's personal website!
+I am an assistant professor of Computer Science at [Amirkabir University of Technology (Tehran Polytechnic)](https://aut.ac.ir/en){:target="_blank"}. 
+I offer [advisory and consulting services](projects.md){:target="_blank"} to individuals and organizations seeking cutting-edge technological solutions. Drawing on years of expertise in automated software engineering, machine learning, and program analysis, I provide actionable insights and tailored strategies to tackle complex challenges in software development, optimization, and innovation. Whether it is advancing software quality, streamlining processes, or integrating intelligent systems, I specialize in delivering high-impact solutions that bridge the gap between [academic research](research.md){:target="_blank"} and [practical implementation](projects.md){:target="_blank"}.
+
+This website summarizes **me** and my works :) 
+Let me know if you require a [software solution or consulting service](projects.md){:target="_blank"} on the discussed topics by sending an email to Z A K E R I [AT] A U T [DOT] A C [DOT] I R.
+I also deeply enjoy teaching courses in computer science and supervising talent students. I am committed to fostering a supportive and engaging learning environment, inspiring the next generation of computer scientists to excel in their academic and professional journeys. Visit my [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} now if you are a curious person want to learn about computer science and engineering, thinking paradigms, and advanced problem-solving methods.
+
+
+### A short bio.
 I completed my Ph.D. in Computer Science (CS) at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+After that, I was a postdoctoral researcher at [Institute for Research in Fundamental Sciences (IPM)](https://cs.ipm.ac.ir/){:target="_blank"}. 
 I received my B.Sc. in computer science / *software* from [Arak University](http://araku.ac.ir){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
-I am a member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}. 
-This website summarizes me and my works :) 
-Visit the [blog](https://m-zakeri.github.io/blog_index.html){:target="_blank"} and [resources](https://m-zakeri.github.io/pages/resources.html){:target="_blank"} pages for more information.
+I was a former member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}.
+
 
 
 ## Research interests
@@ -49,10 +58,9 @@ Find more on the **[Teaching](https://m-zakeri.github.io/pages/teaching.html){:t
 
 
 
-
 ## Skills
 
-I am an accomplished researcher and proficient developer specializing in intelligent software systems. These systems leverage artificial intelligence to address real-world and scientific challenges. Their foundation lies in the software 2.0 paradigm, where a central learning algorithm serves as the core of the software.
+I am an accomplished researcher and proficient developer specializing in intelligent software systems. These systems leverage artificial intelligence to address real-world and scientific challenges. Their foundation lies in the **Software 2.0** paradigm, where a central learning algorithm serves as the core of the software.
 
 As a seasoned software and machine intelligence engineer, I possess expertise across various domains, including:
 
@@ -76,7 +84,7 @@ Furthermore, I specialize in:
 9. **Game Theory:** Applying strategic thinking to software design and decision-making.
 10. **Natural Language Processing:** Enhancing software’s ability to understand and process human language.
 
-Throughout my academic journey, spanning both my M.Sc. and Ph.D. programs at IUST, I delved into these topics, honing my skills and expanding my knowledge base. I remain committed to advancing the field of intelligent software systems and contributing to innovative solutions. 
+Throughout my academic journey, spanning both my M.Sc. and Ph.D. programs at IUST, I delved into these topics, honing my skills and expanding my knowledge base. I remain committed to advancing the field of intelligent software systems and contributing to innovative solutions.
 
 Find more at [my publicly shared courses materials](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"}
 
@@ -86,7 +94,7 @@ Find more at [my publicly shared courses materials](http://webpages.iust.ac.ir/m
 
 Detailed information are available on my up-to-date C.V.
 
-* My CV  (English, February 2024) [[PDF]](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
+* My CV  (English, September 2024) [[PDF]](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
 * My CV  (Persian, March 2018 ) [[PDF]](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
 
 
