@@ -1,4 +1,5 @@
-Title: Services of the Intelligent Software Engineering Laboratory 
+Title: Services of the Intelligent Software Engineering Laboratory
+save_as: all-services.html
 Date: 2025-03-20 20:30
 Tags: services, laboratory
 Author: Morteza
@@ -6,14 +7,17 @@ Author: Morteza
 
 
 **Amirkabir University of Technology (Tehran Polytechnic)**  
-**Author:** Morteza Zakeri  
-**Version:** 1.0
+**Author:** [Morteza Zakeri](https://www.m-zakeri.ir/pages/contact-me.html){:target="_blank"}
+**Version:** 1.0 (March 2025)
 
 
 
 ## Introduction
 
 This document presents a comprehensive list of services offered by the Intelligent Software Engineering Laboratory at Amirkabir University of Technology (Tehran Polytechnic). The services span multiple facets of software engineering—including testing, quality assurance, secure coding, requirements engineering, and development methodologies. The items listed herein are categorized by group, level, and service code to facilitate both clarity and ease of ordering.
+
+* [**Contact and order now**](https://www.m-zakeri.ir/pages/contact-me.html){:target="_blank"}
+
 
 ---
 

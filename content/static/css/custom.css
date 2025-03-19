@@ -24,6 +24,11 @@ tr:hover {
     background-color: #f5f5f5;
 }
 
+aside div img {
+    border-radius: 48%;
+    max-width: 155px;
+}
+
 img {
     box-shadow: 0px 0px 5px white;
     display: block;
@@ -31,7 +36,7 @@ img {
     margin-right: auto;
 }
 img:hover {
-    box-shadow: 0px 0px 45px white;
+    box-shadow: 0px 0px 35px white;
 }
 
 img[alt="Morteza ZAKERI"] {
@@ -79,5 +84,5 @@ aside a:hover {
 
 h2, h3, h4, h5, h6 {
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.45;
 }

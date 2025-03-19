@@ -44,11 +44,11 @@ DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'searc
 
 MENUITEMS = (
     ('Blog', '/category/blog.html'),
-    ('Services', '/pages/services.html'),
+    ('Services', '/category/services.html'),
     # ('Resources', '/pages/resources.html'),
     ('Courses', '/category/courses.html'),
-    ('Archives', '/archives.html'),
     ('Categories', '/categories.html'),
+    ('Archives', '/archives.html'),
     ('Tags', '/tags.html'),
     ('Sitemap', '/sitemap.xml')
 )
