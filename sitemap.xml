@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
@@ -47,50 +47,57 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://m-zakeri.github.io/all-services.html</loc>
+<lastmod>2025-03-20T20:30:00+03:30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
 <loc>https://m-zakeri.github.io/archives.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/author/morteza.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/author/morteza2.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/author/morteza3.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/author/morteza4.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/author/morteza5.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/authors.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -104,84 +111,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/blog_index.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/blog_index2.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/blog_index3.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/blog_index4.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/blog_index5.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/categories.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/category/blog.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/category/blog2.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/category/blog3.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/category/courses.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/category/courses2.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/category/services.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -244,14 +251,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/pages/contact-me.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/gallery.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
@@ -265,28 +272,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/pages/media.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/news.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/presentations.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/pages/publications.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
@@ -300,7 +307,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/pages/resources.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
@@ -342,16 +349,9 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/search.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://m-zakeri.github.io/services-of-the-intelligent-software-engineering-laboratory.html</loc>
-<lastmod>2025-03-20T20:30:00+03:30</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
 </url>
 
 <url>
@@ -363,112 +363,112 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://m-zakeri.github.io/tag/antlr.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/blog.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/blog2.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/blog3.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/compiler.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/courses.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/courses2.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/fuzzing.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/laboratory.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/services.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/teaching.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/teaching2.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/testing.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/tutorial.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tag/wordpress.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://m-zakeri.github.io/tags.html</loc>
-<lastmod>2025-03-19T20:34:09-00:00</lastmod>
+<lastmod>2025-03-19T23:41:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
