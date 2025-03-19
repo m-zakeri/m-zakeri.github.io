@@ -7,11 +7,21 @@
 &lt;hr&gt;
 &lt;h2&gt;Course Objectives&lt;/h2&gt;
 &lt;p&gt;By the end of this course, students will:
-1. Understand the theoretical underpinnings of advanced software testing methodologies.
-2. Develop practical skills in automated testing, including test data generation and fuzzing.
-3. Apply advanced techniques such as metamorphic testing and abstract interpretation to tackle testing challenges.
-4. Analyze and verify software properties using program analysis and hyper-property testing.
-5. Explore state-of-the-art tools and frameworks to enhance software reliability and security.&lt;/p&gt;
+1. Understand the theoretical underpinnings of advanced software testing methodologies.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Develop practical skills in automated testing, including test data generation and fuzzing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apply advanced techniques such as metamorphic testing and abstract interpretation to tackle testing challenges.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyze and verify software properties using program analysis and hyper-property testing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explore state-of-the-art tools and frameworks to enhance software reliability and security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2&gt;Syllabus&lt;/h2&gt;
 &lt;h3&gt;Week 1-2: Fundamentals of Advanced Software Testing&lt;/h3&gt;
@@ -64,17 +74,17 @@
 &lt;hr&gt;
 &lt;h2&gt;Course Assessment&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Assignments (30%)&lt;/strong&gt;: Hands-on exercises in test automation, fuzzing, and program analysis.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Midterm Exam (25%)&lt;/strong&gt;: Theoretical evaluation of advanced testing methodologies.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Capstone Project (35%)&lt;/strong&gt;: Group project involving the application of advanced testing techniques.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assignments (25%)&lt;/strong&gt;: Hands-on exercises in test automation, fuzzing, and program analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper-based Exam (40%)&lt;/strong&gt;: Theoretical evaluation of advanced testing methodologies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capstone Project (25%)&lt;/strong&gt;: Group project involving the application of advanced testing techniques.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Participation (10%)&lt;/strong&gt;: Contributions to discussions, code reviews, and peer learning.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Textbooks&lt;/strong&gt;:&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Introduction to Software Testing&lt;/em&gt; by Paul Ammann and Jeff Offutt&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Fuzzing: Brute Force Vulnerability Discovery&lt;/em&gt; by Michael Sutton, Adam Greene, and Pedram Amini&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Introduction to Software Testing&lt;/em&gt; by Paul Ammann and Jeff Offutt&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Online Platforms&lt;/strong&gt;:&lt;/li&gt;
 &lt;li&gt;Tools and frameworks such as AFL, libFuzzer, Z3 (solver), and Clang Static Analyzer&lt;/li&gt;
 &lt;li&gt;Open-source repositories for testing datasets&lt;/li&gt;
@@ -94,11 +104,21 @@
 &lt;hr&gt;
 &lt;h2&gt;Course Objectives&lt;/h2&gt;
 &lt;p&gt;By the end of this course, students will:
-1. Understand the principles and best practices of modern software architecture.
-2. Explore various architectural patterns, including monolithic, layered, microservices, and event-driven architectures.
-3. Learn and apply clean architecture principles for maintainable and testable systems.
-4. Design AI-driven architectures tailored to intelligent systems and applications.
-5. Evaluate and adapt architectural decisions to meet real-world challenges in scalability, security, and performance.&lt;/p&gt;
+1. Understand the principles and best practices of modern software architecture.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Explore various architectural patterns, including monolithic, layered, microservices, and event-driven architectures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learn and apply clean architecture principles for maintainable and testable systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Design AI-driven architectures tailored to intelligent systems and applications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Evaluate and adapt architectural decisions to meet real-world challenges in scalability, security, and performance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2&gt;Syllabus&lt;/h2&gt;
 &lt;h3&gt;Week 1-2: Introduction to Software Architecture&lt;/h3&gt;
@@ -151,9 +171,9 @@
 &lt;hr&gt;
 &lt;h2&gt;Course Assessment&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Assignments (30%)&lt;/strong&gt;: Hands-on tasks to design and evaluate architectural styles.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Midterm Exam (25%)&lt;/strong&gt;: Theoretical evaluation of architectural principles and practices.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Capstone Project (35%)&lt;/strong&gt;: Collaborative design and implementation of a software architecture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assignments (25%)&lt;/strong&gt;: Hands-on tasks to design and evaluate architectural styles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper-based Exam (40%)&lt;/strong&gt;: Theoretical evaluation of architectural principles and practices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capstone Project (25%)&lt;/strong&gt;: Collaborative design and implementation of a software architecture.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Participation (10%)&lt;/strong&gt;: Engagement in discussions, case studies, and peer reviews.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -184,11 +204,21 @@
 &lt;hr&gt;
 &lt;h2&gt;Course Objectives&lt;/h2&gt;
 &lt;p&gt;By the end of this course, students will:
-1. Gain familiarity with the latest research and advancements in software engineering.
-2. Learn to adopt and adapt emerging methodologies and frameworks for large-scale software systems.
-3. Understand the impact of intelligent tools and automation in the software development lifecycle (SDLC).
-4. Explore advanced topics like microservices, cloud-native development, and software observability.
-5. Critically assess and integrate evolving practices to solve modern software engineering challenges.&lt;/p&gt;
+1. Gain familiarity with the latest research and advancements in software engineering.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Learn to adopt and adapt emerging methodologies and frameworks for large-scale software systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Understand the impact of intelligent tools and automation in the software development lifecycle (SDLC).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explore advanced topics like microservices, cloud-native development, and software observability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Critically assess and integrate evolving practices to solve modern software engineering challenges.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2&gt;Syllabus&lt;/h2&gt;
 &lt;h3&gt;Week 1-2: Introduction to Advanced Software Engineering&lt;/h3&gt;
@@ -240,9 +270,9 @@
 &lt;hr&gt;
 &lt;h2&gt;Course Assessment&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Assignments (30%)&lt;/strong&gt;: Hands-on tasks focusing on advanced tools and techniques.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Midterm Exam (25%)&lt;/strong&gt;: Evaluation of theoretical understanding of emerging topics.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Capstone Project (35%)&lt;/strong&gt;: Team-based project addressing real-world challenges in software engineering.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assignments (25%)&lt;/strong&gt;: Hands-on tasks focusing on advanced tools and techniques.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper-based Exam (40%)&lt;/strong&gt;: Evaluation of theoretical understanding of emerging topics.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capstone Project (25%)&lt;/strong&gt;: Team-based project addressing real-world challenges in software engineering.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Participation (10%)&lt;/strong&gt;: Contribution to discussions, peer reviews, and active engagement in the course.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -275,7 +305,74 @@ Our teaching materials during these three years are available to view and downlo
 &lt;h3&gt;Useful links&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://parsa.iust.ac.ir/courses/advanced-software-engineering/" target="_blank"&gt;Course official website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="courses"></category><category term="courses"></category><category term="teaching"></category></entry><entry><title>Compilers</title><link href="https://m-zakeri.github.io/compilers.html" rel="alternate"></link><published>2021-03-23T00:23:00+04:30</published><updated>2021-03-23T00:23:00+04:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io,2021-03-23:/compilers.html</id><summary type="html">&lt;p&gt;Compiler design and constructions, Undergraduate course (Bachelor).&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Teaching assistant&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="courses"></category><category term="courses"></category><category term="teaching"></category></entry><entry><title>Compilers</title><link href="https://m-zakeri.github.io/compilers.html" rel="alternate"></link><published>2021-03-23T00:23:00+04:30</published><updated>2021-03-23T00:23:00+04:30</updated><author><name>Morteza</name></author><id>tag:m-zakeri.github.io,2021-03-23:/compilers.html</id><summary type="html">&lt;p&gt;Compiler design and constructions, Undergraduate course (Bachelor). The course is designed to:&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;Provide an in-depth understanding of the principles, techniques, and tools used in the design and implementation of compilers.&lt;/li&gt;
+&lt;li&gt;Equip students with the ability to write and optimize programs by understanding how high-level code is translated into machine-level instructions.&lt;/li&gt;
+&lt;li&gt;Introduce concepts of language parsing, code generation, and optimization techniques that are critical for the development of efficient and reliable software.&lt;/li&gt;
+&lt;li&gt;Foster the ability to analyze and improve existing compiler systems, as well as design new ones from scratch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;p&gt;By the end of this course, students will be able to:
+1. Understand the fundamental phases of a compiler, including lexical analysis, syntax analysis, semantic analysis, code generation, and optimization.
+2. Develop skills to implement key components of a compiler, such as parsers, symbol tables, and intermediate code generators.
+3. Recognize and utilize various parsing techniques, including top-down and bottom-up parsing strategies.
+4. Apply optimization techniques to improve the performance of compiled code.
+5. Gain exposure to modern tools and technologies used in compiler construction, such as Lex and Yacc.&lt;/p&gt;
+&lt;h2&gt;Syllabus&lt;/h2&gt;
+&lt;h3&gt;1. Introduction to Compiler Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Role of a compiler in the software development lifecycle&lt;/li&gt;
+&lt;li&gt;Overview of programming languages and their features&lt;/li&gt;
+&lt;li&gt;Architecture of a compiler&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Lexical Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lexical tokens, patterns, and lexemes&lt;/li&gt;
+&lt;li&gt;Design of lexical analyzers&lt;/li&gt;
+&lt;li&gt;Introduction to Lex and its usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. Syntax Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Context-free grammars and parse trees&lt;/li&gt;
+&lt;li&gt;Top-down parsing (recursive descent, LL) and bottom-up parsing (LR, LALR)&lt;/li&gt;
+&lt;li&gt;Error detection and recovery mechanisms in parsers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Semantic Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Role of semantic analysis in a compiler&lt;/li&gt;
+&lt;li&gt;Type checking and type inference&lt;/li&gt;
+&lt;li&gt;Symbol tables and attribute grammars&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. Intermediate Code Generation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Representations such as three-address code, quadruples, and abstract syntax trees&lt;/li&gt;
+&lt;li&gt;Translating high-level constructs into intermediate representations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;6. Code Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Local vs global optimization techniques&lt;/li&gt;
+&lt;li&gt;Loop optimizations, dead code elimination, and inlining&lt;/li&gt;
+&lt;li&gt;Role of data-flow analysis in optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7. Code Generation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Instruction selection and register allocation&lt;/li&gt;
+&lt;li&gt;Basic blocks and flow graphs&lt;/li&gt;
+&lt;li&gt;Generating efficient machine-level code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8. Advanced Topics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Just-In-Time (JIT) Compilation&lt;/li&gt;
+&lt;li&gt;Compiler frameworks (LLVM, GCC)&lt;/li&gt;
+&lt;li&gt;Introduction to domain-specific languages (DSLs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;9. Project and Case Studies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Design and implementation of a small-scale compiler&lt;/li&gt;
+&lt;li&gt;Case studies on modern compiler systems and frameworks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Teaching assistant&lt;/h2&gt;
 &lt;h3&gt;Foreword&lt;/h3&gt;
 &lt;p&gt;I was teaching assistant of Compiler Design and Construction B.Sc. course by &lt;a href="http://parsa.iust.ac.ir/" target="_blank"&gt;Dr. Saeed Parsa&lt;/a&gt; for seven semesters (more than three years) at Iran University of Science and Technology. Our teaching materials during these three years are available to view and download.&lt;/p&gt;
 &lt;p&gt;I put all source code that I developed to practically teach compiler  to students on the GitHub page, the &lt;a href="http://parsa.iust.ac.ir/courses/compilers/" target="_blank"&gt;IUST compiler course&lt;/a&gt;. &lt;/p&gt;
@@ -354,7 +451,7 @@ The projects shown in Table 1 have been assigned to the students who take the IU
 &lt;td&gt;Compiler /     Advanced compiler&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a href="https://m-zakeri.github.io/IUSTCompiler/projects/mini_java_compiler_development/"&gt;ANTLR MiniJava&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://m-zakeri.github.io/Compilers/projects/mini_java_compiler_development/"&gt;ANTLR MiniJava&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Parse-tree   and intermediate code generation for the MiniJava programming language with   ANTLR&lt;/td&gt;
 &lt;td&gt;Fall 2016,   Spring 2017&lt;/td&gt;
 &lt;td&gt;Compiler&lt;/td&gt;
@@ -374,11 +471,21 @@ Compilers helped artificial intelligence (AI) in the past, and now AI boosts com
 &lt;hr&gt;
 &lt;h2&gt;Course Objectives&lt;/h2&gt;
 &lt;p&gt;By the end of this course, students will:
-1. Understand core software design principles such as SOLID, DRY, and KISS.
-2. Analyze and apply common software design patterns including Creational, Structural, and Behavioral patterns.
-3. Develop skills to architect scalable and maintainable software systems.
-4. Explore principles of software evolution, refactoring, and maintainability.
-5. Gain insights into modern software development practices, including agile development and DevOps principles.&lt;/p&gt;
+1. Understand core software design principles such as SOLID, DRY, and KISS.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Analyze and apply common software design patterns including Creational, Structural, and Behavioral patterns.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Develop skills to architect scalable and maintainable software systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explore principles of software evolution, refactoring, and maintainability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gain insights into modern software development practices, including agile development and DevOps principles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2&gt;Syllabus&lt;/h2&gt;
 &lt;h3&gt;Week 1-2: Introduction to Software Engineering Principles&lt;/h3&gt;
@@ -433,9 +540,9 @@ Compilers helped artificial intelligence (AI) in the past, and now AI boosts com
 &lt;hr&gt;
 &lt;h2&gt;Course Assessment&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Assignments (30%)&lt;/strong&gt;: Weekly exercises on applying patterns.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Midterm Exam (25%)&lt;/strong&gt;: Theoretical and practical understanding of design principles.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Capstone Project (35%)&lt;/strong&gt;: Collaborative project designing a software system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assignments (25%)&lt;/strong&gt;: Weekly exercises on applying patterns.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper-based Exam (40%)&lt;/strong&gt;: Theoretical and practical understanding of design principles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capstone Project (25%)&lt;/strong&gt;: Collaborative project designing a software system.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Participation (10%)&lt;/strong&gt;: Engaging in discussions and code reviews.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -464,11 +571,21 @@ Compilers helped artificial intelligence (AI) in the past, and now AI boosts com
 &lt;hr&gt;
 &lt;h2&gt;Course Objectives&lt;/h2&gt;
 &lt;p&gt;By the end of this course, students will:
-1. Understand the fundamental concepts and theories of network science.
-2. Analyze and characterize the dynamics of complex networks, including robustness, scalability, and efficiency.
-3. Apply mathematical and computational models to study network behavior and emergent phenomena.
-4. Explore the role of networks in diverse applications, including communication systems, social systems, biology, and finance.
-5. Develop practical skills in modeling and simulating dynamic networks using advanced tools and frameworks.&lt;/p&gt;
+1. Understand the fundamental concepts and theories of network science.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Analyze and characterize the dynamics of complex networks, including robustness, scalability, and efficiency.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apply mathematical and computational models to study network behavior and emergent phenomena.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explore the role of networks in diverse applications, including communication systems, social systems, biology, and finance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Develop practical skills in modeling and simulating dynamic networks using advanced tools and frameworks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2&gt;Syllabus&lt;/h2&gt;
 &lt;h3&gt;Week 1-2: Fundamentals of Complex Networks&lt;/h3&gt;
@@ -521,9 +638,9 @@ Compilers helped artificial intelligence (AI) in the past, and now AI boosts com
 &lt;hr&gt;
 &lt;h2&gt;Course Assessment&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Assignments (30%)&lt;/strong&gt;: Analytical exercises and computational tasks.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Midterm Exam (25%)&lt;/strong&gt;: Theoretical understanding of network concepts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Capstone Project (35%)&lt;/strong&gt;: Team-based project involving real-world network analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assignments (25%)&lt;/strong&gt;: Analytical exercises and computational tasks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Papsr-based Exam (40%)&lt;/strong&gt;: Theoretical understanding of network concepts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capstone Project (25%)&lt;/strong&gt;: Team-based project involving real-world network analysis.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Participation (10%)&lt;/strong&gt;: Active engagement in discussions, workshops, and reviews.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;

@@ -65,6 +65,11 @@ url = "/pages/teaching.html"
 title = "Teaching"
 
 [[input.files]]
+path = "services-of-the-intelligent-software-engineering-laboratory.html"
+url = "/services-of-the-intelligent-software-engineering-laboratory.html"
+title = "Services of the Intelligent Software Engineering Laboratory"
+
+[[input.files]]
 path = "advanced-software-testing.html"
 url = "/advanced-software-testing.html"
 title = "Advanced Software Testing"
@@ -88,6 +93,11 @@ title = "CodART: Automated Source Code Refactoring Toolkit"
 path = "automated-refactoring-of-the-java-code-using-antlr-in-python.html"
 url = "/automated-refactoring-of-the-java-code-using-antlr-in-python.html"
 title = "Automated refactoring of the Java code using ANTLR in Python"
+
+[[input.files]]
+path = "do-software-engineers-sacrifice-themselves.html"
+url = "/do-software-engineers-sacrifice-themselves.html"
+title = "Do software engineers sacrifice themselves?"
 
 [[input.files]]
 path = "program-dynamic-analysis-with-antlr.html"
@@ -148,6 +158,11 @@ title = "Children and programming"
 path = "a-survey-of-sequence-to-sequence-learning-with-neural-networks.html"
 url = "/a-survey-of-sequence-to-sequence-learning-with-neural-networks.html"
 title = "A survey of sequence-to-sequence learning with neural networks"
+
+[[input.files]]
+path = "computer-science-at-the-heart-of-civilization.html"
+url = "/computer-science-at-the-heart-of-civilization.html"
+title = "Computer science at the heart of civilization"
 
 [[input.files]]
 path = "welcome.html"

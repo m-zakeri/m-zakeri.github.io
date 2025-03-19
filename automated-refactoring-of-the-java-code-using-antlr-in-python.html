@@ -210,8 +210,7 @@
   <a href="./">Home</a>
 
   <a href="/category/blog.html">Blog</a>
-  <a href="/pages/research.html">Research</a>
-  <a href="/pages/resources.html">Resources</a>
+  <a href="/pages/services.html">Services</a>
   <a href="/category/courses.html">Courses</a>
   <a href="/archives.html">Archives</a>
   <a href="/categories.html">Categories</a>
@@ -234,7 +233,8 @@
 
 
   <div>
-    <p>Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. Researchers have recently studied the improvement of different quality attributes through refactoring (Mkaouer et al. 2016; Mohan and Greer 2019).</p>
+    <h2>Introduction</h2>
+<p>Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. Researchers have recently studied the improvement of different quality attributes through refactoring (Mkaouer et al. 2016; Mohan and Greer 2019).</p>
 <p>The refactoring process could be automated to reduce the required time and cost and increase the reliability of applied transformation. Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe and, if so, transforms the program. Refactoring engines are a key component of modern Integrated Development Environments (IDEs), and programmers rely on them to perform refactorings. The programmer need only select which refactoring to apply, and the engine will automatically check the preconditions and apply the transformations across the entire program if the preconditions are satisfied. Refactoring is gaining popularity, as evidenced by the inclusion of refactoring engines in modern IDEs such as IntelliJ IDEA, Eclipse, or NetBeans  for Java.</p>
 <p>According to Fowler (Fowler and Beck 2018), the biggest change to refactoring in the last decade is the availability of tools that support automated refactoring. Refactoring engines must be reliable. A fault in a refactoring engine can silently introduce bugs in the refactored program and lead to challenging debugging sessions. If the original program compiles, but the refactored program does not, the refactoring is obviously incorrect and can be easily undone. However, if the refactoring engine erroneously produces a refactored program that compiles but does not preserve the semantics of the original program, this can have severe consequences. Therefore, an automated refactoring tool must operate on the code’s syntax tree, not the text, to perform refactoring correctly. Manipulating the syntax tree is more reliable for preserving the program syntax, semantics, and behavior. For this reason, developing an automated refactoring tool requires deep knowledge of compiler techniques. Fowler (Fowler and Beck 2018) present a catalog of more than 70 refactoring in his book and state that </p>
 <blockquote>
@@ -406,7 +406,7 @@ The fourth step is to update the references of the encapsulated field to replace
 
 
   <div class="neighbors">
-    <a class="btn float-left" href="./program-dynamic-analysis-with-antlr.html" title="Program dynamic analysis with ANTLR">
+    <a class="btn float-left" href="./do-software-engineers-sacrifice-themselves.html" title="Do software engineers sacrifice themselves?">
       <i class="fa fa-angle-left"></i> Previous Post
     </a>
     <a class="btn float-right" href="./codart-automated-source-code-refactoring-toolkit.html" title="CodART: Automated Source Code Refactoring Toolkit">
