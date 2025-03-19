@@ -5,6 +5,7 @@ Author: Morteza
 Summary: Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. The refactoring process could be automated to reduce the required time and cost and increase the reliability of applied transformation. In this tutorial, I give a short description of how we can automate the refactoring process with ANTLR in Python. 
 
 
+## Introduction
 Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. Researchers have recently studied the improvement of different quality attributes through refactoring (Mkaouer et al. 2016; Mohan and Greer 2019).
 
 
@@ -15,6 +16,7 @@ According to Fowler (Fowler and Beck 2018), the biggest change to refactoring in
 > implementing decent refactoring is a challenging programming exercise—one that I am not mostly unaware of as I gaily use the tools.
 > 
 > _Martin Fowler_
+
 
 ## ANTLR Background
 Before reading this tutorial, I recommend looking at [ANTLR basic tutorial](antlr_basics.md) where I describe the background of using ANTLR to generate and walk phase three and implement custom program analysis applications with the help of the ANTLR listener mechanism. 

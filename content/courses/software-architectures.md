@@ -13,9 +13,13 @@ This course offers an in-depth study of software architectures, emphasizing thei
 ## Course Objectives
 By the end of this course, students will:
 1. Understand the principles and best practices of modern software architecture.
+
 2. Explore various architectural patterns, including monolithic, layered, microservices, and event-driven architectures.
+
 3. Learn and apply clean architecture principles for maintainable and testable systems.
+
 4. Design AI-driven architectures tailored to intelligent systems and applications.
+
 5. Evaluate and adapt architectural decisions to meet real-world challenges in scalability, security, and performance.
 
 ---
@@ -64,9 +68,9 @@ By the end of this course, students will:
 ---
 
 ## Course Assessment
-- **Assignments (30%)**: Hands-on tasks to design and evaluate architectural styles.
-- **Midterm Exam (25%)**: Theoretical evaluation of architectural principles and practices.
-- **Capstone Project (35%)**: Collaborative design and implementation of a software architecture.
+- **Assignments (25%)**: Hands-on tasks to design and evaluate architectural styles.
+- **Paper-based Exam (40%)**: Theoretical evaluation of architectural principles and practices.
+- **Capstone Project (25%)**: Collaborative design and implementation of a software architecture.
 - **Participation (10%)**: Engagement in discussions, case studies, and peer reviews.
 
 ---

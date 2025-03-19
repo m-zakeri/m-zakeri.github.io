@@ -22,5 +22,3 @@ I was teaching assistant of Game Theory M.Sc. and Ph.D. course by [Dr. Vesal Hak
 * [Midterm instructions](https://www.dropbox.com/s/zdxudn8hyj4empo/GT982_online_midterm_instructions.pdf?dl=0){:target="_blank"}
 
 
-
-

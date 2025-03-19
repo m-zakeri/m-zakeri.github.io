@@ -19,9 +19,13 @@ This course delves into the latest trends, emerging topics, and cutting-edge adv
 ## Course Objectives
 By the end of this course, students will:
 1. Gain familiarity with the latest research and advancements in software engineering.
+
 2. Learn to adopt and adapt emerging methodologies and frameworks for large-scale software systems.
+
 3. Understand the impact of intelligent tools and automation in the software development lifecycle (SDLC).
+
 4. Explore advanced topics like microservices, cloud-native development, and software observability.
+
 5. Critically assess and integrate evolving practices to solve modern software engineering challenges.
 
 ---
@@ -69,9 +73,9 @@ By the end of this course, students will:
 ---
 
 ## Course Assessment
-- **Assignments (30%)**: Hands-on tasks focusing on advanced tools and techniques.
-- **Midterm Exam (25%)**: Evaluation of theoretical understanding of emerging topics.
-- **Capstone Project (35%)**: Team-based project addressing real-world challenges in software engineering.
+- **Assignments (25%)**: Hands-on tasks focusing on advanced tools and techniques.
+- **Paper-based Exam (40%)**: Evaluation of theoretical understanding of emerging topics.
+- **Capstone Project (25%)**: Team-based project addressing real-world challenges in software engineering.
 - **Participation (10%)**: Contribution to discussions, peer reviews, and active engagement in the course.
 
 ---

@@ -44,8 +44,8 @@ DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'searc
 
 MENUITEMS = (
     ('Blog', '/category/blog.html'),
-    ('Research', '/pages/research.html'),
-    ('Resources', '/pages/resources.html'),
+    ('Services', '/pages/services.html'),
+    # ('Resources', '/pages/resources.html'),
     ('Courses', '/category/courses.html'),
     ('Archives', '/archives.html'),
     ('Categories', '/categories.html'),

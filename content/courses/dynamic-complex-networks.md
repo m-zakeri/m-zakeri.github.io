@@ -14,12 +14,17 @@ This course provides an in-depth exploration of complex dynamic networks, focusi
 ## Course Objectives
 By the end of this course, students will:
 1. Understand the fundamental concepts and theories of network science.
+
 2. Analyze and characterize the dynamics of complex networks, including robustness, scalability, and efficiency.
+
 3. Apply mathematical and computational models to study network behavior and emergent phenomena.
+
 4. Explore the role of networks in diverse applications, including communication systems, social systems, biology, and finance.
+
 5. Develop practical skills in modeling and simulating dynamic networks using advanced tools and frameworks.
 
 ---
+
 
 ## Syllabus
 
@@ -65,9 +70,9 @@ By the end of this course, students will:
 ---
 
 ## Course Assessment
-- **Assignments (30%)**: Analytical exercises and computational tasks.
-- **Midterm Exam (25%)**: Theoretical understanding of network concepts.
-- **Capstone Project (35%)**: Team-based project involving real-world network analysis.
+- **Assignments (25%)**: Analytical exercises and computational tasks.
+- **Papsr-based Exam (40%)**: Theoretical understanding of network concepts.
+- **Capstone Project (25%)**: Team-based project involving real-world network analysis.
 - **Participation (10%)**: Active engagement in discussions, workshops, and reviews.
 
 ---

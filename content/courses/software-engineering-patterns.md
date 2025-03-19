@@ -13,9 +13,13 @@ This course explores the foundational principles and design patterns that underp
 ## Course Objectives
 By the end of this course, students will:
 1. Understand core software design principles such as SOLID, DRY, and KISS.
+
 2. Analyze and apply common software design patterns including Creational, Structural, and Behavioral patterns.
+
 3. Develop skills to architect scalable and maintainable software systems.
+
 4. Explore principles of software evolution, refactoring, and maintainability.
+
 5. Gain insights into modern software development practices, including agile development and DevOps principles.
 
 ---
@@ -65,9 +69,9 @@ By the end of this course, students will:
 ---
 
 ## Course Assessment
-- **Assignments (30%)**: Weekly exercises on applying patterns.
-- **Midterm Exam (25%)**: Theoretical and practical understanding of design principles.
-- **Capstone Project (35%)**: Collaborative project designing a software system.
+- **Assignments (25%)**: Weekly exercises on applying patterns.
+- **Paper-based Exam (40%)**: Theoretical and practical understanding of design principles.
+- **Capstone Project (25%)**: Collaborative project designing a software system.
 - **Participation (10%)**: Engaging in discussions and code reviews.
 
 ---

@@ -18,9 +18,13 @@ This course delves into advanced topics and cutting-edge techniques in software 
 ## Course Objectives
 By the end of this course, students will:
 1. Understand the theoretical underpinnings of advanced software testing methodologies.
+
 2. Develop practical skills in automated testing, including test data generation and fuzzing.
+
 3. Apply advanced techniques such as metamorphic testing and abstract interpretation to tackle testing challenges.
+
 4. Analyze and verify software properties using program analysis and hyper-property testing.
+
 5. Explore state-of-the-art tools and frameworks to enhance software reliability and security.
 
 ---
@@ -69,17 +73,17 @@ By the end of this course, students will:
 ---
 
 ## Course Assessment
-- **Assignments (30%)**: Hands-on exercises in test automation, fuzzing, and program analysis.
-- **Midterm Exam (25%)**: Theoretical evaluation of advanced testing methodologies.
-- **Capstone Project (35%)**: Group project involving the application of advanced testing techniques.
+- **Assignments (25%)**: Hands-on exercises in test automation, fuzzing, and program analysis.
+- **Paper-based Exam (40%)**: Theoretical evaluation of advanced testing methodologies.
+- **Capstone Project (25%)**: Group project involving the application of advanced testing techniques.
 - **Participation (10%)**: Contributions to discussions, code reviews, and peer learning.
 
 ---
 
 ## Resources
 - **Textbooks**:
-  - *Introduction to Software Testing* by Paul Ammann and Jeff Offutt
   - *Fuzzing: Brute Force Vulnerability Discovery* by Michael Sutton, Adam Greene, and Pedram Amini
+  - *Introduction to Software Testing* by Paul Ammann and Jeff Offutt
 - **Online Platforms**:
   - Tools and frameworks such as AFL, libFuzzer, Z3 (solver), and Clang Static Analyzer
   - Open-source repositories for testing datasets
