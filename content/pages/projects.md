@@ -16,6 +16,7 @@ Contact me (Z A K E R I [AT] A U T [DOT] A C [DOT] I R) to order one of the foll
 
 5. **Intelligent Anti-Money Laundering and Fraud Detection** Offering innovative advisory services for implementing intelligent systems to detect and prevent money laundering and fraud. By utilizing advanced machine learning and data analysis techniques, I help clients build effective, automated solutions for combating financial crimes.
 
+* See [complete list](https://www.m-zakeri.ir/category/services.html){:target="_blank"}
 
 ### My Coding Summary
 <div style="text-align: center;">

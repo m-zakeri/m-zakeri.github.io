@@ -1,10 +1,8 @@
 Title: Services of the Intelligent Software Engineering Laboratory
-url: https://www.m-zakeri.ir/all-services.html
-save_as: all-services.html
 Date: 2025-03-20 20:30
 Tags: services, laboratory
 Author: Morteza
-
+Summary: Find all of our services here.
 
 
 **Amirkabir University of Technology (Tehran Polytechnic)**  
