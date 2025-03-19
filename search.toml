@@ -65,8 +65,8 @@ url = "/pages/teaching.html"
 title = "Teaching"
 
 [[input.files]]
-path = "all-services.html"
-url = "/https://www.m-zakeri.ir/all-services.html"
+path = "services-of-the-intelligent-software-engineering-laboratory.html"
+url = "/services-of-the-intelligent-software-engineering-laboratory.html"
 title = "Services of the Intelligent Software Engineering Laboratory"
 
 [[input.files]]
