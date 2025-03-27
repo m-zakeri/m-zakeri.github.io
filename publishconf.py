@@ -22,6 +22,11 @@ SITEURL = 'https://m-zakeri.github.io'
 RELATIVE_URLS = True
 # USE_LESS = False
 
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+TRANSLATION_FEED_ATOM = 'feeds/{lang}.atom.xml'
+AUTHOR_FEED_ATOM = 'feeds/{slug}.atom.xml'
+AUTHOR_FEED_RSS = 'feeds/{slug}.rss.xml'
 
 # PLUGIN_PATHS = ['D:\AnacondaProjects\pelican-addon-clones\pelican-plugins']
 # PLUGINS = ['neighbors']

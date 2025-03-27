@@ -23,6 +23,15 @@ COPYRIGHT_NAME = SITENAME + '. All rights reserved.' + ' Last update on ' + str(
 #     'slug': 'Morteza'
 # }
 
+BROWSER_COLOR = "#333"
+ROBOTS = "index, follow"
+
+CC_LICENSE = {
+    "name": "Creative Commons Attribution-ShareAlike",
+    "version": "4.0",
+    "slug": "by-sa"
+}
+
 # Time and date
 TIMEZONE = 'Asia/Tehran'
 
@@ -87,7 +96,7 @@ DEFAULT_PAGINATION = 5
 
 THEME = 'themes/flex'
 COLOR_SCHEME = 'dark'  # Set the color scheme to 'dark'
-THEME_COLOR = 'dark'
+THEME_COLOR = 'light'
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
