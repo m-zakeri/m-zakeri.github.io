@@ -51,7 +51,7 @@ jobs:
 
       # Step 5: Build the Pelican site
       - name: Build Pelican site
-        run: pelican content
+        run: pelican content -o output -s publishconf.py
 
       # Step 6: Add CNAME file
       - name: Add CNAME file
@@ -60,4 +60,4 @@ jobs:
       # Step 7: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: |
-          ghp-import -n -p -f --branch=master output
+          ghp-import -n -p -f -r origin --branch=master output
