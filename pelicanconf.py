@@ -75,7 +75,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 5
 
-THEME = 'Flex'
+THEME = 'themes/flex'
 
 STATIC_PATHS = ['static/img/', 'static/pdf/', 'static/css/']
 
