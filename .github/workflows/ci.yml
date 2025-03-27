@@ -46,8 +46,8 @@ jobs:
             rm -rf themes/flex # Remove the old version of the theme
           fi
           git clone https://github.com/alexandrevicenzi/Flex.git themes/flex
-          cd themes/flex
-          git checkout v3
+#          cd themes/flex
+#          git checkout v3
 
       # Step 5: Build the Pelican site
       - name: Build Pelican site
