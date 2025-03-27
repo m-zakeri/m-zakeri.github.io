@@ -33,7 +33,7 @@ jobs:
           echo >> /home/runner/.bashrc
           echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/runner/.bashrc
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-          brew install stork-search/stork-tap/stork -y
+          brew install stork-search/stork-tap/stork
           python -m pip install --upgrade pip
           python -m pip install pelican-search
           pip install -r requirements.txt
