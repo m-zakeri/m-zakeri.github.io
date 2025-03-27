@@ -87,7 +87,12 @@ DEFAULT_PAGINATION = 5
 
 THEME = 'themes/flex'
 COLOR_SCHEME = 'dark'  # Set the color scheme to 'dark'
+THEME_COLOR = 'dark'
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
+PYGMENTS_STYLE = 'emacs'
+PYGMENTS_STYLE_DARK = 'monokai'
 
 STATIC_PATHS = ['static/img/', 'static/pdf/', 'static/css/']
 
