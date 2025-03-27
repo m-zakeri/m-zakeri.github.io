@@ -16,7 +16,7 @@ PATH = 'content'
 
 # Copyright
 COPYRIGHT_YEAR = r'2016 - ' + str(datetime.now().year)
-COPYRIGHT_NAME = SITENAME + '. All rights reserved.'
+COPYRIGHT_NAME = SITENAME + '. All rights reserved.' + ' Last update on ' + str(datetime.now())
 # CC_LICENSE = {
 #     'name': 'All rights reserved.',
 #     'version': '202503',
@@ -55,9 +55,10 @@ MENUITEMS = (
 
 LINKS = (
     # ('Courses', 'https://m-zakeri.github.io/category/courses.html'),
-    ('Laboratory', 'http://reverse.iust.ac.ir'),
+    ('Laboratory in AUT', 'https://m-zakeri.github.io/lab'),
+    ('Laboratory in IUST', 'http://reverse.iust.ac.ir'),
     # ('Micropedia', 'http://micropedia.ir'),
-    ('University Page', 'http://webpages.iust.ac.ir/morteza_zakeri/')
+    ('My University Page (IUST)', 'http://webpages.iust.ac.ir/morteza_zakeri/')
 )
 
 # Social widget

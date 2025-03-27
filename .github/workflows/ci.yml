@@ -1,0 +1,57 @@
+name: Deploy Pelican Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - pelican # Replace "main" with your default branch name
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # Use the version your project requires
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          export STORKVERSION="v1.5.0"
+          wget -O /usr/local/bin/stork https://files.stork-search.net/releases/$STORKVERSION/stork-macos-10-15
+          chmod +x /usr/local/bin/stork
+          brew install stork-search/stork-tap/stork
+          python -m pip install --upgrade pip
+          python -m pip install pelican-search
+          pip install -r requirements.txt
+#          pip install pelican ghp-import
+#          pip install pelican-toc pelican-tipue-search # Adding search plugin here
+
+      # Step 4: Download the latest Flex theme
+      - name: Download Flex theme
+        run: |
+          if [ -d "themes/flex" ]; then
+            rm -rf themes/flex # Remove the old version of the theme
+          fi
+          git clone https://github.com/alexandrevicenzi/Flex.git themes/flex
+          cd themes/flex
+          git checkout v3
+
+      # Step 5: Build the Pelican site
+      - name: Build Pelican site
+        run: pelican content
+
+      # Step 6: Add CNAME file
+      - name: Add CNAME file
+        run: echo "www.m-zakeri.ir" > output/CNAME
+
+      # Step 7: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: |
+          ghp-import -n -p --branch=master output

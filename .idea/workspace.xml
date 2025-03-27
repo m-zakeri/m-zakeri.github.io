@@ -4,47 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="Update 16 september 2022, fix bugs.">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b9d033af-b6e1-4552-8445-06a51287bfbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Morteza.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/m-zakeri.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/m-zakeri.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pages/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pages/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelicanconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelicanconf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>font</find>
-      <find>t</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="pelican" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;m-zakeri&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/m-zakeri/m-zakeri.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;0ff021e8-28de-4af6-b79c-f4f6d930b024&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="1Qk06xEku6PNd53WGCmIv8oTiw6" />
+  <component name="ProjectId" id="2utzlc2Rs2irYZjI5YR0QF417Io" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,23 +59,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Repoes/AnacondaProjects/m-zakeri.github.io/content/courses",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "pelican",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Repoes\AnacondaProjects\m-zakeri.github.io\content\courses" />
-      <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\blog" />
-      <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\static\img\dynamic_analysis" />
-      <recent name="D:\AnacondaProjects\m-zakeri.github.io\content\static\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Repoes\AnacondaProjects\m-zakeri.github.io\content\pages" />
-      <recent name="D:\AnacondaProjects\m-zakeri.github.io\css\img" />
+      <recent name="F:\Repoes\AnacondaProjects\m-zakeri.github.io\thems" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -78,373 +77,35 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ebab010-730e-4a1a-a2bc-a9acebe5475a" name="Default" comment="" />
-      <created>1523204651273</created>
+      <changelist id="b9d033af-b6e1-4552-8445-06a51287bfbb" name="Changes" comment="" />
+      <created>1743082813144</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523204651273</updated>
+      <updated>1743082813144</updated>
     </task>
-    <task id="LOCAL-00004" summary="Set the template.">
-      <created>1523208703585</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1523208703585</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Set the template.">
-      <created>1523215899512</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1523215899512</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Set the template.">
-      <created>1523216330202</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1523216330202</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Set the template.">
-      <created>1523217859280</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1523217859280</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Set the template.">
-      <created>1523350387577</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1523350387577</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Set the template.">
-      <created>1523352698138</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1523352698138</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Set the template.">
-      <created>1523354151343</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1523354151343</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Set the template.">
-      <created>1523355724632</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1523355724632</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Complete homepage">
-      <created>1523356323771</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1523356323771</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Complete homepage and links.">
-      <created>1523356571213</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1523356571213</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Complete homepage and links.">
-      <created>1523356986540</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1523356986540</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Complete homepage and links.">
-      <created>1523384353940</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1523384353940</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Complete homepage and links.">
-      <created>1524232204114</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1524232204114</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Complete homepage and links.">
-      <created>1524232636261</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1524232636261</updated>
-    </task>
-    <task id="LOCAL-00018" summary="New website launched.">
-      <created>1524751486162</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1524751486162</updated>
-    </task>
-    <task id="LOCAL-00019" summary="New website launched.">
-      <created>1524753353181</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1524753353181</updated>
-    </task>
-    <task id="LOCAL-00020" summary="New website launched.">
-      <created>1524754545980</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1524754545980</updated>
-    </task>
-    <task id="LOCAL-00021" summary="New website launched.">
-      <created>1524755823948</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1524755823948</updated>
-    </task>
-    <task id="LOCAL-00022" summary="New website launched.">
-      <created>1531045680443</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1531045680443</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Change title from msc to phd student.">
-      <created>1543750417272</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1543750417272</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Change title from msc to phd student.">
-      <created>1543750579869</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1543750579869</updated>
-    </task>
-    <task id="LOCAL-00025" summary="compiler project test cases.">
-      <created>1548220027093</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1548220027093</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Update back-end">
-      <created>1646566695976</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1646566695976</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Update about.md">
-      <created>1646567008599</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1646567008599</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Update css">
-      <created>1651747527462</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1651747527463</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Add static_analysis.md">
-      <created>1651749058342</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1651749058342</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Update resources.md">
-      <created>1651749076088</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1651749076088</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Update news and projects">
-      <created>1651749095665</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1651749095665</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Add the blog post on ANTLR basic">
-      <created>1651749167400</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1651749167400</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Add the blog post on the program dynamic and static analysis with ANTLR">
-      <created>1651749233883</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1651749233883</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Update courses materials">
-      <created>1651750553228</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1651750553228</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Update courses materials">
-      <created>1651750571529</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1651750571529</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Update honors">
-      <created>1651750587649</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1651750587649</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Update CodART blog post">
-      <created>1651750739634</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1651750739634</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Add a blog post about automated refactoring with ANTLR">
-      <created>1651767051549</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1651767051549</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Update links">
-      <created>1651767067719</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1651767067719</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Add a blog post search-based refactoring">
-      <created>1651767912387</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1651767912387</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Add some figures used in the blog posts">
-      <created>1651768004288</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1651768004288</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Update post">
-      <created>1651768031020</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1651768031020</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Update home page">
-      <created>1651769136087</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1651769136087</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Update publications">
-      <created>1651770959686</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1651770959686</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Update css">
-      <created>1651770986984</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1651770986984</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Add cv">
-      <created>1662120756321</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1662120756321</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Update about page and publication page">
-      <created>1662120951570</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1662120951570</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Update about page add PhD appendix webpage">
-      <created>1662121441415</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1662121441415</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Update thesis links">
-      <created>1662207251691</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1662207251691</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Update about page.">
-      <created>1662207405624</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1662207405625</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Update 16 september 2022.">
-      <created>1663327909206</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1663327909207</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Update 16 september 2022, fix bugs.">
-      <created>1663328064312</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1663328064312</updated>
-    </task>
-    <option name="localTasksCounter" value="53" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="pelican" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -452,59 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/pelican-plugins" />
-      <path value="$PROJECT_DIR$/pelican-themes" />
-      <path value="$PROJECT_DIR$" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/ace_editor" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/ace_editor/static/ace-build" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/backreftranslate" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/better_code_samples" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/bootstrapify" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/category_order" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/cjk-auto-spacing" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/deadlinks" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/encrypt-content" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/figure-ref" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/ga_page_view" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/image_process" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/just_table" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/lightbox" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/loadcsv" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/md-metayaml" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/md-metayaml/markdown_metayaml" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/multi_neighbors" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/multimarkdown_reader" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/org_pandoc_reader" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pandoc_reader" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/panorama" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pdf-img" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-cite" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-ert" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-flickr" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-genealogy" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-gist" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-githubprojects" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-ipynb" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-jinja2content" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-langcategory" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-linkclass" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-mboxreader" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-open_graph" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-page-hierarchy" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-page-order" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-toc" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican-version" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_javascript" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_meetup_info" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_vimeo" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelican_youtube" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelicanfly" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pelicanthemes-generator" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/pin_to_top" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/post_revision" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/replacer" />
-      <path value="$PROJECT_DIR$/src/pelican-tipue-search/similar_posts" />
+      <path value="$PROJECT_DIR$/themes/flex" />
       <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search" />
       <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/ace_editor" />
       <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/ace_editor/static/ace-build" />
@@ -556,31 +165,5 @@
       <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/replacer" />
       <path value="$PROJECT_DIR$/venv/src/pelican-tipue-search/similar_posts" />
     </ignored-roots>
-    <MESSAGE value="Update back-end" />
-    <MESSAGE value="Update about.md" />
-    <MESSAGE value="Add static_analysis.md" />
-    <MESSAGE value="Update resources.md" />
-    <MESSAGE value="Update news and projects" />
-    <MESSAGE value="Add the blog post on ANTLR basic" />
-    <MESSAGE value="Add the blog post on the program dynamic and static analysis with ANTLR" />
-    <MESSAGE value="Update courses materials" />
-    <MESSAGE value="Update honors" />
-    <MESSAGE value="Update CodART blog post" />
-    <MESSAGE value="Add a blog post about automated refactoring with ANTLR" />
-    <MESSAGE value="Update links" />
-    <MESSAGE value="Add a blog post search-based refactoring" />
-    <MESSAGE value="Add some figures used in the blog posts" />
-    <MESSAGE value="Update post" />
-    <MESSAGE value="Update home page" />
-    <MESSAGE value="Update publications" />
-    <MESSAGE value="Update css" />
-    <MESSAGE value="Add cv" />
-    <MESSAGE value="Update about page and publication page" />
-    <MESSAGE value="Update about page add PhD appendix webpage" />
-    <MESSAGE value="Update thesis links" />
-    <MESSAGE value="Update about page." />
-    <MESSAGE value="Update 16 september 2022." />
-    <MESSAGE value="Update 16 september 2022, fix bugs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 16 september 2022, fix bugs." />
   </component>
 </project>
