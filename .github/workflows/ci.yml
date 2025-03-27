@@ -18,17 +18,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10' # Use the version your project requires
+          python-version: '3.12' # Use the version your project requires
 
       # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-          cargo install stork-search --locked
+          cargo install stork-search --locked -y
           export STORKVERSION="v1.5.0"
           wget -O /usr/local/bin/stork https://files.stork-search.net/releases/$STORKVERSION/stork-macos-10-15
           chmod +x /usr/local/bin/stork
-          brew install stork-search/stork-tap/stork
+          brew install stork-search/stork-tap/stork -y
           python -m pip install --upgrade pip
           python -m pip install pelican-search
           pip install -r requirements.txt
