@@ -29,7 +29,8 @@ jobs:
           export STORKVERSION="v1.5.0"
           wget -O /usr/local/bin/stork https://files.stork-search.net/releases/$STORKVERSION/stork-macos-10-15
           chmod +x /usr/local/bin/stork
-          sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
+          bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" -y
+          (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc
           brew install stork-search/stork-tap/stork -y
           python -m pip install --upgrade pip
           python -m pip install pelican-search
