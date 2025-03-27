@@ -60,4 +60,4 @@ jobs:
       # Step 7: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: |
-          ghp-import -n -p -f -r origin --branch=master output
+          ghp-import -m "Update Pelican site" -n -p -f -r origin --branch=master output
