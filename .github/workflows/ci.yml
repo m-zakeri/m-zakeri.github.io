@@ -34,8 +34,8 @@ jobs:
           echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/runner/.bashrc
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
           python -m pip install --upgrade pip
-          python -m pip install pelican-search
           pip install -r requirements.txt
+          python -m pip install pelican-search
 #          pip install pelican ghp-import
 #          pip install pelican-toc pelican-tipue-search # Adding search plugin here
 
