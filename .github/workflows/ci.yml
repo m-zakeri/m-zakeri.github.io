@@ -25,7 +25,7 @@ jobs:
         run: |
           curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs -o install.sh
           bash install.sh -y
-          cargo install stork-search --locked -y
+          cargo -- -y install stork-search --locked
           export STORKVERSION="v1.5.0"
           wget -O /usr/local/bin/stork https://files.stork-search.net/releases/$STORKVERSION/stork-macos-10-15
           chmod +x /usr/local/bin/stork
