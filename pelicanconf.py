@@ -76,6 +76,8 @@ SOCIAL = (
 DEFAULT_PAGINATION = 5
 
 THEME = 'themes/flex'
+COLOR_SCHEME = 'dark'  # Set the color scheme to 'dark'
+
 
 STATIC_PATHS = ['static/img/', 'static/pdf/', 'static/css/']
 
