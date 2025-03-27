@@ -73,6 +73,16 @@ SOCIAL = (
     ('rss', '/feeds/all.atom.xml'),
 )
 
+
+# Feed Generation:
+# When publishing, you usually want your feeds available.
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+TRANSLATION_FEED_ATOM = 'feeds/{lang}.atom.xml'
+AUTHOR_FEED_ATOM = 'feeds/{slug}.atom.xml'
+AUTHOR_FEED_RSS = 'feeds/{slug}.rss.xml'
+
+
 DEFAULT_PAGINATION = 5
 
 THEME = 'themes/flex'
