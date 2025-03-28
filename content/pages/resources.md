@@ -32,13 +32,13 @@ From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/)
 
 ## Advanced software engineering
 
-| Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |              Additional links              |
-|:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------:|
-|  1  | ![An introduction to algorithms](../static/img/bookcover/CLRS.jpg)                                                     | An introduction to Algorithms                                                                                                                              |                                            |
-|  2  | ![Head first object oriented](../static/img/bookcover/head_first_object_oriented.jpg)                              | Object oriented design and analysis                                                                                                                                                          |                                            |
-|  3  | ![Head first design patterns](../static/img/bookcover/head_first_design_patterns.jpg )                             | Design patterns                                        |        A very good visualized book.        |
-|  4  | ![Dr Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )               | System design and analysis in software engineering (in Persian)                                                                                                                                       | By Prof. Saeed Parsa (My doctoral advisor) |
-|  5  | ![Dr Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )                             | Performance testing in software engineering (in Persian)                                                                                                                                                           | By Prof. Saeed Parsa (My doctoral advisor) |
+| Row |                                         Photo                                          |     Resource name                                                                                                                                          |              Additional links              |
+|:---:|:--------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------:|
+|  1  |           ![An introduction to algorithms](../static/img/bookcover/CLRS.jpg)           | An introduction to Algorithms                                                                                                                              |                                            |
+|  2  | ![Head first object oriented](../static/img/bookcover/head_first_object_oriented.jpg)  | Object oriented design and analysis                                                                                                                                                          |                                            |
+|  3  | ![Head first design patterns](../static/img/bookcover/head_first_design_patterns.jpg ) | Design patterns                                        |        A very good visualized book.        |
+|  4  |  ![Prof. Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )  | System design and analysis in software engineering (in Persian)                                                                                                                                       | By Prof. Saeed Parsa (My doctoral advisor) |
+|  5  |  ![Prof. Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )  | Performance testing in software engineering (in Persian)                                                                                                                                                           | By Prof. Saeed Parsa (My doctoral advisor) |
 
 
 
@@ -65,28 +65,48 @@ A road-map to learn programming/ codding.
 
 
 
-
 ## Useful links
 
 ### My profiles
 * [My GitHub projects](https://github.com/m-zakeri/){:target="_blank"} [New]
+
 * [My GitHub projects](https://github.com/mortazazakeri){:target="_blank"} [Old]
+
 * [My gist (code snip)](https://gist.github.com/m-zakeri){:target="_blank"}
+
 * [My LinkedIn profile](https://www.linkedin.com/in/mortazazakeri/){:target="_blank"}
+
 * [My SlideShare profile](https://www.slideshare.net/MortezaZakeri){:target="_blank"}
 
 
-### Outdated
-* [My old blog](http://m-zakeri.github.io/archives/2017/){:target="_blank"}, 2018 - 2019
-* [My old blog](http://m-zakeri.github.io/archives/2017/){:target="_blank"}, 2016 - 2017
-* [My old blog](https://zakerim.webs.com/){:target="_blank"}, 2010 - 2015
-* [Data and end of homelessness](http://micropedia.ir/1398/03/15/using-data-to-understand-and-end-homelessness/){:target="_blank"} (in Persian), Spring 2019
-* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian), Fall 2016
-
 
 ### Miscellaneous
-* [A Survival Guide to a Ph.D. by Dr. Andrej Karpathy](http://karpathy.github.io/2016/09/07/phd/){:target="_blank"}
-* [ProjectEuler in Persian](https://marhale3.github.io/problems.html){:target="_blank"}
+
+#### Blog posts and articles 
+
+* [Data and end of homelessness](http://micropedia.ir/1398/03/15/using-data-to-understand-and-end-homelessness/){:target="_blank"} by Morteza Zakeri (in Persian), Spring 2019
+
+* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} by Morteza Zakeri (in Persian), Fall 2016
+
+* [A survival guide to a PhD](http://karpathy.github.io/2016/09/07/phd/){:target="_blank"} by Dr. Andrej Karpathy 
+
+
+#### Non-profit projects
+
+* [Project Euler](https://projecteuler.net/){:target="_blank"}
+
+* [Project Euler in Persian](https://marhale3.github.io/problems.html){:target="_blank"}
+
+
+#### Outdated blogs
+
+* [My old blog 3](http://m-zakeri.github.io/archives/2018/){:target="_blank"}, active from 2018 to 2019
+
+* [My old blog 2](http://m-zakeri.github.io/archives/2017/){:target="_blank"}, active from 2016 to 2017
+
+* [My old blog 1](https://zakerim.webs.com/){:target="_blank"}, active from 2010 to 2015
+
+
 
 
 

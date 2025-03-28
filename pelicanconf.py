@@ -75,9 +75,10 @@ GITHUB_URL = 'https://github.com/m-zakeri/'
 TWITTER_USERNAME = '_zakeri_'
 
 SOCIAL = (
-    ('linkedin', 'https://www.linkedin.com/in/mortazazakeri/'),
+    ('linkedin', 'https://www.linkedin.com/in/mortazazakeri'),
     ('twitter', 'https://twitter.com/_zakeri_'),
-    ('github', 'https://github.com/m-zakeri/'),
+    ('github', 'https://github.com/m-zakeri'),
+    ('telegram', 'https://t.me/mztel'),
     # ('github', 'https://github.com/mortazazakeri/'),
     ('rss', '/feeds/all.atom.xml'),
 )
