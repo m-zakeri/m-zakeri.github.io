@@ -31,16 +31,18 @@ Contact me (Z A K E R I [AT] A U T [DOT] A C [DOT] I R) to order one of the foll
 ## Ongoing research and development projects
 
 ### Software quality assurance
-* CodART [[www]](https://m-zakeri.github.io/CodART){:target="_blank"}
-* ARTA [[www]](https://m-zakeri.github.io/ARTA){:target="_blank"}
-* ADAFEST [[www]](https://m-zakeri.github.io/ADAFEST){:target="_blank"}
 
-* STaRT (not public) [[www]](https://github.com/m-zakeri/){:target="_blank"}
-* Anti-money laundering (not public) [[www]](https://github.com/m-zakeri/){:target="_blank"}
+* CodART [[www](https://m-zakeri.github.io/CodART){:target="_blank"}]
+* ARTA [[www](https://m-zakeri.github.io/ARTA){:target="_blank"}]
+* ADAFEST [[www](https://m-zakeri.github.io/ADAFEST){:target="_blank"}]
+
+* STaRT (not public) [[www](https://github.com/m-zakeri/){:target="_blank"}]
+* Anti-money laundering (not public) [[www](https://github.com/m-zakeri/){:target="_blank"}]
 
 
 ### Software testing and security
-* DeepFuzz, 2018. [[www]](https://www.m-zakeri.ir/iust_deep_fuzz/){:target="_blank"}
+
+* DeepFuzz, 2018. [[www](https://www.m-zakeri.ir/iust_deep_fuzz/){:target="_blank"}]
 
 
 ### Intelligent systems
@@ -48,30 +50,31 @@ Contact me (Z A K E R I [AT] A U T [DOT] A C [DOT] I R) to order one of the foll
 
 
 ## Teaching projects
-* Compilers [[www]](https://m-zakeri.github.io/Compilers){:target="_blank"}
+* Compilers [[www](https://m-zakeri.github.io/Compilers){:target="_blank"}]
 
 ### Academic writing
-* ZMOST [[www]](https://github.com/m-zakeri/ZMOST){:target="_blank"}
-* IUST-DeepPoem, 2017. [[www]](https://github.com/m-zakeri/iust_deep_poem){:target="_blank"}
+* ZMOST [[www](https://github.com/m-zakeri/ZMOST){:target="_blank"}]
+* IUST-DeepPoem, 2017. [[www](https://github.com/m-zakeri/iust_deep_poem){:target="_blank"}]
 
-Refer to the [teaching](https://www.m-zakeri.ir/pages/teaching.html){:target="_blank"} page for a list of my current teaching projects.
+Refer to the [Teaching Arena](https://www.m-zakeri.ir/pages/teaching.html){:target="_blank"} page for a list of my current teaching projects.
 
 
 ## Enterprise applications
 * Parsina Bridge Management System (BMS) a.k.a. Golden Gate , 2015.
-* ClassChin, 2014. [[www]](https://github.com/MAJAVA/ClassChinX){:target="_blank"}
+* ClassChin, 2014. [[www](https://github.com/MAJAVA/ClassChinX){:target="_blank"}]
 * KarChin, 2015.
 
 
 
 ## Website design
-* Sciboom, 2018. [[www]](http://sciboom.ir){:target="_blank"}
-* IUST Reverse Engineering Research Laboratory, 2018. [[www]](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"}
-* Dr. Saeed Parsa Personal Webpage, 2018. [[www]](http://parsa.iust.ac.ir/){:target="_blank"}
+
+* Sciboom, 2018. [[www](http://sciboom.ir){:target="_blank"}]
+* IUST Reverse Engineering Research Laboratory, 2018. [[www](http://parsa.iust.ac.ir/reverse-engineering-lab/){:target="_blank"}]
+* Dr. Saeed Parsa Personal Webpage, 2018. [[www](http://parsa.iust.ac.ir/){:target="_blank"}]
 
 
 ## Find More
 
 ### Teammate projects
 
-My teamwork projects on [Micropedia](http://micropedia.ir/projects/){:target="_blank"}.
+My teamwork projects on [Micropedia](http://micropedia.ir){:target="_blank"}.

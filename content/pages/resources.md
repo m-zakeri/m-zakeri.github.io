@@ -7,9 +7,7 @@ This page contains many related and useful links about computer programming and 
 ## IUST course arsenal
 * [All things you need to pass a cOuRcE during your graduate program at IUST](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/){:target="_blank"} – March 2020. 
 
-This repository contains my notes, assignments, presentations, and projects for some graduate courses in computer science and artificial intelligence. In almost all of these courses, I was in **the top three students** among my classmates. I'm pleased to share these materials with all. Any feedback about them will be great. The IUST Graduate Course Arsenal provides a roadmap for graduate students who want to advance quickly and helps them to go one step forward toward discovering new topics and producing their original research. The repository will be publicly available until **March 11, 2023**.
-
-
+This repository contains my notes, assignments, presentations, and projects for some graduate courses in computer science and artificial intelligence. In almost all of these courses, I was in **the top three students** among my classmates. I am pleased to share these materials with all. Any feedback about them will be great. The IUST Graduate Course Arsenal provides a roadmap for graduate students who want to advance quickly and helps them to go one step forward toward discovering new topics and producing their original research. The repository will be publicly available until **March 11, 2023**.
 
 
 
@@ -34,13 +32,13 @@ From **July 2013** my friends and I maintain [Micropedia](http://micropedia.ir/)
 
 ## Advanced software engineering
 
-| Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |               Additional links                         |
-|:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
-|  1  | ![An introduction to algorithms](../static/img/bookcover/CLRS.jpg)                                                     | An introduction to Algorithms                                                                                                                              |                                                        |
-|  2  | ![Head first object oriented](../static/img/bookcover/head_first_object_oriented.jpg)                              | Object oriented design and analysis                                                                                                                                                          |                                                        |
-|  3  | ![Head first design patterns](../static/img/bookcover/head_first_design_patterns.jpg )                             | Design patterns                                        |      A very good visualized book.                                                  |
-|  4  | ![Dr Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )               | System design and analysis in software engineering (in Persian)                                                                                                                                       |       By Dr. Saeed Parsa (My doctoral advisor)                                                  |
-|  5  | ![Dr Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )                             | Performance testing in software engineering (in Persian)                                                                                                                                                           |      By Dr. Saeed Parsa (My doctoral advisor)                                                  |
+| Row |                                                                        Photo                                           |     Resource name                                                                                                                                          |              Additional links              |
+|:---:|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------:|
+|  1  | ![An introduction to algorithms](../static/img/bookcover/CLRS.jpg)                                                     | An introduction to Algorithms                                                                                                                              |                                            |
+|  2  | ![Head first object oriented](../static/img/bookcover/head_first_object_oriented.jpg)                              | Object oriented design and analysis                                                                                                                                                          |                                            |
+|  3  | ![Head first design patterns](../static/img/bookcover/head_first_design_patterns.jpg )                             | Design patterns                                        |        A very good visualized book.        |
+|  4  | ![Dr Parsa Software Engineering1](../static/img/bookcover/drparsa_book_se_1.jpg )               | System design and analysis in software engineering (in Persian)                                                                                                                                       | By Prof. Saeed Parsa (My doctoral advisor) |
+|  5  | ![Dr Parsa Software Engineering3](../static/img/bookcover/drparsa_book_se_3.jpg )                             | Performance testing in software engineering (in Persian)                                                                                                                                                           | By Prof. Saeed Parsa (My doctoral advisor) |
 
 
 
@@ -69,12 +67,14 @@ A road-map to learn programming/ codding.
 
 
 ## Useful links
+
 ### My profiles
 * [My GitHub projects](https://github.com/m-zakeri/){:target="_blank"} [New]
 * [My GitHub projects](https://github.com/mortazazakeri){:target="_blank"} [Old]
 * [My gist (code snip)](https://gist.github.com/m-zakeri){:target="_blank"}
 * [My LinkedIn profile](https://www.linkedin.com/in/mortazazakeri/){:target="_blank"}
 * [My SlideShare profile](https://www.slideshare.net/MortezaZakeri){:target="_blank"}
+
 
 ### Outdated
 * [My old blog](http://zakerim.webs.com/){:target="_blank"} Spring 2011
@@ -89,5 +89,5 @@ A road-map to learn programming/ codding.
 
 
 ## Disclaimer
-I do not guarantee the absence of scientific mistakes in the above materials and resources, but please let me know if you find any mistakes, copyright violations, and any other issues.
+While I strive for accuracy and precision in the materials and resources provided, I cannot guarantee the absence of scientific inaccuracies or errors. Should you identify any mistakes, instances of copyright infringement, or other concerns, I kindly ask that you inform me so that I may address and resolve them promptly. Your feedback is invaluable in ensuring the quality and integrity of the content.
 

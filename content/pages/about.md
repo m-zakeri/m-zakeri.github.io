@@ -14,14 +14,15 @@ I also deeply enjoy teaching courses in computer science and supervising talent 
 
 
 ### A short bio.
-I completed my Ph.D. in Computer Science (CS) at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
+I completed my **Ph.D. in Computer Science (CS)** at [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
 After that, I was a postdoctoral researcher at [Institute for Research in Fundamental Sciences (IPM)](https://cs.ipm.ac.ir/){:target="_blank"}. 
 I received my B.Sc. in computer science / *software* from [Arak University](http://araku.ac.ir){:target="_blank"}, and my M.Sc. degree in the same field from [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"}. 
-I was a former member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}.
+I was a former member of [IUST Reverse Engineering Research Laboratory](http://reverse.iust.ac.ir/){:target="_blank"} led by [Prof. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}, where I direct [Intelligent Software Engineering Research Group](http://parsa.iust.ac.ir/research/){:target="_blank"}.
 
 ---
 
 ## Research interests
+
 > Towards better software systems by automating laborious tasks in software engineering through the intelligent reverse engineering techniques
 
 * Automated software engineering (code generation, testing, and debugging)
@@ -31,8 +32,7 @@ I was a former member of [IUST Reverse Engineering Research Laboratory](http://r
 * Machine learning applications in biomedical engineering
 * Machine learning applications in sociology (computational sociology)
 
-Find more on the **[Research](https://m-zakeri.github.io/pages/research.html){:target="_blank"}** page.
-
+Find more on the **[Research Arena](https://m-zakeri.github.io/pages/research.html){:target="_blank"}** page.
 
 
 ## Teaching interests
@@ -42,26 +42,24 @@ Find more on the **[Research](https://m-zakeri.github.io/pages/research.html){:t
 * Artificial Intelligence ([Course webpage](https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/AI){:target="_blank"})
 * Fundamentals of Computer and Programming ([Course webpage](https://m-zakeri.github.io/https://m-zakeri.github.io/https://m-zakeri.github.io/CP){:target="_blank"})
 
-Find more on the **[Teaching](https://m-zakeri.github.io/pages/teaching.html){:target="_blank"}** page.
+Find more on the **[Teaching Arena](https://m-zakeri.github.io/pages/teaching.html){:target="_blank"}** page.
 
 ---
 
 ## Educational background
 * Ph.D., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2018 - Now)
     * Thesis title: "[Measuring and improving testability of software systems artifacts](https://m-zakeri.github.io/PhD/){:target="_blank"}" (2018 - Now)
-    * Supervisor: [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
-    * Co-advisor: [Dr. Mehrdad Ashtiani](){:target="_blank"}
+    * Supervisor: [Prof. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
+    * Co-advisor: [Dr. Mehrdad Ashtiani](https://webpages.iust.ac.ir/m_ashtiani){:target="_blank"}
 * M.Sc., Computer Engineering, Software; [Iran University of Science and Technology (IUST)](http://www.iust.ac.ir/en){:target="_blank"} (2016 - 2018)
     * Thesis title: "[Automatic Test Data Generation in File Format Fuzzers](https://m-zakeri.github.io/iust_deep_fuzz/){:target="_blank"}".
-    * Supervisor: [Dr. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
+    * Supervisor: [Prof. Saeed Parsa](http://parsa.iust.ac.ir){:target="_blank"}
 * B.Sc., Computer Engineering, Software; [Arak University](http://en.araku.ac.ir/){:target="_blank"} (2011 - 2015)
     * Project title: "[Design and implementing multi-agent system to participate in Multi-Agent Programming Contest (MAPC) 2015](http://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials/ZakeriProject_BSc/){:target="_blank"}".
     * Supervisor: [Dr. Vahid Rafe](https://www.gold.ac.uk/computing/people/rafe-vahid){:target="_blank"}
 
 
----
-
-## Skills
+### Skills
 
 I am an accomplished researcher and proficient developer specializing in intelligent software systems. These systems leverage artificial intelligence to address real-world and scientific challenges. Their foundation lies in the **Software 2.0** paradigm, where a central learning algorithm serves as the core of the software.
 
@@ -98,24 +96,19 @@ Find more at [my publicly shared courses materials](http://webpages.iust.ac.ir/m
 
 Detailed information are available on my up-to-date C.V.
 
-* My CV  (English, September 2024) [[PDF]](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}
-* My CV  (Persian, March 2018 ) [[PDF]](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}
-
-
----
+* My CV  (English, September 2024) [[PDF](../static/pdf/morteza_zakeri_cv.pdf){:target="_blank"}]
+* My CV  (Persian, March 2018 ) [[PDF](https://www.dropbox.com/s/7zpxl68sx68cb3u/Zakeri_Resume_961201_FA.pdf?dl=0){:target="_blank"}]
 
 ### Research and teaching statements
 
-* My **research statement** (December 2023) [[PDF]](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}
-* My **teaching statement** (December 2023) [[PDF]](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}
+* My **research statement** (December 2023) [[PDF](../static/pdf/morteza_zakeri_rs.pdf){:target="_blank"}]
+* My **teaching statement** (December 2023) [[PDF](../static/pdf/morteza_zakeri_ts.pdf){:target="_blank"}]
 
+---
 
 ## Contact
 
-You can contact me by sending an email to: 
+The best way to contact me is by sending an email to the following address, or alternatively reaching out through [contact page infor.](https://www.m-zakeri.ir/pages/contact-me.html){:target="_blank"}.
 
 **M – Z A K E R I [AT] L I V E [DOT] C O M**
-([m-my_last_name@live.com](mailto:m-my_last_name@live.com)). 
-
-I will provide proper response ASAP.
-
+([m-my_last_name@live.com](mailto:m-my_last_name@live.com)).

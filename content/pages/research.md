@@ -8,7 +8,7 @@ Modified: 2022-09-16 16:30
 
 <br>
 
- <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Research&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
+ <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Research Arena&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
 
 </div>
 

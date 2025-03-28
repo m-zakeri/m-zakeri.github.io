@@ -4,57 +4,9 @@ Tags: courses, teaching
 Author: Morteza
 
 
-<style>
-    .button {
-        color: #ffffff;
-        font-size: 18px;
-        border: 1px solid;
-        padding: 20px 50px;
-        margin: 8px;
-        cursor: pointer;
-        width: 215px; /* Ensures consistent button size */
-        text-align: center;
-        display: inline-block;
-    }
-    .button.blue {
-        background-color: #1a55c1;
-        border-color: #2d63c8;
-    }
-    .button.blue:hover {
-        color: #2d63c8;
-        background-color: #ffffff;
-    }
-    .button.pink {
-        background-color: #c82d8f;
-        border-color: #bd2dc8;
-    }
-    .button.pink:hover {
-        color: #c82d8f;
-        background-color: #ffffff;
-    }
-    .button.green {
-        background-color: #28a745;
-        border-color: #218838;
-    }
-    .button.green:hover {
-        color: #218838;
-        background-color: #ffffff;
-    }
-    .button.orange {
-        background-color: #fd7e14;
-        border-color: #e96000;
-    }
-    .button.orange:hover {
-        color: #e96000;
-        background-color: #ffffff;
-    }
-</style>
-
-
-
 <div style="text-align: center;">
     <br>
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Teaching&section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=gradient&text=Teaching Arena &section=header&animation=twinkling&fontColor=Brown&textBg=false"/>
 </div>
 
 
@@ -72,28 +24,28 @@ The main challenge for teaching in the computer science field is the appropriate
 
 <div style="text-align: center;">
     <a href="https://m-zakeri.github.io/Compilers" target="_blank">
-        <button class="button blue" type="button">Compiler Design</button>
+        <button class="button blue" type="button"> Compiler Design </button>
     </a>
     <a href="https://m-zakeri.github.io/DatabaseDesign" target="_blank">
-        <button class="button blue" type="button">Database Design</button>
+        <button class="button blue" type="button"> Database Design </button>
     </a>
 </div>
 
 <div style="text-align: center;">
     <a href="https://m-zakeri.github.io/AlgorithmDesign" target="_blank">
-        <button class="button blue" type="button">Algorithm Design</button>
+        <button class="button blue" type="button"> Algorithm Design </button>
     </a>
     <a href="https://m-zakeri.github.io/SoftwareTesting" target="_blank">
-        <button class="button blue" type="button">Software Testing</button>
+        <button class="button blue" type="button"> Software Testing </button>
     </a>
 </div>
 
 <div style="text-align: center;">
     <a href="https://m-zakeri.github.io/AI" target="_blank">
-        <button class="button blue" type="button">Artificial Intelligence</button>
+        <button class="button blue" type="button"> Artificial Intelligence </button>
     </a>
     <a href="https://m-zakeri.github.io/CP" target="_blank">
-        <button class="button blue" type="button">Computer Programming</button>
+        <button class="button blue" type="button"> Computer Programming </button>
     </a>
 </div>
 
@@ -101,26 +53,28 @@ The main challenge for teaching in the computer science field is the appropriate
 
 <div style="text-align: center;">
     <a href="https://m-zakeri.github.io/advanced-software-engineering.html" target="_blank">
-        <button class="button pink" type="button">Advanced Software Engineering</button>
+        <button class="button pink" type="button"> Advanced Software Engineering </button>
     </a>
    <a href="https://m-zakeri.github.io/advanced-software-testing.html" target="_blank">
-        <button class="button pink" type="button">Advanced Software Testing</button>
+        <button class="button pink" type="button"> Advanced Software Testing </button>
     </a>
 </div>
+
 <div style="text-align: center;">
    <a href="https://m-zakeri.github.io/patterns-and-principle-in-software-engineering.html" target="_blank">
-        <button class="button pink" type="button">Software Engineering Patterns</button>
+        <button class="button pink" type="button"> Software Engineering Patterns </button>
     </a>
     <a href="https://m-zakeri.github.io/dynamic-complex-network.html" target="_blank">
-        <button class="button pink" type="button">Dynamic Complex Networks</button>
+        <button class="button pink" type="button"> Dynamic Complex Networks </button>
     </a>
 </div>
+
 <div style="text-align: center;">
  <a href="https://m-zakeri.github.io/software-architectures.html" target="_blank">
-        <button class="button pink" type="button">Software Architectures</button>
+        <button class="button pink" type="button"> Software Architectures </button>
     </a>
     <a href="https://m-zakeri.github.io/game-theory.html" target="_blank">
-        <button class="button pink" type="button">Algorithmic Game Theory </button>
+        <button class="button pink" type="button"> Algorithmic Game Theory </button>
     </a>
 </div>
 
@@ -129,20 +83,19 @@ The main challenge for teaching in the computer science field is the appropriate
 
 <div style="text-align: center;">
     <a href="https://m-zakeri.github.io" target="_blank">
-        <button class="button green" type="button">Secure Software Development</button>
+        <button class="button green" type="button"> Secure Software Development </button>
     </a>
    <a href="https://m-zakeri.github.io" target="_blank">
-        <button class="button green" type="button">Intelligent Software Engineering</button>
+        <button class="button green" type="button"> Intelligent Software Engineering </button>
     </a>
 </div>
+
 
 ## More
 
 <div style="text-align: center;">
-
-<a href="https://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials" target="blank">  
-<button class="button orange" type="button" name="gt">Find more courses</button>
-</a>
-
+    <a href="https://webpages.iust.ac.ir/morteza_zakeri/repo/iust_course_materials" target="blank">  
+        <button class="button orange" type="button" name="gt"> Find more courses </button>
+    </a>
 <br> 
- </div>
+</div>
