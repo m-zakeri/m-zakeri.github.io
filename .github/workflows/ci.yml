@@ -57,7 +57,12 @@ jobs:
       - name: Add CNAME file
         run: echo "www.m-zakeri.ir" > output/CNAME
 
-      # Step 7: Deploy to GitHub Pages
+      # Step 7: Copy additional folders to the output directory
+      - name: Copy Archives folders
+        run: |
+          cp -r archives output/
+
+      # Step 8: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: |
           ghp-import -m "Update Pelican site" -n -p -f -r origin --branch=master output

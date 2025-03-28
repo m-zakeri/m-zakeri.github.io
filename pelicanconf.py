@@ -15,7 +15,7 @@ SITESUBTITLE = 'PhD in Computer Science'
 PATH = 'content'
 
 # Copyright
-COPYRIGHT_YEAR = r'2016 - ' + str(datetime.now().year)
+COPYRIGHT_YEAR = r'2010 - ' + str(datetime.now().year)
 COPYRIGHT_NAME = SITENAME + '. All rights reserved.' + ' Last update on ' + str(datetime.now())
 # CC_LICENSE = {
 #     'name': 'All rights reserved.',

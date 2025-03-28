@@ -108,7 +108,7 @@ Detailed information are available on my up-to-date C.V.
 
 ## Contact
 
-The best way to contact me is by sending an email to the following address, or alternatively reaching out through [contact page infor.](https://www.m-zakeri.ir/pages/contact-me.html){:target="_blank"}.
+The best way to contact me is by sending an email to the following address, or alternatively reaching out through [Contact Page information](https://www.m-zakeri.ir/pages/contact-me.html){:target="_blank"}.
 
 **M – Z A K E R I [AT] L I V E [DOT] C O M**
 ([m-my_last_name@live.com](mailto:m-my_last_name@live.com)).

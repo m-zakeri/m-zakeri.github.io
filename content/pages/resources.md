@@ -77,9 +77,11 @@ A road-map to learn programming/ codding.
 
 
 ### Outdated
-* [My old blog](http://zakerim.webs.com/){:target="_blank"} Spring 2011
-* [Data and end of homelessness](http://micropedia.ir/1398/03/15/using-data-to-understand-and-end-homelessness/){:target="_blank"} (in Persian) Spring 2019
-* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian) Fall 2016
+* [My old blog](http://m-zakeri.github.io/archives/2017/){:target="_blank"}, 2018 - 2019
+* [My old blog](http://m-zakeri.github.io/archives/2017/){:target="_blank"}, 2016 - 2017
+* [My old blog](https://zakerim.webs.com/){:target="_blank"}, 2010 - 2015
+* [Data and end of homelessness](http://micropedia.ir/1398/03/15/using-data-to-understand-and-end-homelessness/){:target="_blank"} (in Persian), Spring 2019
+* [An introduction to NoSQL databases](http://micropedia.ir/1397/02/13/introduction-to-nosql-databases/){:target="_blank"} (in Persian), Fall 2016
 
 
 ### Miscellaneous
