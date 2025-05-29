@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="./theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="./theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="./theme/pygments/emacs.min.css">
+
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="./theme/stork/stork.css" />
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Morteza" />
+<meta name="description" content="Compiler design and constructions, Undergraduate course (Bachelor). The course is designed to:" />
+<meta name="keywords" content="courses, teaching">
+
+
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:title" content="Compilers"/>
+  <meta property="og:description" content="Compiler design and constructions, Undergraduate course (Bachelor). The course is designed to:"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./compilers.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2021-03-23 00:23:00+04:30"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/morteza.html">
+  <meta property="article:section" content="courses"/>
+  <meta property="article:tag" content="courses"/>
+  <meta property="article:tag" content="teaching"/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; Compilers</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="./">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="./">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+    <div class="stork">
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <div class="stork-output" data-stork="sitesearch-output"></div>
+    </div>
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./#about-me">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact-me.html#contact-me">
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/gallery.html#gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/honors-and-awards.html#honors-and-awards">
+                Honors and Awards
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/media.html#media">
+                Media
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/news.html#news">
+                News
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/presentations.html#presentations">
+                Presentations
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/services-and-projects.html#services-and-projects">
+                Services and Projects
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/publications.html#publications">
+                Publications
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/research.html#research">
+                Research
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/resources.html#resources">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/teaching.html#teaching">
+                Teaching
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://m-zakeri.github.io/lab" >Laboratory in AUT</a>
+          </li>
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory in IUST</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >My University Page (IUST)</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-telegram"
+           href="https://t.me/mztel"
+           target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="./">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/category/services.html">Services</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="compilers">Compilers</h1>
+    <p>
+      Posted on Tue 23 March 2021 in <a href="./category/courses.html">courses</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <ul>
+<li>Provide an in-depth understanding of the principles, techniques, and tools used in the design and implementation of compilers.</li>
+<li>Equip students with the ability to write and optimize programs by understanding how high-level code is translated into machine-level instructions.</li>
+<li>Introduce concepts of language parsing, code generation, and optimization techniques that are critical for the development of efficient and reliable software.</li>
+<li>Foster the ability to analyze and improve existing compiler systems, as well as design new ones from scratch.</li>
+</ul>
+<h2>Objectives</h2>
+<p>By the end of this course, students will be able to:
+1. Understand the fundamental phases of a compiler, including lexical analysis, syntax analysis, semantic analysis, code generation, and optimization.
+2. Develop skills to implement key components of a compiler, such as parsers, symbol tables, and intermediate code generators.
+3. Recognize and utilize various parsing techniques, including top-down and bottom-up parsing strategies.
+4. Apply optimization techniques to improve the performance of compiled code.
+5. Gain exposure to modern tools and technologies used in compiler construction, such as Lex and Yacc.</p>
+<h2>Syllabus</h2>
+<h3>1. Introduction to Compiler Design</h3>
+<ul>
+<li>Role of a compiler in the software development lifecycle</li>
+<li>Overview of programming languages and their features</li>
+<li>Architecture of a compiler</li>
+</ul>
+<h3>2. Lexical Analysis</h3>
+<ul>
+<li>Lexical tokens, patterns, and lexemes</li>
+<li>Design of lexical analyzers</li>
+<li>Introduction to Lex and its usage</li>
+</ul>
+<h3>3. Syntax Analysis</h3>
+<ul>
+<li>Context-free grammars and parse trees</li>
+<li>Top-down parsing (recursive descent, LL) and bottom-up parsing (LR, LALR)</li>
+<li>Error detection and recovery mechanisms in parsers</li>
+</ul>
+<h3>4. Semantic Analysis</h3>
+<ul>
+<li>Role of semantic analysis in a compiler</li>
+<li>Type checking and type inference</li>
+<li>Symbol tables and attribute grammars</li>
+</ul>
+<h3>5. Intermediate Code Generation</h3>
+<ul>
+<li>Representations such as three-address code, quadruples, and abstract syntax trees</li>
+<li>Translating high-level constructs into intermediate representations</li>
+</ul>
+<h3>6. Code Optimization</h3>
+<ul>
+<li>Local vs global optimization techniques</li>
+<li>Loop optimizations, dead code elimination, and inlining</li>
+<li>Role of data-flow analysis in optimization</li>
+</ul>
+<h3>7. Code Generation</h3>
+<ul>
+<li>Instruction selection and register allocation</li>
+<li>Basic blocks and flow graphs</li>
+<li>Generating efficient machine-level code</li>
+</ul>
+<h3>8. Advanced Topics</h3>
+<ul>
+<li>Just-In-Time (JIT) Compilation</li>
+<li>Compiler frameworks (LLVM, GCC)</li>
+<li>Introduction to domain-specific languages (DSLs)</li>
+</ul>
+<h3>9. Project and Case Studies</h3>
+<ul>
+<li>Design and implementation of a small-scale compiler</li>
+<li>Case studies on modern compiler systems and frameworks</li>
+</ul>
+<hr>
+<h2>Teaching assistant</h2>
+<h3>Foreword</h3>
+<p>I was teaching assistant of Compiler Design and Construction B.Sc. course by <a href="http://parsa.iust.ac.ir/" target="_blank">Dr. Saeed Parsa</a> for seven semesters (more than three years) at Iran University of Science and Technology. Our teaching materials during these three years are available to view and download.</p>
+<p>I put all source code that I developed to practically teach compiler  to students on the GitHub page, the <a href="http://parsa.iust.ac.ir/courses/compilers/" target="_blank">IUST compiler course</a>. </p>
+<h3>Useful links</h3>
+<ul>
+<li>
+<p><a href="http://parsa.iust.ac.ir/courses/compilers/" target="_blank">ISUT Compiler Course Official page</a></p>
+</li>
+<li>
+<p><a href="https://m-zakeri.github.io/IUSTCompiler/" target="_blank">ISUT Compiler Course GitHub Page (in English)</a></p>
+</li>
+<li>
+<p><a href="https://compileriust.github.io/" target="_blank">ISUT Compiler Course GitHub Page (in Persian)</a></p>
+</li>
+</ul>
+<h3>Projects</h3>
+<p>I designed and planned some <strong>practical</strong> projects about the applications of compiler science in <strong>program analysis</strong>.
+The projects shown in Table 1 have been assigned to the students who take the IUST compiler course during different semesters. Click on the link in the "Project" column to see the project proposal. </p>
+<p><strong>Table 1:</strong> Compiler projects.</p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Description</th>
+<th>Semesters</th>
+<th>Courses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://m-zakeri.github.io/IUSTCompiler/projects/core_symbol_table_development/" target="_blank">OpenUnderstand  2</a></td>
+<td>Low-level source   code metrics calculation</td>
+<td>Spring 2022</td>
+<td>Compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/IUSTCompiler/projects/core_symbol_table_development/" target="_blank">OpenUnderstand</a></td>
+<td>Symbols table   development</td>
+<td>Fall 2021,   Spring 2022,</td>
+<td>Compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/IUSTCompiler/projects/core_software_metrics_development/" target="_blank">QualityMeter</a></td>
+<td>- Source code   quality attribute computation     - Refactoring   opportunity detection</td>
+<td>Fall 2021</td>
+<td>Advanced compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/IUSTCompiler/projects/core_code_smell_development/" target="_blank">CodART 2</a></td>
+<td>Source code   smell detection</td>
+<td>Spring 2021   (Cancelled)</td>
+<td>Compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/IUSTCompiler/projects/core_refactoring_to_design_patterns_development/" target="_blank">CodART</a></td>
+<td>Source code   refactoring</td>
+<td>Fall 2020,   Spring 2021,</td>
+<td>Compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/IUSTCompiler/projects/core_refactorings_development/" target="_blank">CodART</a></td>
+<td>Refactoring   to design pattern at the source code level</td>
+<td>Fall 2020</td>
+<td>Advanced compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/Compilers/projects/core_clean_code_development/" target="_blank">CleanCode</a></td>
+<td>Source code   smell detection</td>
+<td>Fall 2019,   Spring 2020</td>
+<td>Compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/Compilers/projects/core_source_code_instrumentation_development/" target="_blank">CodA</a></td>
+<td>Source code instrumentation   and testbed analysis tool</td>
+<td>Fall 2018</td>
+<td>Compiler /     Advanced compiler</td>
+</tr>
+<tr>
+<td><a href="https://m-zakeri.github.io/Compilers/projects/mini_java_compiler_development/" target="_blank">ANTLR MiniJava</a></td>
+<td>Parse-tree   and intermediate code generation for the MiniJava programming language with   ANTLR</td>
+<td>Fall 2016,   Spring 2017</td>
+<td>Compiler</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>As a student</h2>
+<p>I always enjoy learning about compilers, code transformation, and their application in automated software engineering. I firmly believe that the next generation of software engineers are intelligent white-box compilers! Such compilers are structure-aware, context-aware, and domain-aware, assisting the programmer in writing high-quality and testable programs. 
+Compilers helped artificial intelligence (AI) in the past, and now AI boosts compilers!</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/courses.html">courses</a>
+      <a href="./tag/teaching.html">teaching</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="./patterns-and-principle-in-software-engineering.html" title="Patterns and Principle in Software Engineering">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="./advanced-software-engineering.html" title="Advanced Software Engineering">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+  <div class="related-posts">
+    <h4>You might enjoy</h4>
+    <ul class="related-posts">
+      <li><a href="./advanced-software-testing.html">Advanced Software Testing</a></li>
+      <li><a href="./software-architectures.html">Software Architectures</a></li>
+      <li><a href="./advanced-software-engineering.html">Advanced Software Engineering</a></li>
+      <li><a href="./patterns-and-principle-in-software-engineering.html">Patterns and Principle in Software Engineering</a></li>
+      <li><a href="./dynamic-complex-network.html">Dynamic Complex Network</a></li>
+    </ul>
+  </div>
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'zakeri';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>
+  &copy; 2010 - 2025 Morteza Zakeri. All rights reserved. Last update on 2025-05-29 11:51:20.495889 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : ".",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
+  </script>
+  <script src="./theme/stork/stork.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="./theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="./theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="./theme/pygments/emacs.min.css">
+
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="./theme/stork/stork.css" />
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Morteza" />
+<meta name="description" content="Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (SUT), we are looking for possible faults and vulnerabilities." />
+<meta name="keywords" content="blog, Testing, Fuzzing">
+
+
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:title" content="Innovations on Automatic Test Data Generation"/>
+  <meta property="og:description" content="Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (SUT), we are looking for possible faults and vulnerabilities."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./innovations-on-automatic-test-data-generation.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2021-03-22 23:00:00+04:30"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/morteza.html">
+  <meta property="article:section" content="blog"/>
+  <meta property="article:tag" content="blog"/>
+  <meta property="article:tag" content="Testing"/>
+  <meta property="article:tag" content="Fuzzing"/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; Innovations on Automatic Test Data Generation</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="./">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="./">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+    <div class="stork">
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <div class="stork-output" data-stork="sitesearch-output"></div>
+    </div>
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./#about-me">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact-me.html#contact-me">
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/gallery.html#gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/honors-and-awards.html#honors-and-awards">
+                Honors and Awards
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/media.html#media">
+                Media
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/news.html#news">
+                News
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/presentations.html#presentations">
+                Presentations
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/services-and-projects.html#services-and-projects">
+                Services and Projects
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/publications.html#publications">
+                Publications
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/research.html#research">
+                Research
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/resources.html#resources">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/teaching.html#teaching">
+                Teaching
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://m-zakeri.github.io/lab" >Laboratory in AUT</a>
+          </li>
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory in IUST</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >My University Page (IUST)</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-telegram"
+           href="https://t.me/mztel"
+           target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="./">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/category/services.html">Services</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="innovations-on-automatic-test-data-generation">Innovations on Automatic Test Data Generation</h1>
+    <p>
+      Posted on Mon 22 March 2021 in <a href="./category/blog.html">blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Fuzz testing (Fuzzing) is a dynamic software testing technique. In this technique with repeated generation and injection of malformed test data to the software under test (SUT), we are looking for possible faults and vulnerabilities. To this goal, fuzz testing requires varieties of test data. The most critical challenge is to handle the complexity of the file structures as program input. Surveys have revealed that many of the generated test data in these cases follow restricted numbers and superficial paths, because of being rejected by the parser of SUT in the initial stages of parsing. Using the grammatical structure of input files to generate test data lead to increase code coverage. However, often, the grammar extraction is performed manually, which is a time consuming, costly and error-prone task.</p>
+<p>Recently, we proposed an automated method for hybrid test data generation. We applied neural language models (NLMs) that are constructed by recurrent neural networks (RNNs). The proposed models by using deep learning techniques can learn the statistical structure of complex files and then generate new textual test data, based on the grammar, and binary data, based on mutations. Fuzzing the generated data is done by two newly introduced algorithms, called neural fuzz algorithms that use these models. We use our proposed method to generate test data, and then fuzz testing of MuPDF complicated software which takes portable document format (PDF) files as input. To train our generative models, we gathered a large corpus of PDF files. Our experiments demonstrate that the data generated by this method leads to an increase in the code coverage, more than 7.0%, compared to state-of-the-art file format fuzzers such as American fuzzy lop (AFL). Experiments also indicate a better learning accuracy of simpler NLMS in comparison with the more complicated encoder-decoder model and confirm that our proposed models can outperform the encoder-decoder model in code coverage when fuzzing the SUT.</p>
+<p>Out paper presents a solution for complex test data generation with the help of deep neural networks. The word “complex” in this context means that test data consist of various data types gathering together based on a specific format or grammar. This is what happens in most of the real-word applications which accept a file as their main input. For example, PDF reader software must handle PDF files as input, and PDF is one of the most complex input formats. A PDF file contains both textual and non-textual or binary data plus many human-defined rules which put such data fields beside each other and generate a file. To handle a complex file, an application processes the file in different stages. These stages usually begin by parsing the input file, then continue with semantic analysis, and finally terminate by executing the file content. Generating test data, here a complex input file, which can access to high code coverage and find more probably existing bugs, require that test data pass all of these stages. To the best of our knowledge, the methods used in fuzzing, one of the most effective software testing technics, show that randomly generating such test data lead to very low coverage of code and hence can not guarantee the absence of bugs or reliability of software. On the other hand, generating test data from grammar requires extracting the grammar or model of the file manually, which is expensive and time-consuming.</p>
+<h2>Challenges and Solutions</h2>
+<p>The problem of generating complex test data that successfully pass different stages in the processing of the file is addressed by using some machine learning techniques to learn the structure of a given input file and then generates some new test data based on the learned model. A file can be seen as a sequence of bytes which generate by a grammar of that file. Hence, we can use a language model to automatically learn this grammar form a corpus containing various samples of the given file. Neural language models are effective models to learn natural language properties and successfully are utilized in the complex natural language processing (NLP) tasks such as machine translation and image captioning. We apply a model based on deep neural language to learn the grammar of the file. The learned model is then sampled to generate new files as test data.</p>
+<p>The first problem we encountered was finding a mechanism to distinguish between data and meta-data. To do so, we applied a reasonable trick: As meta-data repeated in almost every sample of a file format, the learned model predicts the meta-data with higher probability in comparison to data. By putting a threshold at a model output, the data and metadata are distinguishable.</p>
+<p>Aims to seek bugs in software by fuzzing techniques, the second problem was how to determine which byte should be fuzzed to reveal failures in the software under test (SUT). This can be done by targeting different stages of input processing that SUT used them. For example, if we would like to fuzz parser, we should fuzz meta-data because parser usually deals with meta-data to validate the format of the input file and to extract data. On the other hand, if we would like to fuzz the execution stage, it may be better to fuzz data. The ability of the learned model in distinguishing data and meta-data is used to determine the place of fuzz in the file.</p>
+<p>In addition to determining the place of the fuzz, we should inform the value for replacing the third problem we addressed. As we know, the goal of fuzzing is creating the malformed input, and hence the most inappropriate byte is expected to put in the place of fuzz. Again most inappropriate byte can be determined by the learned neural language model. It is enough to select a byte with the lowest likelihood instead of the highest likelihood used in the default manner.</p>
+<p>The fourth problem that raised in this regard was training a neural language model on an ASCII character set rather than training it on all bytes. To deal with non-ASCII bytes that make non-textual parts of the input, we replaced these parts by a specific token, called  Binary Token, and asked the model to learn that token. At the generating time, whenever a model predicted the specific binary token, we replace the binary token with a real binary section previously deleted form file. This is a simple but effective method to reach a hybrid test data generation scheme. Two specific fuzzing algorithms, MetadataNeuralFuzz and DataNeuralFuzz, are proposed based on a learned generative model. The former targets the parsing stage, and the latter focuses on rendering or executions stage in the processing of the input files. We believe that both algorithms are required to reach a complete fuzz testing with high code coverage and probably a high number of discovered bugs. We investigate the effectiveness of various language models with different configurations and several sampling strategies in the context of complex test data generation. Also, we study various parameters required when generating and fuzzing test data with deep learning techniques.
+Tools and Publications</p>
+<p>To bring our new theory to a practical tool, we designed and implemented IUST-DeePFUzz as a modular file format fuzzer. The main module of IUST DeepFuzz is a test data generator that implements our neural fuzz algorithms. The fuzzer injects test data to SUT and checks for unexpected results such as crash the memory of the SUT. IUST DeepFuzz uses Microsoft Application Verifier, a free runtime monitoring tool, as a monitoring module to catch any memory corruption. It also uses VSPerfMon, another tool from Microsoft, to measure code coverage. Modules are connected using modest Python and batch scripts. IUST-DeepFuzz can find both the place and the value of the fuzzed symbol automatically while generating the input. Other file formats such as HTML, CSS, XML, JSON, and all types of source codes can be produced in the same manner which is suitable for fuzzing and quick quality assurance of any software systems.</p>
+<h2>Read more</h2>
+<p>For more information about both the theoretical and practical aspect of IUST-DeepFuzz, refer to the <a href="https://m-zakeri.github.io/iust_deep_fuzz">IUST-DeepFuzz website</a>.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/blog.html">blog</a>
+      <a href="./tag/testing.html">Testing</a>
+      <a href="./tag/fuzzing.html">Fuzzing</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="./dynamic-complex-network.html" title="Dynamic Complex Network">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="./An-introduction-to-ANTLR-in-Python.html" title="An introduction to ANTLR in Python">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+  <div class="related-posts">
+    <h4>You might enjoy</h4>
+    <ul class="related-posts">
+      <li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
+      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
+      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using ANTLR in Python</a></li>
+      <li><a href="./do-software-engineers-sacrifice-themselves.html">Do software engineers sacrifice themselves?</a></li>
+      <li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with ANTLR</a></li>
+    </ul>
+  </div>
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'zakeri';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>
+  &copy; 2010 - 2025 Morteza Zakeri. All rights reserved. Last update on 2025-05-29 11:51:20.495889 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : ".",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
+  </script>
+  <script src="./theme/stork/stork.js"></script>
+
+</body>
+</html>

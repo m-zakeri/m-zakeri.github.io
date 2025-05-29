@@ -1,0 +1,652 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="./theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="./theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="./theme/pygments/emacs.min.css">
+
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="./theme/stork/stork.css" />
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Morteza" />
+<meta name="description" content="Static analysis means extracting specific information from the program artifacts, e.g., source code, without any execution of the program. The ANTLR tool can be used to perform all types of static analysis at the source-code level. In this tutorial, I explain how we can use the ANTLR tool to perform some basic kinds of static analysis of the C++ programs in the Python programming language. The task I chose to explain is extracting the class diagram and computing the relevant design metrics." />
+<meta name="keywords" content="blog, ANTLR, compiler, tutorial">
+
+
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:title" content="Program static analysis with ANTLR"/>
+  <meta property="og:description" content="Static analysis means extracting specific information from the program artifacts, e.g., source code, without any execution of the program. The ANTLR tool can be used to perform all types of static analysis at the source-code level. In this tutorial, I explain how we can use the ANTLR tool to perform some basic kinds of static analysis of the C++ programs in the Python programming language. The task I chose to explain is extracting the class diagram and computing the relevant design metrics."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./program-static-analysis-with-antlr.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2021-03-29 23:45:00+04:30"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/morteza.html">
+  <meta property="article:section" content="blog"/>
+  <meta property="article:tag" content="blog"/>
+  <meta property="article:tag" content="ANTLR"/>
+  <meta property="article:tag" content="compiler"/>
+  <meta property="article:tag" content="tutorial"/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; Program static analysis with ANTLR</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="./">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="./">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+    <div class="stork">
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <div class="stork-output" data-stork="sitesearch-output"></div>
+    </div>
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./#about-me">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact-me.html#contact-me">
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/gallery.html#gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/honors-and-awards.html#honors-and-awards">
+                Honors and Awards
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/media.html#media">
+                Media
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/news.html#news">
+                News
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/presentations.html#presentations">
+                Presentations
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/services-and-projects.html#services-and-projects">
+                Services and Projects
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/publications.html#publications">
+                Publications
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/research.html#research">
+                Research
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/resources.html#resources">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/teaching.html#teaching">
+                Teaching
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://m-zakeri.github.io/lab" >Laboratory in AUT</a>
+          </li>
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory in IUST</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >My University Page (IUST)</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-telegram"
+           href="https://t.me/mztel"
+           target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="./">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/category/services.html">Services</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="program-static-analysis-with-antlr">Program static analysis with ANTLR</h1>
+    <p>
+      Posted on Mon 29 March 2021 in <a href="./category/blog.html">blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h1>Introduction</h1>
+<p>Source code and design metrics are extracted from the source code of the software, and their values allow us to reach conclusions about the quality attributes measured by the metrics.</p>
+<p>A practical approach to computing such metrics is static program source code analysis. Again this analysis can be performed by using the compiler front-end to deal with the parse tree and symbol table. The idea is to create a symbol table for the program under analysis and extract desired metrics. In this section, we demonstrate the use of ANLTR to compute two essential design metrics, FANIN, and FANOUT, which affect the testability of a module. </p>
+<p>FANIN and FANOUT can be computed from UML class diagrams. In the case of source code, we require to extract the class diagram from the program source code. We begin with constructing a simple symbol table to hold the necessary entities, e.g., classes and their relationships. Similar to <a href="program_instrumentation.md">our source code instrumentation tutorial</a>, the ANTLR listener mechanism is utilized to build the symbol table. The structure of our symbol table is shown in Figure 1.</p>
+<p><img alt="Figure 1" src="../static/img/static_analysis/symbol_table.png"></p>
+<p><em>Figure 1: Class diagram of a simple symbol table for C++</em></p>
+<p>The class diagram in Figure 1 has been implemented in Python. During syntax tree walking, each entity is recognized and saved in the corresponding instance of symbol table entities. For example, whenever a method is recognized, the instance of the Method class will be created to hold this method. The Model class is needed to keep a list of recognized classes as the top-level entities. The implementation code of the proposed symbol table in Python is straightforward, and we omit the code here.</p>
+<p>The next step is creating a listener and adding codes to fill the symbol table. Listing 1 shows the listener used to recognize and add source code classes to the symbol table.</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">DefinitionPassListener</span><span class="p">(</span><span class="n">CPP14Listener</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Pass 1: Extracting the classes and structs from a given CPP source code</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">:</span> <span class="n">Model</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">model</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">enterClassspecifier</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">ClassspecifierContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="o">=</span> <span class="n">Class</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">exitClassspecifier</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">ClassspecifierContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>     
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">class_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">enterClassheadname</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">ClassheadnameContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span>
+</code></pre></div>
+
+<p><em>Listing 1: Recognizing classes in source code  and inserting them into the symbol table</em></p>
+<p>When an instance of <code>DefinitionPassListner</code> in Listing 1 is passed to the <code>ParseTreeWalker</code> instance, the classes within the source code are identified and inserted into the symbol table. This task has been performed only by implementing the listener methods, which correspond to the class definition rule in C++ grammar. </p>
+<p>To better understand which methods of the base listener (<code>CPP14Listener</code>), generated by ANTLR, should be implemented to perform this task, we may look at the parse tree of the simple program, including one class with one field, as shown in Listing 2. </p>
+<div class="highlight"><pre><span></span><code><span class="n">class</span><span class="w"> </span><span class="n">A</span><span class="p">{</span>
+<span class="w">    </span><span class="n">string</span><span class="w"> </span><span class="n">name</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+
+<p><em>Listing 2: C++ code snip with one class and one field.</em></p>
+<p>The parse tree of code snip in Listing is shown in Figure 2.
+The parse tree visualization can be performed by the <a href="https://plugins.jetbrains.com/plugin/7358-antlr-v4-grammar-plugin">ANTLR plugin for IntelliJ IDEA</a>.
+One can see the complexity of the C++ language and its compilation. The pares tree for the program with only four lines of codes has 39 nodes and more than 350 parse decisions (invocation in the recursive descent parsing), which shows that the real programming languages are too complex. Therefore, the only way to analyze and test them is to utilize compiler techniques.</p>
+<p><img alt="Simple CPP/Java class parse tree" src="../static/img/static_analysis/simple_cpp_class_parse_tree.png"></p>
+<p><em>Figure 2: The parse tree for the code snippet shown in Listing 2</em></p>
+<p>The recognized classes, by applying <code>DefinitionPassListner</code>, only have a name (set in Line 25). The <code>DefinitionPassListner</code> listener class does not capture any required relationships for computing FANIN and FANOUT or any other analysis. </p>
+<p>Relationships between classes in each program occurred in different ways, e.g., through the aggregation. In aggregation, one class has a field with the type of the other class. To extract the aggregation relationship, we should extract all fields whose types are user-defined. Therefore, we create another listener with the following codes:</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">ResolvePassListener</span><span class="p">(</span><span class="n">DefinitionPassListener</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Pass 2: Extracting the classes&#39; fields</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">:</span> <span class="n">Model</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">DefinitionPassListener</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">enter_member_specification</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">field</span> <span class="o">=</span> <span class="n">Field</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">enterMemberspecification</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">MemberspecificationContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">ctx</span><span class="o">.</span><span class="n">getChildCount</span><span class="p">()</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">enter_member_specification</span> <span class="o">=</span> <span class="kc">True</span>
+
+    <span class="k">def</span> <span class="nf">enterDeclspecifier</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">DeclspecifierContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">enter_member_specification</span><span class="p">:</span>
+            <span class="n">ctx_the_type_name</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span>    
+            <span class="k">for</span> <span class="n">class_instance</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">class_list</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctx_the_type_name</span> <span class="o">==</span> <span class="n">class_instance</span><span class="o">.</span><span class="n">name</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">field</span><span class="o">.</span><span class="n">type</span> <span class="o">=</span> <span class="n">class_instance</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span><span class="o">.</span><span class="n">fields</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">field</span><span class="p">)</span>
+                    <span class="k">break</span>
+</code></pre></div>
+
+<p><em>Listing 3: Adding class fields to the program symbol table</em></p>
+<p>The method <code>enterDeclspecifier</code> is invoked by <code>ParseTreeWalker</code> each time a field is defined in the program source code. In <code>ResolvePassListener</code> an extra check is required to ensure that the recognized variable belongs to the class or not. The flag <code>enter_member_specification</code> is set to true in <code>enterMemeberspecification</code> method and used to understand the scope of the variable. In <code>enterDeclspecifier</code> method, the name of the variable is checked to find whether it is the name of another class or not. Indeed, if the field has a user-defined type, then the type of this field is resolved and added to the current class fields. </p>
+<p>There are some practical considerations at this point. Why has a separate class defined for resolving the fields of classes? The <code>ResolvePassListener</code> has inherited from <code>DefinitionPassListner</code>, but why? The reason for separating the listener code into two classes is that the symbol table can not be completed by traversing the parse tree only once. If we try to add the field of the class at the same time that we are adding the class itself, we may not be able to find the proper type of the user-defined fields since all types still have not been inserted into the symbol table. The best practice is that two separate analysis passes are applied. One for adding types to the symbol table called definition pass, and another one for resolving the types to check or complete their information called resolved pass. Each pass in the compiling process reads the source code from start to end.</p>
+<p>The resolve pass inherits from the definition pass since the operation in the definition pass is still required. For example, Line 20 in  <code>ResolvePassListener</code> requires the current class when adding the recognized field to it. <code>DefinitionPassListner</code>, in Listing 1, is not suitable to use as a parent for ResolvePassListener. It only inserts new classes to the symbol table; however, we need to retrieve them when the ResolvePassListener is being applied. Another problem is that if the current code for <code>DefinitionPassListner</code> is executed more than once, the same class is inserted to self.model.class_list the object in the symbol table. We should fix the class <code>DefinitionPassListner</code> to solve these two problems.</p>
+<p>First, before adding a new class (Line 25 in Listing 1), it should be checked that class has not existed in the symbol table. Second, if the class already exists in the code, in <code>enterClassheadname</code> method, the corresponding class should be retrieved by its name and assigned to <code>self.class_instance</code> object. These conditions are expected to be met when the <code>ResolvePassListener</code> is executed as a second pass of our analysis.
+Listing 4 shows the modified version of the <code>DefinitionPassListner</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">DefinitionPassListener</span><span class="p">(</span><span class="n">CPP14Listener</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Pass 1 (modified): Extracting the classes and structs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">:</span> <span class="n">Model</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">model</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">enterClassspecifier</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">ClassspecifierContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="o">=</span> <span class="n">Class</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">exitClassspecifier</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">ClassspecifierContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">find_calss_by_name</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span><span class="p">)</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span> 
+                <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">class_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span><span class="p">)</span>
+
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">enterClassheadname</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">ClassheadnameContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">find_calss_by_name</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">getText</span><span class="p">()):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">medel</span><span class="o">.</span><span class="n">get_class_by_name</span><span class="p">(</span><span class="n">class_instance</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">class_instance</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span>
+</code></pre></div>
+
+<p><em>Listing 4: The fixed version of the <code>DefinitionPassListener</code> class.</em></p>
+<p>In this tutorial, we assumed that the input program is compilable, and hence we did not perform additional compile-time tasks such as type checking. The complete implementation of two listeners, including import statements and some additional codes, will be available on the <a href="https://github.com/m-zakeri/CodA/">CodA repository</a>. </p>
+<p>Once our listeners are completed, we can add a driver code to attach these listeners to a <code>ParseTreeWalker</code> and perform the target task, as discussed in the <a href="antlr_basics.md">ANTLR basic tutorial</a>. 
+The only difference is that we have two listeners that must be executed in order to get the desired result. Listing 5 shows the driver code for our static analysis task.</p>
+<div class="highlight"><pre><span></span><code><span class="n">stream</span> <span class="o">=</span> <span class="n">FileStream</span><span class="p">(</span><span class="n">input_string</span><span class="p">)</span>
+<span class="n">lexer</span> <span class="o">=</span> <span class="n">test_v2Lexer</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
+<span class="n">token_stream</span> <span class="o">=</span> <span class="n">CommonTokenStream</span><span class="p">(</span><span class="n">lexer</span><span class="p">)</span>
+<span class="n">parser</span> <span class="o">=</span> <span class="n">test_v2Parser</span><span class="p">(</span><span class="n">token_stream</span><span class="p">)</span>
+<span class="n">parse_tree</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+
+<span class="n">pass1</span> <span class="o">=</span> <span class="n">DefinitionPassListener</span><span class="p">()</span>
+
+<span class="n">walker</span> <span class="o">=</span> <span class="n">ParseTreeWalker</span><span class="p">()</span>
+<span class="n">walker</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">listener</span><span class="o">=</span><span class="n">pass1</span><span class="p">,</span> <span class="n">t</span><span class="o">=</span><span class="n">parse_tree</span><span class="p">)</span>
+
+<span class="n">pass2</span> <span class="o">=</span> <span class="n">ResolvePassListener</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="n">pass1</span><span class="o">.</span><span class="n">model</span><span class="p">)</span>
+<span class="n">walker</span><span class="o">.</span><span class="n">walk</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">listener</span><span class="o">=</span><span class="n">pass2</span><span class="p">,</span> <span class="n">t</span><span class="o">=</span><span class="n">parse_tree</span><span class="p">)</span>
+</code></pre></div>
+
+<p><em>Listing 5: Driver coed to perform static analysis of the source code.</em></p>
+<p>The last step in our analysis is to build the class diagram as a directed annotated graph forming the symbol table and compute the <em>FAN-IN</em> and <em>FAN-OUT</em> metrics for each class. This step is done by creating a node for each class and adding an edge between two classes, which have an aggregate relationship together. The direction of each edge specifies the direction of aggregation. </p>
+<p>Listing 6 shows the methods that create and visualize the discussed graph. Two methods are defined in the <code>Model</code> class, which was part of our symbol table in previous steps. The first method, <code>create_graph</code>, creates a graph for a class diagram. It uses the <em>NetworkX</em> library to work with graphs. The second method, <code>draw_graph</code>, makes visualization of the created graph. The <code>Model</code> class also has two fields <code>class_list</code> and <code>class_diagram</code>, which have not been shown in Listing 6. 
+The first field holds all class instances of the source code, and the second field holds the class diagram corresponding graph.</p>
+<div class="highlight"><pre><span></span><code><span class="n">__date__</span> <span class="o">=</span> <span class="s1">&#39;2021-07-19&#39;</span>
+<span class="n">__author__</span> <span class="o">=</span> <span class="s1">&#39;Morteza Zakeri&#39;</span>
+
+<span class="k">def</span> <span class="nf">create_graph</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">class_diagram</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">class_instance</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_list</span><span class="p">:</span>
+            <span class="n">class_diagram</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">class_instance</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">class_instance</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_list</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">class_instance</span><span class="o">.</span><span class="n">attributes_list</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">class_attribute</span> <span class="ow">in</span> <span class="n">class_instance</span><span class="o">.</span><span class="n">attributes_list</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">class_attribute</span><span class="o">.</span><span class="n">variable_type</span><span class="p">,</span> <span class="n">Class</span><span class="p">)</span> <span class="ow">or</span> 
+                        <span class="nb">isinstance</span><span class="p">(</span><span class="n">class_attribute</span><span class="o">.</span><span class="n">variable_type</span><span class="p">,</span> <span class="n">Structure</span><span class="p">):</span>
+                        <span class="n">w</span> <span class="o">=</span> <span class="mi">1</span>
+                        <span class="k">if</span> <span class="n">class_diagram</span><span class="o">.</span><span class="n">has_edge</span><span class="p">(</span><span class="n">class_instance</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">class_attribute</span><span class="o">.</span><span class="n">variable_type</span><span class="o">.</span><span class="n">name</span><span class="p">):</span>
+                            <span class="n">w</span> <span class="o">=</span> <span class="n">class_diagram</span><span class="p">[</span><span class="n">class_instance</span><span class="o">.</span><span class="n">name</span><span class="p">][</span><span class="n">class_attribute</span><span class="o">.</span><span class="n">variable_type</span><span class="o">.</span><span class="n">name</span><span class="p">][</span><span class="s1">&#39;weight&#39;</span><span class="p">]</span>
+                            <span class="n">w</span> <span class="o">+=</span> <span class="mi">1</span>
+                        <span class="n">class_diagram</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">class_instance</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">class_attribute</span><span class="o">.</span><span class="n">variable_type</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+                                               <span class="n">rel</span><span class="o">=</span><span class="s1">&#39;Aggregation&#39;</span><span class="p">,</span>
+                                               <span class="n">weight</span><span class="o">=</span><span class="n">w</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span> <span class="o">=</span> <span class="n">class_diagram</span>
+
+    <span class="k">def</span> <span class="nf">draw_graph</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">new_names_dict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">node_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+            <span class="n">new_names_dict</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">node_name</span><span class="p">:</span> <span class="n">node_name</span><span class="p">})</span>
+        <span class="n">edge_labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_edge_attributes</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">,</span> <span class="s1">&#39;rel&#39;</span><span class="p">)</span>
+        <span class="n">edge_labels2</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_edge_attributes</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">,</span> <span class="s1">&#39;cardinality&#39;</span><span class="p">)</span>
+
+        <span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">kamada_kawai_layout</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">)</span>
+        <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_nodes</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span>
+                               <span class="n">nodelist</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="o">.</span><span class="n">nodes</span><span class="p">,</span>
+                               <span class="n">node_shape</span><span class="o">=</span><span class="s1">&#39;s&#39;</span><span class="p">,</span>
+                               <span class="n">node_size</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+                               <span class="n">alpha</span><span class="o">=</span><span class="mf">0.25</span><span class="p">,</span>
+                               <span class="n">node_color</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+
+        <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edges</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span>
+                               <span class="n">edgelist</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="o">.</span><span class="n">edges</span><span class="p">),</span>
+                               <span class="n">width</span><span class="o">=</span><span class="mf">2.0</span><span class="p">,</span>
+                               <span class="n">alpha</span><span class="o">=</span><span class="mf">0.95</span><span class="p">,</span>
+                               <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+        <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">edge_labels</span><span class="p">)</span>
+        <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">edge_labels2</span><span class="p">)</span>
+        <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_labels</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">class_diagram</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">new_names_dict</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">11</span><span class="p">)</span>
+
+        <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div>
+
+<p><em>Listing 6: Methods for creating and visualizing a simple class diagram.</em></p>
+<p>FAN-IN and FAN-OUT can for each class are defined respectively as in-degree and out-degree of the class diagram corresponding graph. Therefore, having that graph means that we can compute these metrics quickly. To illustrate the discussed static analysis on a real program, consider the C++ program in Listing 7, which has four simple classes: <code>Person</code>, <code>Student</code>, <code>Teacher</code>, and <code>Course</code>. The implementation of classes has been omitted for simplicity. Both the <code>Student</code> class and <code>Teacher</code> class have been inherited from the class <code>Person</code>. In addition, the <code>Student</code>  class has aggregated an instance of the <code>Course</code> class. </p>
+<div class="highlight"><pre><span></span><code><span class="cp">#</span><span class="w"> </span><span class="cp">include</span><span class="w"> </span><span class="cpf">&lt;string&gt;</span>
+<span class="cp">#</span><span class="w"> </span><span class="cp">include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Person</span>
+<span class="p">{</span>
+<span class="k">protected</span><span class="o">:</span>
+<span class="w">     </span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">;</span>
+<span class="w">     </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">;</span>
+<span class="w">     </span><span class="kt">int</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">;</span>
+<span class="k">public</span><span class="o">:</span>
+<span class="w">    </span><span class="n">Person</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">setPersonName</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">);</span>
+<span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">doJob</span><span class="p">();</span>
+<span class="p">};</span>
+
+<span class="n">Person</span><span class="o">::</span><span class="n">Person</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">firstName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">firstName</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">lastName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lastName</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">nationalCode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="n">Person</span><span class="o">::</span><span class="n">setPersonName</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">firstName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">firstName</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">lastName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lastName</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">Person</span><span class="o">::</span><span class="n">doJob</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">firstName</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; is a person &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Student</span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Person</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+<span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="n">studentNumber</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Course</span><span class="o">*</span><span class="w"> </span><span class="n">cource</span><span class="p">;</span>
+<span class="k">public</span><span class="o">:</span>
+<span class="w">    </span><span class="n">Student</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">,</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">studentNumber</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">doJob</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="n">Student</span><span class="o">::</span><span class="n">Student</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">,</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">studentNumber</span><span class="p">)</span><span class="o">:</span><span class="n">Person</span><span class="p">(</span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">studentNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">studentNumber</span><span class="p">;</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;I am a student: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">studentNumber</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">cource</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Course</span><span class="p">();</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">cource</span><span class="o">-&gt;</span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Software Engieering&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">Student</span><span class="o">::</span><span class="n">doJob</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">firstName</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; is studing &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Teacher</span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Person</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+<span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="n">teacherNumber</span><span class="p">;</span>
+<span class="k">public</span><span class="o">:</span>
+<span class="w">    </span><span class="n">Teacher</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">,</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">teacherNumber</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">doJob</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="n">Teacher</span><span class="o">::</span><span class="n">Teacher</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">,</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">teacherNumber</span><span class="p">)</span><span class="o">:</span><span class="n">Person</span><span class="p">(</span><span class="n">firstName</span><span class="p">,</span><span class="w"> </span><span class="n">lastName</span><span class="p">,</span><span class="w"> </span><span class="n">nationalCode</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">teacherNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">teacherNumber</span><span class="p">;</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;I am a teacher: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">teacherNumber</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">Teacher</span><span class="o">::</span><span class="n">doJob</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">firstName</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; is teaching &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Course</span>
+<span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+<span class="w">    </span><span class="n">string</span><span class="w"> </span><span class="n">name</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">number</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Course</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">course_name</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">course_numbber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="p">};</span>
+
+<span class="n">Course</span><span class="o">::</span><span class="n">Course</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">course_name</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">course_numbber</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">course_name</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">number</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">course_numbber</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/* main function */</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">Teacher</span><span class="w"> </span><span class="n">t1</span><span class="p">(</span><span class="s">&quot;Saeed&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Parsa&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1234</span><span class="p">,</span><span class="w"> </span><span class="mi">1398</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Student</span><span class="w"> </span><span class="n">s1</span><span class="p">(</span><span class="s">&quot;Morteza&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Zakeri&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">5678</span><span class="p">,</span><span class="w"> </span><span class="mi">2020</span><span class="p">);</span>
+<span class="w">    </span><span class="n">t1</span><span class="p">.</span><span class="n">doJob</span><span class="p">();</span>
+<span class="w">    </span><span class="n">s1</span><span class="p">.</span><span class="n">doJob</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><em>Listing 7: A C++ application to test the developed static analysis program in this tutorial.</em></p>
+<p>The corresponding graph for the class diagram of this program, which is the output of executing codes in Listings 5 and 6, has been shown in Figure 3. As one can see, the inheritance relationships also have been shown in the figure. We omitted the code that captures the inheritance relationship in this section. You may ask to implement the extraction of inheritance relationships after reading this tutorial. </p>
+<p><img alt="The extracted class diagram" src="../static/img/static_analysis/extracted_calss_diagram.png"></p>
+<p><em>Figure 3: Class diagram for the program shown in Listing 7.</em></p>
+<p>FAN-IN and FAN-OUT metrics can be computed, as discussed earlier. For this simple example, FAN-IN for class Student is 0, and FAN-OUT is one; however, for complete computation of these metrics, all relationships, including association, dependencies, and parameters passing, should be considered. </p>
+<h2>Summary</h2>
+<p>In this tutorial and the <a href="program_instrumentation.md">previous one</a>, I discussed the application of compilers in static and dynamic software analysis. I demonstrated these applications through a simple example of source code instrumentation and metrics computation. The former is a transformation task that modifies the source code, and the latter is an analysis task that extracts some information from the source code. Both of them are essential tasks in the future of software engineering. </p>
+<p>Systematic software testing and quality assurance tools can be built on top of compiler tools such as ANTLR, LLVM, JDT, and Roslyn, with techniques presented in this chapter. Compilers build a detailed model of application code as they validate the syntax and semantics of that code. While traditional compilers used such a model to build the executable output from the source code in a block box manner, the new generation of compilers provides APIs to access the internal details of this model, which can be utilized to build more reliable software. Software testing is more realistic with advanced support by compilers.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/blog.html">blog</a>
+      <a href="./tag/antlr.html">ANTLR</a>
+      <a href="./tag/compiler.html">compiler</a>
+      <a href="./tag/tutorial.html">tutorial</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="./advanced-software-engineering.html" title="Advanced Software Engineering">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="./program-dynamic-analysis-with-antlr.html" title="Program dynamic analysis with ANTLR">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+  <div class="related-posts">
+    <h4>You might enjoy</h4>
+    <ul class="related-posts">
+      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to ANTLR in Python</a></li>
+    </ul>
+  </div>
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'zakeri';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>
+  &copy; 2010 - 2025 Morteza Zakeri. All rights reserved. Last update on 2025-05-29 11:51:20.495889 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : ".",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
+  </script>
+  <script src="./theme/stork/stork.js"></script>
+
+</body>
+</html>

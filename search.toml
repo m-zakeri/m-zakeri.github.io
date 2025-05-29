@@ -1,0 +1,170 @@
+[input]
+stemming = "English"
+url_prefix = "https://m-zakeri.github.io"
+html_selector = "main"
+base_directory = "/home/runner/work/m-zakeri.github.io/m-zakeri.github.io/output"
+
+[[input.files]]
+path = "index.html"
+url = "/"
+title = "About Me"
+
+[[input.files]]
+path = "pages/contact-me.html"
+url = "/pages/contact-me.html"
+title = "Contact Me"
+
+[[input.files]]
+path = "pages/gallery.html"
+url = "/pages/gallery.html"
+title = "Gallery"
+
+[[input.files]]
+path = "pages/honors-and-awards.html"
+url = "/pages/honors-and-awards.html"
+title = "Honors and Awards"
+
+[[input.files]]
+path = "pages/media.html"
+url = "/pages/media.html"
+title = "Media"
+
+[[input.files]]
+path = "pages/news.html"
+url = "/pages/news.html"
+title = "News"
+
+[[input.files]]
+path = "pages/presentations.html"
+url = "/pages/presentations.html"
+title = "Presentations"
+
+[[input.files]]
+path = "pages/services-and-projects.html"
+url = "/pages/services-and-projects.html"
+title = "Services and Projects"
+
+[[input.files]]
+path = "pages/publications.html"
+url = "/pages/publications.html"
+title = "Publications"
+
+[[input.files]]
+path = "pages/research.html"
+url = "/pages/research.html"
+title = "Research"
+
+[[input.files]]
+path = "pages/resources.html"
+url = "/pages/resources.html"
+title = "Resources"
+
+[[input.files]]
+path = "pages/teaching.html"
+url = "/pages/teaching.html"
+title = "Teaching"
+
+[[input.files]]
+path = "services-of-the-intelligent-software-engineering-laboratory.html"
+url = "/services-of-the-intelligent-software-engineering-laboratory.html"
+title = "Services of the Intelligent Software Engineering Laboratory"
+
+[[input.files]]
+path = "advanced-software-testing.html"
+url = "/advanced-software-testing.html"
+title = "Advanced Software Testing"
+
+[[input.files]]
+path = "software-architectures.html"
+url = "/software-architectures.html"
+title = "Software Architectures"
+
+[[input.files]]
+path = "a-gentle-introduction-to-search-based-software-refactoring.html"
+url = "/a-gentle-introduction-to-search-based-software-refactoring.html"
+title = "A gentle introduction to search-based software refactoring"
+
+[[input.files]]
+path = "codart-automated-source-code-refactoring-toolkit.html"
+url = "/codart-automated-source-code-refactoring-toolkit.html"
+title = "CodART: Automated Source Code Refactoring Toolkit"
+
+[[input.files]]
+path = "automated-refactoring-of-the-java-code-using-antlr-in-python.html"
+url = "/automated-refactoring-of-the-java-code-using-antlr-in-python.html"
+title = "Automated refactoring of the Java code using ANTLR in Python"
+
+[[input.files]]
+path = "do-software-engineers-sacrifice-themselves.html"
+url = "/do-software-engineers-sacrifice-themselves.html"
+title = "Do software engineers sacrifice themselves?"
+
+[[input.files]]
+path = "program-dynamic-analysis-with-antlr.html"
+url = "/program-dynamic-analysis-with-antlr.html"
+title = "Program dynamic analysis with ANTLR"
+
+[[input.files]]
+path = "program-static-analysis-with-antlr.html"
+url = "/program-static-analysis-with-antlr.html"
+title = "Program static analysis with ANTLR"
+
+[[input.files]]
+path = "advanced-software-engineering.html"
+url = "/advanced-software-engineering.html"
+title = "Advanced Software Engineering"
+
+[[input.files]]
+path = "compilers.html"
+url = "/compilers.html"
+title = "Compilers"
+
+[[input.files]]
+path = "patterns-and-principle-in-software-engineering.html"
+url = "/patterns-and-principle-in-software-engineering.html"
+title = "Patterns and Principle in Software Engineering"
+
+[[input.files]]
+path = "An-introduction-to-ANTLR-in-Python.html"
+url = "/An-introduction-to-ANTLR-in-Python.html"
+title = "An introduction to ANTLR in Python"
+
+[[input.files]]
+path = "innovations-on-automatic-test-data-generation.html"
+url = "/innovations-on-automatic-test-data-generation.html"
+title = "Innovations on Automatic Test Data Generation"
+
+[[input.files]]
+path = "dynamic-complex-network.html"
+url = "/dynamic-complex-network.html"
+title = "Dynamic Complex Network"
+
+[[input.files]]
+path = "game-theory.html"
+url = "/game-theory.html"
+title = "Game Theory"
+
+[[input.files]]
+path = "wordpress-for-beginning.html"
+url = "/wordpress-for-beginning.html"
+title = "WordPress for beginning"
+
+[[input.files]]
+path = "children-and-programming.html"
+url = "/children-and-programming.html"
+title = "Children and programming"
+
+[[input.files]]
+path = "a-survey-of-sequence-to-sequence-learning-with-neural-networks.html"
+url = "/a-survey-of-sequence-to-sequence-learning-with-neural-networks.html"
+title = "A survey of sequence-to-sequence learning with neural networks"
+
+[[input.files]]
+path = "computer-science-at-the-heart-of-civilization.html"
+url = "/computer-science-at-the-heart-of-civilization.html"
+title = "Computer science at the heart of civilization"
+
+[[input.files]]
+path = "welcome.html"
+url = "/welcome.html"
+title = "Welcome"

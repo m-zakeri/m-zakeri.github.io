@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="./theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="./theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="./theme/pygments/emacs.min.css">
+
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="./theme/stork/stork.css" />
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Morteza" />
+<meta name="description" content="Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. The refactoring process could be automated to reduce the required time and cost and increase the reliability of applied transformation. In this tutorial, I give a short description of how we can automate the refactoring process with ANTLR in Python." />
+<meta name="keywords" content="blog, ANTLR, compiler, tutorial">
+
+
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:title" content="Automated refactoring of the Java code using ANTLR in Python"/>
+  <meta property="og:description" content="Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. The refactoring process could be automated to reduce the required time and cost and increase the reliability of applied transformation. In this tutorial, I give a short description of how we can automate the refactoring process with ANTLR in Python."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./automated-refactoring-of-the-java-code-using-antlr-in-python.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2022-05-02 00:30:00+04:30"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/morteza.html">
+  <meta property="article:section" content="blog"/>
+  <meta property="article:tag" content="blog"/>
+  <meta property="article:tag" content="ANTLR"/>
+  <meta property="article:tag" content="compiler"/>
+  <meta property="article:tag" content="tutorial"/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; Automated refactoring of the Java code using ANTLR in Python</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="./">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="./">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+    <div class="stork">
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <div class="stork-output" data-stork="sitesearch-output"></div>
+    </div>
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./#about-me">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact-me.html#contact-me">
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/gallery.html#gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/honors-and-awards.html#honors-and-awards">
+                Honors and Awards
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/media.html#media">
+                Media
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/news.html#news">
+                News
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/presentations.html#presentations">
+                Presentations
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/services-and-projects.html#services-and-projects">
+                Services and Projects
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/publications.html#publications">
+                Publications
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/research.html#research">
+                Research
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/resources.html#resources">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/teaching.html#teaching">
+                Teaching
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://m-zakeri.github.io/lab" >Laboratory in AUT</a>
+          </li>
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory in IUST</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >My University Page (IUST)</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-telegram"
+           href="https://t.me/mztel"
+           target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="./">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/category/services.html">Services</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="automated-refactoring-of-the-java-code-using-antlr-in-python">Automated refactoring of the Java code using ANTLR in Python</h1>
+    <p>
+      Posted on Mon 02 May 2022 in <a href="./category/blog.html">blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h2>Introduction</h2>
+<p>Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. Researchers have recently studied the improvement of different quality attributes through refactoring (Mkaouer et al. 2016; Mohan and Greer 2019).</p>
+<p>The refactoring process could be automated to reduce the required time and cost and increase the reliability of applied transformation. Refactoring engines are tools that automate the application of refactorings: first, the user chooses a refactoring to apply, then the engine checks if the transformation is safe and, if so, transforms the program. Refactoring engines are a key component of modern Integrated Development Environments (IDEs), and programmers rely on them to perform refactorings. The programmer need only select which refactoring to apply, and the engine will automatically check the preconditions and apply the transformations across the entire program if the preconditions are satisfied. Refactoring is gaining popularity, as evidenced by the inclusion of refactoring engines in modern IDEs such as IntelliJ IDEA, Eclipse, or NetBeans  for Java.</p>
+<p>According to Fowler (Fowler and Beck 2018), the biggest change to refactoring in the last decade is the availability of tools that support automated refactoring. Refactoring engines must be reliable. A fault in a refactoring engine can silently introduce bugs in the refactored program and lead to challenging debugging sessions. If the original program compiles, but the refactored program does not, the refactoring is obviously incorrect and can be easily undone. However, if the refactoring engine erroneously produces a refactored program that compiles but does not preserve the semantics of the original program, this can have severe consequences. Therefore, an automated refactoring tool must operate on the code’s syntax tree, not the text, to perform refactoring correctly. Manipulating the syntax tree is more reliable for preserving the program syntax, semantics, and behavior. For this reason, developing an automated refactoring tool requires deep knowledge of compiler techniques. Fowler (Fowler and Beck 2018) present a catalog of more than 70 refactoring in his book and state that </p>
+<blockquote>
+<p>implementing decent refactoring is a challenging programming exercise—one that I am not mostly unaware of as I gaily use the tools.</p>
+<p><em>Martin Fowler</em></p>
+</blockquote>
+<h2>ANTLR Background</h2>
+<p>Before reading this tutorial, I recommend looking at <a href="antlr_basics.md">ANTLR basic tutorial</a> where I describe the background of using ANTLR to generate and walk phase three and implement custom program analysis applications with the help of the ANTLR listener mechanism. 
+The most important point is that we used the real-world programming languages grammars to show the parsing and analyzing process. The discussed approach forms the underlying concepts of our approach for automated refactoring. Indeed, we implement appropriate listeners that can perform the actions required to apply each refactoring. ANTLR provides <code>TokenStreamRewriter</code> class which can manipulate program tokens at specific indices in the program. </p>
+<h2>Using ANTLR for automating refactoring</h2>
+<p>The <em>key</em> to using ANTLR for refactoring tasks is the <code>TokenStreamRewriter</code> class that knows how to give altered views of a token stream without actually modifying the stream. It treats all of manipulation methods as “instructions” and queues them up for lazy execution when traversing the token stream to render it back as text. The rewriter <em>executes</em> those instructions every time we call the <code>getText()</code> method. This strategy is very effective for the general problem of source code instrumentation or refactoring. The <code>TokenStreamRewriter</code> is a powerful and extremely efficient means of manipulating a token stream.</p>
+<p>In the remaining sections of this post, I discuss different refactoring techniques and describe the automation of most important refactoring operation in Python based on the ANTLR library.</p>
+<p>Please note that the full implementation of the automation of any refactoring operations contains many details that are too complicated to describe here. Therefore, I only focused on the most important part of the automation process in this chapter. For the interested readers, the full implementation of discussed refactoring can be found on <a href="https://github.com/m-zakeri/CodART">https://github.com/m-zakeri/CodART</a>. </p>
+<p>CodART  is our recently developed open-source refactoring engine that has automated the application of 16 refactoring operations with ANTLR. The up-to-date documentation of CodART is available on <a href="https://github.com/m-zakeri/CodART">https://m-zakeri.github.io/CodART/</a>.
+Each refactoring operation has a definition and is clearly specified by the entities in which it is involved and the role of each. I ask you to look at <a href="(https://github.com/m-zakeri/CodART)">CodART's white</a> paper to find a decent introduction to refactoring operation.</p>
+<h2>Encapsulate field</h2>
+<p>We begin with a simple yet important refactoring, encapsulate field, which provides information hiding as one of the basic principles of the object-oriented design (Booch et al. 2008). The encapsulate field refactoring replaces all references to a field with accesses through setter and getter methods. This refactoring takes as input the name of the field to encapsulate and the names of its enclosing class. It performs the following transformations:</p>
+<ul>
+<li>Creates a public getter method that returns the field’s value, </li>
+<li>Creates a public setter method that updates the field’s value to a given parameter’s value,</li>
+<li>Replaces all field reads with calls to the getter method,</li>
+<li>Replaces all field writes with calls to the setter method,</li>
+<li>Changes the field’s access modifier to private.</li>
+</ul>
+<p>Figure 1 shows an example of encapsulate field refactoring for field f in class A. </p>
+<p><img alt="Figure 1. Example EncapsulateField refactoring" src="../static/img/codart_example.png"></p>
+<p><em>Figure 1: Example EncapsulateField refactoring</em></p>
+<p>To perform this refactoring automatically, we develop a listener class, <code>EncapsulateFiledRefactoringListener</code>, that implements the aforementioned transformations. The constructor of this class is shown in the following. The class takes an instance of <code>CommonTokenStream</code> class, source class name, and field identifier as input. The first parameter is used to initialize an instance of <code>TokenStreamRewriter</code> class which provides a set of methods to manipulate the syntax (parse) tree. The second and third parameters specify the entity to be refactored. </p>
+<div class="highlight"><pre><span></span><code><span class="n">_version_</span> <span class="o">==</span> <span class="s1">&#39;0.1.0&#39;</span>
+<span class="n">_author_</span> <span class="o">==</span> <span class="s1">&#39;Morteza Zakeri&#39;</span>
+
+<span class="k">class</span> <span class="nc">EncapsulateFiledRefactoringListener</span><span class="p">(</span><span class="n">JavaParserLabeledListener</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    To implement the encapsulate field refactoring</span>
+<span class="sd">    make a public field private and provide </span>
+<span class="sd">    accessors and mutator methods.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">common_token_stream</span><span class="p">:</span> <span class="n">CommonTokenStream</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                 <span class="n">source_class_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                 <span class="n">field_identifier</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        :param common_token_stream: contains the program tokens</span>
+<span class="sd">        :param source_class_name: contains the enclosing class of the field</span>
+<span class="sd">        :param field_identifier: the field name to be encapsulated </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">token_stream</span> <span class="o">=</span> <span class="n">common_token_stream</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">source_class_name</span> <span class="o">=</span> <span class="n">source_class_name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span> <span class="o">=</span> <span class="n">field_identifier</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">in_source_class</span> <span class="o">=</span> <span class="kc">False</span>
+
+        <span class="c1"># Move all the tokens in the source code in a buffer,</span>
+        <span class="c1"># token_stream_rewriter.</span>
+        <span class="k">if</span> <span class="n">common_token_stream</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span> <span class="o">=</span> \
+                <span class="n">TokenStreamRewriter</span><span class="p">(</span><span class="n">common_token_stream</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;common_token_stream is None&#39;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>The entire refactoring application is performed in four steps: First, we should check whether the parse tree walker is visiting the class that contains the given field or not. We use a <code>flag</code> variable <code>in_source_class</code> to indicate that the walker is entered into the source class. This flag is set to <code>true</code> when <code>enterClassDeclaration</code> method is called and is set back to <code>false</code> when <code>exitClassDeclaration</code> method is called:</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">enterClassDeclaration</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">JavaParserLabeled</span><span class="o">.</span><span class="n">ClassDeclarationContext</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">ctx</span><span class="o">.</span><span class="n">IDENTIFIER</span><span class="p">()</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">source_class_name</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">in_source_class</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">def</span> <span class="nf">exitClassDeclaration</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">JavaParserLabeled</span><span class="o">.</span><span class="n">ClassDeclarationContext</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">in_source_class</span> <span class="o">=</span> <span class="kc">False</span>
+</code></pre></div>
+
+<p>The second step is to change the access modifier of the field from public to private. We could perform this either when entering or exiting from the <code>fieldDeclartion</code> rule in the Java grammar. It is required to ensure that we modify the given field, not other files in the class or program. The first and second <code>if</code> statements in the following code perform this check. Afterward, the <code>replaceRange</code> method of the <code>token_stream_rewriter</code> is called to replace the “public” modifier token with the “private” modifier token, shown in the following code snippet. </p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">enterFieldDeclaration</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">JavaParserLabeled</span><span class="o">.</span><span class="n">FieldDeclarationContext</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">in_source_class</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">ctx</span><span class="o">.</span><span class="n">variableDeclarators</span><span class="p">()</span><span class="o">.</span><span class="n">variableDeclarator</span><span class="p">(</span>
+                <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">variableDeclaratorId</span><span class="p">()</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ctx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">modifier</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;public&#39;</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">replaceRange</span><span class="p">(</span>
+                  <span class="n">from_idx</span><span class="o">=</span><span class="n">ctx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">modifier</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span>
+                  <span class="n">to_idx</span><span class="o">=</span><span class="n">ctx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">modifier</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span>
+                  <span class="n">text</span><span class="o">=</span><span class="s1">&#39;private&#39;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">return</span>
+</code></pre></div>
+
+<p>Figure 2 shows the part of the parse tree generated for the code snippet in Figure 1. The parse tree visualization help understand the logic behind the implementation of the <code>enterFieldDeclaration</code> method in the above code. Indeed, we write a fragment of code by observing the position of nodes in the corresponding parse tree. For example, when we enter the <code>fieldDeclartion</code> rule (i.e., when ANTLR calls the above method), the ANTLR runtime library provides a ctx object of class <code>FieldDeclarationContext</code>, which contains pointers <code>FieldDeclaration</code> to parent and children. These pointers allow us to move between the different nodes in the parse tree, typically around our main node, which is <code>FieldDeclaration</code> in our example. </p>
+<p><img alt="Figure 2. Part of the parse tree generated for the code is snipped in Figure 1." src="../static/img/refactoring/parse-tree-for-encapsulate-field.png"></p>
+<p><em>Figure 2: Part of the parse tree generated for the code is snipped in Figure 1 (left).</em></p>
+<p>Our goal is to change the “public” token to “private,” which is the direct child of the <code>classOrInterfaceModifier</code> node and the descendant of the modifier node. Therefore, we should access from <code>FieldDeclaration</code> node to one of the modifier or <code>classOrInterfaceModifier</code> nodes. The statement <code>ctx.parentCtx.parentCtx.modifier(0)</code> give us to the first child of the modifier node, i.e., <code>classOrInterfaceModifier</code>. The green arrow in Figure 2 shows how we can move from <code>FieldDeclaration</code> node to the <code>classOrInterfaceModifier</code> node.</p>
+<p>In the third step, we add the getter and setter methods for the encapsulated field to the class body. To this aim, we define the <code>new_code</code> variable that holds the generated codes. The code can be generated based on a simple <em>template</em> that accessor and mutator methods typically follow. When the generated code is completed, it is added to the class body after the encapsulated field declaration using the <code>insertAfter</code> method of the <code>token_stream_rewriter</code> object. We use the <code>exitFieldDeclaration</code> method to put the described actions. The following code snippet shows generating and inserting accessor and mutator methods.</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">exitFieldDeclaration</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">JavaParserLabeled</span><span class="o">.</span><span class="n">FieldDeclarationContext</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">in_source_class</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">ctx</span><span class="o">.</span><span class="n">variableDeclarators</span><span class="p">()</span><span class="o">.</span><span class="n">variableDeclarator</span><span class="p">(</span>
+                <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">variableDeclaratorId</span><span class="p">()</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">:</span>
+   <span class="c1"># Check if getter or setter methods already exist</span>
+   <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">ctx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">classBodyDeclaration</span><span class="p">():</span>
+         <span class="k">if</span> <span class="n">c</span><span class="o">.</span><span class="n">memberDeclaration</span><span class="p">()</span><span class="o">.</span><span class="n">methodDeclaration</span><span class="p">()</span><span class="o">.</span><span class="n">IDENTIFIER</span><span class="p">()</span> \
+                <span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;get&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">getter_exist</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="k">if</span> <span class="n">c</span><span class="o">.</span><span class="n">memberDeclaration</span><span class="p">()</span><span class="o">.</span><span class="n">methodDeclaration</span><span class="p">()</span><span class="o">.</span><span class="n">IDENTIFIER</span><span class="p">()</span> \
+                <span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;set&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">setter_exist</span> <span class="o">=</span> <span class="kc">True</span>
+
+  <span class="c1"># Generate accessor and mutator methods if not exist</span>
+  <span class="c1"># Accessor body</span>
+  <span class="n">new_code</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+  <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">getter_exist</span><span class="p">:</span>
+      <span class="n">new_code</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n\t</span><span class="s1">// new getter method</span><span class="se">\n\t</span><span class="s1">&#39;</span>
+      <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;public &#39;</span> <span class="o">+</span> <span class="n">ctx</span><span class="o">.</span><span class="n">typeType</span><span class="p">()</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">+</span> \
+                <span class="s1">&#39; get&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">)</span>
+      <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;() { </span><span class="se">\n\t\t</span><span class="s1">return this.&#39;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span> 
+             <span class="o">+</span> <span class="s1">&#39;;&#39;</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n\t</span><span class="s1">}</span><span class="se">\n</span><span class="s1">&#39;</span>
+
+  <span class="c1"># Mutator body</span>
+  <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">setter_exist</span><span class="p">:</span>
+      <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;</span><span class="se">\n\t</span><span class="s1">// new setter method</span><span class="se">\n\t</span><span class="s1">&#39;</span>
+      <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;public void set&#39;</span> <span class="o">+</span> \
+                <span class="nb">str</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">)</span>
+      <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;(&#39;</span> <span class="o">+</span> <span class="n">ctx</span><span class="o">.</span><span class="n">typeType</span><span class="p">()</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> \
+                <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span> <span class="o">+</span> <span class="s1">&#39;) { </span><span class="se">\n\t\t</span><span class="s1">&#39;</span>
+      <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;this.&#39;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span> <span class="o">+</span> <span class="s1">&#39; = &#39;</span> \
+                <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span> <span class="o">+</span> <span class="s1">&#39;;&#39;</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n\t</span><span class="s1">}</span><span class="se">\n</span><span class="s1">&#39;</span>
+  <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">insertAfter</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span> <span class="n">new_code</span><span class="p">)</span>
+</code></pre></div>
+
+<p>The above code checks that getter and setter do not already exist. Thereafter, a new getter and setter method is added to the class body.
+The fourth step is to update the references of the encapsulated field to replace the field usages with the appropriate setter or getter method. There are different rules in the grammar that describe access to the class fields. A complete encapsulate field refactoring should be considered all rules. However, the code for updating the field usages with getter and setter methods is almost the same. For example, by looking at Figure 3, which is part of the code shown in Figure 1, we can find that when the right-hand side brother of node <code>experssion1</code> is a binary operator such as MUL, the child of <code>expression1</code> must be replaced with the getter method. </p>
+<p><img alt="Figure 3. Part of the parse tree generated for the code is snipped in Figure 1 (left)" src="../static/img/refactoring/parse-tree-for-encapsulate-field-2.png"></p>
+<p><em>Figure 3: Part of the parse tree generated for the code is snipped in Figure 1 (left)</em></p>
+<p>The following code snipped performs this transformation when the walker exit from the <code>expression1</code> node.</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">exitExpression1</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">JavaParserLabeled</span><span class="o">.</span><span class="n">Expression1Context</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">in_source_class</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">in_selected_package</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ctx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">getChild</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="ow">in</span> 
+                     <span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="s1">&#39;+=&#39;</span><span class="p">,</span> <span class="s1">&#39;-=&#39;</span><span class="p">,</span> <span class="s1">&#39;*=&#39;</span><span class="p">,</span> <span class="s1">&#39;/=&#39;</span><span class="p">,</span> <span class="s1">&#39;&amp;=&#39;</span><span class="p">,</span><span class="s1">&#39;|=&#39;</span><span class="p">,</span> <span class="s1">&#39;^=&#39;</span><span class="p">,</span> <span class="s1">&#39;&gt;&gt;=&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;&gt;&gt;&gt;=&#39;</span><span class="p">,</span> <span class="s1">&#39;&lt;&lt;=&#39;</span><span class="p">,</span> <span class="s1">&#39;%=&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">ctx</span><span class="o">.</span><span class="n">parentCtx</span><span class="o">.</span><span class="n">getChild</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="o">==</span> <span class="n">ctx</span><span class="p">:</span>
+                <span class="k">return</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">pass</span>
+        <span class="k">if</span> <span class="n">ctx</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;this.&#39;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">:</span>
+            <span class="n">new_code</span> <span class="o">=</span> <span class="s1">&#39;this.get&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">field_identifier</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;()&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">replaceRange</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span>
+                                                    <span class="n">ctx</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span>
+                                                    <span class="n">new_code</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Other places where the encapsulated field is accessed or modified should be found and updated in a similar way described in this step. Once all fourth steps described in this section are applied, the code snippet shown in Figure 1 (left) is transformed to the code snippet shown in Figure 1 (right), and the encapsulated refactoring is completed.</p>
+<h2>Conclusion and remarks</h2>
+<p>Most of the techniques described in this section can be used to automate other refactoring operations. The only different things are the required actions, which are often unique to each refactoring. The overall process consists of looking at the relevant parts of the parse tree, choosing a relevant node, and implementing the required actions.</p>
+<p>The <code>ctx</code> object of the <code>Context</code> class contains all information we need to find and check or change when performing the refactoring. In addition, visualization of the parse tree helps choose which node can be chosen for which actions and how the actions should be programmed. </p>
+<p>It should be noted that selecting a pares tree node (or grammar rule) to put the required actions does not have a unique and deterministic answer. In other words, we can put our actions in a set of nodes when programming with ANTLR. For example, to change the “public” token to a “private” token, one may put the required actions in the <code>memberDeclartion</code> node, which sightly changes our above code. The right node should be chosen that minimizes the implementation effort of that actions. As general advice, when automating refactoring operations, we write our actions on the node near the refactoring entities.</p>
+<p>I try to explain the automation of more refactoring operation to this tutorial. </p>
+<p>Stay hungry, stay incomplete :)</p>
+<hr>
+<h2>References</h2>
+<p>Booch G, Maksimchuk RA, Engle MW, et al (2008) Object-oriented analysis and design with applications, third edition. ACM SIGSOFT Softw Eng Notes 33:29–29. https://doi.org/10.1145/1402521.1413138</p>
+<p>Fowler M, Beck K (2018) Refactoring: improving the design of existing code, Second Edi. Addison-Wesley</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/blog.html">blog</a>
+      <a href="./tag/antlr.html">ANTLR</a>
+      <a href="./tag/compiler.html">compiler</a>
+      <a href="./tag/tutorial.html">tutorial</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="./do-software-engineers-sacrifice-themselves.html" title="Do software engineers sacrifice themselves?">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="./codart-automated-source-code-refactoring-toolkit.html" title="CodART: Automated Source Code Refactoring Toolkit">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+  <div class="related-posts">
+    <h4>You might enjoy</h4>
+    <ul class="related-posts">
+      <li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
+      <li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with ANTLR</a></li>
+      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with ANTLR</a></li>
+      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to ANTLR in Python</a></li>
+      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
+    </ul>
+  </div>
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'zakeri';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>
+  &copy; 2010 - 2025 Morteza Zakeri. All rights reserved. Last update on 2025-05-29 11:51:20.495889 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : ".",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
+  </script>
+  <script src="./theme/stork/stork.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="../theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="../theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="../theme/pygments/emacs.min.css">
+
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="../theme/stork/stork.css" />
+
+  <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href="..//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+    <meta name="author" content="Morteza" />
+    <meta name="description" content="" />
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:title" content="Morteza Zakeri"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content=".."/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; Tag compiler</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="../">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="../">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+    <div class="stork">
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <div class="stork-output" data-stork="sitesearch-output"></div>
+    </div>
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="../#about-me">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/contact-me.html#contact-me">
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/gallery.html#gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/honors-and-awards.html#honors-and-awards">
+                Honors and Awards
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/media.html#media">
+                Media
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/news.html#news">
+                News
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/presentations.html#presentations">
+                Presentations
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/services-and-projects.html#services-and-projects">
+                Services and Projects
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/publications.html#publications">
+                Publications
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/research.html#research">
+                Research
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/resources.html#resources">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="../pages/teaching.html#teaching">
+                Teaching
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://m-zakeri.github.io/lab" >Laboratory in AUT</a>
+          </li>
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory in IUST</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >My University Page (IUST)</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-telegram"
+           href="https://t.me/mztel"
+           target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="../">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/category/services.html">Services</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+
+
+<article>
+  <header>
+    <h2><a href="../a-gentle-introduction-to-search-based-software-refactoring.html#a-gentle-introduction-to-search-based-software-refactoring">A gentle introduction to search-based software refactoring</a></h2>
+    <p>
+      Posted on Thu 05 May 2022 in <a href="../category/blog.html">blog</a>
+
+          &#8226; Tagged with
+              <a href="../tag/blog.html">blog</a>,              <a href="../tag/antlr.html">ANTLR</a>,              <a href="../tag/compiler.html">compiler</a>,              <a href="../tag/tutorial.html">tutorial</a>
+    </p>
+  </header>
+  <div>
+      <div><p>Finding the best sequence of the refactoring operation to ab applied to a software system is an optimization problem. It can be solved by search techniques in the field known as search-based software engineering (SBSE). In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software quality measures. Unfortunately, there is no technical document describing an implementation of decent search-based refactoring. In this tutorial, I am going to explain the implementation of search-based refactoring at the source code level from scratch.</p></div>
+        <br>
+        <a class="btn"
+           href="../a-gentle-introduction-to-search-based-software-refactoring.html#a-gentle-introduction-to-search-based-software-refactoring">
+          Continue reading
+        </a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../automated-refactoring-of-the-java-code-using-antlr-in-python.html#automated-refactoring-of-the-java-code-using-antlr-in-python">Automated refactoring of the Java code using ANTLR in Python</a></h2>
+    <p>
+      Posted on Mon 02 May 2022 in <a href="../category/blog.html">blog</a>
+
+          &#8226; Tagged with
+              <a href="../tag/blog.html">blog</a>,              <a href="../tag/antlr.html">ANTLR</a>,              <a href="../tag/compiler.html">compiler</a>,              <a href="../tag/tutorial.html">tutorial</a>
+    </p>
+  </header>
+  <div>
+      <div><p>Refactoring is a type of program transformation that preserves the program’s behavior. The goal of refactoring is to improve the program’s internal structure without changing its external behavior. In this way, the program quality, defined and measured in terms of quality attributes, is improved. The refactoring process could be automated to reduce the required time and cost and increase the reliability of applied transformation. In this tutorial, I give a short description of how we can automate the refactoring process with ANTLR in Python.</p></div>
+        <br>
+        <a class="btn"
+           href="../automated-refactoring-of-the-java-code-using-antlr-in-python.html#automated-refactoring-of-the-java-code-using-antlr-in-python">
+          Continue reading
+        </a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../program-dynamic-analysis-with-antlr.html#program-dynamic-analysis-with-antlr">Program dynamic analysis with ANTLR</a></h2>
+    <p>
+      Posted on Tue 30 March 2021 in <a href="../category/blog.html">blog</a>
+
+          &#8226; Tagged with
+              <a href="../tag/blog.html">blog</a>,              <a href="../tag/antlr.html">ANTLR</a>,              <a href="../tag/compiler.html">compiler</a>,              <a href="../tag/tutorial.html">tutorial</a>
+    </p>
+  </header>
+  <div>
+      <div><p>Dynamic analysis refers to extracting specific information from the program related to the program's execution. Therefore, it requires to execute the program under analysis. Often the source code must be augmented in a way that executing the program outputs the additional information required for dynamic analysis. A well-known technique for this aim is program instrumentation. The ANTLR tool can be used to instrument the source code effectively. In this tutorial, I explain how we can use the ANTLR  tool to instrument the C++  program in the Python programming language.</p></div>
+        <br>
+        <a class="btn"
+           href="../program-dynamic-analysis-with-antlr.html#program-dynamic-analysis-with-antlr">
+          Continue reading
+        </a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../program-static-analysis-with-antlr.html#program-static-analysis-with-antlr">Program static analysis with ANTLR</a></h2>
+    <p>
+      Posted on Mon 29 March 2021 in <a href="../category/blog.html">blog</a>
+
+          &#8226; Tagged with
+              <a href="../tag/blog.html">blog</a>,              <a href="../tag/antlr.html">ANTLR</a>,              <a href="../tag/compiler.html">compiler</a>,              <a href="../tag/tutorial.html">tutorial</a>
+    </p>
+  </header>
+  <div>
+      <div><p>Static analysis means extracting specific information from the program artifacts, e.g., source code, without any execution of the program. The ANTLR tool can be used to perform all types of static analysis at the source-code level. In this tutorial, I explain how we can use the ANTLR  tool to perform some basic kinds of static analysis of the C++ programs in the Python programming language. The task I chose to explain is extracting the class diagram and computing the relevant design metrics.</p></div>
+        <br>
+        <a class="btn"
+           href="../program-static-analysis-with-antlr.html#program-static-analysis-with-antlr">
+          Continue reading
+        </a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../An-introduction-to-ANTLR-in-Python.html#An-introduction-to-ANTLR-in-Python">An introduction to ANTLR in Python</a></h2>
+    <p>
+      Posted on Mon 22 March 2021 in <a href="../category/blog.html">blog</a>
+
+          &#8226; Tagged with
+              <a href="../tag/blog.html">blog</a>,              <a href="../tag/antlr.html">ANTLR</a>,              <a href="../tag/compiler.html">compiler</a>,              <a href="../tag/tutorial.html">tutorial</a>
+    </p>
+  </header>
+  <div>
+      <div><p>ANTLR is a parser generator that can generate the parser program from context-free grammar descriptions specified in the ANTLR grammar format. In this tutorial, I explain how we can generate and use the Java parser with ANTLR in the Python programming language.</p></div>
+        <br>
+        <a class="btn"
+           href="../An-introduction-to-ANTLR-in-Python.html#An-introduction-to-ANTLR-in-Python">
+          Continue reading
+        </a>
+  </div>
+</article>
+
+  <div class="pagination">
+  </div>
+
+
+
+<footer>
+<p>
+  &copy; 2010 - 2025 Morteza Zakeri. All rights reserved. Last update on 2025-05-29 11:51:20.495889 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="../theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : "..",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("../theme/stork/stork.wasm")
+      stork.register("sitesearch", "../search-index.st", { showProgress: false });
+    }
+  </script>
+  <script src="../theme/stork/stork.js"></script>
+
+</body>
+</html>

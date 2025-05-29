@@ -1,0 +1,503 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="./theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="./theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="./theme/pygments/emacs.min.css">
+
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="./theme/stork/stork.css" />
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Morteza" />
+<meta name="description" content="Dynamic analysis refers to extracting specific information from the program related to the program&#39;s execution. Therefore, it requires to execute the program under analysis. Often the source code must be augmented in a way that executing the program outputs the additional information required for dynamic analysis. A well-known technique for this aim is program instrumentation. The ANTLR tool can be used to instrument the source code effectively. In this tutorial, I explain how we can use the ANTLR tool to instrument the C++ program in the Python programming language." />
+<meta name="keywords" content="blog, ANTLR, compiler, tutorial">
+
+
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:title" content="Program dynamic analysis with ANTLR"/>
+  <meta property="og:description" content="Dynamic analysis refers to extracting specific information from the program related to the program&#39;s execution. Therefore, it requires to execute the program under analysis. Often the source code must be augmented in a way that executing the program outputs the additional information required for dynamic analysis. A well-known technique for this aim is program instrumentation. The ANTLR tool can be used to instrument the source code effectively. In this tutorial, I explain how we can use the ANTLR tool to instrument the C++ program in the Python programming language."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./program-dynamic-analysis-with-antlr.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2021-03-30 23:45:00+04:30"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/morteza.html">
+  <meta property="article:section" content="blog"/>
+  <meta property="article:tag" content="blog"/>
+  <meta property="article:tag" content="ANTLR"/>
+  <meta property="article:tag" content="compiler"/>
+  <meta property="article:tag" content="tutorial"/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; Program dynamic analysis with ANTLR</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="./">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="./">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+    <div class="stork">
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <div class="stork-output" data-stork="sitesearch-output"></div>
+    </div>
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./#about-me">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact-me.html#contact-me">
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/gallery.html#gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/honors-and-awards.html#honors-and-awards">
+                Honors and Awards
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/media.html#media">
+                Media
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/news.html#news">
+                News
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/presentations.html#presentations">
+                Presentations
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/services-and-projects.html#services-and-projects">
+                Services and Projects
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/publications.html#publications">
+                Publications
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/research.html#research">
+                Research
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/resources.html#resources">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/teaching.html#teaching">
+                Teaching
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://m-zakeri.github.io/lab" >Laboratory in AUT</a>
+          </li>
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory in IUST</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >My University Page (IUST)</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-telegram"
+           href="https://t.me/mztel"
+           target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="./">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/category/services.html">Services</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="program-dynamic-analysis-with-antlr">Program dynamic analysis with ANTLR</h1>
+    <p>
+      Posted on Tue 30 March 2021 in <a href="./category/blog.html">blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h2>Introduction</h2>
+<p>In this tutorial we describe a primary task in source code transformation, <em>i.e.</em>, program instrumentation, which is one of the CodA features.</p>
+<p>The task can be performed by properly applying compiler techniques, adding required code snippets at specific source code places. Instrumentation is the fundamental prerequisite for almost all dynamic analysis types. Let us begin with a simple case in which the purpose of instrumentation is to log the executed path of the program control flow graph for each execution. Consider the following C++ program used to calculate the greatest common divider (GCD) of two integers:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">num1</span><span class="p">,</span><span class="w"> </span><span class="n">num2</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">gcd</span><span class="p">;</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Enter two integers: &quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">num1</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">num2</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">num1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">num2</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Checks if i is factor of both integers</span>
+<span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">num1</span><span class="o">%</span><span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">num2</span><span class="o">%</span><span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span>
+<span class="w">            </span><span class="n">gcd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;G.C.D is &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">gcd</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><em>Figure 1. Source code of GCD program.</em></p>
+<p>Appropriate instrumentation will put a log statement at the beginning of each basic block. For simplicity, we add a print statement to write the number of the executed basic block in the console. In the GCD program, lines 6, 10, 13 shows the starting point of basic blocks. Therefore, the instrumented version of the GCD program is similar to the following code, in which print statement has been added manually:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fstream&gt;</span>
+<span class="n">std</span><span class="o">::</span><span class="n">ofstream</span><span class="w"> </span><span class="n">logFile</span><span class="p">(</span><span class="s">&quot;log_file.txt&quot;</span><span class="p">);</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="n">logFile</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;p1&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">num1</span><span class="p">,</span><span class="w"> </span><span class="n">num2</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">gcd</span><span class="p">;</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Enter two integers: &quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">num1</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">num2</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">num1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">num2</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="n">logFile</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;p2&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+<span class="w">        </span><span class="c1">// Checks if i is factor of both integers</span>
+<span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">num1</span><span class="o">%</span><span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">num2</span><span class="o">%</span><span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="n">logFile</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;p3&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="w">            </span><span class="n">gcd</span><span class="o">=</span><span class="n">i</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="c1">//continue;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;G.C.D is &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">gcd</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="c1">//return 0;</span>
+
+<span class="w"> </span><span class="n">logFile</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;p4&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><em>Figure 2. Source code of GCD program after instrumenting.</em></p>
+<p>One can see the cout statements added in lines 6, 12, 15, i.e., at the beginning of each basic block. For large programs, it is impossible to add such statements manually. To perform this instrumentation by ANTLR, we just need to identify conditional statements, including if statements, loop statements, and switch-case statements. Besides, the beginning of each function should be recognized. ANTLR provides a listener interface that consists of an enter method and exit method for each non-terminal in target language grammar. The listener can be passed to the parse tree walker used for traversing the parse tree in DFS . For instrumenting, we must implement the methods of listener interface related to conditional rules. The implementation of the listener interface in Python is shown in the following:</p>
+<div class="highlight"><pre><span></span><code> <span class="k">class</span> <span class="nc">InstrumentationListener</span><span class="p">(</span><span class="n">CPP14Listener</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tokenized_source_code</span><span class="p">:</span> <span class="n">CommonTokenStream</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">tokenized_source_code</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+      <span class="c1"># Move all the tokens in the source code in a buffer, token_stream_rewriter. </span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span> <span class="o">=</span> <span class="n">TokenStreamRewriter</span><span class="o">.</span><span class="n">TokenStreamRewriter</span><span class="p">(</span><span class="n">tokenized_source_code</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="err">‘</span><span class="n">common_token_stream</span> <span class="ow">is</span> <span class="kc">None</span><span class="err">’</span><span class="p">)</span>
+
+    <span class="c1"># Creating and open a text file for logging the instrumentation result at beging of the program</span>
+    <span class="k">def</span> <span class="nf">enterTranslationunit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">TranslationunitContext</span><span class="p">):</span>
+        <span class="n">new_code</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> #include &lt;fstream&gt; </span><span class="se">\n</span><span class="s1"> std::ofstream logFile(&quot;log_file.txt&quot;); </span><span class="se">\n</span><span class="s1">&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">insertAfter</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span> <span class="n">new_code</span><span class="p">)</span>
+
+
+    <span class="c1"># DFS traversal of a statement subtree, rooted at ctx and if the statement is a branching condition </span>
+    <span class="c1"># insert a prob.</span>
+    <span class="k">def</span> <span class="nf">enterStatement</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">StatementContext</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">parentCtx</span><span class="p">,</span> <span class="p">(</span><span class="n">CPP14Parser</span><span class="o">.</span><span class="n">SelectionstatementContext</span><span class="p">,</span>
+                      <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">IterationstatementContext</span><span class="p">)):</span>
+            <span class="c1"># if there is a compound statement after the branchning condition:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">CompoundstatementContext</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">new_code</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> logFile &lt;&lt; &quot;p&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&quot; &lt;&lt; endl; </span><span class="se">\n</span><span class="s1">&#39;</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">insertAfter</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span> <span class="n">new_code</span><span class="p">)</span>
+      <span class="c1"># if there is only one statement after the branchning condition then create a block.</span>
+            <span class="k">elif</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">children</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                                <span class="p">(</span><span class="n">CPP14Parser</span><span class="o">.</span><span class="n">SelectionstatementContext</span><span class="p">,</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">IterationstatementContext</span><span class="p">)):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">new_code</span> <span class="o">=</span> <span class="s1">&#39;{&#39;</span>
+                <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> logFile &lt;&lt; &quot;p&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&quot; &lt;&lt; endl; </span><span class="se">\n</span><span class="s1">&#39;</span>
+                <span class="n">new_code</span> <span class="o">+=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">getText</span><span class="p">()</span>
+                <span class="n">new_code</span> <span class="o">+=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">}&#39;</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">replaceRange</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span> <span class="n">ctx</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span> <span class="n">new_code</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">enterFunctionbody</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctx</span><span class="p">:</span> <span class="n">CPP14Parser</span><span class="o">.</span><span class="n">FunctionbodyContext</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">new_code</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> logFile &lt;&lt; &quot;p&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">branch_number</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&quot; &lt;&lt; endl;</span><span class="se">\n</span><span class="s1">&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">insertAfter</span><span class="p">(</span><span class="n">ctx</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">tokenIndex</span><span class="p">,</span> <span class="n">new_code</span><span class="p">)</span>
+</code></pre></div>
+
+<p><em>Figure 3. ANTLR listener for instrumenting.</em></p>
+<p>In the above code, class <code>InstrumentationListener</code> implements the interface <code>CPP14Listener</code>, which is the base listener for C++ grammar and generated by ANTLR. Note that the grammar of C++ 14 is available at ANTLR official website. Two methods <code>enterStatement()</code> and <code>enterFunctionbody()</code> are implemented to add a print statement in proper places of program code, respectively, at the beginning of each conditional statement and each function. These two methods are invoked by ANTLR parser tree walker if we pass an instance of <code>InstrumnentationListerer</code> to it.</p>
+<p><code>InstrumentationListener</code> class also has two attributes: <code>branch_number</code> and <code>token_stream_rewriter</code>. branch_umber used to track the number of instrumented blocks during the instrumentation. Each time we add a print statement, we increment the value of <code>branch_number</code> by one unit. </p>
+<p>Line 3 defines <code>branch_number</code> and initialize it with zero. <code>token_stream_rewiter</code> object is an instance of <code>TokenStreamRewiter</code> class, which is provided by ANTLR and contain the stream of source code tokens. <code>TokenStreamRewriter</code> initializes with common_token_stream, which already has been built by ANTLR from the lexer class and then provides methods for adding and manipulating code snips within a given stream.  Line 5 creates an instance of <code>TokenStreamRewriter</code> class to access its required methods. If <code>common_token_stream</code> is none, then an exception raises (Line 7).</p>
+<p>Let explain the logic of <code>enterFunctionbody()</code> as it seems to be simpler than <code>enterStatement()</code>. Each time a function definition occurred in the source code, this method is invoked. First, the branch_number will be increased by 1 (Line 25). At line 26, the print statement, including the branch_number is prepared, and then at Line 27, we tell <code>token_stream_rewiter</code>  to insert this new code after the current beginning function token, <em>i.e.</em>, <code>{</code> in C++. </p>
+<p>For adding print after conditional and loop statements, more effort is required. <code>enterStatement()</code> is invoked each time that a statement node is visited. Line 10 checks to see if the statement is an instance of <code>SelectionsteatemetContext</code> or <code>IterationstatementContext</code>, which are relevant rule contexts for conditional and loop statements in C++ grammar. If this condition is not valid, <em>i.e.</em>, for regular statements, no action will perform. Otherwise, we are faced with two different situations. The first one (Line 11) is that the body of the conditional or loop statement is a compound statement, i.e., it has more than one statement, which encloses between two braces <code>{</code> and <code>}</code>.</p>
+<p>In such a case, we just need to add our print statement at the beginning of the compound statement right after token <code>{</code>. The code of this condition is exactly the same code used in <code>enterFunctionbody()</code>. The second situation occurs when the conditional or loop statement has only one statement inside its basic block. In this state, only the first statement is considered within the condition or loop by the compiler. If one adds a print statement without any enclosing brace, the execution path will not be captured correctly. Hence, in Line 15, after detecting that the statement is neither a compound statement nor branch, the proper code will be provided. The required code for instrumenting includes a left brace, a print statement, a current statement or context, and at the end, a right brace. </p>
+<p>Line 22 adds <code>new_code</code> to the current source code.
+Now the implementation of our <code>InstrumentationListener</code> has been finished. The next step is to write the main driver for the instrumentation tool and connect this listener to the parse tree walker. </p>
+<p>Figure 4 shows the body of the main python script required to create and run our efficient yet straightforward instrumenting tool. A comment line has explained each line of code, and therefore we omit extra descriptions. The only important note is that the instrumented code, <em>i.e.</em>, the modified source code, is accessible by <code>token_stream_rewirter</code> object. The <code>getDefualtText()</code> of <code>token_stream_rewirter</code> object is called to retrieve the new source code in Line 18.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">antlr4</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1"># Step 1: Convert input to a byte stream</span>
+<span class="n">stream</span> <span class="o">=</span> <span class="n">InputStream</span><span class="p">(</span><span class="n">input_string</span><span class="p">)</span>
+
+<span class="c1"># Step 2: Create lexer</span>
+<span class="n">lexer</span> <span class="o">=</span> <span class="n">test_v2Lexer</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
+
+<span class="c1"># Step 3: Create a list of tokens</span>
+<span class="n">token_stream</span> <span class="o">=</span> <span class="n">CommonTokenStream</span><span class="p">(</span><span class="n">lexer</span><span class="p">)</span>
+
+<span class="c1"># Step 4: Create parser</span>
+<span class="n">parser</span> <span class="o">=</span> <span class="n">test_v2Parser</span><span class="p">(</span><span class="n">token_stream</span><span class="p">)</span>
+
+<span class="c1"># Step 5: Create parse tree</span>
+<span class="n">parse_tree</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+
+<span class="c1"># Step 6: Adding a listener</span>
+<span class="n">instrument_listener</span> <span class="o">=</span> <span class="n">InstrumentationListener</span><span class="p">(</span><span class="n">common_token_stream</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">common_token_stream</span><span class="p">)</span>
+
+<span class="c1"># Step 7: Create parse tree walker</span>
+<span class="n">walker</span> <span class="o">=</span> <span class="n">ParseTreeWalker</span><span class="p">()</span>
+
+<span class="c1"># Step 8: Walk parse tree, attaching the listener to instrumented_programs the code</span>
+<span class="n">walker</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">listener</span><span class="o">=</span><span class="n">instrument_listener</span><span class="p">,</span> <span class="n">t</span><span class="o">=</span><span class="n">parse_tree</span><span class="p">)</span>
+
+<span class="c1"># Step 9: </span>
+<span class="n">new_source_code</span> <span class="o">=</span> <span class="n">instrument_listener</span><span class="o">.</span><span class="n">token_stream_rewriter</span><span class="o">.</span><span class="n">getDefaultText</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">new_source_code</span><span class="p">)</span>
+</code></pre></div>
+
+<p><em>Figure 4. The driver code for instrumenting.</em></p>
+<p>After the instrumenting was completed, the program must be compiled then executed to apply the modification. Figure 5 shows an example of executing with a sample input. As shown in Figure 5, the executed path for inputs 24 and 18 are logged into the console, in addition to the program output, which is 6 in this example. The sequence of the printed path shows the order in which basic blocks were executed. We may change the instrumentation to capture more complicated information about runtime. However, the techniques and principles will be the same used in this simple example. Interested readers may find more exercise about instrumentation at the end of this chapter.</p>
+<p><img alt="Figure 5" src="../static/img/dynamic_analysis/gcd_execution_output.png"></p>
+<p><em>Figure 5. An example of executing the GCD program after instrumenting.</em></p>
+<h2>Conclusion</h2>
+<p>We show that using the ANTLR listener mechanism; it would be very simple to instrument the real-world CPP programs. A similar technique can be used to instrument the source code written in other programming languages such as Java and C#.
+In the <a href="program_instrumentation.md">next tutorial</a>, we discuss using ANTLR for static analysis of the source code and computing some source code metrics.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/blog.html">blog</a>
+      <a href="./tag/antlr.html">ANTLR</a>
+      <a href="./tag/compiler.html">compiler</a>
+      <a href="./tag/tutorial.html">tutorial</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="./program-static-analysis-with-antlr.html" title="Program static analysis with ANTLR">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="./do-software-engineers-sacrifice-themselves.html" title="Do software engineers sacrifice themselves?">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+  <div class="related-posts">
+    <h4>You might enjoy</h4>
+    <ul class="related-posts">
+      <li><a href="./a-gentle-introduction-to-search-based-software-refactoring.html">A gentle introduction to search-based software refactoring</a></li>
+      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using ANTLR in Python</a></li>
+      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with ANTLR</a></li>
+      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to ANTLR in Python</a></li>
+      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
+    </ul>
+  </div>
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'zakeri';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>
+  &copy; 2010 - 2025 Morteza Zakeri. All rights reserved. Last update on 2025-05-29 11:51:20.495889 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : ".",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
+  </script>
+  <script src="./theme/stork/stork.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="./theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="./theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="./theme/pygments/emacs.min.css">
+
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="./theme/stork/stork.css" />
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href=".//static/css/custom.css">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="https://m-zakeri.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Morteza Zakeri Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Morteza" />
+<meta name="description" content="Finding the best sequence of the refactoring operation to ab applied to a software system is an optimization problem. It can be solved by search techniques in the field known as search-based software engineering (SBSE). In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software quality measures. Unfortunately, there is no technical document describing an implementation of decent search-based refactoring. In this tutorial, I am going to explain the implementation of search-based refactoring at the source code level from scratch." />
+<meta name="keywords" content="blog, ANTLR, compiler, tutorial">
+
+
+  <meta property="og:site_name" content="Morteza Zakeri"/>
+  <meta property="og:title" content="A gentle introduction to search-based software refactoring"/>
+  <meta property="og:description" content="Finding the best sequence of the refactoring operation to ab applied to a software system is an optimization problem. It can be solved by search techniques in the field known as search-based software engineering (SBSE). In this approach, refactorings are applied stochastically to the original software solution, and then the software is measured using a fitness function consisting of one or more software quality measures. Unfortunately, there is no technical document describing an implementation of decent search-based refactoring. In this tutorial, I am going to explain the implementation of search-based refactoring at the source code level from scratch."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./a-gentle-introduction-to-search-based-software-refactoring.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2022-05-05 00:45:00+04:30"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/morteza.html">
+  <meta property="article:section" content="blog"/>
+  <meta property="article:tag" content="blog"/>
+  <meta property="article:tag" content="ANTLR"/>
+  <meta property="article:tag" content="compiler"/>
+  <meta property="article:tag" content="tutorial"/>
+  <meta property="og:image" content="/static/img/profile.png">
+
+  <title>Morteza Zakeri &ndash; A gentle introduction to search-based software refactoring</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="./">
+      <img src="/static/img/profile.png" alt="Morteza Zakeri" title="Morteza Zakeri">
+    </a>
+
+    <h1>
+      <a href="./">Morteza Zakeri</a>
+    </h1>
+
+    <p>PhD in Computer Science</p>
+
+    <div class="stork">
+      <input class="stork-input" type="text" autocomplete="off" name="q" data-stork="sitesearch" placeholder="Search..." onclick="loadStorkIndex()"/>
+      <div class="stork-output" data-stork="sitesearch-output"></div>
+    </div>
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./#about-me">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact-me.html#contact-me">
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/gallery.html#gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/honors-and-awards.html#honors-and-awards">
+                Honors and Awards
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/media.html#media">
+                Media
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/news.html#news">
+                News
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/presentations.html#presentations">
+                Presentations
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/services-and-projects.html#services-and-projects">
+                Services and Projects
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/publications.html#publications">
+                Publications
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/research.html#research">
+                Research
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/resources.html#resources">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/teaching.html#teaching">
+                Teaching
+              </a>
+            </li>
+
+          <li>
+            <a target="_self" href="https://m-zakeri.github.io/lab" >Laboratory in AUT</a>
+          </li>
+          <li>
+            <a target="_self" href="http://reverse.iust.ac.ir" >Laboratory in IUST</a>
+          </li>
+          <li>
+            <a target="_self" href="http://webpages.iust.ac.ir/morteza_zakeri/" >My University Page (IUST)</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/mortazazakeri"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/_zakeri_"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/m-zakeri"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-telegram"
+           href="https://t.me/mztel"
+           target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="./">Home</a>
+
+  <a href="/category/blog.html">Blog</a>
+  <a href="/category/services.html">Services</a>
+  <a href="/category/courses.html">Courses</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/archives.html">Archives</a>
+  <a href="/tags.html">Tags</a>
+  <a href="/sitemap.xml">Sitemap</a>
+
+  <a href="https://m-zakeri.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="a-gentle-introduction-to-search-based-software-refactoring">A gentle introduction to search-based software refactoring</h1>
+    <p>
+      Posted on Thu 05 May 2022 in <a href="./category/blog.html">blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h2>An Introduction to Search-Based Refactoring</h2>
+<p>Identifying the optimal sequence of refactoring operations to apply to a software system is a challenging optimization problem. This problem falls within the domain of <em>Search-Based Software Engineering (SBSE)</em>, which leverages search techniques to address software engineering challenges. In the context of search-based refactoring, refactorings are applied stochastically to an initial software solution, which is then evaluated using a fitness function comprising one or more software quality metrics.</p>
+<p>Despite the growing interest in SBSE, there is a notable lack of comprehensive technical documentation that details the implementation of robust search-based refactoring methodologies. This article aims to bridge this gap by discussing the principles of search-based refactoring and outlining its practical implementation at the source code level.</p>
+<hr>
+<h3>Search-Based Refactoring: A Comprehensive Guide</h3>
+<h3>What is Search-Based Refactoring?</h3>
+<p>Refactoring is the process of improving the internal structure of software without altering its external behavior. This process ensures that the code becomes more maintainable, scalable, and efficient. However, finding the most effective sequence of refactoring steps is inherently complex due to the vast search space of possible transformations.</p>
+<p>Search-based refactoring approaches this complexity as an optimization problem. The core idea is to model the software system, apply refactoring operations iteratively or stochastically, and evaluate the result using a fitness function. This function serves as the guiding metric, assessing various qualities of the software, such as modularity, code readability, or coupling and cohesion.</p>
+<hr>
+<h3>Why Search-Based Refactoring?</h3>
+<p>Search-based methods hold several advantages over manual or rule-based refactoring:</p>
+<ul>
+<li>
+<p><strong>Automation</strong>: It reduces the effort and time required to identify and apply effective refactorings.</p>
+</li>
+<li>
+<p><strong>Scalability</strong>: Search-based techniques can handle large codebases where manual refactoring is impractical.</p>
+</li>
+<li>
+<p><strong>Optimization</strong>: By leveraging heuristic or metaheuristic search techniques (e.g., genetic algorithms, simulated annealing), it often identifies refactoring sequences that outperform human-crafted approaches in improving software quality.</p>
+</li>
+</ul>
+<hr>
+<h3>Core Components of Search-Based Refactoring</h3>
+<ol>
+<li>
+<p><strong>Refactoring Operations</strong>: These are the transformations applied to the code, such as renaming a class, extracting a method, or replacing magic numbers with constants. Each operation must preserve the software's external behavior.</p>
+</li>
+<li>
+<p><strong>Fitness Function</strong>: The fitness function evaluates the quality of the refactored code. Common software quality metrics include cyclomatic complexity, code duplication, maintainability index, and coupling/cohesion ratios.</p>
+</li>
+<li>
+<p><strong>Search Algorithm</strong>: Metaheuristic algorithms such as genetic algorithms (GAs), particle swarm optimization (PSO), or hill-climbing methods are commonly used. These techniques explore the search space of possible refactoring sequences to maximize the fitness function.</p>
+</li>
+<li>
+<p><strong>Stopping Criteria</strong>: A predefined stopping condition, such as the number of iterations or a target fitness value, determines when the search process concludes.</p>
+</li>
+</ol>
+<hr>
+<h3>My Refactoring Services for Large and Legacy Codebases</h3>
+<p>I specialize in providing professional refactoring services for companies dealing with large and legacy codebases. Such systems often present unique challenges, including outdated architecture, high coupling, and lack of documentation. Leveraging search-based refactoring and my expertise in software engineering, I offer the following:</p>
+<ul>
+<li>
+<p><strong>Code Analysis and Assessment</strong>: Conducting an in-depth evaluation of the codebase to identify critical areas for improvement.</p>
+</li>
+<li>
+<p><strong>Custom Refactoring Solutions</strong>: Applying search-based refactoring techniques tailored to the specific needs and objectives of the client.</p>
+</li>
+<li>
+<p><strong>Software Quality Enhancement</strong>: Improving maintainability, scalability, and performance while preserving the functional integrity of the software.</p>
+</li>
+<li>
+<p><strong>Consulting and Training</strong>: Providing guidance and training to internal teams on adopting modern refactoring practices and integrating computational thinking into their workflows.</p>
+</li>
+</ul>
+<p>By addressing the challenges inherent in large and legacy systems, I empower organizations to modernize their software infrastructure and enhance its long-term value.</p>
+<hr>
+<h3>Future Work in Search-Based Refactoring</h3>
+<p>Search-based refactoring is a dynamic and evolving field, with several opportunities for future research and development:</p>
+<ol>
+<li>
+<p><strong>Enhanced Fitness Functions</strong>: Developing multi-objective fitness functions that account for emerging software quality attributes such as energy efficiency and resilience.</p>
+</li>
+<li>
+<p><strong>Scalability Improvements</strong>: Designing algorithms that can efficiently handle ever-growing codebases in modern software systems.</p>
+</li>
+<li>
+<p><strong>Integration with CI/CD Pipelines</strong>: Automating search-based refactoring within continuous integration and deployment workflows to enable seamless updates.</p>
+</li>
+<li>
+<p><strong>AI-Driven Refactoring</strong>: Leveraging advanced AI models to predict optimal refactoring paths and adaptively learn from previous iterations.</p>
+</li>
+<li>
+<p><strong>Domain-Specific Refactoring</strong>: Exploring how search-based refactoring can be customized for specialized domains, such as embedded systems or high-performance computing.</p>
+</li>
+</ol>
+<hr>
+<h3>Conclusion</h3>
+<p>Search-based refactoring represents a powerful methodology for addressing the complexity of modern software systems. By framing refactoring as an optimization problem and leveraging advanced search techniques, this approach can significantly enhance software quality and maintainability. </p>
+<p>My professional services aim to bring this transformative technology to companies, particularly those burdened by large and legacy codebases. The future of search-based refactoring lies in its continued evolution to meet the demands of emerging technologies and industries. By fostering innovation and collaboration, we can unlock the full potential of computational thinking in software engineering.</p>
+<hr>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/blog.html">blog</a>
+      <a href="./tag/antlr.html">ANTLR</a>
+      <a href="./tag/compiler.html">compiler</a>
+      <a href="./tag/tutorial.html">tutorial</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="./codart-automated-source-code-refactoring-toolkit.html" title="CodART: Automated Source Code Refactoring Toolkit">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="./software-architectures.html" title="Software Architectures">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+  <div class="related-posts">
+    <h4>You might enjoy</h4>
+    <ul class="related-posts">
+      <li><a href="./automated-refactoring-of-the-java-code-using-antlr-in-python.html">Automated refactoring of the Java code using ANTLR in Python</a></li>
+      <li><a href="./program-dynamic-analysis-with-antlr.html">Program dynamic analysis with ANTLR</a></li>
+      <li><a href="./program-static-analysis-with-antlr.html">Program static analysis with ANTLR</a></li>
+      <li><a href="./An-introduction-to-ANTLR-in-Python.html">An introduction to ANTLR in Python</a></li>
+      <li><a href="./codart-automated-source-code-refactoring-toolkit.html">CodART: Automated Source Code Refactoring Toolkit</a></li>
+    </ul>
+  </div>
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'zakeri';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>
+  &copy; 2010 - 2025 Morteza Zakeri. All rights reserved. Last update on 2025-05-29 11:51:20.495889 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Morteza Zakeri ",
+  "url" : ".",
+  "image": "/static/img/profile.png",
+  "description": ""
+}
+</script>  <script>
+    window.loadStorkIndex = function () {
+      stork.initialize("./theme/stork/stork.wasm")
+      stork.register("sitesearch", "./search-index.st", { showProgress: false });
+    }
+  </script>
+  <script src="./theme/stork/stork.js"></script>
+
+</body>
+</html>
