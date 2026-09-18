@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 24, 2017, 12:44:08 PM
+    Author     : Morteza
+*/
+
+@font-face {
+    font-family: IranSans;
+    src: url(../FONT/IranSansWeb_Light.ttf);
+}
+
+ /* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+.bodyclass
+{
+    direction: rtl;
+    text-align: justify;
+    font-family: IranSans , Tahoma;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: top;
+}
+
+#fandoghTitle{
+    font-family: IranSans , Tahoma;;
+    text-align: right;
+}
+
+#parent_div_1, #parent_div_2, #parent_div_3 {
+
+    margin-right: 10px;
+    float: right;
+
+}
+.child_div_1 {
+    border: 1px solid red;
+    float: right;
+    margin-right: 5px;
+}
+
+.child_div_2 {
+    border: 1px solid red;
+    float: left;
+    margin-left: 5px;
+}
+
+
+#sides{
+    margin:0;
+}
+#left{
+    float:right;
+    width:75%;
+    overflow:hidden;
+}
+#right{
+    float:right;
+    width:25%;
+    overflow:hidden;
+} 
+
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5
+{
+    font-family: IranSans;
+}
+
+h1
+{
+    font-size:36px
+}
+
+h2
+{
+    font-size:30px
+}
+
+h3
+{
+    font-size:24px
+}
+
+h4
+{
+    font-size:20px
+}
+
+
+h5
+{
+    font-size:18px
+}
+
+h6
+{
+    font-size:16px
+}
+
+
