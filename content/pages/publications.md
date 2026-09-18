@@ -6,6 +6,8 @@ An up-to-date list of my publications:
 
 ## Journals (ISI)
 
+* [19] 
+
 * [18] Parsa, S., Zakeri-Nasrabadi, M., & Turhan, B. (2025). **Testability-driven development: An improvement to the TDD efficiency**. Computer Standards & Interfaces, 91, 103877.
 
 * [17] Ghaffari, O. B., Yekta, B. E., & Zakeri-Nasrabadi, M. (2024). **Designing high-performance ion-exchangeable glasses with multi-objective optimization and machine learning**. Ceramics International, 50(21), 42949-42962.
@@ -102,7 +104,7 @@ Find more on [IUST course materials](http://webpages.iust.ac.ir/morteza_zakeri/r
 
 * **Google Scholar** [[www](https://scholar.google.com/citations?user=km5DzwwAAAAJ&hl=en){:target="_blank"}]
 
-* **Research Gate** [[www](https://www.researchgate.net/profile/Morteza-Zakeri-Nasrabadi){:target="_blank"}]
+* **Research Gate** [[www](https://www.researchgate.net/profile/Morteza-Zakeri){:target="_blank"}]
 
 * **Academia** [[www](https://iust.academia.edu/zakeri){:target="_blank"}]
 
