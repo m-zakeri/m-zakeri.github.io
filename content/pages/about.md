@@ -5,8 +5,12 @@ save_as: index.html
 
 
 Hello and welcome to Morteza's personal website!
-I am an assistant professor of Computer Engineering (and Science) at [Amirkabir University of Technology (Tehran Polytechnic)](https://aut.ac.ir/en){:target="_blank"}. My research interests are AI-native software engineering, software testing and quality assurance, security engineering, compilers, and programming languages.
-I also offer [advisory and consulting services](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"} to organizations seeking cutting-edge technological solutions. Drawing on years of expertise in automated software engineering, machine learning, and program analysis, I provide actionable insights and tailored strategies to tackle complex challenges in software development, optimization, and innovation. Whether it is advancing software quality, streamlining processes, or integrating intelligent systems, I specialize in delivering high-impact solutions that bridge the gap between [academic research](https://www.m-zakeri.ir/pages/research.html){:target="_blank"} and [practical implementation](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"}.
+I am an assistant professor of Computer Engineering (and Science) at [Amirkabir University of Technology (Tehran 
+Polytechnic)](https://aut.ac.ir/en){:target="_blank"}, [department of Computer Engineering](https://ce.aut.ac.ir/en)
+{:target="_blank"}. I am director of [Intelligent Software Engineering](https://www.m-zakeri.ir/lab/en/)
+{:target="_blank"} research laboratory. My research interests are AI-native software engineering, software testing 
+and quality assurance, security engineering, compilers, and programming languages design and analysis. I also offer 
+[advisory and consulting services](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"} to organizations seeking cutting-edge technological solutions. Drawing on years of expertise in automated software engineering, machine learning, and program analysis, I provide actionable insights and tailored strategies to tackle complex challenges in software development, optimization, and innovation. Whether it is advancing software quality, streamlining processes, or integrating intelligent systems, I specialize in delivering high-impact solutions that bridge the gap between [academic research](https://www.m-zakeri.ir/pages/research.html){:target="_blank"} and [practical implementation](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"}.
 
 This website summarizes **me** and my works :) 
 Let me know if you require a [software solution or consulting service](https://www.m-zakeri.ir/pages/services-and-projects.html){:target="_blank"} on the discussed topics by sending an email to Z A K E R I [AT] A U T [DOT] A C [DOT] I R.
